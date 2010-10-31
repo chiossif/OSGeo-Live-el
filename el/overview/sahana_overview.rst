@@ -38,7 +38,7 @@ dozens of Governments and NGOs since then.
   :align: right
 
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 * Situation Mapping
@@ -54,7 +54,7 @@ Core Features
 * Reporting System
 
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.sahanafoundation.org
@@ -70,7 +70,7 @@ Details
 **Support:** http://www.sahanafoundation.org/support
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/sahana_quickstart.html>`_

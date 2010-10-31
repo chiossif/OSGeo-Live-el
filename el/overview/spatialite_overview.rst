@@ -30,7 +30,7 @@ The files are also portable; the same database file will work on Windows, Linux,
   :alt: screenshot
   :align: right
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 The SpatiaLite extension enables SQLite to support spatial data conformant to OGC specifications.
@@ -50,7 +50,7 @@ The SpatiaLite extension enables SQLite to support spatial data conformant to OG
 * The GUI tool supports all this, in an user friendly way
 
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.gaia-gis.it/spatialite/
@@ -64,7 +64,7 @@ Details
 **API Interfaces:** C++
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/spatialite_quickstart.html>`_

@@ -1,6 +1,6 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _saga-overview:
 
@@ -35,7 +35,7 @@ contributions from the growing world wide community.
   :alt: screenshot
   :align: right
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 * Access to a large number of scientific modules via the Graphical User Interface or the command line
@@ -57,7 +57,7 @@ Core Features
 * Scripting through command line, bindings for python
 * SAGA can be accessed from the R statistical language through the RSAGA module
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.saga-gis.org
@@ -73,7 +73,7 @@ Details
 **Support:** http://www.saga-gis.org
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/saga_quickstart.html>`_

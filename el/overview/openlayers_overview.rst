@@ -1,6 +1,6 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _openlayers-overview:
 
@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project
+  :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
   :target: http://www.osgeo.org
 
@@ -20,7 +20,7 @@
 OpenLayers
 ==========
 
-Browser GIS Client
+Λογισμικό GIS στον περιηγητή
 ~~~~~~~~~~~~~~~~~~
 
 .. image:: images/screenshots/800x600/openlayers-basic.png
@@ -28,48 +28,48 @@ Browser GIS Client
   :alt: screenshot
   :align: right
 
-OpenLayers makes it easy for web developers to embed dynamic maps, from a
-multitude of sources, in any web page. OpenLayers provides an extensive set of
-mapping tools and widgets, similar to the Google Maps API. All functionally
-runs inside the web browser, which makes OpenLayers easy to install, without
-any server side dependencies.
+Το OpenLayers διευκολύνει τους προγραμματιστές διαδικτυακών εφαρμογών να ενσωματώσουν στις σελίδες τους δυναμικούς χάρτες, από μια πληθώρα
+πηγών δεδομένων. Το OpenLayers παρέχει ένα επεκτάσιμο σύνολο χαρτογραφικών εργαλείων
+και παραθύρων, παρόμοια με το Google Maps API. Όλη η λειτουργικότητα
+εκτελείται στον περιηγητή, κάτι το οποίο καθιστά το OpenLayers πολύ εύκολο στην εγκατάσταση, χωρίς
+καθόλου εξάρτηση από τον εξυπηρετητή.
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
-* Simple to use Javascript API, designed to make development easy
-* Support for standard and customized protocols for interacting with servers
-* Tools to create custom user interfaces simply
-* Support for in-browser data rendering (using SVG, VML, or Canvas technologies), supporting the development of advanced in-browser maps
-* Ability to load map layers from many sources:
+* Εύκολο στη χρήση μέσω προγραμματιστικών διεπαφών Javascript, σχεδιασμένο να κάνει τον προγραμματισμό εύκολο
+* Υποστήριξη διαδεδομένων και καθιερωμένων προτοκόλων για επικοινωνία με εξυπηρετητές
+* Εργαλεία για δημιουργία γραφικών διεπαφών με ευκολία
+* Υποστήριξη εμφάνισης δεδομένων στον περιηγητή (με τη χρήση προτύπων SVG, VML, ή τεχνολογιών Canvas), υποστηρίζοντας την ανάπτυξη σύνθετων χαρτών μέσα στον περιηγητή
+* Δυνατότητα φόρτωσης επιπέδων χαρτών από οποιαδήποτε πηγή:
   
-  * Commercial Layers: Google, Bing, Yahoo
+  * Εμπορικά επίπεδα: Google, Bing, Yahoo
   
-  * OGC Standards: WMS, WMTS, WFS, WFS-T, GeoRS, GML
+  * Πρότυπα OGC: WMS, WMTS, WFS, WFS-T, GeoRS, GML
   
-  * Others: ArcGI, Images, MapGuide, MapServer, TileCache
+  * Άλλα: ArcGI, Images, MapGuide, MapServer, TileCache
 
-* Ability to parse vector data and metadata in many formats:
+* Δυνατότητα να προσπελάσει διανυσματικά δεδομένα και μεταδεδομένα σε οποιοδήποτε πρότυπο:
   
   * Atom, ArcXML, GeoJSON, GeoRSS, KML, OSM, SLD, WMTS
 
-Details
+Λεπτομέρειες
 -------
 
-**Website:** http://openlayers.org
+**Αρχική σελίδα:** http://openlayers.org
 
-**License:** MIT-style license
+**Άδεια:** στύλ MIT
 
-**Software Version:** 2.9.1
+**Έκδοση Λογισμικού:** 2.9.1
 
-**API Interface:** JavaScript
+**Προγραμματιστική διεπαφή:** JavaScript
 
-**Support:** http://trac.openlayers.org 
+**Υποστήριξη:** http://trac.openlayers.org 
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/openlayers_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/openlayers_quickstart.html>`_
 
 

@@ -39,7 +39,7 @@ Mapnik is cross platform. Packages are available for most linux
 distributions and installers are commonly used on Mac OS X and windows.
 
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.mapnik.org/
@@ -48,13 +48,13 @@ Details
 
 **Software Version:** 0.7.0
 
-**Supported Platforms:** Windows, Linux, Mac
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
 **API Interfaces:** C++, Python
 
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/mapnik_quickstart.html>`_

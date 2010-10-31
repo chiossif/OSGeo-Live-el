@@ -14,7 +14,7 @@
 
 .. image:: images/logos/OSGeo_incubation.png
   :scale: 100 %
-  :alt: OSGeo Project
+  :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
@@ -44,7 +44,7 @@ toolkits, and specific components for interacting with MapFish web services.
   :alt: screenshot
   :align: right
 
-Implemented Standards
+Υλοποιημένα Πρότυπα
 ---------------------
 
 MapFish is compliant with the `Open Geospatial Consortium
@@ -52,7 +52,7 @@ MapFish is compliant with the `Open Geospatial Consortium
 OpenLayers or GeoExt supporting several OGC norms, like WMS, WFS, WMC, KML, GML
 etc.
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.mapfish.org
@@ -61,12 +61,12 @@ Details
 
 **Software Version:** 1.2
 
-**Supported Platforms:** Windows, Linux, Mac
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
 **Support:** http://trac.mapfish.org/trac/mapfish#Community
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/mapfish_quickstart.html>`_

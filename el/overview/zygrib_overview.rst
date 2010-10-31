@@ -20,7 +20,7 @@ Weather forecasting
 zyGrib is a program to download and visualize weather forecast data in
 the standard GRIB distribution format.
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 .. image:: images/screenshots/1024x768/zygrib_xynthia_010b.jpg
@@ -35,7 +35,7 @@ Core Features
 * Create your own regional weather maps (worldwide), or view a detailed quantitative forecast for a particular location.
 * Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude data.
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.zygrib.org

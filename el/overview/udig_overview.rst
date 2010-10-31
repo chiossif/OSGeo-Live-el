@@ -1,6 +1,6 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _udig_overview:
 
@@ -32,7 +32,7 @@ uDig is:
 
 For developers uDig provides a common Java platform for building spatial applications with open source components. The website provides series of clear tutorials covering making a simple tool through to releasing your own custom application.
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 * Desktop Client with Drag and Drop integration for File explorer and Web Browser
@@ -53,7 +53,7 @@ Core Features
   * Industrial strength plug-in system provided by Eclipse Rich Client Platform 
   * Use of native widgets
 
-Implemented Standards
+Υλοποιημένα Πρότυπα
 ---------------------
 
 * OGC Web Map Server (WMS)
@@ -63,7 +63,7 @@ Implemented Standards
 * Web Map Server Cache (WMS-C)
 * OGC Style Layer Descriptor (SLD)
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://udig.refractions.net/
@@ -72,7 +72,7 @@ Details
 
 **Software Version:** 1.2.0
 
-**Supported Platforms:** Windows, Linux, Mac
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
 **API Interfaces:** GeoAPI, GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
 
@@ -81,7 +81,7 @@ Details
 **Developers:** http://udig.refractions.net/developers/
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/udig_quickstart.html>`_

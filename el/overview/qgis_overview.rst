@@ -1,6 +1,6 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _qgis-overview:
 
@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project
+  :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
   :target: http://www.osgeo.org
 
@@ -45,7 +45,7 @@ raster and database formats and functionality.
   :alt: project logo
   :align: right
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 * Friendly graphical user interface.
@@ -84,12 +84,12 @@ Core Features
 * Publish to the internet
 * Extensible plugin architecture.
 
-Implemented Standards
+Υλοποιημένα Πρότυπα
 ---------------------
 
 * OGC standards compliant (WMS,WFS(Plugin))
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.qgis.org

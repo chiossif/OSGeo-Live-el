@@ -24,7 +24,7 @@ and preferred map scale.  All GPS receivers which support the NMEA protocol
 should be usable, as well as many USB GPSs using a binary protocol known to
 the `Gpsd <a href="http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 .. image:: images/screenshots/1024x768/gpsdrive-cyclemap.png
@@ -44,7 +44,7 @@ Core Features
 * Included server to keep track of your friends' postions
 * Kismet Wifi integration
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.gpsdrive.de
@@ -58,7 +58,7 @@ Details
 **Support:** http://gpsdrive.de/support.shtml
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/gpsdrive_quickstart.html>`_

@@ -25,7 +25,7 @@ use of the `GMT <gmt_overview.html>`_ software.
 MB-System has been under development since 1993, with active support
 from a number of research and science organisations.
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 .. image:: images/screenshots/1024x768/mb-system_screenshot.png
@@ -50,7 +50,7 @@ Core Features
 * Subbottom profiler data processing
 * Tide modeling and correction
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.ldeo.columbia.edu/res/pi/MB-System/
@@ -64,7 +64,7 @@ Details
 **API Interfaces:** Command line
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/mb-system_quickstart.html>`_

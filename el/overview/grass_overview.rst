@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project
+  :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
   :target: http://www.osgeo.org
 
@@ -54,13 +54,13 @@ GIS for handheld PDAs or netbooks.
 
 .. _GRASS: http://grass.osgeo.org
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 * You name it, there's a tool for it.
 * Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_.
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://grass.osgeo.org
@@ -76,7 +76,7 @@ Details
 **Support:** http://grass.osgeo.org/community/
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/grass_quickstart.html>`_

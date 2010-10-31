@@ -24,7 +24,7 @@ globe (including `OpenStreetMaps <http://www.osm.org>`_), you are
 encouraged to include a KDE Marble widget in your application.
 
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 .. image:: images/screenshots/1024x768/marble-history.png
@@ -42,7 +42,7 @@ Core Features
 * `OpenStreetMap <http://www.osm.org>`_ integration
 
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://edu.kde.org/marble/
@@ -58,7 +58,7 @@ Details
 **Support:** http://techbase.kde.org/Projects/Marble
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/marble_quickstart.html>`_

@@ -34,13 +34,13 @@ political boundaries.
   :alt: screenshot
   :align: right
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 * Journal quality cartography.
 * Gridding and contouring functions.
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://gmt.soest.hawaii.edu
@@ -56,7 +56,7 @@ Details
 **Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/gmt_quickstart.html>`_

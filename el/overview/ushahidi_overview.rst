@@ -56,7 +56,7 @@ Demo
 
 * `Ushahidi Demo instance <http://demo.ushahidi.com/>`_
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.ushahidi.com
@@ -72,7 +72,7 @@ Details
 **Support:** http://forums.ushahidi.com
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/ushahidi_quickstart.html>`_

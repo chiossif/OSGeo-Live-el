@@ -27,7 +27,7 @@ It's plug-in architecture enables it to be easily customised for specific purpos
   :alt: screenshot
   :align: right
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 Supported formats:
@@ -48,7 +48,7 @@ Key features:
 * Raster georreferencing tool (by an extension)
 * Sextante 0.5 integrated (by an extension)
 
-Implemented Standards
+Υλοποιημένα Πρότυπα
 ---------------------
 
 * Web Map Service (WMS) 1.0.0/1.1.0/1.3.0
@@ -56,7 +56,7 @@ Implemented Standards
 * Styled Layer Descriptor (SLD) (import/export)
 
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.opengis.es
@@ -67,7 +67,7 @@ Details
 
 **Supported Platforms:** Windows, Linux
 
-**API Interfaces:** Java
+**Διεπαφές προγραμματισμού (API):** Java
 
 **Commercial Support:** http://www.saig.es/index.php?lang=en
 

@@ -28,7 +28,7 @@ Osm2pgsql. In addition recent sample data for the host city and a number
 of JOSM plugins have been included.
 
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 .. image:: images/screenshots/1024x768/osm-screenshot.jpg
@@ -42,7 +42,7 @@ Core Features
 * Free to use
 * Widespread geo-application integration
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.openstreetmap.org
@@ -82,7 +82,7 @@ Details
 **Support:** http://wiki.openstreetmap.org/
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/osm_quickstart.html>`_

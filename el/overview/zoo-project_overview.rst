@@ -52,14 +52,14 @@ as the desired input/output. Services contain the algorithms and
 functions, and can now be implemented in C/C++, Fortran, Java, Python, PHP
 and JavaScript. 
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 * Multi language WPS server 
 * Simple Web Service creation and depoyment procedure
 * Simple WPS chaining with ZOO API
 
-Implemented Standards
+Υλοποιημένα Πρότυπα
 ---------------------
 
 * OGC WPS 1.0.0
@@ -72,7 +72,7 @@ Demo
 * `Simple html form to process your request to the ZOO Kernel <http://localhost/zoo-demo/spatialtools.html>`_
 
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://zoo-project.org
@@ -81,14 +81,14 @@ Details
 
 **Software Version:** 1.0
 
-**Supported Platforms:** Windows, Linux, Mac
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
 **Programing language support:** C, Python, Java, PHP, Fortran, Javascript
 
 **Support:** http://zoo-project.org/trac
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/zoo-project_quickstart.html>`_

@@ -1,6 +1,6 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _qgis_mapserver-overview:
 
@@ -26,7 +26,7 @@ The close integration with QGIS means desktop maps can easily be exported to web
   :align: right
 
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 * Web Map Service (WMS) implementation
@@ -35,13 +35,13 @@ Core Features
 * Supports Styled Layer Descriptor (SLD)
 * Advanced cartographic symbolisation
 
-Implemented Standards
+Υλοποιημένα Πρότυπα
 ---------------------
 
 * OGC Web Map Service (WMS) 1.3.0
 * OGC Styled Layer Descriptor (SLD) 1.0
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://karlinapp.ethz.ch/qgis_wms/

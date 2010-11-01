@@ -13,7 +13,7 @@
 User-friendly Desktop Internet GIS (uDig)
 =========================================
 
-Desktop GIS
+Λογισμικό GIS
 ~~~~~~~~~~~
 
 .. image:: images/screenshots/1024x768/udig-overview.png

@@ -13,7 +13,7 @@
 Kosmo Desktop
 =============
 
-Desktop GIS
+Λογισμικό GIS
 ~~~~~~~~~~~
 
 Kosmo - Desktop is a user friendly, desktop GIS application which allows you to explore, edit 

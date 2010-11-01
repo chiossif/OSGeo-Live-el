@@ -101,7 +101,7 @@ MapGuide can be deployed on Linux or Windows, supports Apache and IIS web server
 
 **Software Version:** 2.2.0
 
-**Supported Platforms:** Linux, Windows
+**Υποστηριζόμενες πλατφόρμες:** Linux, Windows
 
 **Commercial Support:** http://www.osgeo.org/search_profile
 

@@ -63,7 +63,7 @@ Many command line utilities, GUI applications, and integrated systems have been 
 
 **Supported Platforms:** Linux, Mac, Windows
 
-**API Interfaces:** C++
+**Προγραμματιστική διεπαφή (API):** C++
 
 **Commercial Support:** http://www.osgeo.org/search_profile
 

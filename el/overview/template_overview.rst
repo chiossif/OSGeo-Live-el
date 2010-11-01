@@ -19,7 +19,7 @@
 User-friendly Desktop Internet GIS (uDig)
 =========================================
 
-Desktop GIS
+Λογισμικό GIS
 ~~~~~~~~~~~
 
 .. Writing Tip:

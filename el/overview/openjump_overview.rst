@@ -13,7 +13,7 @@
 OpenJUMP GIS
 ============
 
-Desktop GIS
+Λογισμικό GIS
 ~~~~~~~~~~~
  
 OpenJUMP is an easy to use and powerful deskstop GIS that enables users

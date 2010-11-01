@@ -31,7 +31,7 @@ Quantum GIS
   * GIS Tools
   * ...
 
-Desktop GIS
+Λογισμικό GIS
 ~~~~~~~~~~~
 
 Quantum GIS (QGIS) is a user friendly, Open Source, GIS client where

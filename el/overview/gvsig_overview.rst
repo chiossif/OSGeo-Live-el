@@ -20,7 +20,7 @@
 gvSIG Desktop
 ==============
 
-Desktop GIS
+Λογισμικό GIS
 ~~~~~~~~~~~
 
 gvSIG_ is a Geographic Information System (GIS) desktop application

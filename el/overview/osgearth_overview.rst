@@ -75,7 +75,7 @@ Things you can see:
 
 **Supported Platforms:** Linux, Mac, Windows
 
-**API Interfaces:** C++
+**Προγραμματιστική διεπαφή (API):** C++
 
 **Commercial Support:** http://osgearth.org/#ProfessionalServices
 

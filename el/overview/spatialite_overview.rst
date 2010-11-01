@@ -61,7 +61,7 @@ The SpatiaLite extension enables SQLite to support spatial data conformant to OG
 
 **Supported Platforms:** Linux, Mac, Windows
 
-**API Interfaces:** C++
+**Προγραμματιστική διεπαφή (API):** C++
 
 
 Γρήγορη εκκίνηση

@@ -14,21 +14,21 @@
 SAGA
 ====
 
-Desktop GIS
+Λογισμικό GIS
 ~~~~~~~~~~~
 
-SAGA (System for Automated Geoscientific Analyses) is an
-open source geographic information system (GIS) used for editing and analysing
-spatial data. It includes a large number of modules for the analysis of
-vector (point, line and polygon), table, grid and image data. Among
-others the package includes modules for geostatistics, image
-classification, projections, simulation of dynamic processes (hydrology,
-landscape development) and terrain analysis. The functionality can be
-accessed through a GUI, the command line or by using the C++ API.
+Το SAGA (System for Automated Geoscientific Analyses - Σύστημα για Αυτοματοποιημένη Γεωεπιστημονική Ανάλυση) είναι ένα
+γεωγραφικό σύστημα πληροφοριών (GIS) ανοιχτού κώδικα που χρησιμοποιείται για επεξεργασία και ανάλυση
+χωρικών δεδομένων. Περιλαμβάνει έναν μεγάλο αριθμό από αρθρώματα για ανάλυση
+διανυσματικών δεδομένων (σημεία, γραμμές και πολύγωνα), πινακοποιημένα δεδομένα, δεδομένα σε κανάβο αλλά και εικονιστικά δεδομένα. Ανάμεσα στα υπόλοιπα
+το λογισμικό περιλαμβάνει ρουτίνες για γεωστατιστική, ταξινόμηση 
+εικόνων, αλλαγές προβολικών συστημάτων, εξομοίωση δυναμικών διαδικασιών (υδρολογία,
+ανάπτυξη τοπίου) και ανάλυση τοπίου. Η λειτουργικότητα μπορεί να χρησιμοποιηθεί
+μέσω μιας διεπαφής με το χρήστη (GUI), τη γραμμή εντολών του συστήματος ή με τη χρήση της προγραμματιστικής διεπαφής μέσω C++.
 
-SAGA has been in development since 2001, and the centre of SAGA development is
-located in the Institute of Geography at the University of Hamburg, with
-contributions from the growing world wide community.
+Το SAGA βρίσκεται υπό ανάπτυξη από το 2001, και το κέντρο της ανάπτυξης του είναι
+τοποθετημένο στο Ινστιτούτο Γεωγραφίας στο Πανεπιστήμιο του Αμβούργου, με συνεισφορά από 
+μια μεγάλη παγκόσμια κοινότητα προγραμματιστών.
 
 .. image:: images/screenshots/1024x768/saga_overview.png
   :scale: 40%
@@ -38,44 +38,44 @@ contributions from the growing world wide community.
 Βασικά Χαρακτηριστικά
 -------------
 
-* Access to a large number of scientific modules via the Graphical User Interface or the command line
+* Πρόσβαση σε έναν μεγάλο αριθμό επιστημονικών αλγορίθμων μέσω του γραφικού περιβάλλοντος ή μέσω της γραμμής εντολών
 
- * Import/Export to different file formats
- * Reprojection/Resampling of data
- * Manipulation of vector data (merging/intersection/attributes)
- * Manipulation of point clouds from lidar data
- * Raster data: interpolation, cost analysis, ...
- * Image analysis: filters, edge detection, cluster analysis, segmentation
- * Digital Terrain Analysis: generate geomorphometric indexes, channel networks, profiles, contour lines, ...
- * Geostatistics: modules for variogram fitting and kriging
+ * Εισαγωγή / Εξαγωγή σε πολλά διαφορετικά πρότυπα αρχείων
+ * Αλλαγή προβολικού συστήματος / Αναδόμηση δεδομένων
+ * Διαχείρηση διανυσματικών δεδομένων (συνένωση/τομή/περιγραφικά χαρακτηριστικά)
+ * Διαχείρηση νεφών σημείων από δεδομένα lidar
+ * Εικονιστικά δεδομένα: παρεμβολή, ανάλυση κόστους, ...
+ * Ανάλυση εικόνας: φίλτρα, ανίχνευση ακμών, μη επιβλεπόμενη ταξινόμηση, κατάτμηση
+ * Ψηφιακή Ανάλυση Τοπίου: Δημιουργία γεωμορφομετρικών δεικτών, υδρογραφικά δίκτυα, διατομές, ισουψείς, ...
+ * Γεωστατιστικά: αλγόριθμοι variogram fitting και kriging
 
-* Fast user interface for managing and visualising data
+* Γρήγορο γραφικό περιβάλλον για τη διαχείρηση και οπτικοποίηση δεδομεων
 
- * 3D visualisation
+ * Οπτικοποίηση 3D
 
-* Straightforward C++ API for creating new modules
-* Scripting through command line, bindings for python
-* SAGA can be accessed from the R statistical language through the RSAGA module
+* Προγραμματιστικό περιβάλλον C++ για δημιουργία νέων αλγορίθμων
+* Δυνατότητες σειριακού προγραμματισμού (scripting) μέσω γραμμής εντολών και μέσω python
+* το SAGA μπορεί να χρησιμοποιηθεί μέσω της γλώσσας στατιστικών R μέσω του αρθρώματος RSAGA
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.saga-gis.org
+**Αρχική σελίδα:** http://www.saga-gis.org
 
-**Licence:** LGPL v2.1 (api); GPLv2 (GUI and modules)
+**Άδεια:** LGPL v2.1 (προγραμματιστικό περιβάλλον); GPLv2 (γραφικό περιβάλλον και αλγόριθμοι)
 
-**Software Version:** 2.0.4
+**Έκδοση Λογισμικού:** 2.0.4
 
-**Supported Platforms:** Linux, Windows
+**Υποστηριζόμενες πλατφόρμες:** Linux, Windows
 
-**API Interfaces:** C++
+**Προγραμματιστική διεπαφή (API):** C++
 
-**Support:** http://www.saga-gis.org
+**Υποστήριξη:** http://www.saga-gis.org
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/saga_quickstart.html>`_
+* `Εγχειρίδιο γρήφορης εκκίνησης <../quickstart/saga_quickstart.html>`_
 
 

@@ -40,7 +40,7 @@ the standard GRIB distribution format.
 
 **Website:** http://www.zygrib.org
 
-**Licence:** GNU General Public License (GPL) version 3
+**Άδεια:** GNU General Public License (GPL) version 3
 
 **Software Version:** 3.9.2
 

@@ -1,6 +1,6 @@
-:Author: Gérald Fenoy
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Gérald Fenoy
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. image:: images/project_logos/logo-ZOO-Project.png
   :scale: 100 %

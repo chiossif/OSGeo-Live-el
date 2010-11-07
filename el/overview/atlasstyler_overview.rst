@@ -26,7 +26,7 @@ The created SLD files are compatible with all programs which support the OGC SLD
   :alt: screenshot
   :align: right
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 * Build styles using dialogs.
@@ -35,13 +35,13 @@ The created SLD files are compatible with all programs which support the OGC SLD
 * Import from ESRI Shapefiles and PostGIS databases.
 * Fully translated into German, English, Italian and French.
 
-Υλοποιημένα Πρότυπα
+Implemented Standards
 ---------------------
 
 * OGC Style Layer Descriptor (SLD) 1.0
 * OGC Symbology Encoding (SE)
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://en.geopublishing.org/AtlasStyler
@@ -50,7 +50,7 @@ The created SLD files are compatible with all programs which support the OGC SLD
 
 **Licence:** GNU Lesser General Public License (LGPL) version 3.0
 
-**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
 **API Interfaces:** Java, Swing, Geotools
 
@@ -58,7 +58,7 @@ The created SLD files are compatible with all programs which support the OGC SLD
 
 
 
-Γρήγορη εκκίνηση
+Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/atlasstyler_quickstart.html>`_

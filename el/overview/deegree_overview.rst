@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_project.png
   :scale: 100
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -91,7 +91,7 @@ Some example features
    * requests: Get3DFeatureInfo, GetView
 
 
-Υλοποιημένα Πρότυπα
+Implemented Standards
 ---------------------
 
 * OGC Web Map Service (WMS) 1.1.0*, 1.1.1, 1.3.0*
@@ -103,7 +103,7 @@ Some example features
 * OGC Web Processing Service (WPS) 0.4.0, 1.0.0
 * OGC Sensor Observation Service (SOS) 1.0.0
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://deegree.org
@@ -114,12 +114,12 @@ Some example features
 
 **Supported Platforms:** Windows, Linux
 
-**Διεπαφές προγραμματισμού (API):** Java
+**API Interfaces:** Java
 
 **Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport
 
 
-Γρήγορη εκκίνηση
+Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/deegree_quickstart.html>`_

@@ -25,7 +25,7 @@ The application directly generates a ready to use simple viewer based on OpenLay
 
 MapTiler is a multi-platform desktop application. Installers are available for Windows, Mac OS X and packages for linux (Debian/Ubuntu).
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 * Well known Javascript APIs supported: OpenLayers, Google Maps API
@@ -36,7 +36,7 @@ MapTiler is a multi-platform desktop application. Installers are available for W
 * Ability to process raster data in various formats: TIFF/GeoTIFF, MrSID, ECW, JPEG2000, Erdas HFA, NOAA BSB, JPEG and more...
 * Available commercial support and parallelized rendering on multi-core CPUs or on Amazon EC2 cluster
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://www.maptiler.org/
@@ -45,7 +45,7 @@ MapTiler is a multi-platform desktop application. Installers are available for W
 
 **Software Version:** 1.0beta2
 
-**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
 **Community:** http://groups.google.com/group/maptiler 
 

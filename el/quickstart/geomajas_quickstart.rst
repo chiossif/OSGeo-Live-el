@@ -1,6 +1,6 @@
-:Συγγραφέας: Pieter De Graef
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Pieter De Graef
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _geomajas-quickstart:
  
@@ -22,7 +22,7 @@ Geomajas is a development framework for creating GIS web applications. Therefore
 
 .. image:: images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
-  :alt: Παρουσίαση Geomajas
+  :alt: Geomajas Showcase
   :align: right
 
 * Go to the "Browser Clients" folder on the desktop.

@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_incubation.png
   :scale: 100 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
@@ -43,7 +43,7 @@ GeoServer forms a core component of the Geospatial Web.
   :alt: Screen Shot of GeoServer
   :align: right
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 **Serve data from a variety of data stores:**
@@ -70,14 +70,14 @@ GeoServer forms a core component of the Geospatial Web.
 **WMS Tiling Cache**
     `GeoWebCache <http://geowebcache.org/>`_ is a WMS tiling client. It runs as a proxy server between a map client and map server, caching tiles as they are requested, eliminating redundant requests and saving large amounts of processing time. GeoWebCache has been integrated into GeoServer.
 
-Υλοποιημένα Πρότυπα
+Implemented Standards
 ---------------------
 
 * Support of numerous Open Geospatial Consortium  (OGC) standards
 
 * WMS, transactional WFS, WCS, Filter Encoding, SLD, GML
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://geoserver.org/display/GEOS/Welcome

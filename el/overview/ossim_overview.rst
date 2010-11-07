@@ -1,6 +1,6 @@
-:Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo Live
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _ossim-overview:
 
@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -31,7 +31,7 @@ Designed as a series of high performance software libraries, it is written in C+
 Many command line utilities, GUI applications, and integrated systems have been implemented - several of which are included with the software distribution.
 
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 .. image:: images/screenshots/800x600/ossim-imagelinker.jpg
@@ -52,7 +52,7 @@ Many command line utilities, GUI applications, and integrated systems have been 
 * Projection and resolution independent
 * Equation editors
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://www.ossim.org/
@@ -63,12 +63,12 @@ Many command line utilities, GUI applications, and integrated systems have been 
 
 **Supported Platforms:** Linux, Mac, Windows
 
-**Προγραμματιστική διεπαφή (API):** C++
+**API Interfaces:** C++
 
 **Commercial Support:** http://www.osgeo.org/search_profile
 
 
-Γρήγορη εκκίνηση
+Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/ossim_quickstart.html>`_

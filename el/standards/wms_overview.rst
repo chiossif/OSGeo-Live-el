@@ -53,7 +53,7 @@ The WMS standard defines three operations:
 
 This standard is now implemented in hundreds of products, many of which are registered at (http://www.opengeospatial.org/resource/products/compliant).
 
-An excellent example of a portal that uses WMS is NC OneMap (http://www.nconemap.com/): ‚ÄúNC OneMap relies on Web Map Services (WMS) to bring data together from multiple hosts. NC OneMap partners establish a WMS from their servers. This OGC standard allows data to be created and stored in numerous proprietary software configurations (ESRI, MapInfo, Intergraph, etc), but is viewable by all.‚Äù 
+An excellent example of a portal that uses WMS is NC OneMap (http://www.nconemap.com/): ‚Ä?NC OneMap relies on Web Map Services (WMS) to bring data together from multiple hosts. NC OneMap partners establish a WMS from their servers. This OGC standard allows data to be created and stored in numerous proprietary software configurations (ESRI, MapInfo, Intergraph, etc), but is viewable by all.‚Ä? 
 
 See Also
 --------

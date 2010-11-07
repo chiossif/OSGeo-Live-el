@@ -57,7 +57,7 @@ GML contains a rich set of primitives that are used to build application specifi
 * Observations
 * Map presentation styling rules
 
-Understanding the use of â€œFeatureâ€, â€œGeometryâ€, and â€œCRSâ€ is critical in the use and development of any GML based encoding.
+Understanding the use of â€?Featureâ€?, â€?Geometryâ€?, and â€?CRSâ€? is critical in the use and development of any GML based encoding.
 
 OGC work on the GML standard began in 1998. GML was first formally approved as an OGC standard in 2001. GML became an ISO standard in 2007. GML 3.2.16 is the most current revision of the joint OGC-ISO standard. Versions 3.2.2 and 4.0 are currently in progress.
 

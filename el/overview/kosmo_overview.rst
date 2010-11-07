@@ -13,7 +13,7 @@
 Kosmo Desktop
 =============
 
-Λογισμικό GIS
+Desktop GIS
 ~~~~~~~~~~~
 
 Kosmo - Desktop is a user friendly, desktop GIS application which allows you to explore, edit 
@@ -27,7 +27,7 @@ It's plug-in architecture enables it to be easily customised for specific purpos
   :alt: screenshot
   :align: right
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 Supported formats:
@@ -48,7 +48,7 @@ Key features:
 * Raster georreferencing tool (by an extension)
 * Sextante 0.5 integrated (by an extension)
 
-Υλοποιημένα Πρότυπα
+Implemented Standards
 ---------------------
 
 * Web Map Service (WMS) 1.0.0/1.1.0/1.3.0
@@ -56,7 +56,7 @@ Key features:
 * Styled Layer Descriptor (SLD) (import/export)
 
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://www.opengis.es
@@ -67,7 +67,7 @@ Key features:
 
 **Supported Platforms:** Windows, Linux
 
-**Διεπαφές προγραμματισμού (API):** Java
+**API Interfaces:** Java
 
 **Commercial Support:** http://www.saig.es/index.php?lang=en
 

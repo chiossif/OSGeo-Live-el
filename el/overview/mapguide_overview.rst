@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -34,7 +34,7 @@ MapGuide can be deployed on Linux or Windows, supports Apache and IIS web server
   :alt: screenshot
   :align: right
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 **Interactive Map Viewing**
@@ -87,12 +87,12 @@ MapGuide can be deployed on Linux or Windows, supports Apache and IIS web server
 * Serve applications with Apache or Microsoft IIS
 * Browse with Microsoft Internet Explorer, Mozilla Firefox, and Safari and Chrome
 
-Υλοποιημένα Πρότυπα
+Implemented Standards
 ---------------------
 
 * OGC Web Map Service 1.1.1 
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://mapguide.osgeo.org/
@@ -101,12 +101,12 @@ MapGuide can be deployed on Linux or Windows, supports Apache and IIS web server
 
 **Software Version:** 2.2.0
 
-**Υποστηριζόμενες πλατφόρμες:** Linux, Windows
+**Supported Platforms:** Linux, Windows
 
 **Commercial Support:** http://www.osgeo.org/search_profile
 
 
-Γρήγορη εκκίνηση
+Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/mapguide_quickstart.html>`_

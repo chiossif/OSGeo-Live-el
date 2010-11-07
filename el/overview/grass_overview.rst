@@ -1,6 +1,6 @@
-:Συγγραφέας: Hamish Bowman
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Hamish Bowman
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _grass-overview:
 
@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -54,13 +54,13 @@ GIS for handheld PDAs or netbooks.
 
 .. _GRASS: http://grass.osgeo.org
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 * You name it, there's a tool for it.
 * Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_.
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://grass.osgeo.org
@@ -69,14 +69,14 @@ GIS for handheld PDAs or netbooks.
 
 **Software Version:** 6.4.0RC6
 
-**Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
+**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
 **API Interfaces:** C, Python, Bourne Shell
 
 **Support:** http://grass.osgeo.org/community/
 
 
-Γρήγορη εκκίνηση
+Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/grass_quickstart.html>`_

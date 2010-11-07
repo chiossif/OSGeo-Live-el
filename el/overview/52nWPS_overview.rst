@@ -27,7 +27,7 @@ influenza cases between two different seasons), or as complicated as a global cl
   :alt: screenshot
   :align: right
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 Core GIS functions:
@@ -48,14 +48,14 @@ Input and Output formats supported:
 
 A browser based client
 
-Υλοποιημένα Πρότυπα
+Implemented Standards
 ---------------------
 
 * OGC Web Processing Service (WPS)
 * OGC GML2 SimpleFeatures
 * OGC GML3 SimpleFeatures
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://52north.org/wps
@@ -64,12 +64,12 @@ A browser based client
 
 **Software Version:** WPS 2.0 RC5
 
-**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
 **Commercial Support:** http://www.52north.org
 
 
-Γρήγορη εκκίνηση
+Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/52nWPS_quickstart.html>`_

@@ -1,6 +1,6 @@
-:Συγγραφέας: Hamish Bowman
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Hamish Bowman
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _gpsdrive-overview:
 
@@ -24,7 +24,7 @@ and preferred map scale.  All GPS receivers which support the NMEA protocol
 should be usable, as well as many USB GPSs using a binary protocol known to
 the `Gpsd <a href="http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 .. image:: images/screenshots/1024x768/gpsdrive-cyclemap.png
@@ -44,7 +44,7 @@ the `Gpsd <a href="http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
 * Included server to keep track of your friends' postions
 * Kismet Wifi integration
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://www.gpsdrive.de
@@ -58,7 +58,7 @@ the `Gpsd <a href="http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
 **Support:** http://gpsdrive.de/support.shtml
 
 
-Γρήγορη εκκίνηση
+Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/gpsdrive_quickstart.html>`_

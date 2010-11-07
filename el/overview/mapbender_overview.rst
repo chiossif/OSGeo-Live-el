@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_project.png
   :scale: 90 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -39,7 +39,7 @@ Mapbender gives a whole new perspective to SDI management using nothing but a st
   :align: right
 
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 * Easily create web mapping interfaces using template applications  
@@ -65,14 +65,14 @@ Mapbender gives a whole new perspective to SDI management using nothing but a st
 * Print high-quality maps using your own PDF templates.
 * ... and more!
 
-Υλοποιημένα Πρότυπα
+Implemented Standards
 ---------------------
 
 * OGC Web Map Service (WMS) 1.0.0, 1.1.0, 1.1.1
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 * OGC Web Map Context (WMC) 1.1.0 
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://www.mapbender.org/ 
@@ -83,12 +83,12 @@ Mapbender gives a whole new perspective to SDI management using nothing but a st
 
 **Software Version:** 2.6.2
 
-**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
 **Support:** http://www.mapbender.org/Support
 
 
-Γρήγορη εκκίνηση
+Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/mapbender_quickstart.html>`_

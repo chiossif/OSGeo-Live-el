@@ -1,8 +1,8 @@
-:Συγγραφέας: OSGeo Live
-:Συγγραφέας: Hamish Bowman
-:Συγγραφέας: Eric Lemoine
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo Live
+:Author: Hamish Bowman
+:Author: Eric Lemoine
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _mapfish-overview:
 
@@ -14,7 +14,7 @@
 
 .. image:: images/logos/OSGeo_incubation.png
   :scale: 100 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
@@ -22,53 +22,53 @@
 MapFish
 =======
 
-Διαδικτυακό Χαρτογραφικό Περιβάλλον
+Web Mapping Framework
 ~~~~~~~~~~~~~~~~~~~~~
 
-Το MapFish είναι ένα ευέλικτο και ολοκληρωμένο περιβάλλον για την υλοποίηση πλούσιων διαδικτυακών
-χαρτογραφικών εφαρμογών. Δίνει έμφαση στην υψηλή παραγωγικότητα και στην ανάπτυξη λογισμικού υψηλής ποιότητας. 
+MapFish is a flexible and complete framework for building rich web-mapping
+applications. It emphasizes high productivity, and high-quality development. 
 
-Το MapFish είναι βασισμένο στο περιβάλλον `Pylons <http://pylonshq.com>`_ που είναι προγραμματιστικό περιβάλλον της γλώσσας Python.
-Το MapFish επεκτείνει τις δυνατότητες του Pylons με χωρικές δυνατότητες. Για παράδειγμα το 
-MapFish παρέχει συγκεκριμένα εργαλεία για την υλοποίηση διαδικτυακών υπηρεσιών που επιτρέπουν την αναζήτηση
-και επεξεργασία γεωγραφικών αντικειμένων.
+MapFish is based on the `Pylons <http://pylonshq.com>`_ Python web framework.
+MapFish extends Pylons with geospatial-specific functionality. For example
+MapFish provides specific tools for creating web services that allows querying
+and editing geographic objects.
 
-Το MapFish επιπλεόν παρέχει ένα πλήρες περιβάλλον RIA για τη γλώσσα JavaScript, ένα περιβάλλον δοκιμών JavaScript,
-και εργαλεία για συμπίεση κώδικα JavaScript. Τα εργαλεία που αποτελούν την Javascript εργαλειοθηκη του Mapfish είναι το 
-`ExtJS <http://extjs.com>`_, to `OpenLayers
-<http://www.openlayers.org>`_ , το `GeoExt <http://www.geoext.org>`_ 
-και συγκεκριμένα εργαλεία για την διάδραση με τις υπηρεσίες (web services) του MapFish.
+MapFish also provides a complete RIA-oriented JavaScript toolbox, a JavaScript
+testing environment, and tools for compressing JavaScript code. The JavaScript
+toolbox is composed of the `ExtJS <http://extjs.com>`_, `OpenLayers
+<http://www.openlayers.org>`_ , `GeoExt <http://www.geoext.org>`_ JavaScript
+toolkits, and specific components for interacting with MapFish web services.
 
 .. image:: images/screenshots/800x600/mapfish-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-Υλοποιημένα Πρότυπα
+Implemented Standards
 ---------------------
 
-Το MapFish είναι συμβατό με τα πρότυπα του `Open Geospatial Consortium
-<http://www.opengeospatial.org/>`_ (OGC).  Αυτό πραγματοποιείται μέσω 
-του OpenLayers ή του GeoExt που υποστηρίζουν πολλά πρότυπα OGC, όπως τα WMS, WFS, WMC, KML, GML
-κλπ.
+MapFish is compliant with the `Open Geospatial Consortium
+<http://www.opengeospatial.org/>`_ standards.  This is achieved through
+OpenLayers or GeoExt supporting several OGC norms, like WMS, WFS, WMC, KML, GML
+etc.
 
-Λεπτομέρειες
+Details
 -------
 
-**Αρχική ιστοσελίδα:** http://www.mapfish.org
+**Website:** http://www.mapfish.org
 
-**Άδεια:** GNU General Public License (GPL) version 3
+**Licence:** GNU General Public License (GPL) version 3
 
-**Έκδοση Λογισμικού:** 1.2
+**Software Version:** 1.2
 
-**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
-**Υποστήριξη:** http://trac.mapfish.org/trac/mapfish#Community
+**Support:** http://trac.mapfish.org/trac/mapfish#Community
 
 
-Γρήγορη εκκίνηση
+Quickstart
 ----------
 
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapfish_quickstart.html>`_
+* `Quickstart documentation <../quickstart/mapfish_quickstart.html>`_
 
 

@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -29,7 +29,7 @@ MapServer was originally developed by the University of Minnesota (UMN) ForNet p
 
 MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained by a growing number of developers (nearing 20) from around the world. It is supported by a diverse group of organizations that fund enhancements and maintenance, and administered within OSGeo by the MapServer Project Steering Committee made up of developers and other contributors.
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 .. image:: images/screenshots/1024x768/mapserver.png
@@ -66,14 +66,14 @@ MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained
 
   * On-the-fly map projection with 1000s of projections through the Proj.4 library
 
-Υλοποιημένα Πρότυπα
+Implemented Standards
 ---------------------
 
 * Support of numerous Open Geospatial Consortium  (OGC) standards
 
   * WMS (client/server), non-transactional WFS (client/server), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
 
-Επίδειξη
+Demo
 ----
 
 * `Itasca <http://localhost/mapserver_demos/itasca/>`_
@@ -84,7 +84,7 @@ Documentation
 * `MapServer 5.6.5 Documentation <file:///usr/local/share/mapserver/doc/index.html>`_
 
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://www.mapserver.org/
@@ -93,7 +93,7 @@ Documentation
 
 **Software Version:** 5.6.5
 
-**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
 **API Interfaces:** C, PHP, Python, Perl, Ruby, Java, and .NET
 

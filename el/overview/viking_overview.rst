@@ -1,6 +1,6 @@
-:Συγγραφέας: Hamish Bowman
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Hamish Bowman
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _viking-overview:
 
@@ -25,7 +25,7 @@ and other layer types with spatial data, such as coordinate lines.
 It works with OpenStreetMap data and various online tile servers.
 
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 .. image:: images/screenshots/1024x768/viking-0.9.8-europe.jpg
@@ -49,7 +49,7 @@ It works with OpenStreetMap data and various online tile servers.
 
 * Analyzing speed at different places, adding waypoints where you forgot to mark one but did slow down or stop.
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://sourceforge.net/apps/mediawiki/viking/
@@ -65,7 +65,7 @@ It works with OpenStreetMap data and various online tile servers.
 **Support:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
 
 
-Γρήγορη εκκίνηση
+Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/viking_quickstart.html>`_

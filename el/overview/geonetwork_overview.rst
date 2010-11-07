@@ -1,6 +1,6 @@
-:Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo Live
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _geonetwork-overview:
 
@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_project.png
   :scale: 100
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -43,7 +43,7 @@ Core Features
 * Multi-lingual user interface
 * A randomly selected Featured Map
 
-Υλοποιημένα Πρότυπα
+Implemented Standards
 ---------------------
 
 * OGC Catalogue Service-Web (CSW) 2.0.2 ISO
@@ -56,7 +56,7 @@ Core Features
  * Dublin Core
  * FGDC
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://geonetwork-opensource.org
@@ -65,9 +65,9 @@ Core Features
 
 **Software Version:** 2.4
 
-**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
-**Διεπαφές προγραμματισμού (API):** Java
+**API Interfaces:** Java
 
 **Support:** http://www.osgeo.org/search_profile
 

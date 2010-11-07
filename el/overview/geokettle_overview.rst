@@ -1,6 +1,6 @@
-:Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo Live
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _geokettle-overview:
 
@@ -29,7 +29,7 @@ In the geospatial domain, Geokettle compares to FME, a proprietary spatial ETL t
   :alt: project logo
   :align: right
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 * Extract data from: 
@@ -80,17 +80,17 @@ In the geospatial domain, Geokettle compares to FME, a proprietary spatial ETL t
   * Programming API for Java
   * Plugin eco-system
 
-Υλοποιημένα Πρότυπα
+Implemented Standards
 ---------------------
 
 * OGC standards compliant (SFS)
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://www.geokettle.org/
 
-**Άδεια:** GNU Lesser General Public License (LGPL) version 2.1
+**Licence:** GNU Lesser General Public License (LGPL) version 2.1
 
 **Software Version:** 3.2.0-20090609
 

@@ -51,17 +51,17 @@ Core Features
 * Supports custom pages and tabs.
 * Site statitics and analytics
 
-Επίδειξη
+Demo
 ----
 
 * `Ushahidi Demo instance <http://demo.ushahidi.com/>`_
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://www.ushahidi.com
 
-**Άδεια:** GNU General Public License (GPL) version 3
+**Licence:** GNU General Public License (GPL) version 3
 
 **Software Version:** 1.1.0
 
@@ -72,7 +72,7 @@ Core Features
 **Support:** http://forums.ushahidi.com
 
 
-Γρήγορη εκκίνηση
+Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/ushahidi_quickstart.html>`_

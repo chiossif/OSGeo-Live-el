@@ -1,6 +1,6 @@
-:Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo Live
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _qgis-overview:
 
@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -31,7 +31,7 @@ Quantum GIS
   * GIS Tools
   * ...
 
-Λογισμικό GIS
+Desktop GIS
 ~~~~~~~~~~~
 
 Quantum GIS (QGIS) is a user friendly, Open Source, GIS client where
@@ -45,7 +45,7 @@ raster and database formats and functionality.
   :alt: project logo
   :align: right
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 * Friendly graphical user interface.
@@ -84,12 +84,12 @@ raster and database formats and functionality.
 * Publish to the internet
 * Extensible plugin architecture.
 
-Υλοποιημένα Πρότυπα
+Implemented Standards
 ---------------------
 
 * OGC standards compliant (WMS,WFS(Plugin))
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://www.qgis.org

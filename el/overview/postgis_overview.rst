@@ -1,6 +1,6 @@
-:Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo Live
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _postgis-overview:
 
@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_incubation.png
   :scale: 100 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
@@ -33,7 +33,7 @@ Database administration is available via pgAdmin, phpPgAdmin, among others. Impo
   :alt: project logo
   :align: right
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 * Hundreds of spatial functions
@@ -49,12 +49,12 @@ Database administration is available via pgAdmin, phpPgAdmin, among others. Impo
 * Role-based security
 * Table-spaces, schemas
 
-Υλοποιημένα Πρότυπα
+Implemented Standards
 ---------------------
 
 * OGC standards compliant (SFSQL)
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://postgis.refractions.net/
@@ -63,7 +63,7 @@ Database administration is available via pgAdmin, phpPgAdmin, among others. Impo
 
 **Software Version:** 1.5
 
-**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
 **API Interfaces:** SQL
 

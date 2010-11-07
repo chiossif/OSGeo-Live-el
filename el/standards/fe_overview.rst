@@ -46,7 +46,7 @@ The OGCÂ® Filter Encoding Standard (FE) defines an XML encoding for expressing f
 
 A subset of features might be identified to render them in a particular color or convert them into a user-specified format. The neutral XML filter encoding allows easy parsing and validation by a server implementing the OGC WFS standard before the filter expression is transformed into the targeted language of the data store that is being queried. This standard is used by a number of OGC Web Services, including the Web Feature Service, the Catalogue Service and the Styled Layer Descriptor Standard.
 
-Filter constraints can be specified on values of spatial, temporal and scalar properties. An example of a spatial filter is: â€œFind all the properties in Omstead County owned by Peter Vretanos.â€ An example of a temporal filter is: â€œFind all the dams in Massachusetts that were built before 1900.â€ An example of a scalar filter is: â€œFind all the temperature sensors in Paris that are reporting temperature between 20 degrees C. and 24 degrees C.â€ 
+Filter constraints can be specified on values of spatial, temporal and scalar properties. An example of a spatial filter is: â€?Find all the properties in Omstead County owned by Peter Vretanos.â€? An example of a temporal filter is: â€?Find all the dams in Massachusetts that were built before 1900.â€? An example of a scalar filter is: â€?Find all the temperature sensors in Paris that are reporting temperature between 20 degrees C. and 24 degrees C.â€? 
 
 See Also
 --------

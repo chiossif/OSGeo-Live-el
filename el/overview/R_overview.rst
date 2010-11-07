@@ -1,6 +1,6 @@
-:Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo Live
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _r-overview:
 
@@ -27,7 +27,7 @@ R is an implementation of the S programming language and there is significant co
   :alt: project logo
   :align: right
 
-Βασικά Χαρακτηριστικά
+Core Features
 -------------
 
 * Complete Object Oriented Programming Language designed for Statistics and similar Mathematical intensive applications
@@ -41,7 +41,7 @@ R is an implementation of the S programming language and there is significant co
 * Spatial regression
 * Ecological analysis
 
-Λεπτομέρειες
+Details
 -------
 
 **Website:** http://cran.r-project.org

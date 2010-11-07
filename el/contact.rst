@@ -1,5 +1,5 @@
-Επικοινωνήστε μαζί μας Contact Us
-==========
+ Contact Us
+==========Επικοινωνήστε μαζί μας
 
 OSGeo Live development is coordinated via email and internet chat
 (IRC) as detailed on the

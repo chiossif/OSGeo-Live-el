@@ -1,6 +1,6 @@
-:Author: Pieter De Graef
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Pieter De Graef
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _geomajas-overview:
 
@@ -13,7 +13,7 @@
 
 .. image:: images/logos/OSGeo_incubation.png
   :scale: 100
-  :alt: OSGeo Incubation Project
+  :alt: Λογισμικό υπό ενσωμάτωση του OSGeo
   :align: right
   :target: http://www.osgeo.org
 
@@ -21,56 +21,56 @@
 Geomajas
 ========
 
-Browser GIS Client
+Λογισμικό GIS στον περιηγητή
 ~~~~~~~~~~~~~~~~~~
 
-Geomajas is an extensible web mapping framework which seamlessly integrates powerful server side algorithms into the web browser.
+Το Geomajas είναι ένα επεκτάσιμο πλαίσιο χαρτογράφησης μέσω διαδικτύου το οποίο ενσωματώνει δυναμικούς αλγορίθμους του εξυπηρετητή (server) στον διαδικτυακό περιηγητή (web browser).
 
-The focus of Geomajas is to provide a platform for **server-side integration** of geospatial data (be it through GeoTools or Hibernate), allowing multiple users to control and manage the data from within their own browsers. In essence, Geomajas provides a set of powerful building blocks, from which the most advanced GIS application can easily be built.
+Το βασικό μέλημα του Geomajas είναι να παρέχει μια πλατφόρμα για **ενσωμάτωση διαδικασιών εξυπηρετητή** χωρικών δεδομένων (μέσω των GeoTools ή Hibernate), επιτρέποντας σε πολλαπλούς χρήστες να ελέγχουν και να διαχειρίζονται τα δεδομένα μέσα από τον περιηγητή τους. Στην ουσία, το Geomajas παρέχει ένα σύνολο από δυνατά κομμάτια, από τα οποία μπορούν να χτιστούν προχωρημένες εφαρμογές GIS.
 
-What makes Geomajas unique is its strong server side focus. The processing, styling, filtering, caching, etc. of geospatial data always happens within a secured context. All this makes Geomajas applications incredibly scalable and performing, keeping the client a **real thin client**.
+Αυτό που κάνει το Geomajas ξεχωριστό είναι η εστίασή του στον εξυπηρετητή. Η επεξεργασία, η χαρτοσύνθεση, το φιλτράρισμα, η προσωρινή αποθήκευση, κλπ. των χωρικών δεδομένων πραγματοποιείται πάντοτε με ασφαλή τρόπο. Όλα τα παραπάνω καθιστούν το Geomajas σαν μια εφαρμογή εξαιρετικά κλιμακούμενη και ταχύτατη, καθιστώντας τον πελάτη (client) πραγματικά ευέλικτο.
 
 .. image:: images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
-  :alt: Geomajas Showcase
+  :alt: Παρουσίαση Geomajas
   :align: right
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
-* Integrated client-server architecture
-* Geometry and attribute editing
-* Custom attribute definitions
-* Advanced querying capabilities (CQL)
-* Out-of-the-box security
-* Extensible plug-in mechanism
-* Multiple front-end technologies
-* Cross browser support, without the need for browser plug-ins
+* Ενσωματωμένη αρχιτεκτονική εξυπηρετητή-πελάτη
+* Δυνατότητα επεξεργασίας γεωμετρίας και περιγραφικών χαρακτηριστικών
+* Δυνατότητα ορισμού νέων περιγραφικών χαρακτηριστικών
+* Προχωρημένες δυνατότητες αναζήτησης (CQL)
+* Ασφάλεια με την πρώτη εγκατάσταση
+* Μηχανισμό δημιουργίας επεκτάσεων
+* Πολλαπλές τεχνολογίες διεπαφής
+* Υποστήριξη όλων των περιηγητών, χωρίς τη χρήση επεκτάσεων (plug-ins)
 
-Implemented Standards
+Υλοποιημένα Πρότυπα
 ---------------------
 
 * OGC Web Map Service (WMS) 1.1.0, 1.1.1
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 
-Details
+Λεπτομέρειες
 -------
 
-**Website:** http://www.geomajas.org/
+**Αρχική σελίδα:** http://www.geomajas.org/
 
-**Licence:** AGPL
+**Άδεια:** AGPL
 
-**Software Version:** 1.6
+**Έκδοση Λογισμικού:** 1.6
 
-**Supported Platforms:** Windows, Linux, Mac
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**API Interfaces:** Java
+**Διεπαφές προγραμματισμού (API):** Java
 
-**Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
+**Υποστήριξη:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/geomajas_quickstart.html>`_
+* `Εγχειρίδια γρήγορης εκκίνησης <../quickstart/geomajas_quickstart.html>`_
 

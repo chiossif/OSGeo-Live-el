@@ -48,7 +48,7 @@ Implemented Standards
 ---------------------
 * OGC Style Layer Descriptor (SLD)
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://en.geopublishing.org/Geopublisher
@@ -64,7 +64,7 @@ Details
 **Support:** http://www.wikisquare.de
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/geopublisher_quickstart.html>`_

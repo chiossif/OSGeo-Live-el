@@ -29,7 +29,7 @@ Advantages of the database routing approach are:
   :alt: pgRouting query in pgAdminIII
   :align: right
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 pgRouting provides functions for:
@@ -45,7 +45,7 @@ pgRouting provides functions for:
 
 .. * OGC standards compliant
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.pgrouting.org
@@ -60,7 +60,7 @@ Details
 
 **Commercial Support:** http://www.pgrouting.org
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/pgrouting_quickstart.html>`_

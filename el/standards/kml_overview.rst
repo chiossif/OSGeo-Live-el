@@ -1,18 +1,18 @@
-.. Writing Tip:
+.. Βοήθημα:
   Writing tips describe what content should be in the following section.
 
-.. Writing Tip:
+.. Βοήθημα:
   Metadata about this document
 
 :Author: OGC
 :License: Creative Commons
 
-.. Writing Tip:
+.. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
 
 .. _kml-overview:
 
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -34,7 +34,7 @@
 KML Encoding Standard (KML)
 ===========================
 
-.. Writing Tip:
+.. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
 
 The OGC KML Encoding Standard is an XML language focused on geographic visualization, including annotation of maps and images. Geographic visualization includes not only the presentation of graphical data on the globe, but also the control of the user’s navigation in the sense of where to go and where to look. (http://www.opengeospatial.org/standards/KML)
@@ -57,7 +57,7 @@ KML is complementary to most of the existing OGC specifications including key st
 See Also
 --------
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe Similar standard
 
 * :doc:`gml_overview`

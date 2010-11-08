@@ -1,6 +1,6 @@
-:Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Hamish Bowman
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _opencpn-overview:
 
@@ -23,7 +23,7 @@ OpenCPN presents a user with the vessel's current position, speed and course sup
 As the host vessel moves, new charts are selected and displayed at user specified resolution and detail. Further, the user may enter routes and waypoints allowing interface to an external autopilot for precise course following.
 
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 .. image:: images/screenshots/1024x768/opencpn_screenshot.png
@@ -43,7 +43,7 @@ OpenCPN supports:
 * Cross-platform support
 * GRIB weather data overlay
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.opencpn.org
@@ -52,12 +52,12 @@ Details
 
 **Software Version:** 2.1.624a
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
+**Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
 **Support:** http://www.cruisersforum.com/forums/f134
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/opencpn_quickstart.html>`_

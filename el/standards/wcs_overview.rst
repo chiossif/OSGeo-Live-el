@@ -1,18 +1,18 @@
-.. Writing Tip:
+.. Βοήθημα:
   Writing tips describe what content should be in the following section.
 
-.. Writing Tip:
+.. Βοήθημα:
   Metadata about this document
 
 :Author: OGC
 :License: Creative Commons
 
-.. Writing Tip:
+.. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
 
 .. _wcs-overview:
 
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -34,7 +34,7 @@
 Web Coverage Service (WCS)
 ==========================
 
-.. Writing Tip:
+.. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
 
 The OGC® Web Coverage Service Interface Standard (WCS) defines a standard interface and operations that enable interoperable access to geospatial "coverages". The term "grid coverages" typically refers to content such as satellite images, digital aerial photos, digital elevation data, and other phenomena represented by values at each measurement point. (http://www.opengeospatial.org/standards/wcs)
@@ -50,7 +50,7 @@ As with other OGC standards, there are numerous excellent examples of deployed W
 See Also
 --------
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe Similar standard
 
 * :doc:`wms_overview`

@@ -1,7 +1,7 @@
-.. Writing Tip:
+.. Βοήθημα:
   Writing tips describe what content should be in the following section.
 
-.. Writing Tip:
+.. Βοήθημα:
   This Quick Start should describe how to run a simple example, which
     covers one of the application's primary functions.
   The Quick Start should be able to be executed in around 5 minutes.
@@ -29,7 +29,7 @@
      1:50 million (40mb). Available as .tif
      /home/user/data/natural_earth/HYP_50M_SR_W/
 
-.. Writing Tip:
+.. Βοήθημα:
   Metadata about this document
 
 :Author: OSGeo Live
@@ -39,12 +39,12 @@
 :License: Creative Commons
 :Thanks: geotools-user list
 
-.. Writing Tip:
+.. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
 
 .. _udig-quickstart:
  
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -59,7 +59,7 @@
 uDig Quickstart 
 ***************
 
-.. Writing Tip:
+.. Βοήθημα:
   First sentence defines what the application does.
   You may also need to include a sentence of two describing the domain.
   Eg: For a Business Intelligence application, you should describe what
@@ -68,7 +68,7 @@ uDig Quickstart
 uDig (User Friendly Internet Desktop GIS), is a GIS Desktop client for
 editing and viewing GeoSpatial data.
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe what will be covered in this Quick Start.
 
 This Quick Start describes how to:
@@ -80,7 +80,7 @@ This Quick Start describes how to:
 start uDig
 ==========
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe steps to start the application
   This should include a graphic of the pull-down list, with a red circle
   around the application menu option.
@@ -92,7 +92,7 @@ start uDig
 #. Choose uDig 1.1 > uDig from the start menu
 #. The application will take a few moments to start up
 
-.. Writing Tip:
+.. Βοήθημα:
   For images, use a scale of 50% from a 1024x768 display (preferred) or
   70% from a 800x600 display.
   Images should be stored here:
@@ -173,7 +173,7 @@ To start out with we are going to load some of the sample data included on the D
   
   .. image:: images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
 
-.. Writing Tip:
+.. Βοήθημα:
   Notes are used to provide descriptions and background information without
   getting in the way of instructions. Notes will likely be rendered in
   the margin in some printed formats.
@@ -184,7 +184,7 @@ To start out with we are going to load some of the sample data included on the D
    above shapefile is not loaded into memory, we have a policy of keeping data on disk and drawing data
    like this shapefile onto the screen as needed.
 
-.. Writing Tip:
+.. Βοήθημα:
   Tips are used to provide extra useful information, and will 
   likely be rendered in the margin in some printed formats.
 

@@ -1,6 +1,6 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _gvsig-overview:
 
@@ -12,7 +12,7 @@
 
 .. image:: images/logos/OSGeo_incubation.png
   :scale: 100 %
-  :alt: OSGeo Project
+  :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
@@ -20,7 +20,7 @@
 gvSIG Desktop
 ==============
 
-Desktop GIS
+Λογισμικό GIS
 ~~~~~~~~~~~
 
 gvSIG_ is a Geographic Information System (GIS) desktop application
@@ -46,7 +46,7 @@ gvSIG is known for:
   :alt: screenshot
   :align: right
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 * Provides common GIS tools like data loading, map navigation, query 
@@ -91,7 +91,7 @@ Core Features
 * Powerful reprojection engine via PROJ4
 
 
-Implemented Standards
+Υλοποιημένα Πρότυπα
 ---------------------
 
 Advanced client support of numerous Open Geospatial Consortium (OGC) standards
@@ -102,7 +102,7 @@ Advanced client support of numerous Open Geospatial Consortium (OGC) standards
 * Search on catalogues with  CSW (ISO/19115 and ebRIM)
 * Search on gazetteers using WFS-G recommendation
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.gvsig.org/
@@ -111,7 +111,7 @@ Details
 
 **Software Version:** 1.10 (beta)
 
-**Supported Platforms:** Windows, Linux, Mac
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
 **Support:** http://www.gvsig.org/web/organization/services
 

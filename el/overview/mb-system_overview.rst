@@ -1,6 +1,6 @@
-:Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Hamish Bowman
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _mb-system-overview:
 
@@ -25,7 +25,7 @@ use of the `GMT <gmt_overview.html>`_ software.
 MB-System has been under development since 1993, with active support
 from a number of research and science organisations.
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 .. image:: images/screenshots/1024x768/mb-system_screenshot.png
@@ -50,12 +50,12 @@ Core Features
 * Subbottom profiler data processing
 * Tide modeling and correction
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.ldeo.columbia.edu/res/pi/MB-System/
 
-**Licence:** GNU General Public License (GPL) version 3
+**Άδεια:** GNU General Public License (GPL) version 3
 
 **Software Version:** 5.1.2
 
@@ -64,7 +64,7 @@ Details
 **API Interfaces:** Command line
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/mb-system_quickstart.html>`_

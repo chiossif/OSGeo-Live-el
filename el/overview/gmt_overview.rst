@@ -1,6 +1,6 @@
-:Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Hamish Bowman
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _gmt-overview:
 
@@ -34,13 +34,13 @@ political boundaries.
   :alt: screenshot
   :align: right
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 * Journal quality cartography.
 * Gridding and contouring functions.
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://gmt.soest.hawaii.edu
@@ -49,14 +49,14 @@ Details
 
 **Software Version:** 4.5.1
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
+**Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
 **API Interfaces:** Command line
 
 **Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/gmt_quickstart.html>`_

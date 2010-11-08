@@ -1,6 +1,6 @@
-:Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Hamish Bowman
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _marble-overview:
 
@@ -24,7 +24,7 @@ globe (including `OpenStreetMaps <http://www.osm.org>`_), you are
 encouraged to include a KDE Marble widget in your application.
 
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 .. image:: images/screenshots/1024x768/marble-history.png
@@ -42,23 +42,23 @@ Core Features
 * `OpenStreetMap <http://www.osm.org>`_ integration
 
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://edu.kde.org/marble/
 
-**Licence:** GNU Lesser General Public License (LGPL) version 2.1
+**Άδεια:** GNU Lesser General Public License (LGPL) version 2.1
 
 **Software Version:** 0.9.2
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
+**Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
 **API Interfaces:** Qt designer, C++, Python, D-BUS, Shell script
 
 **Support:** http://techbase.kde.org/Projects/Marble
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/marble_quickstart.html>`_

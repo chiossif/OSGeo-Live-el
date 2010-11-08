@@ -1,18 +1,18 @@
-.. Writing Tip:
+.. Βοήθημα:
   Writing tips describe what content should be in the following section.
 
-.. Writing Tip:
+.. Βοήθημα:
   Metadata about this document
 
 :Author: OGC
 :License: Creative Commons
 
-.. Writing Tip:
+.. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
 
 .. _wfs-overview:
 
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -34,7 +34,7 @@
 Web Feature Service (WFS)
 =========================
 
-.. Writing Tip:
+.. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
 
 The OGC® Web Feature Service Interface Standard (WFS) defines  web interface operations for querying and editing vector geographic features, such as roads or lake outlines.  (http://www.opengeospatial.org/standards/wfs)
@@ -57,7 +57,7 @@ Users typically interact with WFSs through browser based or desktop geospatial c
 See Also
 --------
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe Similar standard
 
 * :doc:`wms_overview`

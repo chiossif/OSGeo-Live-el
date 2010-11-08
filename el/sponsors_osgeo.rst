@@ -1,33 +1,32 @@
-The OSGeo Foundation
+Το Ίδρυμα OSGeo
 ====================
 
-The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`_,
-is a not-for-profit organization whose mission is to support and promote
-the collaborative development of open geospatial technologies and data.
-The foundation provides financial, organizational and legal support to
-the broader open source geospatial community. It serves as an independent
-legal entity to which community members can contribute code, funding and
-other resources, secure in the knowledge that their contributions will be
-maintained for public benefit. OSGeo also serves as an outreach and
-advocacy organization for the open source geospatial community, and
-provides a common forum and shared infrastructure for improving
-cross-project collaboration.
+Το Ίδρυμα Γεωχωρικού Λογισμικού Ανοιχτού Κώδικα - `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`_,
+είναι ένας μη κερδοσκοπικός οργανισμός του οποίου η αποστολή είναι να υποστηρίζει και να προωθεί
+την ανάπτυξη μέσω συνεργασίας γεωχωρικών τεχνολογιών και δεδομένων.
+Το Ίδρυμα παρέχει οικονομική, οργανωτική και νομική υποστήριξη
+στην ευρεία κοινότητα του γεωχωρικού λογισμικού ανοιχτού κώδικα. Υπηρετεί σαν μια ανεξάρτητη
+νομική οντότητα στην οποία τα μέλη της κοινότητας μπορούν να συνεισφέρουν κώδικα, χρήματα και
+άλλους πόρους, και να διασφαλίσουν ότι η συνεισφορά τους και γνώση τους θα
+συντηρηθούν προς το κοινό καλό. To OSGeo επιπλεόν υπηρετεί και ώς ένα μέσο προσέγγυσης και 
+οργανισμός συνηγορίας για το γεωχωρική κοινότητα ανοιχτού λογισμικού, και
+παρέχει ένα κοινό φόρουμ για κατανομή πόρων για τη βελτίωση
+συνεργασίας μεταξύ διαφορετικών λογισμικών.
 
-The foundation's projects are all freely available and useable under an
- `OSI-certified open source license. <http://www.opensource.org/licenses/>`_
+Τα λογισμικό του Ιδρύματος είναι όλα ελευθερα διαθέσιμα και εκτελέσιμα κάτω από μια
+ `άδεια ανοιχτού κώδικα συμβατή με την OSI. <http://www.opensource.org/licenses/>`_
 
-This Live GIS disc and virtual-machine has been put together by members
-of the OSGeo community to showcase their favourite Free and Open Source
-(FOSS) geospatial software. We've included a number of non-OSGeo software
-packages, GIS focused and otherwise, which we hope you will find to be as
-useful as we do. The OSGeo Foundation does not recommend or guarantee any
-associated software, projects, or companies found within.
+Ο δοκιμαστικός οπτικός δίσκος OSGeo Live και η εικονική μηχανή δημιουργήθηκαν από μέλη της κοινότητας
+OSGeo  για την επίδειξη των αγαπημένων τους Ελεύθερων Λογισμικών και Λογισμικών Ανοιχτού Κώδικα (Free and Open Source-
+FOSS). Επιπλέον έχει συμπεριληφθεί και ένας αριθμός λογισμικών που δεν υπάγονται στο OSGeo
+λόγω της χρησιμότητας που ελπίζουμε να εκτιμήσετε, όπως εμείς. Το Ίδρυμα OSGeo δεν συνιστά, ούτε παρέχει εγγυήσεις
+για κανένα συσχετισμένο λογισμικό, ή εταιρίες που περιέχονται στον οπτικό δίσκο.
 
-`These programs are distributed in the hope that they will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.`
+`Τα λογισμικά αυτά διανέμονται με την ελπίδα ότι θα είναι χρήσιμα,
+αλλά ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ, ούτε καν την εγγύηση που υπονοείται από
+την ΕΜΠΟΡΙΚΟΤΗΤΑ ή ΚΑΤΑΛΛΗΛΟΤΗΤΑ ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ.`
 
-OSGeo Sustaining Sponsors
+Χορηγοί συντήρησης OSGeo
 =========================
 
 .. image:: images/logos/autodesk.jpg
@@ -38,7 +37,7 @@ OSGeo Sustaining Sponsors
   
 
 
-OSGeo Supporting Sponsors
+Χορηγοί υποστήριξης OSGeo
 -------------------------
 
 .. image:: images/logos/inpe.gif
@@ -55,7 +54,7 @@ OSGeo Supporting Sponsors
 
 
 
-OSGeo Associate Sponsors
+Επιμέρους χορηγοί OSGeo
 ------------------------
 .. image:: images/logos/geocat.png
   :alt: GeoCat
@@ -103,11 +102,11 @@ OSGeo Associate Sponsors
   :target: http://www.firstbasesolutions.com
 
 
-For more information
+Για περισσότερες πληροφορίες
 --------------------
 
-To sponsor OSGeo or discuss sponsorship opportunities further,
-please contact:
+Για να γίνετε χορηγός του OSGeo ή για να συζητήσετε δυνατότητες χορηγίας,
+παρακαλώ επικοινωνήστε με:
 
    Tyler Mitchell
    Executive Director

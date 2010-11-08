@@ -1,33 +1,21 @@
-Welcome to the OSGeo Live GIS DVD.
+Καλώς ήρθατε στο δοκιμαστικό GIS DVD του OSGeo.
 
 
-See the road-sign Help icon on the Desktop for information
-about the Live disc and virtual-machine, including a
-synopsis of bundled geospatial packages and a series of
-quick-start short tutorials.
+Επιλέξτε το εικονίδιο Help στην επιφάνεια εργασίας για πληροφορίες σχετικά με το δοκιμαστικό DVD και την εικονική μηχανή virtual-machine, που περιλαμβάνει μια σύνοψη των συμπεριλαμβανομένων γεωχωρικών λογισμικών και μια σειρά από εγχειρίδια ταχείας εκμάθησης.
 
-To change the language, log out (Applications menu) and
-along the bottom of the login screen is the language menu. 
-Once you log back in (the password if you need it is
-"user"), there is a flag icon on the top menu bar that lets
-you pick the keyboard layout. You can also set it via the
-menus with Applications > System > Language Support.
+Για αλλαγή της γλώσσας, αποσυνδεθείτε (από το μενού εφαρμογών) και στο κάτω μέρος της οθόνης σύνδεσης θα βρείτε το μενού της γλώσσας. 
+Με το που συνδεθείτε ξανά (ο κωδικός πρόσβασης είναι "user"), υπάρχει ένα εικονιίδιο σημαίας στο πάνω μέρος της οθόνης που σας επιτρέπει να διαλέξετε την κατάσταση γλώσσας του πληκτρολογίου. Μπορείτε επίσης να θέσετε τη γλώσσα επιλογής σας από το μενού Applications > System > Language Support.
 
-Program installers for Macintosh OSX and Microsoft Windows
-can be found in the MacInstallers and WindowsInstallers
-directories.
+Τα προγράμματα εγκατάστασης για τα λειτουργικά συστήματα Macintosh OSX και Microsoft Windows μπορούν να βρεθούν στους φακέλους MacInstallers και WindowsInstallers.
 
-Passwords for various things can be found in the
-passwords.txt file on the Desktop.
+Οι κωδικοί ασφαλείας για τις διάφορες εφαρμογές βρίσκονται στο αρχείο passwords.txt στην επιφάνεια εργασίας.
 
-If you need to become "root" (the UNIX super-user) open a
-Terminal and type "sudo su", then enter "user" as the
-password.
+Εαν χρειαστείτε να συνδεθείτε σαν χρήστης "root" (ο διαχειριστής στα συστήματα UNIX) ανοίξτε ένα τερματικό και πληκτρολογήστε "sudo su", και στη συνέχεια επιλέξτε "user" σαν κωδικό πρόσβασης.
 
-The living FAQ can be found here:
+Οι συχνότερες ερωτήσεις (FAQ) μπορούν να βρεθούν στον παρακάτω σύνδεσμο:
   http://wiki.osgeo.org/wiki/Live_GIS_Disc_FAQ
 
 
 
-Happy mapping!
-The OSGeo Live GIS Team
+Καλή χαρτογράφηση!
+Η ομάδα του δοκιμαστικού GIS DVD του OSGeo

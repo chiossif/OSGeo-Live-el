@@ -27,7 +27,7 @@ osgEarth supports all kinds of data and comes with lots of examples to help you 
   :alt: screenshot
   :align: right
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 osgEarth makes is easy to deploy scalable terrain models: 
@@ -64,7 +64,7 @@ Things you can see:
 .. _`NASA OnEarth`: http://onearth.jpl.nasa.gov
 
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://osgearth.org/
@@ -75,12 +75,12 @@ Details
 
 **Supported Platforms:** Linux, Mac, Windows
 
-**API Interfaces:** C++
+**Προγραμματιστική διεπαφή (API):** C++
 
 **Commercial Support:** http://osgearth.org/#ProfessionalServices
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/osgearth_quickstart.html>`_

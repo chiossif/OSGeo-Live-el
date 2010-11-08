@@ -1,6 +1,6 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _openjump-overview:
 
@@ -13,7 +13,7 @@
 OpenJUMP GIS
 ============
 
-Desktop GIS
+Λογισμικό GIS
 ~~~~~~~~~~~
  
 OpenJUMP is an easy to use and powerful deskstop GIS that enables users
@@ -25,7 +25,7 @@ It is also an excellent framework for rapid prototyping to develop custom GIS fu
   :alt: project screenshots
   :align: center
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 * Data Formats
@@ -58,23 +58,23 @@ Core Features
     * (Java) plugin-system
    
 
-Implemented Standards
+Υλοποιημένα Πρότυπα
 ---------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
 * OGC standards supported: GML 2, SFS, WMS, WFS (Plugin), WFS-T (Plugin), SLD
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.openjump.org
 
-**Licence:** GPL
+**Άδεια:** GPL
 
 **Software Version:** 1.3
 
-**Supported Platforms:** Windows, Linux, Mac, Unix
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 
 **Community Support:** http://www.openjump.org/support.html
 

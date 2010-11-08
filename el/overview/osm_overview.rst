@@ -1,6 +1,6 @@
-:Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Hamish Bowman
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _osm-overview:
 
@@ -28,7 +28,7 @@ Osm2pgsql. In addition recent sample data for the host city and a number
 of JOSM plugins have been included.
 
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 .. image:: images/screenshots/1024x768/osm-screenshot.jpg
@@ -42,7 +42,7 @@ Core Features
 * Free to use
 * Widespread geo-application integration
 
-Details
+Λεπτομέρειες
 -------
 
 **Website:** http://www.openstreetmap.org
@@ -75,14 +75,14 @@ Details
 
 * osm2pgsql: 0.69 (svn r22215)
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
+**Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
 **API Interfaces (data):** REST (via Xapi), XML
 
 **Support:** http://wiki.openstreetmap.org/
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
 * `Quickstart documentation <../quickstart/osm_quickstart.html>`_

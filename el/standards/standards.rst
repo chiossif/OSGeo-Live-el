@@ -8,7 +8,7 @@ Open GeoSpatial Consortium Standards
 
 Introduction
 ------------
-The Open Geospatial Consortium (OGC) was founded in 1994 to make geographic information an integral part of the world‚Äôs information infrastructure. OGC members ‚Äì technology providers and technology users -- collaboratively develop open interface standards and associated encoding standards, and also best practices, that enable developers to create information systems that can easily exchange ‚Ä?geospatial‚Ä? information and instructions with other information systems. Requirements range from complex scheduling and control of Earth observation satellites to displaying simple map images on the Web and encoding location in just a few bytes for geo-tagging and messaging. A look at the OGC Domain Working Groups (http://www.opengeospatial.org/projects/groups/wg) shows the wide scope of current activity in the OGC.
+The Open Geospatial Consortium (OGC) was founded in 1994 to make geographic information an integral part of the world‚Äôs information infrastructure. OGC members ‚Äì technology providers and technology users -- collaboratively develop open interface standards and associated encoding standards, and also best practices, that enable developers to create information systems that can easily exchange ‚Äúgeospatial‚Äù information and instructions with other information systems. Requirements range from complex scheduling and control of Earth observation satellites to displaying simple map images on the Web and encoding location in just a few bytes for geo-tagging and messaging. A look at the OGC Domain Working Groups (http://www.opengeospatial.org/projects/groups/wg) shows the wide scope of current activity in the OGC.
 
 The OGC Baseline and OGC Reference Model
 ----------------------------------------
@@ -28,7 +28,7 @@ Most of the OGC standards developed in recent years are standards for the Web se
   :scale: 25%
   :alt: Web services framework of OGC geoprocessing standards
 
-Acronyms in the figure are defined below. Some of these are ‚Ä?OGC standards‚Ä? and others are publicly available ‚Ä?Discussion Papers‚Ä?, ‚Ä?Requests‚Ä? and ‚Ä?Recommendation Papers‚Ä?. (Note that some in work candidate standards are not yet public, but are accessible by OGC members.) 
+Acronyms in the figure are defined below. Some of these are ‚ÄúOGC standards‚Äù and others are publicly available ‚ÄúDiscussion Papers‚Äù, ‚ÄúRequests‚Äù and ‚ÄúRecommendation Papers‚Äù. (Note that some in work candidate standards are not yet public, but are accessible by OGC members.) 
 
 * :doc:`wms_overview`
 * :doc:`wfs_overview`

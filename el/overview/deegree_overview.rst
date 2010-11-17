@@ -1,39 +1,39 @@
 :Author: Johannes Wilden
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative CommonsΣυγγραφέας: Johannes Wilden Έκδοση:Osgeo - live 4.0 Άδεια: Creative commons
 
-.. _deegree-overview:
+.. _deegree-overview:deegree-γενική επισκόπηση
 
-.. image:: images/project_logos/logo-deegree.png
-  :scale: 80 %
-  :alt: project logo
-  :align: right
-  :target: http://deegree.org
+.. image:: images/project_logos/logo-deegree.pngΕικόνα: Εικόνες/Έργο_λογότυπο/Λογότυπο-degree.png
+  :scale: 80 %Κλίμακα:80%
+  :alt: project logoalt:Λογότυπο του τμήματος
+  :align: rightΣτοίχιση: Δεξιά
+  :target: http://deegree.orgΣτόχος:http://deegree.org
 
-.. image:: images/logos/OSGeo_project.png
-  :scale: 100
-  :alt: Ξ›ΞΏΞ³ΞΉΟƒΞΌΞΉΞΊΟ ΞµΞ½ΟƒΟ‰ΞΌΞ±Ο„Ο‰ΞΌΞ­Ξ½ΞΏ ΟƒΟ„ΞΏ OSGeo
-  :align: right
-  :target: http://www.osgeo.org
+.. image:: images/logos/OSGeo_project.pngΕικόνα:Εικόνες/λογότυπα/Osgeo_project.png
+  :scale: 100Κλίμακα:100%
+  :alt: OSGeo Projectalt:Osgeo Έργο
+  :align: rightΣτοίχιση: Δεξιά
+  :target: http://www.osgeo.orgΣτόχος:http://www.osgeo.org 
 
 
 deegree
-=======
+=======deegree
 
 Web Services
-~~~~~~~~~~~~
+~~~~~~~~~~~~Υπηρεσίες Δικτύου
 
-deegree is free, stable, powerful and easy to use. deegree is
+deegree is free, stable, powerful and easy to use.Το deegree είναι ελεύθερο, σταθερό, δυνατό και εύκολο στη χρήση. deegree is
 the most comprehensive set of implementations of Open Geospatial
 Consortium (OGC) standards in free and open source software, ranging
 from a transactional Web Feature Service to three-dimensional data
-display through a Web Terrain Service and many more!
+display through a Web Terrain Service and many more!Το deegree είναι το πιο περιεκτικό σύνολο εφαρμογών, βασιζόμενων στις προδιαγραφές του OGC, στο ελεύθερο και ανοιχτό λογισμικό, το οποίο εκτείνεται από 
 
 deegree is a solution for web- and desktop-based
 Geographic Information Systems (GIS) and Spatial Data Infrastructures
-(SDI). It is comprised of a comprehensive yet powerful Java Application
+(SDI).Το deegree είναι μια λύση σε Γεωγραφικά Συστήματα Δεδομένων και Υποδομές Χωρικών στοιχείων βασιζόμενων σε δικτυακές ή προσωπικές εφαρμογές. It is comprised of a comprehensive yet powerful Java Application
 Programming Interface (API) and a powerful object-relational mapping for
-simple and complex spatial schemas. deegree also provides a set of
+simple and complex spatial schemas.Συνίσταται από περιεκτική και ισχυρή API και ισχυρή αντικειμενο-συσχετιστική απεικόνιση για απλά και σύνθετα χωρικά σχήματα deegree also provides a set of
 standards-compliant webservices for web mapping, feature and catalogue
 services as well as sensor and processing services.
 
@@ -43,8 +43,8 @@ your requirements.
 
 .. image:: images/screenshots/1024x768/deegree_mainpage.gif
   :scale: 50%
-  :alt: project logo
-  :align: right
+  :alt: project logoalt:Λογότυπο του τμήματος
+  :align: rightΣτοίχιση: Δεξιά
 
 Some example features
 ---------------------
@@ -91,7 +91,7 @@ Some example features
    * requests: Get3DFeatureInfo, GetView
 
 
-Ξ¥Ξ»ΞΏΟ€ΞΏΞΉΞ·ΞΌΞ­Ξ½Ξ± Ξ ΟΟΟ„Ο…Ο€Ξ±
+Implemented Standards
 ---------------------
 
 * OGC Web Map Service (WMS) 1.1.0*, 1.1.1, 1.3.0*
@@ -103,7 +103,7 @@ Some example features
 * OGC Web Processing Service (WPS) 0.4.0, 1.0.0
 * OGC Sensor Observation Service (SOS) 1.0.0
 
-Ξ›ΞµΟ€Ο„ΞΏΞΌΞ­ΟΞµΞΉΞµΟ‚
+Details
 -------
 
 **Website:** http://deegree.org
@@ -114,12 +114,12 @@ Some example features
 
 **Supported Platforms:** Windows, Linux
 
-**Ξ”ΞΉΞµΟ€Ξ±Ο†Ξ­Ο‚ Ο€ΟΞΏΞ³ΟΞ±ΞΌΞΌΞ±Ο„ΞΉΟƒΞΌΞΏΟ (API):** Java
+**API Interfaces:** Java
 
 **Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport
 
 
-Ξ“ΟΞ®Ξ³ΞΏΟΞ· ΞµΞΊΞΊΞ―Ξ½Ξ·ΟƒΞ·
+Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/deegree_quickstart.html>`_

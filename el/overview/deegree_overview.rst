@@ -35,10 +35,10 @@ Geographic Information Systems (GIS) and Spatial Data Infrastructures
 Programming Interface (API) and a powerful object-relational mapping for
 simple and complex spatial schemas.Συνίσταται από περιεκτική και ισχυρή API και ισχυρή αντικειμενο-συσχετιστική απεικόνιση για απλά και σύνθετα χωρικά σχήματα deegree also provides a set of
 standards-compliant webservices for web mapping, feature and catalogue
-services as well as sensor and processing services.
+services as well as sensor and processing services.Το deegree παρέχει επίσης ένα σύνολο από συμβατές με τα καθιερωμένα υπηρεσίες δικτύου για απεικονίσεις δικτύου, χαρακτηριστικά και υπηρεσίες καταλόγου καθώς επίσης και υπηρεσίες ανίχνευσης και επεξεργασίας.
 
 deegree gets your SDI up and running, using your own data and fulfilling
-your requirements.
+your requirements.Το deegree οργανώνει το SDI ώστε να τρέχει με χρήση των προσωπικών δεδομένων του καθενός, ικανοποιώντας κατ' αυτό τον τρόπο τις απαιτήσεις του.
 
 
 .. image:: images/screenshots/1024x768/deegree_mainpage.gif

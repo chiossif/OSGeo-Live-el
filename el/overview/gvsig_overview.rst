@@ -1,36 +1,36 @@
-:Ξ£Ο…Ξ³Ξ³ΟΞ±Ο†Ξ­Ξ±Ο‚: OSGeo Live
-:ΞΞΊΞ΄ΞΏΟƒΞ·: osgeo-live4.0
-:Ξ†Ξ΄ΞµΞΉΞ±: Creative Commons
+:Author: Johannes Wilden
+:Version: osgeo-live4.0
+:License: Creative CommonsΣυγγραφέας: Johannes Wilden Έκδοση:Osgeo - live 4.0 Άδεια: Creative commons
 
 .. _gvsig-overview:
 
 .. image:: images/project_logos/logo-gvSIG.png
   :scale: 75 %
-  :alt: project logo
-  :align: right
+  :alt: project logoalt:Λογότυπο του τμήματος
+  :align: rightΣτοίχιση: Δεξιά
   :target: http://www.gvsig.org/
 
 .. image:: images/logos/OSGeo_incubation.png
-  :scale: 100 %
-  :alt: Ξ›ΞΏΞ³ΞΉΟƒΞΌΞΉΞΊΟ ΞµΞ½ΟƒΟ‰ΞΌΞ±Ο„Ο‰ΞΌΞ­Ξ½ΞΏ ΟƒΟ„ΞΏ OSGeo
-  :align: right
+  :scale: 100 %Κλίμακα:100%
+  :alt: OSGeo Projectalt:Osgeo Έργο
+  :align: rightΣτοίχιση: Δεξιά
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 
 gvSIG Desktop
 ==============
 
-Ξ›ΞΏΞ³ΞΉΟƒΞΌΞΉΞΊΟ GIS
+Desktop GIS
 ~~~~~~~~~~~
 
 gvSIG_ is a Geographic Information System (GIS) desktop application
 designed for capturing, storing, handling, analysing and deploying any kind of
 referenced geographic information in order to solve complex management and
-planning problems. gvSIG is known for its user-friendly interface and being
-able to access all common vector and raster formats. It features
+planning problems.Το πρόγραμμα gvSIG είναι ένα Γεωγραφικό Σύστημα Πληροφοριών σχεδιασμένο για κατάκτηση, αποθήκευση, ανάλυση και... κάθε είδους αναφερμένων γεωγραφικών πληροφοριών για λύση σύνθετων προβλημάτνω διαχείρισης και προγραμματισμού. gvSIG is known for its user-friendly interface and being
+able to access all common vector and raster formats.Το gvSIG είναι γνωστό για τη φιλική στο χρήστη οθόνη εργασίας και για το ότι έχει τη δυνατότητα πρόσβασης σε όλους τους κοινους διανυσματικούς και μωσαϊκού τύπου, τύπους αρχείων. It features
 a wide range of tools for working with geographic information (query,
 layout creation, geoprocessing, networks, etc.), which turns gvSIG into the
-ideal tool for users working in the land realm.
+ideal tool for users working in the land realm.Στα χαρακτηριστικά του περιλαμβάνεται ένα μεγάλο εύρος εργαλείων για εργασία με γεωγραφικές πληροφορίες (ερώτημα, γεωεπεξεργασία, δίκτυα κλπ), γεγονός που το καθιστά ιδανικό εργαλείο για χρήστες που δουλεύουν 
 
 gvSIG is known for:
 
@@ -44,9 +44,9 @@ gvSIG is known for:
 .. image:: images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
-  :align: right
+  :align: rightΣτοίχιση: Δεξιά
 
-Ξ’Ξ±ΟƒΞΉΞΊΞ¬ Ξ§Ξ±ΟΞ±ΞΊΟ„Ξ·ΟΞΉΟƒΟ„ΞΉΞΊΞ¬
+Core Features
 -------------
 
 * Provides common GIS tools like data loading, map navigation, query 
@@ -91,7 +91,7 @@ gvSIG is known for:
 * Powerful reprojection engine via PROJ4
 
 
-Ξ¥Ξ»ΞΏΟ€ΞΏΞΉΞ·ΞΌΞ­Ξ½Ξ± Ξ ΟΟΟ„Ο…Ο€Ξ±
+Implemented Standards
 ---------------------
 
 Advanced client support of numerous Open Geospatial Consortium (OGC) standards
@@ -102,7 +102,7 @@ Advanced client support of numerous Open Geospatial Consortium (OGC) standards
 * Search on catalogues with  CSW (ISO/19115 and ebRIM)
 * Search on gazetteers using WFS-G recommendation
 
-Ξ›ΞµΟ€Ο„ΞΏΞΌΞ­ΟΞµΞΉΞµΟ‚
+Details
 -------
 
 **Website:** http://www.gvsig.org/
@@ -111,7 +111,7 @@ Advanced client support of numerous Open Geospatial Consortium (OGC) standards
 
 **Software Version:** 1.10 (beta)
 
-**Ξ¥Ο€ΞΏΟƒΟ„Ξ·ΟΞΉΞ¶ΟΞΌΞµΞ½ΞµΟ‚ Ο€Ξ»Ξ±Ο„Ο†ΟΟΞΌΞµΟ‚:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
 **Support:** http://www.gvsig.org/web/organization/services
 

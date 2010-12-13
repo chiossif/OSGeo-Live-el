@@ -1,7 +1,7 @@
-:Author: OSGeo Live
-:Author: Pirmin Kalberer
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Συγγραφέας: Pirmin Kalberer
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _osgearth-quickstart:
  
@@ -11,7 +11,7 @@
   :align: right
 
 *******************
-osgEarth Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης osgEarth 
 *******************
 
 Το osgEarth είναι ένα περιβάλλον οπτικοποίησης εδάφους για το OpenSceneGraph_.

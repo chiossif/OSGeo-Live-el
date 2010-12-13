@@ -11,7 +11,7 @@
   :target: http://edu.kde.org/marble/
 
 *************************
-KDE-edu Marble Quickstart 
+Εγχείρίδιο Γρήγορης Εκκίνησης Marble 
 *************************
 
 Ξεκινώντας

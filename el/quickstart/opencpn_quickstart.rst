@@ -11,7 +11,7 @@
   :target: http://www.opencpn.org
 
 ********************
-OpenCPN Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης OpenCPN 
 ********************
 
 Εκτέλεση

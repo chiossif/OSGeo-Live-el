@@ -11,7 +11,7 @@
   :target: http://www.ldeo.columbia.edu/res/pi/MB-System/
 
 ********************
-MB-System Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης MB-System 
 ********************
 
 Τεκμηρίωση
@@ -20,7 +20,7 @@ MB-System Quickstart
 Η διαθέσιμη τεκμηρίωση online σε μορφή HTML υπάρχει στην διεύθυνση
  http://www.ldeo.columbia.edu/res/pi/MB-System/html/mbsystem_home.html
 
-Το εγχειρίδειο εκμάθησης online σε μορφή HTML υπάρχει στην διεύθυνση
+Το εγχειρίδιο εκμάθησης online σε μορφή HTML υπάρχει στην διεύθυνση
  http://www.ldeo.columbia.edu/res/pi/MB-System/mb-cookbook/
 
 Η έκδοση της τεκμηρίωσης σε μορφή PostScript υπάρχει σε αυτό το LiveDVD στην θέση

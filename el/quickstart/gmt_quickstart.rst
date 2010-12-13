@@ -11,7 +11,7 @@
   :target: http://gmt.soest.hawaii.edu
 
 **************
-GMT Quickstart
+Εγχειρίδιο Γρήγορης Εκκίνησης GMT
 **************
 
 Εκτέλεση
@@ -19,7 +19,7 @@ GMT Quickstart
 
 Σε αυτό το LiveDVD περιέχονται: η τεκμηρίωση GMT (HTML και PDF),
 παραδείγματα (περιλαμβανομένης της παγκόσμιας ακτογραμμής σε χαμηλή ανάλυση),
-εγχειρίδειο εκμάθησης (HTML και PDF) και δεδομένα για να το εκτελέσετε.
+εγχειρίδιο εκμάθησης (HTML και PDF) και δεδομένα για να το εκτελέσετε.
 
 Η τεκμηρίωση και το εγχειρίδιο είναι στην θέση
  `/usr/share/doc/gmt/html/ <file:///usr/share/doc/gmt/html/index.html>`_,
@@ -31,10 +31,10 @@ GMT Quickstart
 Η χαμηλής ανάλυσης ακτογραμμή είναι στην θέση /usr/share/gmt/coast/.
 
 .. packages:
-  gmt-doc (and -pdf)
+  gmt-doc (και -pdf)
   gmt-coast-low
   gmt-examples 
-  gmt-tutorial (and -pdf)
+  gmt-tutorial (και -pdf)
 
 
 Παραδείγματα

@@ -1,6 +1,6 @@
-:Author: Kristof Lange
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Kristof Lange
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _52nWPS-quickstart:
  
@@ -10,16 +10,16 @@
   :align: right
 
 ***********************
-52°North WPS Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης 52°North WPS 
 ***********************
 
 Εκτέλεση
 =======
 
-*	Για να εκτελέσεις 52°North WPS στο Live DVD, επέλεξε τον σύνδεσμο "start 52NorthWPS" στην επιφάνεια εργασίας
+*	Για να εκτελέσετε το 52°North WPS από το Live DVD, επιλέξτε τον σύνδεσμο "start 52NorthWPS" στην επιφάνεια εργασίας
 	ή από το μενού επιλογών.
 
-*	Ο Firefox θα ανείξει το 52WPS-TestClient.
+*	Ο περιηγητής Firefox θα ανοίξει το 52WPS-TestClient.
 
 
 .. image:: images/screenshots/1024x768/52n_test_client.png
@@ -28,7 +28,7 @@
   :align: right
   
   
-*	Πατήστε το Send-Button και η επιθυμία θα μεταφερθεί στο 52°North WPS το οποίο θα
+*	Πατήστε το Send-Button και το 52°North WPS το οποίο θα
         δημιουργήσει μία αναπαράσταση σε μορφή xml ενός buffer πλάτους 20 γύρω από τους παιδότοπους.
 
 .. image:: images/screenshots/1024x768/52n_wps_response.png
@@ -41,5 +41,5 @@
 		http://localhost:8083/wps/WebProcessingService?Request=GetCapabilities&Service=WPS
 
 	
-*	Για επιπλέον ερωτήσεις επικοινωνείστε με την 52°North WPS mailing list:
+*	Για επιπλέον ερωτήσεις επικοινωνείστε με την λίστα ηλεκτρονικού ταχυδρομίου 52°North WPS:
 	geoprocessingservices@52north.org

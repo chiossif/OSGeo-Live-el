@@ -8,7 +8,7 @@
   :align: right
 
 ***********************
-ZOO Project Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης ZOO Project 
 ***********************
 
 Εκτέλεση
@@ -16,7 +16,7 @@ ZOO Project Quickstart
 
 *	Για να εκτελέσετε την επίδειξη του πακέτου ZOO από το LiveDVD, επιλέξτε διαδοχικά στην επιφάνια εργασίας ή στο μενού επιλογής τα "Start GeoServer" και "ZOO Project".
 
-*	Ο Firefox θα ανοίξει επίδειξη του πακέτου χωρικών εργαλείων ZOO.
+*	Ο Firefox θα ανοίξει τη σελίδα επίδειξης του πακέτου χωρικών εργαλείων ZOO.
 
 
 .. image:: images/screenshots/1024x768/zoo-project-demo-1.png
@@ -44,8 +44,8 @@ ZOO Project Quickstart
 *	Μπορείτε να δημιουργήσετε τις δικές σας επιλογές και να τα στείλετε στον πυρήνα του ZOO μέσω της ακόλουθης ιστοσελίδας:
 		http://localhost/zoo-demo/test_services.html
 
-*	Σε περίπτωση που χρειαστείτε τις δυνατότητες της ZOO WPS Server πλοηγηθείτε:
+*	Σε περίπτωση που χρειαστείτε το κείμενο δυνατοτήτων (Capabilities) της ZOO WPS Server πλοηγηθείτε:
 		http://localhost/zoo/?Request=GetCapabilities&Service=WPS
 	
-*	Για περισσότερες πληροφορίες ή ερωτήσεις επικοινωνείστε με την ZOO Project mailing list:
+*	Για περισσότερες πληροφορίες ή ερωτήσεις επικοινωνείστε με την λίστα ηλεκτρονικού ταχυδρομίου ZOO Project:
 	zoo-discuss@gisws.media.osaka-cu.ac.jp

@@ -14,7 +14,7 @@
 osgEarth Quickstart 
 *******************
 
-osgEarth is a scalable terrain rendering toolkit for OpenSceneGraph_.
+Το osgEarth είναι ένα περιβάλλον οπτικοποίησης εδάφους για το OpenSceneGraph_.
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 

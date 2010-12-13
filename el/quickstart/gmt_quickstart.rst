@@ -14,21 +14,21 @@
 GMT Quickstart
 **************
 
-Running
+Εκτέλεση
 =======
 
-Included on this LiveDVD are the GMT documentation (HTML and PDF),
-example scripts (including a low resolution worldwide coastline),
-tutorial (HTML and PDF), and data sets for the tutorial.
+Σε αυτό το LiveDVD περιέχονται: η τεκμηρίωση GMT (HTML και PDF),
+παραδείγματα (περιλαμβανομένης της παγκόσμιας ακτογραμμής σε χαμηλή ανάλυση),
+εγχειρίδειο εκμάθησης (HTML και PDF) και δεδομένα για να το εκτελέσετε.
 
-HTML and PDF documentation and tutorial can be found in
+Η τεκμηρίωση και το εγχειρίδιο είναι στην θέση
  `/usr/share/doc/gmt/html/ <file:///usr/share/doc/gmt/html/index.html>`_,
-examples can be found in
+τα παραδείγματα στην θέση
  `/usr/share/doc/gmt-examples/examples/ <file:///usr/share/doc/gmt-examples/examples/>`_,
-and tutorial data can be found in
+και τα δεδομένα του εγχειριδίου στην θέση
  `/usr/share/doc/gmt-tutorial/tutorial/ <file:///usr/share/doc/gmt-tutorial/tutorial/>`_.
 
-The low resolution coastline can be found in /usr/share/gmt/coast/.
+Η χαμηλής ανάλυσης ακτογραμμή είναι στην θέση /usr/share/gmt/coast/.
 
 .. packages:
   gmt-doc (and -pdf)
@@ -37,12 +37,12 @@ The low resolution coastline can be found in /usr/share/gmt/coast/.
   gmt-tutorial (and -pdf)
 
 
-Examples
+Παραδείγματα
 ~~~~~~~~
 
-There are 29 example jobs built in, and a script to run them all:
+Υπάρχουν 29 παραδείγματα ενσωματωμένα, και με αυτό το script μπορείτε να τα εκτελέσετε όλα: 
 
-Open a terminal, then
+σε ένα τερματικό εκτελέστε:
 
 ::
 
@@ -52,7 +52,7 @@ Open a terminal, then
 
 `[whiz .. bang .. whirl]`
 
-View results: (type 'q' to quit gv)
+Δείτε τα αποτελέσματα με: (πατήστε  'q' για έξοδο από το gv)
 
 ::
 

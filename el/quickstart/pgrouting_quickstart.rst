@@ -1,6 +1,6 @@
-:Author: Daniel Kastl
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Daniel Kastl
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _pgrouting-quickstart:
  
@@ -11,7 +11,7 @@
 	:target: http://www.pgrouting.org
 
 ********************
-pgRouting Quickstart
+Εγχειρίδιο Γρήγορης Εκκίνησης pgRouting
 ********************
 
 Το pgRouting είναι μια επέκταση στην `PostGIS <http://www.postgis.org>`_ στην οποία προσθέτει διαδικασίες δρομολόγησης στις `PostGIS <http://www.postgis.org>`_/`PostgreSQL <http://www.postgresql.org>`_.

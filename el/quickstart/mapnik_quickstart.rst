@@ -1,7 +1,7 @@
-:Author: OSGeo Live
-:Author: Dane Springmeyer
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Συγγραφέας: Dane Springmeyer
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _mapnik-quickstart:
  
@@ -10,7 +10,7 @@
   :alt: project logo
   :align: right
 
-Mapnik Quickstart
+Εγχειρίδιο Γρήγορης Εκκίνησης Mapnik
 ~~~~~~~~~~~~~~~~~
 
 Το Mapnik είναι ένα πακέτο για την ανάπτυξη χαρτογραφικών εφαρμογών. Πάνω απ'όλα με το Mapnik φτιάχνουμε όμορφους χάρτες. Είναι εύκολα επεκτάσιμο και κυρίως βολικό τόσο για απλή όσο και δικτυακή χρήση.

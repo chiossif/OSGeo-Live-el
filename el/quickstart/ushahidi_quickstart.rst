@@ -1,6 +1,6 @@
-:Author: Henry Addo
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Henry Addo
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _ushahidi-quickstart:
 
@@ -9,7 +9,7 @@
   :alt: project logo
   :align: right 
 
-Ushahidi Quick Start 
+Εγχειρίδιο Γρήγορης Εκκίνησης Ushahidi 
 ====================
 
 Ο οδηγός αυτός περιγράφει:

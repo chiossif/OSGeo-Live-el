@@ -1,24 +1,24 @@
-:Author: Stefan Tzeggai
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Author: Stefan TzeggaiΣυγγραφέας Stefan Tzeggai
+:ΈκδοσηVersion: osgeo-live4.0
+:Άδεια License: Creative Commons
 
 .. _geopublisher-quickstart:
  
 .. image:: images/project_logos/logo-Geopublisher.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
+  :scale: 100 %Κλίμακα:100%
+  :alt: project logoalt:Λογότυπο του τμήματος
+  :align: rightΣτοίχιση: Δεξιά
   :target: http://en.geopublishing.org/Geopublisher
 
 ***********************
 Geopublisher Quickstart 
-***********************
+***********************Γρήγορο ξεκίνημα προγράμματος Geopublisher
 
 Demo-Atlas
 ==========
 * `Tiny demo atlas with an interactive diagram and a world map on socio-economic data, English, Created for version 1.5 <file:///usr/share/doc/geopublishing/ChartDemoAtlas_WorkingCopy.zip>`_
 
-Tutorials
+Βοηθήματα του Geopublisher (Δημιουργία και εξαγωγή άτλαντα)
 =========
 Geopublisher (Create and export atlases)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -32,21 +32,21 @@ AtlasStyler (Styling layers with SLD)
 * `AtlasStyler Labelling tutorial, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_
 * `AtlasStyler tutoriel d'Γ©tiquetage SLD, French, Created for version 1.5 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.5_FR_Tutoriel_d_etiquetage_101006.pdf>`_
 
-More tutorials are posted as blog entries at `http://en.geopublishing.org <http://en.geopublishing.org">`_ (you have to be online to visit this webpage).
+More tutorials are posted as blog entries at `http://en.geopublishing.org <http://en.geopublishing.org">`_ (you have to be online to visit this webpage).Περισσότερα βοηθήματα βρίσκονται στα blog`http://en.geopublishing.org <http://en.geopublishing.org">`(πρέπει κανείς να είναι συνδεδεμένος στο διαδίκτυο για να μπορεί να επισκευθεί αυτή τη σελίδα. 
 
 Manuals
-=======
+=======Εγχειρίδια
 
-Geopublisher (Create and export atlases)
+Geopublisher (Create and export atlases)Geopublisher (Δημιουργία και εξαγωγή άτλαντα)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * `Geopublisher manual, French, Created for version 1.2 <file:///usr/share/doc/geopublishing/Geopublisher_v1.2_FR_Handbuch_090803.pdf>`_
 * `Geopublisher manual, German, Created for version 1.2 <file:///usr/share/doc/geopublishing/Geopublisher_v1.2_DE_Handbuch_090801.pdf>`_    
 
-AtlasStyler (Styling layers with SLD)
+AtlasStyler (Styling layers with SLD) AtlasStyler 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * `AtlasStyler manual, German, Created for version 1.2 <file:///usr/share/doc/geopublishing/AtlasStyler_v1.2_DE_Handbuch_090601.pdf>`_  
 
-AtlasViewer (How to use atlases created with Geopublisher)
+AtlasViewer (How to use atlases created with Geopublisher) AtlasViewer  (Πώς να χρησιμοποιούνται οι άτλαντες που δημιουργούνται με το Geopublisher)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * `AtlasViewer manual, French, Created for version 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_FR_Manual_090522.pdf>`_
@@ -55,12 +55,12 @@ AtlasViewer (How to use atlases created with Geopublisher)
 
 
 Running
-=======
+=======Τρέχοντας το πρόγραμμα
 
 Getting Started
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~Ξεκινώντας το πρόγραμμα
 
-Geopublisher is an end-user application, that allows you to compile and style your geodata and publish it to the world quickly. This DVD contains a small demo atlas, that you can use as a base before adding you own data.
+Geopublisher is an end-user application, that allows you to compile and style your geodata and publish it to the world quickly.Το πρόγραμμα Geopublisher αφορά σε μια end-user εφαρμογή η οποία επιτρέπει στο χρήστη να συλλέγει , να διαμορφώνει τα γεωδεδομένα του και να τα δημοσιεύει σε όλους γρήγορα. This DVD contains a small demo atlas, that you can use as a base before adding you own data.
 
 0) The OSGeo Live DVD uses the Xubuntu Operating system which has a temporary small problem with Java-based applications: As a solution please right-click on menu-bar (Where 'Applications' and 'Places' is listed) and select 'Customize Panel'. There check the 'Autohide' option. The menubar is now hidden unless your mouse reaches the top of the screen. 
 

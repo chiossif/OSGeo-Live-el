@@ -44,13 +44,13 @@ R Spatial Task View
 Λεπτομέρειες
 -------
 
-**Website:** http://cran.r-project.org
+**Κεντρική Ιστοσελίδα:** http://cran.r-project.org
 
 **Άδεια:** GPL
 
-**Software Version:** 2.11.1
+**Έκδοση Λογισμικού:** 2.11.1
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 
-**Community Support:** http://cran.r-project.org/web/views/Spatial.html
+**Υποστήριξη από την κοινότητα:** http://cran.r-project.org/web/views/Spatial.html
 

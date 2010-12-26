@@ -1,34 +1,34 @@
-:Author: Huawei Luo and Trevor Wekel
-:Version: osgeo-live4.0
-:License: Creative Commons
+ΣυγγραφέΑς: Huawei Luo and Trevor Wekel
+Έκδοση: osgeo-live4.0
+Άδεια: Creative Commons
 
-.. _mapguide-quickstart:
+.. _mapguide-quickstart:Οδηγός γρήγορου ξεκινήματος mapguide
 
 .. image:: images/project_logos/logo-MapGuideOS.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right 
+  :scale: 100 %Κλίμακα:100%
+  :alt: project logoalt:Λογότυπο του τμήματος
+  :align: rightΣτοίχιση: Δεξιά 
 
-MapGuide Quick Start 
+Οδηγός γρήγορου ξεκινήματος mapguide
 ====================
 
-This guide describes how to:
+Ο οδηγός αυτός περιγράφει πώς:
 
-* Getting MapGuide Up and Running 
-* Stylization of spatial data using Maestro 
-* Extra note on 64-bit Ubuntu  
+* Να ξεκινήσετε το MapGuide
+* Να μορφοποιήσετε τα χωρικά δεδομένα χρησιμοποιώντας το Maestro 
+* Επιπλέον σημειώσεις στο 64-bit Ubuntu  
 
-Getting MapGuide Up and Running
+Πώς να ξεκινήσετε το MapGuide
 -------------------------------
 
-1. Go to Desktop->Server, click icon Start MapGuide. This will start both MapGuide server and MapGuide Web server
+1. Πηγαίνετε στο Desktop->Server και κάνετε κλικ Start MapGuide. Αυτό θα ξεκινήσει και το MapGuide server και το MapGuide Web server
 
 .. image:: images/screenshots/1024x768/mapguide_desktopIcons.png
   :scale: 50 %
   :alt: mapguide desktop icons
   :align: center 
 
-2. Open a browser to the address http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php to view the sample application 
+2. Ανοίγετε τον browser στη διεύθυνση http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php για να δείτε τη δοκιμαστική εφαρμογή 
 
 .. image:: images/screenshots/1024x768/mapguide_viewer.png
   :scale: 50 %
@@ -38,28 +38,28 @@ Getting MapGuide Up and Running
 MapGuide Maestro
 ----------------
 
-1. To start Maestro, go to Desktop->Server, click icon MapGuide Maestro, this will open Maestro login GUI, as shown in following screenshot. Login to http://localhost:8008/mapguide/mapagent/mapagent.fcgi with username "Administrator" and password "admin" 
+1. Για να ξεκινήσετε το Maestro, πηγαίνετε στο Desktop->Server, κάνετε κλικ MapGuide Maestro, και αυτό ανοίγει το Maestro login GUI, όπως φαίνεται στο ακόλουθο screenshot. Κάντε Login στο http://localhost:8008/mapguide/mapagent/mapagent.fcgi με το username "Administrator" και password "admin" 
 
 .. image:: images/screenshots/1024x768/mapguide_maestroLogin.png
   :scale: 50%
   :alt: screenshot
   :align: center
  
-2. Click Ok to go to Maestro main GUI, as shown in following screenshot.
+2. Κάνετε κλικ στο Ok για να πάτε στο Maestro main GUI, όπως φαίνεται στο ακόλουθο screenshot.
 
 .. image:: images/screenshots/1024x768/mapguide_maestroMain.png
    :scale: 50%
    :alt: mapguide maestro main GUI
    :align: center
 
-3. Expand tree view on left panel, go to Samples->Sheboygan->Layers, double click Buildings, the layer editor for Buildings will open in the right panel, as shown in the following screenshot:
+3. Επεκτείνετε την tree view στο αριστερό panel, πηγαίνετε στο Samples->Sheboygan->Layers,κάντε διπλό κλικ στο Buildings και ο layer editor για τα  Buildings θα ανοίξει στο δεξί panel, όπως φαίνεται στο ακόλουθο screenshot:
 
 .. image:: images/screenshots/1024x768/mapguide_maestroLayerFeatures.png
    :scale: 50%
    :alt: mapguide maestro layer features
    :align: center
 
-4. Scroll down the right panel to show the Layer Style. On the Featurestyle column, click the ... cell to bring up the Style Editor, as shown in the following screenshot: 
+4. Κυλίστε κάτω το δεξί panelγια να φανεί το Layer Style. Στην στήλη Featurestyle, κάνετε κλικ στο ...κελί για να φέρετε  τον Style Editor, όπως φαίνεται στο ακόλουθο screenshot: 
 
 .. image:: images/screenshots/1024x768/mapguide_maestroLayerStyle.png
    :scale: 50%
@@ -71,14 +71,14 @@ MapGuide Maestro
    :alt: mapguide maestro color chooser
    :align: center
 
-5. in Foreground Color dropdown list, select Green, click Ok to close Style Editor. In Maestro Main GUI, click the Disk icon to save. 
+5. Στην αναδιπλούμενη λίστα Foreground Color , επιλέξτε πράσινο Green και κάντε click στο Ok για να κλείσετε τον Style Editor. Στο Maestro Main GUI, κάντε κλικ στο Disk icon για να σώσετε. 
 
 .. image:: images/screenshots/1024x768/mapguide_maestroSaveIcon.png
    :scale: 50%
    :alt: mapguide maestro Save icon 
    :align: center
 
-6. to preview the change, open a browser to address http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php or click the Preview icon in the tool bar from Maestro main GUI), which will open a browser to the above address. In the browser map view, Zoom in to building level, the building color now is Green. 
+6. Για να μπορέσετε να κάνετε μια επισκόπηση των αλλαγών, ανοίξτε τον browser στη διεύθυνση http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php ή κάντε κλικ στο Preview icon στη γραμμή εργαλείων από το Maestro main GUI, το οποίο θα ανοίξει τον browser στην παραπάνω διεύθυνση. Στην browser map view, αν κάνετε μεγέθυνση στο building level, το χρώμα του κτιρίου είναι τώρα πράσινο. 
 
 .. image:: images/screenshots/1024x768/mapguide_buildingColorBeforeChanging.png
    :scale: 50%

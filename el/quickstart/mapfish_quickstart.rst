@@ -1,100 +1,84 @@
-:Author: Eric Lemoine
-:Version: osgeo-live4.0
-:License: GPLv3 ?
+Συγγραφέας: Eric Lemoine
+Έκδοση: osgeo-live4.0
+’δεια: GPLv3 ?
 
-.. _mapfish-quickstart:
+.. _mapfish-quickstart:Οδηγίες γρήγορου ξεκινήματος mapfish
  
 .. image:: images/project_logos/logo-mapfish.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
+  :scale: 100 %Κλίμακα:100%
+  :alt: project logoalt:Λογότυπο του τμήματος
+  :align: rightΣτοίχιση: Δεξιά
   :target: http://www.mapfish.org
 
 
 ********************
-MapFish Quickstart 
+Οδηγίες γρήγορου ξεκινήματος mapfish
 ********************
 
-Ξ€ΞΏ MapFish Ξ΅Ξ―Ξ½Ξ±ΞΉ Ξ­Ξ½Ξ± Ξ΅ΟΞ­Ξ»ΞΉΞΊΟΞΏ ΞΊΞ±ΞΉ ΞΏΞ»ΞΏΞΊΞ»Ξ·ΟΟΞΌΞ­Ξ½ΞΏ ΟΞ΅ΟΞΉΞ²Ξ¬Ξ»Ξ»ΞΏΞ½ Ξ³ΞΉΞ± ΟΞ·Ξ½ ΟΞ»ΞΏΟΞΏΞ―Ξ·ΟΞ· ΟΞ»ΞΏΟΟΞΉΟΞ½ Ξ΄ΞΉΞ±Ξ΄ΞΉΞΊΟΟΞ±ΞΊΟΞ½
-ΟΞ±ΟΟΞΏΞ³ΟΞ±ΟΞΉΞΊΟΞ½ Ξ΅ΟΞ±ΟΞΌΞΏΞ³ΟΞ½. ΞΞ―Ξ½Ξ΅ΞΉ Ξ­ΞΌΟΞ±ΟΞ· ΟΟΞ·Ξ½ ΟΟΞ·Ξ»Ξ® ΟΞ±ΟΞ±Ξ³ΟΞ³ΞΉΞΊΟΟΞ·ΟΞ± ΞΊΞ±ΞΉ ΟΟΞ·Ξ½ Ξ±Ξ½Ξ¬ΟΟΟΞΎΞ· Ξ»ΞΏΞ³ΞΉΟΞΌΞΉΞΊΞΏΟ ΟΟΞ·Ξ»Ξ®Ο ΟΞΏΞΉΟΟΞ·ΟΞ±Ο. 
+Το MapFish είναι ένα ευέλικτο και πλήρες πλαίσιο εργασίας για τη διαμόρφωση πλούσιων web-mapping
+εφαρμογών. Δείνει έμφαση σε υψηλή παραγωγικότητα και υψηλής ποιότητας ανάπτυξη. 
 
-This Quickstart describes how to (a) run the minimal MapFish application
-installed on this live DVD, (b) create MapFish applications, and (b) install
-MapFish.
+Αυτός ο οδηγός γρήγορου ξεκινήματος περιγράφει πως (α) Μπορεί κάποιος να τρέξει την μικρότερη εφαρμογή MapFish που είναι εγκατεστημένη σε αυτό το live DVD, (β) Μπορούν να δημιουτγηθούν MapFish εφαρμογές, και (γ) πώς μπορεί να εγκαταστήσει τοMapFish.
 
-Run the minimal application
+Τρέξιμο της μικρότερης εφαρμογής
 ===========================
 
-To run the minimal application click on the MapFish link on the Desktop. This
-will start the server and open a FireFox tab pointing to the application
+Για να τρέξει η μικρότερη εφαρμογή, κάνουμε κλικ στο MapFish link στο Desktop. Αυτή η κίνηση θα ξεκινήσει τον server και θα ανοίξει ένα FireFox tab που θα δείχνει την εφαρμογή
 (http://localhost:5000).
 
-The minimal application includes a map with two `OSM
-<http://www.openstreetmap.org>`_ layers, a toolbar above the map, and a layer
+Η μικρότερη εφαρμογή περιλαμβάνει ένα χάρτη με δύο `OSM
+<http://www.openstreetmap.org>`_ layers, μια γραμμή εργαλείων πάνω από το χάρτη, και ένα layer
 tree.
 
-Create a MapFish application
+Πώς δημιουργούμε μια εφαρμογή με το MapFish
 ============================
 
-The MapFish framework is installed on the live DVD in the virtual Python
-environment located in the ``/usr/lib/mapfish/mapfish-venv`` directory. We
-will use this installation of the framework here.</p>
+Το πλαίσιο εργασίας του MapFish είναι εγκατεστημένο στο live DVD στο virtual Python περιβάλλον, το οποίο βρίσκεται στο ``/usr/lib/mapfish/mapfish-venv`` directory. Εμείς, θα χρησιμοποιήσουμε την εγκατάσταση αυτού του πλαισίου εργασίας εδώ.</p>
 
-A MapFish application is created in three commands (from a terminal):
+Μια εφαρμογή MapFish δημιουργείται με τρεις εντολές (από ένα τερματικό):
 
-* activate the virtual Python environment::
+* Ενεργοποιούμε το περιβάλλον virtual Python:
 
     $ source /usr/lib/mapfish/mapfish-venv/bin/activate
 
-* create the application::
+* Δημιουργούμε την εφαρμογή:
 
     $ paster create -t mapfish MyMapFishApp sqlalchemy=true
 
-* install the JavaScript librairies in the application::
+* Εγκαθιστούμε τις JavaScript librairies στην εφαρμογή:
 
     $ paster create -t mapfish_client MyMapFishApp
 
-The above commands should have created the MapFish application in the
-``MyMapFishApp`` directory.
+Οι προαναφερθείσες εντολές θα πρέπει να έχουν δημιουργήσει την εφαρμογή MapFish στον κατάλογο ``MyMapFishApp`` .
 
-.. note::
+.. Σημείωση:
 
-    if the sample application (from the `Run the minimal application`_ section)
-    is running then port 5000 is already used, and you'll have to edit the
-    ``MyMapFishApp/development.ini`` file and change the port number from 5000
-    to for example 5001.
+    Εάν η δοκιμαστική εφαρμογή τρέχει (από το `Run the minimal application`_ section)
+    τότε το port 5000 χρησιμοποιείται ήδη, και θα πρέπει να συντάξετε το 
+    ``MyMapFishApp/development.ini`` αρχείο και να αλλάξετε το port number από 5000
+    για το παράδειγμα σε  5001.
 
-At this point you should be able to run the application with::
+Στο σημείο αυτό θα πρέπει να μπορείτε να τρέξετε την εφαρμογή με:
 
     $ cd MyMapFishApp
     $ paster serve development.ini
 
-Open http://localhost:5000 (or http://localhost:5001) in your browser. You
-should see the same minimal application as that presented in the previous
-section.
+Ανοίξτε http://localhost:5000 (ή http://localhost:5001) στον browser σας. Θα πρέπει να βλέπετε την ίδια μικρότερη εφαρμογή, όπως αυτή παρουσιάστηκε σε προηγούμενη ενότητα.
 
-The MapFish framework offers more than that. In particular it allows easily
-creating RESTful web services for creating, reading, updating and deleting
-features. Please visit http://www.mapfish.org to learn more about
-MapFish.
+Το πλαίσιο εργασίας τουMapFish προσφέρει περισσότερα από αυτά. Συγκεκριμένα, επιτρέπει την εύκολη και ξεκούραστη παροχή υπηρεσιών δικτύου για δημιουργία, ανάγνωση, αναβάθμιση και διαγραφή χαρακτηριστικών.  Παρακαλώ επισκευθείτε το  http://www.mapfish.org για να μάθετε περισσότερα για το MapFish.
 
-Install MapFish
+Εγκατάσταση του MapFish
 ===============
 
-As indicated in the previous section the MapFish
-framework is installed on the Live DVD in the  the virtual Python environment
-located in the ``/usr/lib/mapfish/mapfish-venv`` directory. Yet, keep
-reading if you want to know how to install MapFish in a fresh, clean virtual
-environment.
+Όως υποδείχθηκε και σε προηγούμενη ενότητα, το πλαίσιο εργασίας του MapFish είναι εγκατεστημένο στο live DVD στο virtual Python περιβάλλον, το οποίο βρίσκεται στο ``/usr/lib/mapfish/mapfish-venv`` directory. Ωστόσο, εξακολουθήστε την ανάγνωση εάν επιθυμείτε να μάθετε παραπάνω στοιχεία σχετικά με την εγκαστάσταση του MapFish σε ένα φρέσκο, καθαρό, εικονικό περιβάλλον.
 
-Installing the MapFish framework is done with one command line::
+Η εγκατάσταση του πλαισίου εργασίας του MapFish γίνεται με τη γραμμή εργαλείων:
 
     $ go-mapfish-framework-all.py --python=python2.5 venv
 
-The above command creates the virtual Python environment in the
-``venv`` directory, fetches MapFish and its dependencies and install
-them all in the virtual environment.
+Η παραπάνω εντολή δημιουργεί το περιβάλλον του virtual Python στον κατάλογο
+``venv`` , φέρνει το MapFish και όλα τα εξαρτώμενα από αυτό αρχεία και τα εγκαθιστά στο εικονικό περιβάλλον.
 
-Ok, the framework is installed, you can go back to `Create a MapFish
-application`_ section to create a MapFish application using this installation.
+Στη συνέχεια, αφού το πλαίσιο εργασίας έχει εγκατασταθεί, μπορεί κανείς να πάει πίσω στην ενότητα `Create a MapFish
+application`_ section και να δημιουργήσει μια εφαρμογή MapFish με χρήση αυτή της εγκατάστασης.
 

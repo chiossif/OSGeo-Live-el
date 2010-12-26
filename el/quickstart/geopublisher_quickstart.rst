@@ -5,9 +5,9 @@
 .. _geopublisher-quickstart:
  
 .. image:: images/project_logos/logo-Geopublisher.png
-  :scale: 100 %
+  :scale: 100 %Κλίμακα:100%
   :alt: project logoalt:
-  :align: right
+  :align: rightΣτοίχιση: Δεξιά
   :target: http://en.geopublishing.org/Geopublisher
 
 ***********************
@@ -59,20 +59,20 @@ AtlasStyler (Διαμορφώνοντας layers with SLD)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Το πρόγραμμα Geopublisher αφορά σε μια end-user εφαρμογή η οποία επιτρέπει στο χρήστη να συλλέγει , να διαμορφώνει τα γεωδεδομένα του και να τα δημοσιεύει σε όλους γρήγορα. Το DVD αυτό περιλαμβάνει ένα μικρό άτλαντα demo λειτουργίας, το οποίο μπορεί να χρησιμοποιηθεί σαν βάση για να προσθέσει κανείς τα δικά του δεδομένα.
 
-0) Το OSGeo Live DVD χρησιμοποιεί το Xubuntu Operating systemτο οποίο έχει ένα μικρό πρόβλημα με τις Java-βασιζόμενες εφαρμογές: Σαν λύση παρακαλώ κάνετε δεξί κλικ στην μπάρα μενού (Όπου βρίσκονται τα 'Applications' και  'Places') και επιλέξτε  'Customize Panel'. Εκεί, τσεκάρετε την επιλογή Autohide' . The menubar is now hidden unless your mouse reaches the top of the screen. 
+0) Το OSGeo Live DVD χρησιμοποιεί το Xubuntu Operating systemτο οποίο έχει ένα μικρό πρόβλημα με τις Java-βασιζόμενες εφαρμογές: Σαν λύση παρακαλώ κάνετε δεξί κλικ στην μπάρα μενού (Όπου βρίσκονται τα 'Applications' και  'Places') και επιλέξτε  'Customize Panel'. Εκεί, τσεκάρετε την επιλογή Autohide' . Η μπάρα με τα μενού κρύβεται τώρα, εκτός και αν το ποντίκι φτάσει την κορυφή της οθόνης. 
 
-1) Uncompress the demo atlas: Click on `this link <file:///usr/share/doc/geopublishing/ChartDemoAtlas_WorkingCopy.zip>`_ and select 'Open with Archive Manager (default)'. This will open the ZIP file. Next select the third icon in the toolbar to extract and choose 'Desktop' as the target folder. Now you should have a folder 'ChartDemoAtlas' on your desktop. You can close the Archive Manager application.
+1)Αποσυμπιέζετε τον demo άτλαντα ώς εξής: Κάνετε κλικ στο εξής link <file:///usr/share/doc/geopublishing/ChartDemoAtlas_WorkingCopy.zip>`_ και επιλέγετε 'Open with Archive Manager (default)'. Αυτό θα ανοίξει το  ZIP αρχείο. Στη συνέχεια επιλέγετε το τρίτο εικονίδιο στην μπάρα εργαλείων που αφορά στην εξαγωγή του αρχείου και επιλέγετε το 'Desktop' σαν target folder. Μετά από αυτό θα πρέπει να έχετε ένα φάκελο 'ChartDemoAtlas'  στην επιφάνεια εργασίας σας. Μπορείτε να επιλέξετε το Archive Manager application.
 
-3) Now start the Geopublisher application. :menuselection:`Geospatial --> Desktop GIS --> Geopublisher`. Geopublisher starts and will ask you which atlas to open. Select 'atlas.gpa' from folder 'ChartDemoAtlas'. It now loads the atlas. You should see a triparted GUI with a map-pool, data-pool and menu area. This GUI allows you to create and organize multiple multi-language maps.
+3) Τώρα ξεκινήστε το Geopublisher application. Επιλέγουμε από το μενού τα εξής:`Geospatial --> Desktop GIS --> Geopublisher`. Το Geopublisher ξεκινά και μπορεί να σας ρωτήσει ποιόν άτλαντα να ανοίξει. Επιλέξτε 'atlas.gpa' από το φάκελο 'ChartDemoAtlas'. Αυτό φορτώνει τώρα τον άτλαντα. Θα πρέπει να βλέπετε ένα τριμερές GUI με ένα map-pool, data-pool και μια περιοχή μενου. Το GUI επιτρέπει τη δημιουργία και οργάνωση πολλαπλών πολύγλωσσων χαρτών.
 
-4) Add a Shapefile to the atlas: Select :menuselection:`File --> Import... --> Import files` and select '/home/user/data/natural_earth/10m_lakes.shp'. Geopublisher will ask you to describe that new layer with a title and a description. If that atlas would be configured to be multilingual, this information would be asked for every language. You will see the new layer appearing the DataPool section.
+4) Προσθέστε ένα Shapefile στον άτλαντα ως εξής: Επιλέξτε από τα μενού τα εξής:`File --> Import... --> Import files` και επιλέξτε '/home/user/data/natural_earth/10m_lakes.shp'. Το Geopublisher θα σας ζητήσει να περιγράψετε αυτό το νέο layer με έναν τίτλο και μια περιγραφή. Εάν αυτός ο άτλαντας πρόκειται να είναι σε πολλές γλώσσες, η πληροφορία αυτή θα ρωτηθεί για κάθε γλώσσα. Θα δείτε το νέο layer να εμφανίζεται στο DataPool section.
 
-5) Open the map 'The digital divide' by double-clicking it in the map-pool (top right area). A second window opens. To add the layer to the may, use drag'n'drop: Position the 'Map Composer' windows so that you can still see the DataPool. Click the new layer and hold the left mouse-button. Move the layer into the legend area of the Map Composer window and release it there. Using drag'n'drop you can also change the order of layers in the map. Try out styling the layer with AtlasStyler (tool-icon -> style) and finally close the window.
+5) Ανοίξτε το χάρτη 'The digital divide' κάνοντας διπλό κλικ στο map-pool (πάνω δεξιά περιοχή). Ένα δεύτερο παράθυρο ανοίγει. Για να προσθέσετε ένα layer στο may, χρησιμοποιείστε το drag'n'drop: Τοποθετήστε τα 'Map Composer' παράθυρα κατά τέτοιο τρόπο ώστε να μπορείτε ακόμα να βλέπετε το DataPool. Κάντε κλικ στο νέο layer και κρατήστε πατημένο το αριστερό πλήκτρο στο ποντίκι. Μετακινήστε το layer στη legend area του παραθύρου του Map Composer και αφήστε το εκεί. Χρησιμοποιώντας το drag'n'drop μπορείτε επίσης να αλλάξετε τη σειρά των layers σε ένα χάρτη. Δοκιμάστε να αλλάξετε τη μορφοποίηση του layer με το AtlasStyler (tool-icon -> style) και στο τέλος κλείστε το παράθυρο.
 
-5) Export the atlas: :menuselection:`File --> Export` and follow the wizard: Export online and offline version of the atlas to a new directory 'Desktop/ChartAtlasExported'. When the export finished, click the "open folder" button. You see the exported and stand-alone versions of the atlas, that you were just editing.
+5) Για την εξαγωγή του άτλαντα κάνετε τα εξής: Επιλέξτε από τα μενού τα εξής:`File --> Export` και ακολουθήστε τον οδηγό: Κάνετε εξαγωγή online και offline έκδοση του άτλαντα στο directory 'Desktop/ChartAtlasExported'. Όταν η εξαγωγή ολοκληρωθεί, κάντε κλικ στο κουμπί "open folder". Μπορείτε να δείτε τις εκδόσεις του άτλαντα που έχετε εξ΄γει αλλά και τις stand-alone , τις οποίες ακόμη δουλεύετε.
 
-6) Try the exported atlas: Go into the `Desktop/ChartAtlasExported/DISK` folder and run `start.sh`. 
+6) Δοκιμάστε τον εξαγόμενο άτλαντα: Πηγαίνετε στον εξής `Desktop/ChartAtlasExported/DISK` φάκελο και τρέχετε το `start.sh`. 
 
-7) Geopublisher has many more possibilities of course. Go to :menuselection:`Applications --> Education --> Geopublishing documentation` and look at all the documentation provided.
+7) Ο Geopublisherέχει πολλές ακόμη δυνατότητες φυσικά. Επιλέξτε από τα μενού τα εξής:`Applications --> Education --> Geopublishing documentation` και κοιτάξτε τα έγγραφα που παρέχονται.
 
-8) Have fun and/or please give feedback to tzeggai@wikisquare.de
+8) Διασκεδάστε το και / ή δώστε παρακαλώ ανταπόκριση στο tzeggai@wikisquare.de

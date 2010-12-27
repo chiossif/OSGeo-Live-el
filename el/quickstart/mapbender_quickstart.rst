@@ -1,74 +1,75 @@
-:Author: OSGeo Live
-:Author: Astrid Emde
-:Author: Christoph Baudson
-:Author: Arnulf Christl
-:Version: osgeo-live4.0
-:License: Creative Commons
-:Thanks: mapbender-user list
+Συγγραφεας: OSGeo Live
+Συγγραφεας: Astrid Emde
+Συγγραφεας: Christoph Baudson
+Συγγραφεας: Arnulf Christl
+Έκδοση: osgeo-live4.0
+ ’δεια: Creative Commons
+Ευχαριστείες: mapbender-user list
 
 .. _mapbender-quickstart:
  
 .. image:: images/project_logos/logo-Mapbender.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
+  :scale: 100 %Κλίμακα:100%
+  :alt: project logoalt:Λογότυπο του τμήματος
+  :align: rightΣτοίχιση: Δεξιά
 
 ********************
-Mapbender Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης Mapbender 
 ********************
 
-Mapbender is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services. 
+Το Mapbender είναι ένα διαδικτυακό περιβάλλον για την κατασκευή γεωχωρικών ιστοσελίδων για την δημοσίευση, επισκόπηση, πλοήγηση, παρακολούθηση και ασφαλή πρόσβαση σε γεωχωρικά δεδομένα και Υπηρεσίες Χωρικών Πληροφοριών.
+ 
 
-Management interfaces empower administrators who need to maintain and categorize map and feature services and grant access to individuals, groups and other services. 
+Οι διεπιφάνειες διαχείρισης ενισχύουν τους διαχειριστές που χρειάζεται οποίοι χρειάζενται να συντηρήσουν, κατηγοριοποιήσουν και παρακολουθήσουν υπηρεσίες χαρτών και δεδομένων και παρέχει πρόσβαση σε άτομα, ομαδες και άλλες υπηρεσίες 
 
-You will need nothing but a standard web browser for this quickstart.
+Δεν χρειάζεστε τίποτα άλλο εκτός από έναν περιηγητή γι'αυτό το Εγχειρίδιο Γρήγορης Εκκίνησης
 
-This Quick Start describes how to:
-  * create an application 
-  * load a Web Map Service (OGC WMS)
-  * create a user and a group and assign applications to them
+Αυτό το Εγχειρίδιο Γρήγορης Εκκίνησης περιγράφει:
+  *Τη δημιουργία μιας εφαρμογής 
+  * Το "φόρτωμα" μιας διαδικτυακής χαρτογραφικής υπηρεσίας (OGC WMS)
+  * Τη δημιουργια χρηστών και ομάδων και ανάθεση εφαρμογών σε αυτούς 
 
-Start Mapbender
+Εκκίνηση του Mapbender
 ===============
 
-.. TBD: Add menu graphic to this uDig Quickstart
+.. TBD: Προσθήκη μενού γραφικών σε αυτό το Εγχειρίδιο Γρήγορης Εκκίνησης uDig 
 
-#. Choose  :menuselection:`Mapbender` from the start menu
+#. Επιλέξτε από τα μενού τα εξής:`Mapbender` από το μενού έναρξης
 
-#. The application will take a few moments to start up
+#. Η εφαρμογή χρειάζεται λίγο χρόνο για να ξεκινήσει
 
-If you have any difficulties running Mapbender, please check whether your Apache web server and your PostgreSQL database are running.
+Εάν έχετε δυσκολίες ποσπαθώντας να τρέξετε το Mapbender, παρακαλώ ελέγξτε εάν ο Apache διαδικτυακός εξυπηρετητής και η PostgreSQL βάση δεδομένων σας τρέχουν.
 
-Welcome page
+Σελίδα καλωσορίσματος
 ============
 
-#. Before you can work with Mapbender you have to login to get access to applications.
+#. Πρίν ξεκινήσετε να εργάζεστε με το Mapbender θα πρέπει να συνδεθείτε (login) προκειμένου να αποκτήσετε πρόσβαση στις εφαρμογές.
 
-#. The welcome page provides links to the most important pages related to Mapbender. 
+#. <Η σελίδα καλωσορίσματος παρέχει συνδέσεις με τις πιο σημαντικές σελίδες οι οποίες σχετίζονται με το Mapbender. 
 
-#. You can login with the user :guilabel:`root` and password :guilabel:`root` (This is the default user and password that you get after installation of Mapbender. Please change the root password if you want to run a productive environment. Please don't delete the user :guilabel:`root` as this user has access to the Mapbender template applications and is used on updates).
+#. Μπορείτε να συνδεθείτε χρησιμοποιώντας ως user :guilabel:`root` και password :guilabel:`root` (Αυτά είναι τα προεπιλεγμένα user και password τα οποία παίρνει κάποιος μετά την εγκατάσταση τουMapbender. Παρακαλώ αλλάξτε το root password εφόσον επιθυμείτε να τρέξετε ένα παραγωγικό περιβαλλον. Παρακάλώ μην διαγράψετε το χρήστη user :guilabel:`root` καθώς ο χρήστης αυτός έχει πρόσβαση στις εφαρμογές προτύπων του Mapbender και χρησιμοποιείται στις αναβαθμίσεις.
   
   .. image:: images/screenshots/800x600/mapbender_welcome.png
      :scale: 80
 
-After successful login you are directed to the :guilabel:`application overview`.
+Μετά από την επιτυχημάνη σύνδεση κατευθύνστε στο :guilabel:`application overview (επισκόπηση εφαρμογών)`.
 
 
 
-Application overview
+Επισκόπηση εφαρμογών
 ====================
-After the login you are directed to the :guilabel:`application overview` with a list of applications you are allowed to access.
-In Mapbender you have template applications, that you can use to set up your own applications.
+Μετά από την επιτυχημάνη σύνδεση κατευθύνστε στοAfter the login you are directed to the :guilabel:`application overview`(επισκόπηση εφαρμογών) με μια λίστα από εφαρμογές στις οποίες σας ειπτρέπεται η πρόσβαση.
+Στο Mapbender  υπάρχουν οι εφαρμογές προτύπων, οι οποίες μπορούν να χρησιμοποιηθούν για το στήσιμο των προσωπικών εφαρμογών.
 
   .. image:: images/screenshots/800x600/mapbender_application_overview.png
      :scale: 80
 
-There are
-   * administration applications
-   * map applications
-   * container applications
+Υπάρχουν
+   *Εφαρμογές διαχειριστή
+   * Εφορμογές χαρτογραφικές
+   * container εφαρμογές
 
-The applications are listed in :guilabel:`categories`. Later you can define your own category and add your applications to the category you want.
+Οι εφαρμογές στο σύνολό τους παρατίθενται στο  :guilabel:`categories`. Αργότερα θα μπορείτε να καθορίζετε τις προσωπικές σας κατηγορίες και να προσθέτετε τις εφαρμογές σας στις κατηγορίες που θέλετε.
 
 
 Administration applications
@@ -89,7 +90,7 @@ After installation user :guilabel:`root` has access to:
 .. tip:: You get back to the application overview with the |HOME| button.
 
   .. |HOME| image:: images/screenshots/800x600/mapbender_home.png
-     :scale: 100
+     :scale: 100Κλίμακα:100%
 
 Map applications
 ================
@@ -188,7 +189,7 @@ There is no inherent difference between roles like :guilabel:`guest`, :guilabel:
 #. What happens when the user has access to one or more than one application?
 
   .. |LOGOUT| image:: images/screenshots/800x600/mapbender_logout.png
-     :scale: 100
+     :scale: 100Κλίμακα:100%
 
 Things to try
 =============

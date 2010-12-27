@@ -1,34 +1,34 @@
-ΣυγγραφέΑς: Huawei Luo and Trevor Wekel
-Έκδοση: osgeo-live4.0
-Άδεια: Creative Commons
+Ξ£Ο…Ξ³Ξ³ΟΞ±Ο†Ξ­Ξ‘Ο‚: Huawei Luo and Trevor Wekel
+ΞΞΊΞ΄ΞΏΟƒΞ·: osgeo-live4.0
+Ξ†Ξ΄ΞµΞΉΞ±: Creative Commons
 
-.. _mapguide-quickstart:Οδηγός γρήγορου ξεκινήματος mapguide
+.. _mapguide-quickstart:ΞΞ΄Ξ·Ξ³ΟΟ‚ Ξ³ΟΞ®Ξ³ΞΏΟΞΏΟ… ΞΎΞµΞΊΞΉΞ½Ξ®ΞΌΞ±Ο„ΞΏΟ‚ mapguide
 
 .. image:: images/project_logos/logo-MapGuideOS.png
-  :scale: 100 %Κλίμακα:100%
-  :alt: project logoalt:Λογότυπο του τμήματος
-  :align: rightΣτοίχιση: Δεξιά 
+  :scale: 100 %ΞΞ»Ξ―ΞΌΞ±ΞΊΞ±:100%
+  :alt: project logoalt:Ξ›ΞΏΞ³ΟΟ„Ο…Ο€ΞΏ Ο„ΞΏΟ… Ο„ΞΌΞ®ΞΌΞ±Ο„ΞΏΟ‚
+  :align: rightΞ£Ο„ΞΏΞ―Ο‡ΞΉΟƒΞ·: Ξ”ΞµΞΎΞΉΞ¬ 
 
-Οδηγός γρήγορου ξεκινήματος mapguide
+Ξ•Ξ³Ο‡ΞµΞΉΟΞ―Ξ΄ΞΉΞΏ Ξ“ΟΞ®Ξ³ΞΏΟΞ·Ο‚ Ξ•ΞΊΞΊΞ―Ξ½Ξ·ΟƒΞ·Ο‚ MapGuide
 ====================
 
-Ο οδηγός αυτός περιγράφει πώς:
+Ξ ΞΏΞ΄Ξ·Ξ³ΟΟ‚ Ξ±Ο…Ο„ΟΟ‚ Ο€ΞµΟΞΉΞ³ΟΞ¬Ο†ΞµΞΉ Ο€ΟΟ‚:
 
-* Να ξεκινήσετε το MapGuide
-* Να μορφοποιήσετε τα χωρικά δεδομένα χρησιμοποιώντας το Maestro 
-* Επιπλέον σημειώσεις στο 64-bit Ubuntu  
+* ΞΞ± ΞΎΞµΞΊΞΉΞ½Ξ®ΟƒΞµΟ„Ξµ Ο„ΞΏ MapGuide
+* ΞΞ± ΞΌΞΏΟΟ†ΞΏΟ€ΞΏΞΉΞ®ΟƒΞµΟ„Ξµ Ο„Ξ± Ο‡Ο‰ΟΞΉΞΊΞ¬ Ξ΄ΞµΞ΄ΞΏΞΌΞ­Ξ½Ξ± Ο‡ΟΞ·ΟƒΞΉΞΌΞΏΟ€ΞΏΞΉΟΞ½Ο„Ξ±Ο‚ Ο„ΞΏ Maestro 
+* Ξ•Ο€ΞΉΟ€Ξ»Ξ­ΞΏΞ½ ΟƒΞ·ΞΌΞµΞΉΟΟƒΞµΞΉΟ‚ ΟƒΟ„ΞΏ 64-bit Ubuntu  
 
-Πώς να ξεκινήσετε το MapGuide
+Ξ ΟΟ‚ Ξ½Ξ± ΞΎΞµΞΊΞΉΞ½Ξ®ΟƒΞµΟ„Ξµ Ο„ΞΏ MapGuide
 -------------------------------
 
-1. Πηγαίνετε στο Desktop->Server και κάνετε κλικ Start MapGuide. Αυτό θα ξεκινήσει και το MapGuide server και το MapGuide Web server
+1. Ξ Ξ·Ξ³Ξ±Ξ―Ξ½ΞµΟ„Ξµ ΟƒΟ„ΞΏ Desktop->Server ΞΊΞ±ΞΉ ΞΊΞ¬Ξ½ΞµΟ„Ξµ ΞΊΞ»ΞΉΞΊ Start MapGuide. Ξ‘Ο…Ο„Ο ΞΈΞ± ΞΎΞµΞΊΞΉΞ½Ξ®ΟƒΞµΞΉ ΞΊΞ±ΞΉ Ο„ΞΏΞ½ ΞµΞΎΟ…Ο€Ξ·ΟΞµΟ„Ξ·Ο„Ξ® MapGuide (server) ΞΊΞ±ΞΉ Ο„ΞΏ Ξ΄ΞΉΞ±Ξ΄ΞΉΞΊΟ„Ο…Ξ±ΞΊΟ ΞµΞΎΟ…Ο€Ξ·ΟΞµΟ„Ξ·Ο„Ξ® MapGuide (Web server)
 
 .. image:: images/screenshots/1024x768/mapguide_desktopIcons.png
   :scale: 50 %
   :alt: mapguide desktop icons
   :align: center 
 
-2. Ανοίγετε τον browser στη διεύθυνση http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php για να δείτε τη δοκιμαστική εφαρμογή 
+2. Ξ‘Ξ½ΞΏΞ―Ξ³ΞµΟ„Ξµ Ο„ΞΏΞ½ Ο€ΞµΟΞΉΞ·Ξ³Ξ·Ο„Ξ® ΟƒΟ„Ξ· Ξ΄ΞΉΞµΟΞΈΟ…Ξ½ΟƒΞ· http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php Ξ³ΞΉΞ± Ξ½Ξ± Ξ΄ΞµΞ―Ο„Ξµ Ο„Ξ· Ξ΄ΞΏΞΊΞΉΞΌΞ±ΟƒΟ„ΞΉΞΊΞ® ΞµΟ†Ξ±ΟΞΌΞΏΞ³Ξ® 
 
 .. image:: images/screenshots/1024x768/mapguide_viewer.png
   :scale: 50 %
@@ -38,28 +38,28 @@
 MapGuide Maestro
 ----------------
 
-1. Για να ξεκινήσετε το Maestro, πηγαίνετε στο Desktop->Server, κάνετε κλικ MapGuide Maestro, και αυτό ανοίγει το Maestro login GUI, όπως φαίνεται στο ακόλουθο screenshot. Κάντε Login στο http://localhost:8008/mapguide/mapagent/mapagent.fcgi με το username "Administrator" και password "admin" 
+1. Ξ“ΞΉΞ± Ξ½Ξ± ΞΎΞµΞΊΞΉΞ½Ξ®ΟƒΞµΟ„Ξµ Ο„ΞΏ Maestro, Ο€Ξ·Ξ³Ξ±Ξ―Ξ½ΞµΟ„Ξµ ΟƒΟ„ΞΏ Desktop->Server, ΞΊΞ¬Ξ½ΞµΟ„Ξµ ΞΊΞ»ΞΉΞΊ MapGuide Maestro, ΞΊΞ±ΞΉ Ξ±Ο…Ο„Ο Ξ±Ξ½ΞΏΞ―Ξ³ΞµΞΉ Ο„ΞΏ Ξ³ΟΞ±Ο†ΞΉΞΊΟ Ο€ΞµΟΞΉΞ²Ξ¬Ξ»Ξ»ΞΏΞ½ ΞµΞΊΞΊΞ―Ξ½Ξ·ΟƒΞ·Ο‚ Maestro, ΟΟ€Ο‰Ο‚ Ο†Ξ±Ξ―Ξ½ΞµΟ„Ξ±ΞΉ ΟƒΟ„ΞΏ Ξ±ΞΊΟΞ»ΞΏΟ…ΞΈΞΏ ΟƒΟ„ΞΉΞ³ΞΌΞΉΟΟ„Ο…Ο€ΞΏ ΞΏΞΈΟΞ½Ξ·Ο‚. ΞΟ€ΞµΞ―Ο„Ξµ ΟƒΟ„ΞΏ ΟƒΟΟƒΟ„Ξ·ΞΌΞ± ΟƒΟ„ΞΏ http://localhost:8008/mapguide/mapagent/mapagent.fcgi ΞΌΞµ Ο„ΞΏ ΟΞ½ΞΏΞΌΞ± Ο‡ΟΞ®ΟƒΟ„Ξ· (username) "Administrator" ΞΊΞ±ΞΉ ΞΊΟ‰Ξ΄ΞΉΞΊΟ Ο€ΟΟΟƒΞ²Ξ±ΟƒΞ·Ο‚ (password) "admin" 
 
 .. image:: images/screenshots/1024x768/mapguide_maestroLogin.png
   :scale: 50%
   :alt: screenshot
   :align: center
  
-2. Κάνετε κλικ στο Ok για να πάτε στο Maestro main GUI, όπως φαίνεται στο ακόλουθο screenshot.
+2. ΞΞ¬Ξ½ΞµΟ„Ξµ ΞΊΞ»ΞΉΞΊ ΟƒΟ„ΞΏ Ok Ξ³ΞΉΞ± Ξ½Ξ± Ο€Ξ¬Ο„Ξµ ΟƒΟ„ΞΏ ΞΊΞµΞ½Ο„ΟΞΉΞΊΟ Ο€Ξ±ΟΞ¬ΞΈΟ…ΟΞΏ Maestro, ΟΟ€Ο‰Ο‚ Ο†Ξ±Ξ―Ξ½ΞµΟ„Ξ±ΞΉ ΟƒΟ„ΞΏ Ξ±ΞΊΟΞ»ΞΏΟ…ΞΈΞΏ ΟƒΟ„ΞΉΞ³ΞΌΞΉΟΟ„Ο…Ο€ΞΏ ΞΏΞΈΟΞ½Ξ·Ο‚.
 
 .. image:: images/screenshots/1024x768/mapguide_maestroMain.png
    :scale: 50%
    :alt: mapguide maestro main GUI
    :align: center
 
-3. Επεκτείνετε την tree view στο αριστερό panel, πηγαίνετε στο Samples->Sheboygan->Layers,κάντε διπλό κλικ στο Buildings και ο layer editor για τα  Buildings θα ανοίξει στο δεξί panel, όπως φαίνεται στο ακόλουθο screenshot:
+3. Ξ•Ο€ΞµΞΊΟ„ΞµΞ―Ξ½ΞµΟ„Ξµ Ο„Ξ·Ξ½ Ξ΄ΞµΞ½Ξ΄ΟΞΏΞµΞΉΞ΄Ξ® Ξ»Ξ―ΟƒΟ„Ξ± ΟƒΟ„ΞΏ Ξ±ΟΞΉΟƒΟ„ΞµΟΟ panel, Ο€Ξ·Ξ³Ξ±Ξ―Ξ½ΞµΟ„Ξµ ΟƒΟ„ΞΏ Samples->Sheboygan->Layers,ΞΊΞ¬Ξ½Ο„Ξµ Ξ΄ΞΉΟ€Ξ»Ο ΞΊΞ»ΞΉΞΊ ΟƒΟ„ΞΏ Buildings ΞΊΞ±ΞΉ ΞΏ ΞµΟ€ΞµΞΎΞµΟΞ³Ξ±ΟƒΟ„Ξ®Ο‚ ΞµΟ€ΞΉΟ€Ξ­Ξ΄Ο‰Ξ½ Ξ³ΞΉΞ± Ο„ΞΏ ΞµΟ€Ξ―Ο€ΞµΞ΄ΞΏ Buildings ΞΈΞ± Ξ±Ξ½ΞΏΞ―ΞΎΞµΞΉ ΟƒΟ„ΞΏ Ξ΄ΞµΞΎΞ― panel, ΟΟ€Ο‰Ο‚ Ο†Ξ±Ξ―Ξ½ΞµΟ„Ξ±ΞΉ ΟƒΟ„ΞΏ Ξ±ΞΊΟΞ»ΞΏΟ…ΞΈΞΏ ΟƒΟ„ΞΉΞ³ΞΌΞΉΟΟ„Ο…Ο€ΞΏ ΞΏΞΈΟΞ½Ξ·Ο‚:
 
 .. image:: images/screenshots/1024x768/mapguide_maestroLayerFeatures.png
    :scale: 50%
    :alt: mapguide maestro layer features
    :align: center
 
-4. Κυλίστε κάτω το δεξί panelγια να φανεί το Layer Style. Στην στήλη Featurestyle, κάνετε κλικ στο ...κελί για να φέρετε  τον Style Editor, όπως φαίνεται στο ακόλουθο screenshot: 
+4. ΞΟ…Ξ»Ξ―ΟƒΟ„Ξµ ΞΊΞ¬Ο„Ο‰ Ο„ΞΏ Ξ΄ΞµΞΎΞ― panel Ξ³ΞΉΞ± Ξ½Ξ± Ο†Ξ±Ξ½ΞµΞ― Ο„ΞΏ Ο€Ξ±ΟΞ¬ΞΈΟ…ΟΞΏ Layer Style. Ξ£Ο„Ξ·Ξ½ ΟƒΟ„Ξ®Ξ»Ξ· Feature style, ΞΊΞ¬Ξ½ΞµΟ„Ξµ ΞΊΞ»ΞΉΞΊ ΟƒΟ„ΞΏ ...cell Ξ³ΞΉΞ± Ξ½Ξ± Ο†Ξ­ΟΞµΟ„Ξµ Ο„ΞΏΞ½ Ξ•Ο€ΞµΞΎΞµΟΞ³Ξ±ΟƒΟ„Ξ® Ξ£Ο„ΟΞ» (Style Editor), ΟΟ€Ο‰Ο‚ Ο†Ξ±Ξ―Ξ½ΞµΟ„Ξ±ΞΉ ΟƒΟ„ΞΏ Ξ±ΞΊΟΞ»ΞΏΟ…ΞΈΞΏ ΟƒΟ„ΞΉΞ³ΞΌΞΉΟΟ„Ο…Ο€ΞΏ ΞΏΞΈΟΞ½Ξ·Ο‚: 
 
 .. image:: images/screenshots/1024x768/mapguide_maestroLayerStyle.png
    :scale: 50%
@@ -71,14 +71,14 @@ MapGuide Maestro
    :alt: mapguide maestro color chooser
    :align: center
 
-5. Στην αναδιπλούμενη λίστα Foreground Color , επιλέξτε πράσινο Green και κάντε click στο Ok για να κλείσετε τον Style Editor. Στο Maestro Main GUI, κάντε κλικ στο Disk icon για να σώσετε. 
+5. Ξ£Ο„Ξ·Ξ½ Ξ±Ξ½Ξ±Ξ΄ΞΉΟ€Ξ»ΞΏΟΞΌΞµΞ½Ξ· Ξ»Ξ―ΟƒΟ„Ξ± Ο‡ΟΟΞΌΞ±Ο„ΞΏΟ‚ (Foreground Color), ΞµΟ€ΞΉΞ»Ξ­ΞΎΟ„Ξµ Ο€ΟΞ¬ΟƒΞΉΞ½ΞΏ (Green) ΞΊΞ±ΞΉ ΞΊΞ¬Ξ½Ο„Ξµ ΞΊΞ»ΞΉΞΊ ΟƒΟ„ΞΏ Ok Ξ³ΞΉΞ± Ξ½Ξ± ΞΊΞ»ΞµΞ―ΟƒΞµΟ„Ξµ Ο„ΞΏΞ½ Ξ•Ο€ΞµΞΎΞµΟΞ³Ξ±ΟƒΞ· Ξ£Ο„ΟΞ» (Style Editor). Ξ£Ο„ΞΏ ΞΊΞµΞ½Ο„ΟΞΉΞΊΟ Ο€Ξ±ΟΞ¬ΞΈΟ…ΟΞΏ Maestro, ΞΊΞ¬Ξ½Ο„Ξµ ΞΊΞ»ΞΉΞΊ ΟƒΟ„ΞΏ ΞµΞΉΞΊΞΏΞ½Ξ―Ξ΄ΞΉΞΏ Ξ΄Ξ―ΟƒΞΊΞΏΟ… Ξ³ΞΉΞ± Ξ½Ξ± ΟƒΟΟƒΞµΟ„Ξµ. 
 
 .. image:: images/screenshots/1024x768/mapguide_maestroSaveIcon.png
    :scale: 50%
    :alt: mapguide maestro Save icon 
    :align: center
 
-6. Για να μπορέσετε να κάνετε μια επισκόπηση των αλλαγών, ανοίξτε τον browser στη διεύθυνση http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php ή κάντε κλικ στο Preview icon στη γραμμή εργαλείων από το Maestro main GUI, το οποίο θα ανοίξει τον browser στην παραπάνω διεύθυνση. Στην browser map view, αν κάνετε μεγέθυνση στο building level, το χρώμα του κτιρίου είναι τώρα πράσινο. 
+6. Ξ“ΞΉΞ± Ξ½Ξ± ΞΌΟ€ΞΏΟΞ­ΟƒΞµΟ„Ξµ Ξ½Ξ± ΞΊΞ¬Ξ½ΞµΟ„Ξµ ΞΌΞΉΞ± ΞµΟ€ΞΉΟƒΞΊΟΟ€Ξ·ΟƒΞ· Ο„Ο‰Ξ½ Ξ±Ξ»Ξ»Ξ±Ξ³ΟΞ½, Ξ±Ξ½ΞΏΞ―ΞΎΟ„Ξµ Ο„ΞΏΞ½ Ο€ΞµΟΞΉΞ·Ξ³Ξ·Ο„Ξ® ΟƒΟ„Ξ· Ξ΄ΞΉΞµΟΞΈΟ…Ξ½ΟƒΞ· http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php Ξ® ΞΊΞ¬Ξ½Ο„Ξµ ΞΊΞ»ΞΉΞΊ ΟƒΟ„ΞΏ ΞµΞΉΞΊΞΏΞ½Ξ―Ξ΄ΞΉΞΏ Ο€ΟΞΏΞµΟ€ΞΉΟƒΞΊΟΟ€Ξ·ΟƒΞ·Ο‚ ΟƒΟ„Ξ· Ξ³ΟΞ±ΞΌΞΌΞ® ΞµΟΞ³Ξ±Ξ»ΞµΞ―Ο‰Ξ½ Ξ±Ο€Ο Ο„ΞΏ ΞΊΞµΞ½Ο„ΟΞΉΞΊΟ Ο€Ξ±ΟΞ¬ΞΈΟ…ΟΞΏ Maestro, Ο„ΞΏ ΞΏΟ€ΞΏΞ―ΞΏ ΞΈΞ± Ξ±Ξ½ΞΏΞ―ΞΎΞµΞΉ Ο„ΞΏΞ½ Ο€ΞµΟΞΉΞ·Ξ³Ξ·Ο„Ξ® ΟƒΟ„Ξ·Ξ½ Ο€Ξ±ΟΞ±Ο€Ξ¬Ξ½Ο‰ Ξ΄ΞΉΞµΟΞΈΟ…Ξ½ΟƒΞ·. Ξ£Ο„Ξ·Ξ½ Ο€ΞµΟΞΉΞΏΟ‡Ξ® Ο‡Ξ¬ΟΟ„Ξ· Ο„ΞΏΟ… Ο€ΞµΟΞΉΞ·Ξ³Ξ·Ο„Ξ®, Ξ±Ξ½ ΞΊΞ¬Ξ½ΞµΟ„Ξµ ΞΌΞµΞ³Ξ­ΞΈΟ…Ξ½ΟƒΞ· ΟƒΟ„ΞΏ ΞµΟ€Ξ―Ο€ΞµΞ΄ΞΏ ΞΊΟ„Ξ·ΟΞ―Ο‰Ξ½ (building level), Ο„ΞΏ Ο‡ΟΟΞΌΞ± Ο„ΞΏΟ… ΞΊΟ„ΞΉΟΞ―ΞΏΟ… ΞµΞ―Ξ½Ξ±ΞΉ Ο„ΟΟΞ± Ο€ΟΞ¬ΟƒΞΉΞ½ΞΏ. 
 
 .. image:: images/screenshots/1024x768/mapguide_buildingColorBeforeChanging.png
    :scale: 50%

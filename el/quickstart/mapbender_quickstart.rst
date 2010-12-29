@@ -72,75 +72,75 @@
 Οι εφαρμογές στο σύνολό τους παρατίθενται στο  :guilabel:`categories`. Αργότερα θα μπορείτε να καθορίζετε τις προσωπικές σας κατηγορίες και να προσθέτετε τις εφαρμογές σας στις κατηγορίες που θέλετε.
 
 
-Administration applications
+Εφαρμογές διαχειριστή
 ===========================
 
-:guilabel:`Administration applications` allow you f. e. to load services, create user, to set up new applications. 
+:guilabel:Οι `Εφαρμογές διαχειριστή` επιτρέπουν f. e. να "φορτώνετε" υπηρεσίες,τη δημιουργία χρηστών, το στήσιμο νέων εφαρμογών. 
 
-Each :guilabel:`administration application` provides different functionality. Later on your can set up your own :guilabel:`administration applications` with the functionality you would like to provide.
+Κάθε:guilabel:`Εφαρμογή  διαχειριστή` παρέχει διαφορετική λειτουργικότητα. Αργότερα, θα μπορείτε να στήσετε το προσωπικό σας :guilabel:`Εφαρμογή  διαχειριστή` με τη λειτουργικότητα που εσείς θέλετε να παρέχετε.
 
-After installation user :guilabel:`root` has access to:
-   * admin2_en - WMS, application, user/group handling
-   * admin_en_services - focus on WFS and metadata handling and owsproxy    
-   * admin1 - template with all administration elements 
+<Μετά την εγκατάσταση του user :guilabel:`root` παρέχεται πρόσβαση στα εξής:
+   * admin2_en - WMS, εφαρμογές, διαχείριση χρήστη/ομάδας
+   * admin_en_services - Εστίαση σε διαχείριση WFS και μεταδεδομένων και owsproxy    
+   * admin1 - Πρότυπο με όλα τα στοιχεία του διαχειριστή 
 
   .. image:: images/screenshots/800x600/mapbender_admin2_en.png
      :scale: 80
 
-.. tip:: You get back to the application overview with the |HOME| button.
+.. Χρήσιμη συμβουλή: Μπορείτε να επιστρέψετε στην επισκόπηση της εφαρμογής πατώντας το κουμπί |HOME|.
 
   .. |HOME| image:: images/screenshots/800x600/mapbender_home.png
      :scale: 100Κλίμακα:100%
 
-Map applications
+Χαρτογραφικές εφαρμογές
 ================
-Map applications contain OGC WMS, one ore more maps, buttons, a geodata explorer, a legend element, your logo and more. 
+Οι χαρτογραφικές εφαρμογές περιλαμβάνουν OGC WMS, one ore more maps, κουμπιά, έναν περιηγητή γεωδεδομένων, ένα στοιχείο υπομνήματος, το λογότυπό σας και πολλά ακόμα. 
 
-#. Choose a map application :guilabel:`by click` from the :guilabel:`application overview`
+#. Επιλέξτε μια χαρτογραφική εφαρμογή :guilabel:`κάνοντας κλικ` από το :guilabel:`επισκόπηση εφαρμογής`
 
-#. Get to know Mapbender and try the functionality the applications provide.
+#. Γνωρίστε το Mapbender και δοκιμάστε την λειτουργικότητα και τις εφαρμογές που παρέχει.
    
-   * choose for example gui, gui_digitize
+   *Για παράδειγμα επιλέξτε gui, gui_digitize
      
   .. image:: images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80
 
-.. tip:: If your browser supports tabs you can open the applications in tabs and easily switch between them.
+.. Χρήσιμη συμβουλή: ’ν ο περιηγητής σας υποστηρίζει καρτέλες, τότε μπορείτε να ανοίξετε τις εφαρμογές σε καρτέλες και εύκολα να μεταφέρεστε από τη μία στην άλλη.
 
-WMS container applications
+WMS container εφαρμογές
 ==========================
-You can create a container application to store your WMS. WMS container are not for display. With containers you can create a sophisticated service repository.
+You can create a container application to store your WMS. WMS container δεν είναι για παρουσίαση. Με τα containers μπορείτε να δημιουργήσετε  ενδιαφέρουσες/ εκλεπτυσμένες υπηρεσίεςrepository.
 
   .. image:: images/screenshots/800x600/mapbender_container.png
      :scale: 60
 
-Create an individual application
+Δημιουργία προσωπικής εφαρμογής
 =================================
 
-#. go to the administration application :menuselection:`admin2_en` 
+#. Πηγαίνετε στις εφαρμογές διαχειριστή :Από το μενού, επιλέγετε:`admin2_en` 
 
-#. choose :menuselection:`Application Management --> Create new application`
+#. Από το μενού, επιλέγετε:`Application Management --> Δημιουργία νέας εφαρμογής`
 
-#. define a name and description for your application and hit the button **new** to create the application
+#. καθορίστε ένα όνομα και μια περιγραφή για την εφαρμογή σας και κάμτε κλικ στο κουμπί **new** για να δημιουργήσετε της εφαρμογή
 
-#. go to the link :menuselection:`Application Management --> Edit application elements` and select the new application
+#. Μεταβείτε στο σύνδεσμο :Μενού:`Application Management --> Edit application elements` και επιλέξτε τη νέα εφαρμογή
 
-#. in the selectbox at the top choose an application that you would like to take as a template and hit the button **add all elements**. This process will take all elements from the application you selected to your new application.
+#. Στο κουτί επιλογής στην κορυφή, επιλέξτε μια εφαρμογή την οποία θα θέλατε να χρησιμοποιήσετε σαν πρότυπο και πατήστε το κουμπί **add all elements**. Με τη διαδικασία αυτή λαμβάνονται όλα τα στοιχεία από την εφαρμογή που επολέξατε στην νέα σας εφαρμογή.
 
-#. you can also take a single element from another application to your new application. Choose the single element by activating the radiobutton at the element and hit the **save** Button to save this element in your new application.
+#. Επιπροσθέτως, μπορείτε να πάρετε ένα στοιχείο απο μια άλλη εφαρμογή και να το ενσωματώσετε στη δική σας εφαρμογή. Επιλέξτε το στοιχείο που θέλετε ενεργοποιώντας το radiobutton στο στοιχείο αυτό και κάντε κλικ στο κουμπί  **save** προκειμένου να σώσετε το στοιχείο αυτό στη νέα σας εφαρμογή.
 
-#. your application is set up. Now you need a WMS to be displayed in your application. This will be described in the next section.
+#. Η εφαρμογή σας έχει τώρα δημιουργηθεί. Τώρα χρειάζεστε ένα WMS να φαίνεται στην εφαρμογή σας. Αυτό θα περιγραφεί στην επόμενη ενότητα.
 
 
-.. tip:: You also can create a new application by copying an existing application. Go to :menuselection:`Application Management --> Rename/copy application`, choose the application you want to copy and define a name for the new application.
+.. ΧρήσιμηΣυμβουλή: Μπορείτε επίσης να δημιουργήσετε μια νέα εφαρμογή αντιγράφοντας μια υπάρχουσα εφαρμογή. Πηγαίνετε στο :Μενου:`Application Management --> Rename/copy application`, επιλέξτε την εφαρμογή που θέλετε νααντιγράψετε και καθορίστε ένα όνομα για την νέα εφαρμογή.
 
-Loading Web Map Services
+Φορτώνοντας Υπηρεσίες Διαδικτυακής Χαρτογραφίας
 ========================
-You can load OGC Web Map Services (WMS) to your application.
+Μπορείτε να φορτώσετε OGC Υπηρεσίες Διαδικτυακής Χαρτογραφίας (WMS) στην εφαρμογή σας.
 
-#. Go to :guilabel:`admin2_en` and choose :menuselection:`WMS Management --> Load WMS`. Choose the application which shall contain the WMS. Link to the WMS getCapabilities URL in the text field and hit **Load**.
+#. Πηγαίνετε στο :guilabel:`admin2_en` και επιλέξτε :Μενού:`WMS Management --> Load WMS`. Επιλέξτε την εφαρμογή που θα περιέχει το WMS. Συνδέστε τοWMS getCapabilities URL στο πεδίο κειμένου και πατήστε το κουμπί **Load**.
 
-#. Here are some example WMS you can use to load to your appliction
+#. Εδώ παρατίθενται κάποια παραδείγματα WMS τα οποία μπορείτε να χρησιμοποιήσετε για να τα φορτώσετε στην εφαρμογή σας
 
    * Demis World Map http://www2.demis.nl/wms/wms.asp?wms=WorldMap&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
    * Bird Studies Canada http://www.bsc-eoc.org/cgi-bin/bsc_ows.asp?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
@@ -150,74 +150,74 @@ You can load OGC Web Map Services (WMS) to your application.
 .. image:: images/screenshots/800x600/mapbender_wms_application_settings.png
   :scale: 80
 
-User and group management
+Διαχείριση χρήστη και ομάδας
 ==========================
-An access to Mapbender always requires authentication. This user has permissions to access one or a set of applications and the services (WMS, WFS) which are assigned to these applications.
+Η πρόσβαση στοΜapbender απαιτεί πάντα πιστοποίηση. Ο χρήστης έχει άδειες για πρόσβαση σε ένα ή μια ομάδα εφαρμογών καθώς και στις Υπηρεσίες (WMS, WFS) οι οποίες αντιστοιχούν σε αυτές τις εφαρμογές.
 
-There is no inherent difference between roles like :guilabel:`guest`, :guilabel:`operator` or :guilabel:`administrator`. The :guilabel:`role` of a user depends on the functionality and services the user has access through his applications.
+Δεν υπάρχει κάποια εγγενής διαφορά μεταξύ των guilabel:`guest`, :guilabel:`operator` or :guilabel:`administrator`. Το guilabel:`role` ενός χρήστη εξαρτάται από τη λειτουργικότητα και τις Υπηρεσίες στις οποίες ο Χρήστης έχει πρόσβαση μέσω των εφαρμογών του.
 
 
-**Create a user**
+**Δημιουργία ενός χρήστη**
 
-#. To create a user go to :guilabel:`admin2_en` and select :menuselection:`User Management --> Create and edit user`
+#. Για να δημιουργήσετε ένα χρήστη πηγαίνετε :guilabel:`admin2_en` και επιλέξτε :Μενού:`User Management --> Create and edit user`
 
-#. Choose a name and a password for your user. 
+#. Επιλέξτε ένα όνομα και ένα κωδικό πρόσβασης για το χρήστη σας. 
 
 .. image:: images/screenshots/800x600/mapbender_create_user.png
      :scale: 80 
 
 
-**Create a group**
+**Δημιουργία ομάδας**
 
-#. Create a group by :menuselection:`User Management --> Create and edit group`. Define a name and a description for your group.
+#. Δημιουργήστε μια ομάδα ως εξής :Μενού:`User Management --> Create and edit group`. Καθορίστε ένα όνομα και μια περιγραφή για την ομάδα σας.
 
 
-**Assign applications to user/group**
+**Αντιστοιχίστε εφαρμογές σε χρήστες/ομάδες**
 
-#. Assign a user to a group by :menuselection:`User Management --> Add one user to several groups` or by the link :menuselection:`User Management --> Add several users to one group`
+#. Μπορείτε να εκχωρήσετε ένα χρήστη σε μια ομάδα ως εξής :Μενού:`User Management --> Add one user to several groups` ή από το σύνδεσμο :menuselection:`User Management --> Add several users to one group`
 
-#. Assign an application to a user by :menuselection:`User Management --> Allow one user to access several applications`
+#. Μπορείτε να επιτρέψετε την πρόσβαση ενός χρήστη σε μια εφαρμογή ως εξής :Μενού:`User Management --> Allow one user to access several applications`
 
-#. Assign an application to a group by :menuselection:`User Management --> Allow one group to access several applications`
+#. Μπορείτε να επιτρέψετε την πρόσβαση μιας ομάδας σε μια εφαρμογή ως εξής:Μενού:`User Management --> Allow one group to access several applications`
 
-.. tip:: If you want to grant a user write access to an application you have to use :menuselection:`User Management --> Assign to edit an application to a user`.
+.. Χρήσιμη Συμβουλή: Εάν θέλετε να παραχωρήσετε σε ένα χρήστη την πρόσβαση για να μπορεί να γράψει μια εφαρμογή, θα πρέπει να χρησιμοποιήσετε :Μενού:`User Management --> Assign to edit an application to a user`.
 
-#. Logout from Mapbender with the |LOGOUT| button.
+#. Αποσυνδεθείτε από τοMapbender με το κουμπί |LOGOUT|.
 
-#. Login as the new user
+#. Συνδεθείτε σαν νέος χρήστης
 
-#. What happens when the user has access to one or more than one application?
+#. Τί συμβαίνει εάν ο χρήστης έχει πρόσβαση σε μία ή περισσότερες εφαρμογές
 
   .. |LOGOUT| image:: images/screenshots/800x600/mapbender_logout.png
      :scale: 100Κλίμακα:100%
 
-Things to try
+Θέματα προς περαιτέρω μελέτη
 =============
 
-Here are some additional challenges for you to try:
+Ακολούθως, παρατίθενται κάποιες επιπρόσθετες προκλήσεις για εσάς περαιτέρω μελέτη:
 
-#. Try to load some WMS in your application. Try to configure your WMS with :menuselection:`Configure WMS access --> WMS application settings`.
+#. Δοκιμάστε να φορτώσετε κάποια WMS στην εφαρμογή σας. Προσπαθήστε να ρυθμίσετε το WMS σας ως εξής :Μενού:`Configure WMS access --> WMS application settings`.
 
-#. Try to create an individual application - change the background-color, move the buttons, change the size of the map (element mapframe1). :menuselection:`Application Management --> Edit application elements`.
+#. Προσπαθήστε να δημιουργήσετε μια προσωπική εφαρμογή - αλλάξτε το χρώμα του υποβάθρου, μετακινήστε τα κουμπιά, αλλάξτε το μέγεθος του χάρτη (element mapframe1). :Μενού:`Application Management --> Edit application elements`.
 
 
-What next?
+Τί ακολουθεί στη συνέχεια?
 ==========
 
-.. Writing tip
-  Provide links to further tutorials and other documentation.
+.. Συμβουλές γραψίματος
+  Παρέχετε συνδέσεις για περισσότερα εγχειρίδια και άλλα έγγραφα.
 
-This is only the first step on the road to using Mapbender. There is a lot more functionality you can try.
+Αυτό είναι μόνο το πρώτο βημα για τη χρησιμοποίηση τουMapbender. Υπάρχουν πολλές ακόμη λειτουργίες τις οποίες μπορείτε να χρησιμοποιήσετε.
 
-* Mapbender Project home
+* Mapbender Project αρχική σελίδα
 
   http://www.mapbender.org/
 
-* You find tutorials at
+* Μπορείτε να βρείτε τα εγχειρίδια εκμάθησας του προγράμματος στον ακόλουθο σύνδεσμο
 
   http://www.mapbender.org/Tutorials
 
-* Try the tutorial in english language
+* Μπορείτε να βρείτε τα εγχειρίδια εκμάθησας του προγράμματος (στα αγγλικά) στον ακόλουθο σύνδεσμο
 
   `Mapbender tutorial (english) <http://www.mapbender.org/Mapbender_Tutorial_en>`_
 

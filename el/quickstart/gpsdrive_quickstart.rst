@@ -14,17 +14,13 @@
 GpsDrive Quickstart 
 *******************
 
-Running
+Εκτέλεση
 =======
 
-You will most likely want to install
-the `gpsd <http://gpsd.berlios.de>`_ package so that you can talk to
-your GPS; without that GpsDrive is just a nice map viewer.
+Πιθανόν θα θέλετε να εγκαταστήσετε το πακέτο
+`gpsd <http://gpsd.berlios.de>`_ ώστε να επικοινωνείτε με το GPS' χωρίς αυτό το GPS σας απλά θα απεικονίζει χάρτες.
 
-Speech output is supported if the "espeak" software is installed.
-To use live-maps from the OpenStreetMap project you need to install the
-openstreetmap-* packages as well. Static map tiles may be downloaded
-from the internet without any extra installation.
+Φωνητική ειδοποίηση υποστηρίζει το λογισμικό "espeak" εφόσον εγκατασταθεί. Για να χρησιμοποιείσετε χάρτες από το OpenStreetMap θα πρέπει να εγκαταστήσετε επιπλέον όλα τα πακέτα openstreetmap-*. Έτσι επιπλέον αποσπάσματα χαρτών θα είναι διαθέσιμα μέσω διαδικτύου χωρίς επιπλέον εγκατάσταση.
 
 
 Setting up your GPS

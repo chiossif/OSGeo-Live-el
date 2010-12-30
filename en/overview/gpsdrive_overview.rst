@@ -22,7 +22,7 @@ navigation system. GpsDrive displays your position provided from a GPS
 on a zoomable map. The map file is auto-selected depending on your position
 and preferred map scale.  All GPS receivers which support the NMEA protocol
 should be usable, as well as many USB GPSs using a binary protocol known to
-the `Gpsd <a href="http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
+the `Gpsd <http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
 
 Core Features
 -------------
@@ -41,7 +41,7 @@ Core Features
   SQLite and GpsBabel-compatible plain text files
 * Search for nearest POI waypoints within a given radius
 * Route planning
-* Included server to keep track of your friends' postions
+* Included server to keep track of your friends' positions
 * Kismet Wifi integration
 
 Details

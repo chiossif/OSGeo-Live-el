@@ -1,6 +1,6 @@
-:Author: activityworkshop
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Συγγραφέας: activityworkshop
+:Έκδοση: osgeo-live4.5
+:Άδεια: Creative Commons
 
 .. _prune-quickstart:
  
@@ -10,7 +10,7 @@
   :target: http://activityworkshop.net/software/prune/
 
 ****************
-Prune Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης Prune 
 ****************
 
 Εκτέλεση
@@ -56,10 +56,10 @@ Prune Quickstart
 (αναζητήστε το ως "Prune" ή "GpsPrune"), αλλά μπορείτε και να το κατεβάσετε μέσα από την ιστοσελίδα του.  
 
 Δεν χρειάζεται να εγκατασταθεί, αλλά απαιτεί μια μηχανή εκτέλεσης java εγκατεστημένη: έκδοση 1.5 ή μεγαλύτερη.
-Μπορείς να επεκτείνεις τις δυνατότητες του Prune εγκαθιστόντας πρόσθετο ελεύθερο λογισμικό όπως
+Μπορείτε να επεκτείνετε τις δυνατότητες του Prune εγκαθιστώντας πρόσθετο ελεύθερο λογισμικό όπως
 *Gpsbabel*, *Gnuplot*, *Exiftool* ή *Java3d*.
 
-Further reading
+Περισσότερες πηγές
 ===============
 
 * Ιστοχώρος Prune: http://activityworkshop.net/software/prune/

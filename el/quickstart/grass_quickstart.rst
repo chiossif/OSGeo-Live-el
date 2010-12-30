@@ -1,48 +1,40 @@
-:Ξ£ΟΞ³Ξ³ΟΞ±ΟΞ­Ξ±Ο: Hamish Bowman
-:ΞΞΊΞ΄ΞΏΟΞ·: osgeo-live4.0
-:ΞΞ΄Ξ΅ΞΉΞ±: Creative Commons
+Συγγραφεας: Hamish Bowman
+Έκδοση: osgeo-live4.0
+ ’δεια: Creative Commons
 
 .. _grass-quickstart:
  
 .. image:: images/project_logos/logo-GRASS.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
+  :scale: 100 %Κλίμακα:100%
+  :alt: project logoalt:Λογότυπο του τμήματος
+  :align: rightΣτοίχιση: Δεξιά
   :target: http://grass.osgeo.org
 
 
 ********************
-GRASS GIS Quickstart 
+GRASS GIS Εγχειρίδιο γρήγορης εκκίνησης
 ********************
 
-Running
-=======
+Τρέχοντας το πρόγραμμα                                                                                                                                                                    =======
 
-To run GRASS on the Live DVD, click on the GRASS link on the desktop.
-From the "Welcome to GRASS" window select either the Spearfish or North
-Carolina (nc_spm_08) dataset for the location, and "user1" for the mapset,
-then click on [Start Grass].
+Για να τρέξετε το GRASS στο Live DVD, κάνετε κλικ στη συντόμευση του GRASS στην επιγάνεια εργασίας.
+Από το  "Welcome to GRASS" (παράθυρο καλωσορίσματος) επιλέξτε ή το Spearfish ή το North
+Carolina (nc_spm_08) αρχείο δεδομένων για την για την τοποθεσία, και "user1" για το αρχείο χάρτη mapset,
+και κέντε κλικ στο [Start Grass].
 
 .. image:: images/screenshots/800x600/grass-startup.png
   :scale: 40 %
   :alt: screenshot
-  :align: right
+  :align: rightΣτοίχιση: Δεξιά
 
-This will launch GRASS with our brand new GUI written in wxPython. At
-the time of writing we have gotten just about all of the kinks out of
-it and are nearly ready to call it (and GRASS 6.4.0) complete. The old
-Tcl/Tk GUI is still available if you prefer to use that; you can start
-it by typing ``g.gui --ui`` on the command line.
+Αυτό θα ξεκινήσει το GRASS με το νέο γραφικό περιβάλλον γραμμένο σε wxPython. Κατά την περίοδο του γραψίματος είχαμε αντιμετωπίσει σχεδόν όλα τα "προβλήματα" και ήμασταν κοντά στο να το πούμε (και GRASS 6.4.0) πλήρες. Το παλιό 
+Tcl/Tk γραφικό περιβάλλον είναι ακόμα διαθέσιμο. Εάν επιθυμείτε να το χρησιμοποιήσετε, μπορείτε να ξεκινήσετε γράφοντας ``g.gui --ui`` στη γραμμή εντολών.
 
-If you are on a netbook with a very small display (800x600 resolution)
-the startup screen might get a little scrunched and the [Start GRASS]
-button hidden behind the location and mapset lists. If this happens to
-you the solution is to drag the corner of the window to make it a little
-bigger. You might have to move the window up past the top of the screen
-a bit to get the room (hold down the Alt key and left-click drag the
-window to move it).
+Εάν είστε σε ένα netbook με χαμηλή ανάλυση (800x600 ανάλυση)
+η οθόνη εκκίνησης μπορεί να είναι λίγο scrunched και το κουμπί [Start GRASS]
+κρυμμένο πίσω από το location and mapset lists. Εάν αυτό σας συμβαίνει, η λύση είναι να σύρετε την γωνία του παραθύρου για να το κάνετε λίγο μεγαλύτερο. Μπορεί να χρειάζεται να μετακινήσετε το παράθυρο προς το πάνω τμήμα της οθόνης για να κερδίσετε χώρο (κρατήστε πατημένο το πλήκτρο Alt και με δεξί κλικ σύρετε το παράθυρο για να το μετακινήσετε).
 
-Displaying maps
+Παρουσιάζοντας χάρτες
 ~~~~~~~~~~~~~~~
 
 .. image:: images/screenshots/800x600/grass-layerman.png
@@ -50,73 +42,52 @@ Displaying maps
   :alt: screenshot
   :align: left
 
-Once inside add a raster map layer such as "`elevation`" from the PERMANENT
-mapset. To do this go into the GIS Layer Manager window and click on the
-checkerboard toolbar button with a "+" on it. Then select the map name
-you want from the "*map to be displayed*" pull-down list, and
-click [Ok].
+Όταν πια έχετε μπεί στο πρόγραμμα, προσθέστε ένα επίπεδο με χάρτη σε μορφή εικόνας, όπως είναι το "`elevation`" από το PERMANENT
+mapset. Για να το κάνετε αυτό, πηγαίνετε στο παράθυρο the GIS Layer Manager και κάνετε κλικ στο κουμπί με το a "+"  σε αυτό στη γραμμή εργαλείων checkerboard. Τότε επιλέξτε το όνομα χάρτη που επιθυμείτε από την αναδιπλούμενη λίστα  "*map to be displayed*"  και κάντε κλικ στο [Ok].
 
-In a similar fashion add the "`roads`" vector layer from the PERMANENT
-mapset by clicking on the toolbar button with a "+" and a bent poly-line
-which looks a bit like a "V".
+Κατά τον ιδιο τρόπο προσθέτετε το "`roads`" διανυσματικό επίπεδο από το PERMANENT
+mapset κάνοντας κλικ στο κουμπί της μπάρας εργαλείων με το a "+" και μια poly-line
+που μοιάζει περισσότερο με ένα "V".
 
-Over in the Map Display window toolbar click on the eyeball button to
-render the view.
+Από τη γραμμή εργαλείων του παραθύρου επισκόπησης χάρτη (Map Display window) κάντε κλικ στο κουμπί eyeball για να δημιουργηθεί η όψη.
 
-You should now see the maps displayed.
+Τώρα θα πρέπει να μπορείτε να δείτε τους χάρτες.
 
-Plot an elevation profile
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Εκτύπωση προφίλ υψομέτρου                                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: images/screenshots/800x600/grass-profile.png
   :scale: 50 %
   :alt: screenshot
-  :align: right
+  :align: rightΣτοίχιση: Δεξιά
 
-Back in the GIS Layer Manager window click on the `elevation` raster
-map name to select it. Then in the Map Display window, to the right of the
-zooming buttons on the Map Display toolbar is an icon with a line graph
-and checkerboard on it. Click on that and select **Profile Surface Map**.
-If it isn't automatically listed again pick an elevation map as the raster
-layer and press [Ok]. The second button in from the left allows you to
-set out the profile line, click it then mark out a few points on the Map
-Display canvas. When done go back to the Profile window and click on the
-eyeball button to create the plot. Click on the I/O button of the far
-right to close the profile window.
+Πίσω στο παράθυρο GIS Layer Manager κάντε κλικ στο  `elevation` raster
+map name για να το επιλέξετε. Στο παράθυρο επισκόπησης χάρτη (Map Display window), στα δεξιά των κουμπιών μεγέθυνσης στη γραμμή εργαλείων Map Display, βρίσκεται ένα εικονίδιο με ένα γραμμικό γράφημα και μια σκακιέρα σε αυτό. Κάντε κλικ σε αυτό και επιλέξτε **Profile Surface Map**.
+Εάν δεν καταγράφεται αυτόματα, τότε επιλέξτε ξανά ένα elevation map σάν επίπεδο χάρτη και πατήστε [Ok]. Το δεύτερο κουμπί προς τα μέσα από αριστερά, επιτρέπει τον καθορισμό της profile line. Κάντε κλικ σε αυτό τότε μαρκάρετε μερικά σημεία στοMap
+Display canvas. Όταν ολοκηρωθεί και αυτό πηγαίνετε πίσω στο παράθυρο Profile και κάντε κλικ στο κουμπί eyeball για να δημιουργήσετε το αρχείο προς εκτύπωση. Κάντε κλικ στοκουμπί  I/O πάνω δεξιά για να κλείσετε το παράθυρο profile.
 
-Create a random surface
+Δημουργήστε μια τυχαία επιφάνεια
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Now let's create a new map. Select :menuselection:`Raster --> Generate 
-surfaces --> Fractal surface` from the menu (near the bottom);
-give your new map a name; adjust any options you like in the Options
-tab (the defaults are fine); and click [Run]. You can then [Close] the
-*r.surf.fractal* module's dialog window.
+Τώρα ας δημιουργήσουμε ένα χάρτη. Επιλέξτε :Μενού:`Raster --> Generate 
+surfaces --> Fractal surface` από το μενού (κοντά στο κάτω μέρος);
+δώστε στο νέο σας χάρτη ένα όνομα; προσαρμόστε τις επιλογές σας στο Options
+tab (τα προεπιλεγμένα είναι μια χαρά); και κάντε κλικ στο [Run]. Τότε μπορείτε να κλείσετε  [Close] το παράθυρο διαλόγου *r.surf.fractal* module's dialog window.
 
 .. image:: images/screenshots/800x600/grass-fractal.png
   :scale: 50 %
   :alt: screenshot
-  :align: right
+  :align: rightΣτοίχιση: Δεξιά
 
-Adjust colors
+Προσαρμογή των χρωμάτων
 ~~~~~~~~~~~~~
 
-Now add your new raster layer to the layer list as you did before with
-the elevation raster map, except this time it will be in your "user1"
-working mapset. You might un-tick the elevation layer check-box
-now so that the two don't draw over the top of each other. Click on the
-eyeball to view your new map.
-The colors might not be as you'd like so let's change them. With the
-fractal DEM selected in the layer list, in the
-`Raster` menu select :menuselection:`Manage colors --> Color Tables`.
-In the "Colors" tab click on the pull-down list for the "Type of color
-table" option, and pick one from the list. "srtm" is a nice choice. Once
-done click the [Run] button and close the *r.colors* dialog window.
+Τώρα προσθέστε το νέο σας επιπεδο εικόνας στη λίστα επιπέδων οπως κάνατε προηγουμένως με τον χάρτη υψομέτρου. Ωστόσο, αυτή τη φορά θα είναι στο "user1"
+mapset εργασίας. Μπορείτε αν θέλετε τώρα να ξεκλικάρετε το επίπεδο υψομέτρου από το σχετικό κουτί έτσι ώστε να μην αλληλοεπικαλύπτονται τα δύο μεταξύ τους. Κάντε κλικ στο eyeball για να δείτε το νέο σας χάρτη.
+Τα χρώματα μπορεί να μην είναι όπως σας αρέσουν οπότε ας τα αλλάξουμε. Με το fractal DEM επιλεγμένο στη λίστα επιπέδων,στο`Raster` μενου, επιλέγετε :Μενού:`Manage colors --> Color Tables`.
+Στην καρτέλα "Colors" κάντε κλικ στην αναδιπλούμενη λίστα για την επιλογή "Type of color
+table" option, και πάρτε ένα από τη λίστα. "srtm" είναι μια καλή επιλογή. Όταν ολοκληρώσετε, κάντε κλικ στο κουμπί [Run] και κλείστε το παράθυρο διαλόγου  *r.colors* dialog window.
 
-Because you have altered the map's metadata, this time to re-render it
-you will have to fully flush the display cache. So click on the little
-refresh button next to the eyeball button to re-render all layers and you
-should see your map with its new colors.
+Επειδή έχετε τροποποιήσει τα μεταδεδομένα του χάρτη, θα πρέπει αυτή τη φορά να ξαναφτιάξετε από την αρχή νέα επισκόπηση του χάρτη. Οπότε, κάντε κλικ στο μικρό κουμπί της ανανέωσης, δίπλα στο κουμπί eyeball, προκειμένου να επανασχεδιαστούν τα επίπεδα και τότε θα μπορείτε να δείτε το χάρτη σας με τα νέα του χρώματα.
   
 Create a shaded relief map
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -124,7 +95,7 @@ Create a shaded relief map
 .. image:: images/screenshots/800x600/grass-shadedrelief.png
   :scale: 50 %
   :alt: screenshot
-  :align: right
+  :align: rightΣτοίχιση: Δεξιά
 
 Next we'll create a shaded relief map of the elevation layer we saw
 earlier. Start by verifying that the computational region is set match
@@ -199,7 +170,7 @@ very powerful analyses.
 .. image:: images/screenshots/1024x768/grass-nviz.png
   :scale: 30 %
   :alt: screenshot
-  :align: right
+  :align: rightΣτοίχιση: Δεξιά
 
 Start the 3D visualization suite from the :menuselection:`File --> NVIZ`
 menu item. Select an `elevation` map as the raster elevation.

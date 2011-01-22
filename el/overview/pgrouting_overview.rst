@@ -4,7 +4,7 @@
 
 .. _pgrouting-overview:
 
-.. image:: images/project_logos/logo-pgRouting.png
+.. image:: ../../images/project_logos/logo-pgRouting.png
   :scale: 100 %
   :alt: pgRouting logo
   :align: right
@@ -24,7 +24,7 @@ pgRouting
 * Οι αλλαγές στα δεδομένα μπορούν να αναπαρασταθούν άμεσα μέσω της μηχανής δρομολόγησης. Δεν χρειάζεται προυπολογισμός.
 * Η παράμετρος "κόστους" μπορεί να υπολογιστεί δυναμικά μέσω κώδικα SQL και η τιμή της μπορεί να προκύψει από πολλές εγγραφές ή πίνακες.
 
-.. image:: images/screenshots/800x600/pgrouting.png
+.. image:: ../../images/screenshots/800x600/pgrouting.png
   :scale: 60 %
   :alt: pgRouting query in pgAdminIII
   :align: right
@@ -52,7 +52,7 @@ pgRouting
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 1.03 (svn)
+**Έκδοση Λογισμικού:** 1.05
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Windows, Mac
 

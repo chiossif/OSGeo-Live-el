@@ -1,10 +1,10 @@
 :Author: Kristof Lange
-:Version: osgeo-live4.0
+:Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _52nWPS-quickstart:
  
-.. image:: images/project_logos/logo_52North_160.png
+.. image:: ../../images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -22,7 +22,7 @@ Running
 *	Firefox will open the 52WPS-TestClient.
 
 
-.. image:: images/screenshots/1024x768/52n_test_client.png
+.. image:: ../../images/screenshots/1024x768/52n_test_client.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -31,7 +31,7 @@ Running
 *	Push the Send-Button and the request will be transmitted to the 52°North WPS which will
 	generate a xml-representation for a buffer around playgrounds with a width of 20.
 
-.. image:: images/screenshots/1024x768/52n_wps_response.png
+.. image:: ../../images/screenshots/1024x768/52n_wps_response.png
   :scale: 50 %
   :alt: screenshot
   :align: right

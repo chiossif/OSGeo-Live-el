@@ -1,10 +1,10 @@
 :Author: Bastian Schaeffer, Kristof Lange
-:Version: osgeo-live4.0
+:Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _52nWPS-overview:
 
-.. image:: images/project_logos/logo_52North_160.png
+.. image:: ../../images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -20,9 +20,9 @@ Web Service
 The 52°North `Web Processing Service (WPS) <../standards/wps_overview.html>`_ enables web access to geospatial
 processing algorithms provided by Sextane, ArcGIS Server, or custom developed
 functions. Algorithms may be as simple as determining the difference in 
-influenza cases between two different seasons), or as complicated as a global climate change model.
+influenza cases between two different seasons, or as complicated as a global climate change model.
 
-.. image:: images/screenshots/1024x768/52n_test_client.png
+.. image:: ../../images/screenshots/1024x768/52n_test_client.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -62,7 +62,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** WPS 2.0 RC5
+**Software Version:** WPS 2.0 RC6
 
 **Supported Platforms:** Windows, Linux, Mac
 

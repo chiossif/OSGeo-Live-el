@@ -4,7 +4,7 @@
 
 .. _ushahidi-overview:
 
-.. image:: images/project_logos/logo-ushahidi.png
+.. image:: ../../images/project_logos/logo-ushahidi.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -19,11 +19,11 @@ Incident Timeline & Mapping
 
 The `Ushahidi <http://www.ushahidi.com/>`_ Engine is a free and open source
 platform that allows anyone to gather distributed data via SMS, email or 
-web and visualize it on a map or a timeline. Our goal is to create tools for 
+web and visualize it on a map or a timeline. Ushahidi's goal is to create tools for 
 democratizing information, increasing transparency and lowering the barriers 
 for individuals to share their stories.
 
-.. image:: images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -49,15 +49,14 @@ Core Features
 * Ability to upload and download mass reports.
 * Ability to layer KML/KMZ files on the map.
 * Supports custom pages and tabs.
-* Site statitics and analytics
+* Site statitics and analytics.
 * Plugin system.
-* New and Improved API
-* One click upgrade
-* Supports multiple SMS providers
-* Trusted Reporter functionality
-* Themes
-* Scheduler
-* Cache
+* One click upgrade.
+* Supports multiple SMS providers.
+* Trusted Reporter functionality.
+* Themes.
+* Scheduler.
+* Cache.
 
 Demo
 ----

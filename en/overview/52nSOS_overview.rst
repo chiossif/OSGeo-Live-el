@@ -18,49 +18,54 @@ Web Service
 ~~~~~~~~~~~
 
 The 52°North `Sensor Observation Service (SOS) <../standards/sos_overview.html>`_ 
-aggregates readings from live, in-situ and remote sensors. The service provides 
-an interface to make sensors and sensor data archives accessible via an 
-interoperable web based interface. Four profiles are defined within the SOS 
-specification: core, transactional, enhanced, and entire. The current release 
-(52N-SOS-3.1.1) implements the core, transactional, and parts of the enhanced 
-profile comprising the mandatory operations. The current release implements the 
-latest schema version (1.0.0).
-
-
+supports reading of live and archived data captured by in-situ and remote sensors. A sensor may 
+be a camera on a satellite or a water level meter in a stream.
+ 
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
-  :scale: 50 %
+  :scale: 100 %
   :alt: screenshot of sos test client
   :align: right
 
-Core Features
--------------
+Features
+--------
+
+The current 52°North SOS (version 3.1.1) implements the core, transactional, and 
+parts of the enhanced profile of the SOS specification. The current 
+release implements the latest schema version (1.0.0) and the following operations:
+
+**Core SOS operations**:
+
 * GetCapabilities, for requesting a self-description of the service.
 * GetObservation, for requesting the pure sensor data encoded in Observations & Measurements (O&M)
-* DescribeSensor, for requesting information about the sensor itself, encoded in a Sensor Model Language (SensorML) instance document.
+* DescribeSensor, for requesting meta information about the sensor itself, encoded in a Sensor Model Language (SensorML) instance document.
 
-The transactional profile comprising of the following operations is implemented, too:
+**Transactional SOS operations**:
+
 * RegisterSensor, for signing up new sensors.
 * InsertObservation, for inserting new observations for registered sensors.
 
-Additionally, the following operations are implemented:
-* GetResult, for periodically polling of sensor data
-* GetObservationById
-* GetFeatureOfInterest, for requesting the GML encoded representation of the feature that is the target of the observation.
-* GetFeatureOfInterestTime
+**Additional SOS operations**:
 
-* A browser based client
+* GetResult, for facilitating periodically polling sensor data.
+* GetObservationById, for retrieving specific individual observations.
+* GetFeatureOfInterest, for requesting the GML encoded representation of the feature that is the target of the observation.
+* GetFeatureOfInterestTime, for determining the temporal availability of sensor data
+
+**Client**:
+
+* A browser based client provides test XML queries for all supported operations.
 
 Implemented Standards
 ---------------------
 
-* OGC Sensor Observation Service (SOS)
+* `OGC Sensor Observation Service (SOS) <http://www.ogcnetwork.net/SOS>`_
 
 Details
 -------
 
 * **Website:** http://52north.org/communities/sensorweb/sos
 
-* **Licence:** GPL
+* **Licence:** GNU GPL v2.0
 
 * **Software Version:** SOS 3.1.1
 
@@ -68,12 +73,14 @@ Details
 
 * **API Interfaces:** Java
 
-* **Commercial Support:** http://www.52north.org/
+* **Commercial Support:** http://52north.org/
 
+* **Community Support:** http://sensorweb.forum.52north.org/
+
+* **Community Website:** http://52north.org/communities/sensorweb/
 
 Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/52nSOS_quickstart.html>`_
-
 

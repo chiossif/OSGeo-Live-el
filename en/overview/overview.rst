@@ -52,11 +52,13 @@ Navigation and Maps
 
 Spatial Tools
 -------------
-* :doc:`geokettle_overview` - Data Integration
+* :doc:`gdal_overview` - [`QuickStart <../quickstart/gdal_quickstart.html>`_] - GeoSpatial Data Translation Tools
+* :doc:`gmt_overview` - [`QuickStart <../quickstart/gmt_quickstart.html>`_] - Cartographic Rendering
 * :doc:`mapnik_overview` - [`QuickStart <../quickstart/mapnik_quickstart.html>`_] - Cartographic Rendering
+* :doc:`otb_overview` - [`QuickStart <../quickstart/otb_quickstart.html>`_] - Image Processing
 * :doc:`maptiler_overview` - Map Tiles
 * :doc:`R_overview` - Statistical Programming
-* :doc:`gmt_overview` - [`QuickStart <../quickstart/gmt_quickstart.html>`_] - Cartographic Rendering
+* :doc:`geokettle_overview` - Data Integration
 
 Web Services
 ------------
@@ -65,8 +67,9 @@ Web Services
 * :doc:`mapguide_overview`- [`QuickStart <../quickstart/mapguide_quickstart.html>`_]
 * :doc:`mapserver_overview`
 * :doc:`qgis_mapserver_overview`
-* :doc:`geonetwork_overview` - Catalogue
+* :doc:`geonetwork_overview` - [`QuickStart <../quickstart/geonetwork_quickstart.html>`_] Metadata Catalog and Catalog Services for Web
 * :doc:`52nWPS_overview`  - [`QuickStart <../quickstart/52nWPS_quickstart.html>`_]- Web Processing Service
+* :doc:`52nSOS_overview`  - [`QuickStart <../quickstart/52nSOS_quickstart.html>`_]- Sensor Observation Service
 * :doc:`zoo-project_overview` - [`QuickStart <../quickstart/zoo-project_quickstart.html>`_] - Web Processing Service
 
 Tests

@@ -37,7 +37,7 @@ GDAL/OGR
 --------------------
 
 * Εργαλεία γραμμής εντολών για την μετατροπή, γεωμετρικό μετασχηματισμό, τεμαχιοποίηση και πολλές άλλες εργασίες 
-* Εξαιρετικά βελτιστοποιημένη πρόσβαση στα δεδομένα με χρήση ενδιάμεσης αποθήκευσης τύπου πλακακίου (tile) καθώς και εικόνες επίβλεψης (overview)
+* Εξαιρετικά βελτιστοποιημένη πρόσβαση στα δεδομένα με χρήση ενδιάμεσης αποθήκευσης τύπου τετραγωνιδίου (tile) καθώς και εικόνες επίβλεψης (overviews)
 * Υποστήριξη για μεγάλα αρχεία - μεγαλύτερα από 4Gb
 * Πρόσβαση μέσω των γλωσσών Python, Java, C#, Ruby, VB6 και Perl
 * Περιέχει την μηχανή γεωγραφικού γεωδαιτικού συστήματος PROJ.4 και OGC με υποστήριξη σε πολλά συστήματα
@@ -50,7 +50,7 @@ GDAL/OGR
 Σε αυτές περιλαμβάνονται:
 
 * **Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED, και πολλές άλλες ...
-* **Vector:** MapInfo (tab and mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial, και πολλές άλλες ...
+* **Vector:** MapInfo (tab και mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial, και πολλές άλλες ...
 
 Υποστηριχθέντα πρότυπα
 ----------------------
@@ -59,14 +59,14 @@ GDAL/OGR
 Περισσότερα
 -----------
 
-**Website:**  http://www.gdal.org
+**Κεντρική Ιστοσελίδα:**  http://www.gdal.org
 
-**Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
+**Άδεια:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Software Version:** 1.7.3
+**Έκδοση Λογισμικού:** 1.7.3
 
-**Supported Platforms:** Windows, Linux, Mac
+**Υποστηριζόμενες Πλατφόρμες:** Windows, Linux, Mac
 
-**API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl
+**Προγραμματιστικές Διεπαφές:** C, C++, Python, Java, C#, Ruby, VB6 και Perl
 
-**Support:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
+**Υποστήριξη:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile

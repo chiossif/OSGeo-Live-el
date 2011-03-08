@@ -55,6 +55,6 @@ Mapnik
 Γρήγορη εκκίνηση
 ----------
 
-* Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapnik_quickstart.html>`_
+* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapnik_quickstart.html>`_
 
 

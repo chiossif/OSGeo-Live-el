@@ -60,6 +60,6 @@ Google Earth. Εκτός από τη δυνατότητα επισκόπησης
 Γρήγορη εκκίνηση
 ----------
 
-* Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/marble_quickstart.html>`_
+* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/marble_quickstart.html>`_
 
 

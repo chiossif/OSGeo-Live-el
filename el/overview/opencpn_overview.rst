@@ -60,6 +60,6 @@ OpenCPN
 Γρήγορη εκκίνηση
 ----------
 
-* Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/opencpn_quickstart.html>`_
+* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/opencpn_quickstart.html>`_
 
 

@@ -71,6 +71,6 @@ OSSIM
 Γρήγορη εκκίνηση
 ----------
 
-* Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/ossim_quickstart.html>`_
+* 'Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/ossim_quickstart.html>`_
 
 

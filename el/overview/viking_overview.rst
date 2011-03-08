@@ -67,6 +67,6 @@ Viking
 Γρήγορη εκκίνηση
 ----------
 
-* Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/viking_quickstart.html>`_
+* 'Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/viking_quickstart.html>`_
 
 

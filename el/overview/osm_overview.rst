@@ -83,6 +83,6 @@ JOSM περιλαμβάνονται.
 Γρήγορη εκκίνηση
 ----------
 
-* Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/osm_quickstart.html>`_
+* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/osm_quickstart.html>`_
 
 

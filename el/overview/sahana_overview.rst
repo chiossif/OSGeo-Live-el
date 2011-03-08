@@ -74,6 +74,6 @@ Sahana Eden
 Γρήγορη εκκίνηση
 ----------
 
-* Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/sahana_quickstart.html>`_
+* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/sahana_quickstart.html>`_
 
 

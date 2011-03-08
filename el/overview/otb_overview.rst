@@ -70,6 +70,6 @@ OTB
 Γρήγορη Εκκίνηση
 ----------
 
-* Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/otb_quickstart.html>`_
+* 'Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/otb_quickstart.html>`_
 
 

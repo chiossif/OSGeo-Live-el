@@ -83,6 +83,6 @@ osgEarth
 Γρήγορη εκκίνηση
 ----------
 
-* Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/osgearth_quickstart.html>`_
+* 'Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/osgearth_quickstart.html>`_
 
 

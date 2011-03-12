@@ -35,9 +35,10 @@
 -   `Εγκατάσταση του OSGeo-Live στον σκληρό σας δίσκο <quickstart/osgeolive_install_quickstart.html>`_
 -   `Τρέξτε το OSGeo-Live σε μια εικονική μηχανή <quickstart/virtualbox_quickstart.html>`_
 -   `Δημιουργήστε ένα εκκινήσιμο OSGeo-Live κλειδί USB <quickstart/usb_quickstart.html>`_
--   `Περισσότερες οδηγίες ... <quickstart/quickstart.html>`_
 
 Παρουσίαση
 ------------
-Μια 25-λεπτη  γρήγορη παρουσίαση που καλύπτει όλες τις εφαρμογές του OSGeoLive είναι διαθέσιμη σαν `Βίντεο <http://cameronshorter.blip.tv/file/4078371/>`_ και `Παρουσίαση <https://svn.osgeo.org/osgeo/livedvd/promo/en/presentations/OSGeoLive4_0Taster/>`_.
+Μια μισάωρη παρουσίαση που καλύπτει όλες τις εφαρμογές του OSGeoLive είναι διαθέσιμη σαν βίντεο και παρουσίαση.
+
+Λεπτομέρειες στο http://live.osgeo.org/en/presentation.html
 

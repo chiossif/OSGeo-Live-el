@@ -36,9 +36,9 @@ Quick Starts
 -   `Install OSGeo-Live on your hard disk <quickstart/osgeolive_install_quickstart.html>`_
 -   `Run OSGeo-Live in a Virtual Machine <quickstart/virtualbox_quickstart.html>`_
 -   `Create an OSGeo-Live bootable USB thumb drive <quickstart/usb_quickstart.html>`_
--   `More quickstarts ... <quickstart/quickstart.html>`_
 
 Presentation
 ------------
-A 25 minute lightning presentation covering all OSGeoLive applications is available as a `Video <http://cameronshorter.blip.tv/file/4078371/>`_ and `Slides and Script <https://svn.osgeo.org/osgeo/livedvd/promo/en/presentations/OSGeoLive4_0Taster/>`_.
+A half hour presentation, highlighing all OSGeo-Live applications, is available as a video, along with source slides and script.
 
+Details at http://live.osgeo.org/en/presentation.html.

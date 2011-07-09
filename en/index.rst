@@ -1,6 +1,6 @@
 
-Welcome to OSGeo-Live
-=====================
+Welcome to |osgeo-live-version|
+===============================
 
 `OSGeo-Live <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB thumb drive or Virtual
 Machine based on `Xubuntu <http://www.xubuntu.org/>`_, that allows you to try a wide variety of open
@@ -39,6 +39,6 @@ Quick Starts
 
 Presentation
 ------------
-A half hour presentation, highlighing all OSGeo-Live applications, is available as a video, along with source slides and script.
+A half hour presentation, highlighting all OSGeo-Live applications, is available as a video, along with source slides and script.
 
 Details at http://live.osgeo.org/en/presentation.html.

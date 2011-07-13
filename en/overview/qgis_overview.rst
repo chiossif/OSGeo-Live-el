@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Version: osgeo-live4.5
 :License: Creative Commons
 
@@ -85,7 +85,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 1.6.0
+**Software Version:** 1.7.0
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 

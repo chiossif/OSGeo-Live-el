@@ -69,3 +69,7 @@ PostGIS
 
 **Υποστήριξη:** http://www.osgeo.org/search_profile
 
+Γρήγορη εκκίνηση
+----------
+    
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/postgis_quickstart.html>`_

@@ -5,10 +5,10 @@
 .. _qgis_mapserver-overview:
 
 .. image:: ../../images/project_logos/logo-qgis_mapserver.png
-  :scale: 50 %
+  :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://karlinapp.ethz.ch/qgis_wms/
+  :target: http://www.qgis.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -17,13 +17,13 @@
   :target: http://www.osgeo.org
 
 
-QGIS mapserver
+QGIS Server
 ==============
 
 Διαδικτυακή Υπηρεσία
 ~~~~~~~~~~~
 
-Ο QGIS mapserver παρέχει μια υπηρεσία web map service (WMS) βασισμένη σε βιβλιοθήκες από το λογισμικό Quantum GIS (QGIS).
+Ο QGIS Server παρέχει μια υπηρεσία web map service (WMS) βασισμένη σε βιβλιοθήκες από το λογισμικό Quantum GIS (QGIS).
 Η στενή συσχέτιση με το QGIS σημαίνει ότι οι χάρτες που δημιουργούνται από λογισμικό  μπορούν εύκολα να δημοσιευθούν στο διαδίκτυο με μια απλή αντιγραφή του αρχείου έργου του QGIS στον φάκελο του εξυπηρετητή, και οι διαδικτυακοί χάρτες μοιάζουν ίδιοι με αυτούς που δημιουργήθηκαν στην επιφάνεια εργασίας.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
@@ -50,11 +50,11 @@ QGIS mapserver
 Λεπτομέρειες
 -------
 
-**Κεντρική Ιστοσελίδα:** http://karlinapp.ethz.ch/qgis_wms/
+**Κεντρική Ιστοσελίδα:** http://www.qgis.org/
 
 **Άδεια:** GPL
 
-**Έκδοση Λογισμικού:** 1.6.0
+**Έκδοση Λογισμικού:** 1.7.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 

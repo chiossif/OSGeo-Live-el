@@ -50,3 +50,10 @@ MapTiler
 **Κοινότητα:** http://groups.google.com/group/maptiler 
 
 **Εμπορική Υποστήριξη και εφαρμογές:** http://www.maptiler.com/
+
+
+Γρήγορη εκκίνηση
+----------
+    
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/maptiler_quickstart.html>`_
+

@@ -7,7 +7,7 @@
 
 .. Writing Tip:
   Metadata about this document
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -126,3 +126,8 @@ Details
 
 **Support:** http://www.osgeo.org/search_profile
 
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/postgis_quickstart.html>`_

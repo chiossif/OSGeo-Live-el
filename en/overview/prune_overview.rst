@@ -31,7 +31,7 @@ in over ten different languages.
 Core Features
 -------------
 
-.. image:: ../../images/screenshots/1024x768/prune_barcelona.png
+.. image:: ../../images/screenshots/1024x768/prune_denver.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -42,7 +42,7 @@ Core Features
 * Editing tools for deleting, reversing and compressing tracks
 * Interactive 3d view of the data, or export to POV format for 3D rendering
 * Save data to text files, gpx files, kml/kmz files, or directly to a GPS receiver
-* Automatic correlation of photographs with the loaded data using timestamps
+* Automatic correlation of photographs and audio files with the loaded data using timestamps
 * Creation of charts such as altitude against distance, speed against time
 
 Details
@@ -52,7 +52,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 10
+**Software Version:** 12
 
 **Supported Platforms:** GNU/Linux, Mac OSX, Windows
 

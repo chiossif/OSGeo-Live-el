@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Version: osgeo-live4.5
 :License: Creative Commons
 
@@ -54,3 +54,8 @@ Details
 
 **Community Support:** http://cran.r-project.org/web/views/Spatial.html
 
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/R_quickstart.html>`_

@@ -102,7 +102,7 @@ gvSIG Desktop
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 1.10 
+**Έκδοση Λογισμικού:** 1.11 
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
@@ -111,3 +111,8 @@ gvSIG Desktop
 
 .. _gvSIG: http://www.gvsig.org
 .. _SEXTANTE: http://forge.osor.eu/projects/sextante/
+
+Γρήγορη εκκίνηση
+----------
+    
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gvsig_quickstart.html>`_

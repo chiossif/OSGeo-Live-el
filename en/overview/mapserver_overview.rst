@@ -81,7 +81,7 @@ Demo
 Documentation
 -------------
 
-* `MapServer 5.6.6 Documentation <file:///usr/local/share/mapserver/doc/index.html>`_
+* `MapServer 5.6.6 Documentation <../../mapserver/doc/index.html>`_
 
 
 Details
@@ -99,3 +99,8 @@ Details
 
 **Support:** http://mapserver.org/community/
 
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/mapserver_quickstart.html>`_

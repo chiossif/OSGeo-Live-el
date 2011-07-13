@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -109,7 +109,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.10
+**Software Version:** 1.11
 
 **Supported Platforms:** Windows, Linux, Mac
 
@@ -118,3 +118,8 @@ Details
 
 .. _gvSIG: http://www.gvsig.org
 .. _SEXTANTE: http://forge.osor.eu/projects/sextante/
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/gvsig_quickstart.html>`_

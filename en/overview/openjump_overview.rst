@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -79,3 +79,8 @@ Details
 **Community Support:** http://www.openjump.org/support.html
 
 **Commercial Support:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/openjump_quickstart.html>`_

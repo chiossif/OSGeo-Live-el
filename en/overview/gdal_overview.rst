@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Version: osgeo-live4.5
 :License: Creative Commons
 
@@ -78,3 +78,8 @@ Details
 **API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl
 
 **Support:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/gdal_quickstart.html>`_

@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Author: Hamish Bowman
 :Author: Eric Lemoine
 :Version: osgeo-live4.0
@@ -59,7 +59,7 @@ Details
 
 **Licence:** BSD License
 
-**Software Version:** 2.0
+**Software Version:** 2.2
 
 **Supported Platforms:** Windows, Linux, Mac
 

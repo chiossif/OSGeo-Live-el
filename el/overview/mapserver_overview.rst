@@ -81,7 +81,7 @@ MapServer
 Τεκμηρίωση
 -------------
 
-* `Τεκμηρίωση MapServer 5.6.6 <file:///usr/local/share/mapserver/doc/index.html>`_
+* `Τεκμηρίωση MapServer 5.6.6 <../../mapserver/doc/index.html>`_
 
 
 Λεπτομέρειες
@@ -98,4 +98,10 @@ MapServer
 **Προγραμματιστικές διεπαφές (API):** C, PHP, Python, Perl, Ruby, Java, και .NET
 
 **Υποστήριξη:** http://mapserver.org/community/
+
+
+Γρήγορη εκκίνηση
+----------
+    
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapserver_quickstart.html>`_
 

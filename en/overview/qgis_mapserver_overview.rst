@@ -1,14 +1,14 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _qgis_mapserver-overview:
 
 .. image:: ../../images/project_logos/logo-qgis_mapserver.png
-  :scale: 50 %
+  :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://karlinapp.ethz.ch/qgis_wms/
+  :target: http://www.qgis.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -17,13 +17,13 @@
   :target: http://www.osgeo.org
 
 
-QGIS mapserver
-==============
+QGIS Server
+===========
 
 Web Service
 ~~~~~~~~~~~
 
-QGIS mapserver provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
+QGIS Server provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
 The close integration with QGIS means desktop maps can easily be exported to web maps by copying the QGIS project file into the server directory, and web maps look exactly the same as in the desktop.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
@@ -50,11 +50,11 @@ Implemented Standards
 Details
 -------
 
-**Website:** http://karlinapp.ethz.ch/qgis_wms/
+**Website:** http://www.qgis.org/
 
 **Licence:** GPL
 
-**Software Version:** 1.6.0
+**Software Version:** 1.7.0
 
 **Supported Platforms:** Windows, Linux
 

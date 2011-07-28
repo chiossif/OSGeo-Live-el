@@ -1,6 +1,6 @@
-:Συγγραφέας: Pirmin Kalberer
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Pirmin Kalberer
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _spatialite-overview:
 
@@ -15,7 +15,7 @@ SpatiaLite
 ==========
 
 Χωρική Βάση Δεδομένων
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 Η SpatiaLite είναι βασισμένη στην βάση δεδομένων SQLite_ με την προσθήκη χωρικών λειτουργιών. 
 
@@ -31,7 +31,7 @@ SpatiaLite
   :align: right
 
 Βασικά Χαρακτηριστικά
--------------
+---------------------
 
 Η SpatiaLite ενεργοποιεί χωρικά την SQLite ώστε να υποστηρίζει χωρικά δεδομένα συμβατά με τις προδιαγραφές του OGC.
 
@@ -51,7 +51,7 @@ SpatiaLite
 
 
 Λεπτομέρειες
--------
+------------
 
 **Κεντρική Ιστοσελίδα:** http://www.gaia-gis.it/spatialite/
 
@@ -65,7 +65,7 @@ SpatiaLite
 
 
 Γρήγορη εκκίνηση
-----------
+----------------
 
 * `Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/spatialite_quickstart.html>`_
 

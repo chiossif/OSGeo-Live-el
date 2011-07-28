@@ -4,8 +4,8 @@
 .. Βοήθημα:
   Metadata about this document
 
-:Συγγραφέας: OGC
-:Άδεια: Creative Commons
+:Author: OGC
+:License: Creative Commons
 
 .. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
@@ -62,7 +62,7 @@ DescribeSensor - Πληροφορίες σχετικές με τους αισθ�
 Υπάρχουν πολλές εξαιρετικές υλοποιήσεις υπηρεσιών SOS. Το OpenIOOS.org περιλαμβάνει δεκατρείς οργανισμούς που παρέχουν υπηρεσίες SOS με πρόσβαση σε πάνω από 1400 αισθητήρες ωκεανών (http://www.openioos.org/real_time_data/gm_sos.html). Αυτή η επιχειρισιακή επίδειξη αποτελεί μια προσπάθεια να δημιουργηθεί μια αρχιτεκτονική διαδικτυακών υπηρεσιών για την παρακολούθηση των ωκεανών.
 
 Δείτε επίσης
---------
+------------
 
 .. Βοήθημα:
   Describe Similar standard

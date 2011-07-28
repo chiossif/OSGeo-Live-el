@@ -4,8 +4,8 @@
 .. Βοήθημα:
   Metadata about this document
 
-:Συγγραφέας: OGC
-:Άδεια: Creative Commons
+:Author: OGC
+:License: Creative Commons
 
 .. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
@@ -53,7 +53,7 @@ Style Layer Descriptor (SLD)
 Σημειώνεται πως εκτός τη χρήση του προτύπου αυτού για την βελτίωση των υλοποιήσεων του προτύπου WMS, το SE μπορεί να χρησιμοποιηθεί για να προσδιορίσει το στύλ σε δεδομένα που προέρχονται από μια υπηρεσία WFS ή ακόμα και σε δεδομένα που προέρχονται από μια υπηρεσία WCS του OGC.
 
 Δείτε επίσης
---------
+------------
 
 .. Βοήθημα:
   Describe Similar standard

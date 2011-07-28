@@ -4,8 +4,8 @@
 .. Βοήθημα:
   Metadata about this document
 
-:Συγγραφέας: OGC
-:Άδεια: Creative Commons
+:Author: OGC
+:License: Creative Commons
 
 .. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
@@ -56,7 +56,7 @@ Web Processing Service (WPS)
 * Εύκολη και διαλειτουργική πρόσβαση σε επεξεργασίες μεγάλης πολυπλοκότητας, όπως μοντέλα παγκόσμιας κλιματικής αλλαγής.
 
 Δείτε επίσης
---------
+------------
 
 .. Βοήθημα:
   Describe Similar standard

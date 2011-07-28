@@ -4,8 +4,8 @@
 .. Βοήθημα:
   Metadata about this document
 
-:Συγγραφέας: OGC
-:Άδεια: Creative Commons
+:Author: OGC
+:License: Creative Commons
 
 .. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
@@ -53,7 +53,7 @@ Catalogue Service for the Web (CS-W)
 Η περισσότερη από την τρέχουσα εργασία σε αυτό το πρότυπο έχει να κάνει με την αναδόμηση του προτύπου καταλόγου ώστε να υπάρχει ένας πυρήνας καλά ορισμένος και εύκολος στην υλοποίηση σε συνδιασμό με έναν καλά ορισμένο μηχανισμό για έκφραση πληθώρας επεκτάσεων (παλιότερα γνωστών και ως προφίλ εφαρμογών).
 
 Δείτε επίσης
---------
+------------
 
 .. Βοήθημα:
   Describe Similar standard

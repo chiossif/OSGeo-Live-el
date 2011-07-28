@@ -1,16 +1,17 @@
-ΣυγγραφέΑς: Huawei Luo and Trevor Wekel
-Έκδοση: osgeo-live4.0
-Άδεια: Creative Commons
+:Author: Huawei Luo
+:Author: Trevor Wekel
+:Version: osgeo-live4.0
+:License: Creative Commons
 
-.. _mapguide-quickstart:Οδηγός γρήγορου ξεκινήματος mapguide
+.. _mapguide-quickstart:
 
 .. image:: ../../images/project_logos/logo-MapGuideOS.png
-  :scale: 100 %Κλίμακα:100%
-  :alt: project logoalt:Λογότυπο του τμήματος
-  :align: rightΣτοίχιση: Δεξιά 
+  :scale: 100 %
+  :alt: project logo
+  :align: right 
 
 Εγχειρίδιο Γρήγορης Εκκίνησης MapGuide
-====================
+======================================
 
 Ο οδηγός αυτός περιγράφει πώς:
 
@@ -19,7 +20,7 @@
 * Επιπλέον σημειώσεις στο 64-bit Ubuntu  
 
 Πώς να ξεκινήσετε το MapGuide
--------------------------------
+-----------------------------
 
 1. Πηγαίνετε στο Desktop->Server και κάνετε κλικ Start MapGuide. Αυτό θα ξεκινήσει και τον εξυπηρετητή MapGuide (server) και το διαδικτυακό εξυπηρετητή MapGuide (Web server)
 

@@ -1,8 +1,8 @@
-:Συγγραφέας: OSGeo Live
-:Συγγραφέας: Massimo Di Stefano
-:Συγγραφέας: Pirmin Kalberer
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo-Live
+:Author: Massimo Di Stefano
+:Author: Pirmin Kalberer
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _ossim-quickstart:
  
@@ -11,9 +11,9 @@
   :alt: project logo
   :align: right
 
-****************
+***********************************
 Εγχειρίδιο Γρήγορης Εκκίνησης Ossim 
-****************
+***********************************
 
 Το λογισμικό Open Source Software Image Map (OOSIM) είναι μια ισχυρή μηχανή επεξεργασίας για τηλεπισκόπηση,
 επεξεργασία εικόνας, γεωγραφικό σύστημα πληροφοριών και φωτογραμμετρίας.

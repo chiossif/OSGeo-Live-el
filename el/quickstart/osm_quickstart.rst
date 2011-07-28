@@ -1,22 +1,22 @@
-Συγγραφεας: Hamish Bowman
-Έκδοση: osgeo-live4.0
- Άδεια: Creative Commons
+:Author: Hamish Bowman
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _osm-quickstart:
  
 .. image:: ../../images/project_logos/logo-osm.png
-  :scale: 100 %Κλίμακα:100%
-  :alt: project logoalt:Λογότυπο του τμήματος
-  :align: rightΣτοίχιση: Δεξιά
+  :scale: 100 %
+  :alt: project logo
+  :align: right
   :target: http://www.osm.org
 
 
-************************
+*******************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης OpenStreetMap 
-************************
+*******************************************
 
 Προγράμματα
-========
+===========
 
 JOSM
 ~~~~
@@ -42,7 +42,7 @@ JOSM
 
 
 Περαιτέρω μελέτη
----------------
+----------------
 
 * Διαδικτυακό εγχειρίδιο χρήσης: http://www.use-it.be/europe/docs/OSMmanual/
 * Οδηγός χρήστη: http://wiki.openstreetmap.org/wiki/JOSM/Guide
@@ -113,7 +113,7 @@ Osmarender
 osm2pgsql
 ~~~~~~~~~
 
-Το **osm2pgsql**είναι ένα βοηθητικό πρόγραμμα το οποίο μετατρέπει δεδομένα OpenStreetMap (.OSM) σε κατάλληλο τύπο ώστε να μπορούν να "¨φορτωθούν" στην βάση δεδομένων (PostGIS). Χρησιμοποιείται συχνά για την οπτικοποίηση των OSM δεδομένων με χρήση του Mapnik, καθώς το Mapnik υποστηρίζει ερωτήματα προς PostgreSQL για χαρτογραφικά δεδομένα, αλλά δεν δουλεύει απ'ευθείας με αρχεία OSM.
+Το **osm2pgsql** είναι ένα βοηθητικό πρόγραμμα το οποίο μετατρέπει δεδομένα OpenStreetMap (.OSM) σε κατάλληλο τύπο ώστε να μπορούν να "¨φορτωθούν" στην βάση δεδομένων (PostGIS). Χρησιμοποιείται συχνά για την οπτικοποίηση των OSM δεδομένων με χρήση του Mapnik, καθώς το Mapnik υποστηρίζει ερωτήματα προς PostgreSQL για χαρτογραφικά δεδομένα, αλλά δεν δουλεύει απ'ευθείας με αρχεία OSM.
 
 * Αρχική σελίδα: http://wiki.openstreetmap.org/wiki/Osm2pgsql
 

@@ -1,6 +1,6 @@
-:Συγγραφέας: Stefan Tzeggai
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Stefan Tzeggai
+:Version: osgeo-live4.0
+:License: Creative Commons
 
  
 .. image:: ../../images/project_logos/logo-AtlasStyler.png
@@ -11,33 +11,33 @@
 
 .. _atlasstyler-quickstart: 
 
-***********************
+*****************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης AtlasStyler 
-***********************
+*****************************************
 
 Εγχειρίδιο
-=======
-* `Εγχειρίδιο του AtlasStyler, στα Γερμανικά, για την έκδοση 1.2 <file:///usr/share/doc/geopublishing/AtlasStyler_v1.2_DE_Handbuch_090601.pdf>`_  
+==========
+* `Εγχειρίδιο του AtlasStyler, στα Γερμανικά, για την έκδοση 1.2 <../../geopublishing/AtlasStyler_v1.2_DE_Handbuch_090601.pdf>`_  
 
 Εκπαιδευτικό υλικό
-=========
+==================
 
 AtlasStyler (Δημιουργώντας στύλ με το πρότυπο SLD)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* `Εκπαιδευτικό εγχειρίδιο του AtlasStyler, Αγγλικά, για την έκδοση 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_
-* `Εκπαιδευτικό εγχειρίδιο του AtlasStyler, Γαλλικά, για την έκδοση 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_FR_Tutoriel_etiquetage_091012.pdf>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* `Εκπαιδευτικό εγχειρίδιο του AtlasStyler, Αγγλικά, για την έκδοση 1.3 <../../geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_
+* `Εκπαιδευτικό εγχειρίδιο του AtlasStyler, Γαλλικά, για την έκδοση 1.3 <../../geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_FR_Tutoriel_etiquetage_091012.pdf>`_
 
 Περισσότερο εκαπιδευτικό υλικό στην διεύθυνση `http://en.geopublishing.org <http://en.geopublishing.org>`_ (πρέπει να είστε συνδεδεμένοι στο διαδίκτυο για να δείτε αυτή την ιστοσελίδα).
 
 Εκτέλεση
-=======
+========
 
 Ξεκινώντας
-~~~~~~~~~~~~~~~
+~~~~~~~~~~
 
 Η AtlasStyler είναι μια εφαρμογή η οποία μας επιτρέπει να δημιουργήσουμε αρχεία .SLD για τα διανυσματικά δεδομένα μας. 
 
-0) Το OSGeo Live DVD χρησιμοποιεί την διανομή GNU/Linux Xubuntu η οποία έχει ένα προσωρινό πρόβλημα με τις εφαρμογές Java: για να λυθεί πατήστε 
+0) Το OSGeo-Live DVD χρησιμοποιεί την διανομή GNU/Linux Xubuntu η οποία έχει ένα προσωρινό πρόβλημα με τις εφαρμογές Java: για να λυθεί πατήστε 
 δεξί κλικ στο μενού (εκεί που είναι οι 'Applications' και 'Places') και επιλέξτε 'Customize Panel'. Εκεί επιλέξτε 'Autohide' και το μενού κρύβεται
 εκτός και μεταφέρετε το ποντίκι σας στην κορυφή της οθόνης. 
 

@@ -1,6 +1,6 @@
-:Συγγραφέας: Hamish Bowman
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Hamish Bowman
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _opencpn-quickstart:
  
@@ -10,15 +10,15 @@
   :align: right
   :target: http://www.opencpn.org
 
-********************
+*************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης OpenCPN 
-********************
+*************************************
 
 Εκτέλεση
-=======
+========
 
 Ρυθμίστε τους χάρτες σας
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 Πριν εκτελέσετε το OpenCPN από το LiveDVD πρέπει να ενεργοποιήσετε τα παραδείγματα.
 Για να το κάνετε ανοίξτε ένα τερματικό και εκτελέστε
 "`opencpn_noaa_agreement.sh`". Το συνθηματικό του χρήστη δίνεται στο αρχείο στην επιφάνεια εργασίας.
@@ -50,10 +50,10 @@
 
 
 Τεκμηρίωση
-=============
+==========
 
 * Η τεκμηρίωση είναι διαθέσιμη
-  από `Help menu <file:///usr/local/share/opencpn/doc/help_en_US.html>`_, ή
+  από `Help menu <../../opencpn/doc/help_en_US.html>`_, ή
   online στην διεύθυνση http://www.opencpn.org/docwiki
 
-* Επιπλέον `Getting started tips <file:///usr/local/share/opencpn/doc/tips.html>`_
+* Επιπλέον `Getting started tips <../../opencpn/doc/tips.html>`_

@@ -1,14 +1,14 @@
 
-:Συγγραφέας: OSGeo Live
-:Συγγραφέας: Cameron Shorter
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo-Live
+:Author: Cameron Shorter
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _osgeolive-install-quickstart:
  
-*******************************
+*******************************************
 Εγκατάσταση του OSGeo-Live στο σκληρό δίσκο
-*******************************
+*******************************************
 
 Το OSGeo-Live μπορεί να εγκατασταθεί στον σκληρό σας δίσκο, με τον ίδιο τρόπο που το κάνει το Ubuntu.
 
@@ -16,12 +16,12 @@
 OSGeo-Live από ένα DVD ή από ένα αρχείο ISO.
 
 Απαιτήσεις συστήματος
--------------------
+---------------------
 
 * 12 Gig χώρου στο σκληρό δίσκο
 
 Εγκατάσταση OSGeo-Live
-------------------
+----------------------
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
@@ -74,7 +74,7 @@ OSGeo-Live από ένα DVD ή από ένα αρχείο ISO.
 Αυτό είναι όλο.
 
 Δείτε ακόμα:
----------
+------------
 
  * :doc:`osgeolive_quickstart`
  * :doc:`virtualbox_quickstart`

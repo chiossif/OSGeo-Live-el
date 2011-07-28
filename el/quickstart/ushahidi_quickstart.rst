@@ -1,6 +1,6 @@
-:Συγγραφέας: Henry Addo
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Henry Addo
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _ushahidi-quickstart:
 
@@ -10,14 +10,14 @@
   :align: right 
 
 Εγχειρίδιο Γρήγορης Εκκίνησης Ushahidi 
-====================
+======================================
 
 Ο οδηγός αυτός περιγράφει:
 
 * Την εκτέλεση και ανάπτυξη Ushahidi 
 
 Εκτέλεση/Ανάπτυξη Ushahidi
--------------------------------
+--------------------------
 
 1. Εκτελέστε το Ushahidi από το εικονίδιο στην επιφάνεια εργασίας ή από την επιλογή στο μενού που ανοίγει τον διαδικτυακό περιηγητή
    και σας παρουσιάζει την σελίδα εγκατάστασης. Είναι σχετικά εύκολο να αναπτύξετε έναν ιστοχώρο Ushahidite
@@ -63,4 +63,4 @@
    :alt: ushahidi admin login
    :align: center
 
-Η σελίδα ρυθμίσεων README είναι διαθέσιμη τοπικά στο αρχείο `/var/www/ushahidi/readme.html <file:///var/www/ushahidi/readme.html>`_ .
+Η σελίδα ρυθμίσεων README είναι διαθέσιμη τοπικά στο αρχείο `/var/www/ushahidi/readme.html <../../ushahidi/readme.html>`_ .

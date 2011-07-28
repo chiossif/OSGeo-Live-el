@@ -1,6 +1,6 @@
-:Συγγραφέας: Hamish Bowman
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Hamish Bowman
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _gmt-quickstart:
  
@@ -10,19 +10,19 @@
   :align: right
   :target: http://gmt.soest.hawaii.edu
 
-**************
+*********************************
 Εγχειρίδιο Γρήγορης Εκκίνησης GMT
-**************
+*********************************
 
 Εκτέλεση
-=======
+========
 
 Σε αυτό το LiveDVD περιέχονται: η τεκμηρίωση GMT (HTML και PDF),
 παραδείγματα (περιλαμβανομένης της παγκόσμιας ακτογραμμής σε χαμηλή ανάλυση),
 εγχειρίδιο εκμάθησης (HTML και PDF) και δεδομένα για να το εκτελέσετε.
 
 Η τεκμηρίωση και το εγχειρίδιο είναι στην θέση
- `/usr/share/doc/gmt/html/ <file:///usr/share/doc/gmt/html/index.html>`_,
+ `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
 τα παραδείγματα στην θέση
  `/usr/share/doc/gmt-examples/examples/ <file:///usr/share/doc/gmt-examples/examples/>`_,
 και τα δεδομένα του εγχειριδίου στην θέση
@@ -38,7 +38,7 @@
 
 
 Παραδείγματα
-~~~~~~~~
+~~~~~~~~~~~~
 
 Υπάρχουν 29 παραδείγματα ενσωματωμένα, και με αυτό το script μπορείτε να τα εκτελέσετε όλα: 
 

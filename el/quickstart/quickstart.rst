@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Εγχειρίδια Γρήγορης Εκκίνησης OSGeo-Live
-=======================
+========================================
 
 .. toctree::
   :maxdepth: 1
@@ -16,11 +16,11 @@
   usb_quickstart
 
 Εγχειρίδια Γρήγορης Εκκίνησης Εφαρμογών
-========================
+=======================================
 .. toctree::
   :maxdepth: 1
 
- 52nWPS_quickstart
+  52nWPS_quickstart
   atlasstyler_quickstart
   deegree_quickstart
   geokettle_quickstart

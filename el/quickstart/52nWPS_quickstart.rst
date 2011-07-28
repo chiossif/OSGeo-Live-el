@@ -1,6 +1,6 @@
-:Συγγραφέας: Kristof Lange
-:Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Author: Kristof Lange
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _52nWPS-quickstart:
  
@@ -9,12 +9,12 @@
   :alt: project logo
   :align: right
 
-***********************
+******************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης 52°North WPS 
-***********************
+******************************************
 
 Εκτέλεση
-=======
+========
 
 *	Για να εκτελέσετε το 52°North WPS από το Live DVD, επιλέξτε τον σύνδεσμο "start 52NorthWPS" στην επιφάνεια εργασίας
 	ή από το μενού επιλογών.

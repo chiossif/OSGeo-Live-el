@@ -1,18 +1,18 @@
-:Συγγραφέας: Gérald Fenoy
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Gérald Fenoy
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-ZOO-Project.png
   :scale: 100 %
   :alt: project logo
   :align: right
 
-***********************
+*****************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης ZOO Project 
-***********************
+*****************************************
 
 Εκτέλεση
-=======
+========
 
 *	Για να εκτελέσετε την επίδειξη του πακέτου ZOO από το LiveDVD, επιλέξτε διαδοχικά στην επιφάνια εργασίας ή στο μενού επιλογής τα "Start GeoServer" και "ZOO Project".
 

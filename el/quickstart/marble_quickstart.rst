@@ -1,6 +1,6 @@
-:Συγγραφέας: Hamish Bowman
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Hamish Bowman
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _marble-quickstart:
  
@@ -10,12 +10,12 @@
   :align: right
   :target: http://edu.kde.org/marble/
 
-*************************
+************************************
 Εγχείρίδιο Γρήγορης Εκκίνησης Marble 
-*************************
+************************************
 
 Ξεκινώντας
-===============
+==========
 
 * Κλικ στο εικονίδιο της επιφάνειας εργασίας
 

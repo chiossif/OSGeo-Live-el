@@ -1,6 +1,6 @@
-:Συγγραφέας: Hamish Bowman
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Hamish Bowman
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _viking-quickstart:
  
@@ -10,15 +10,15 @@
   :align: right
   :target: http://sourceforge.net/apps/mediawiki/viking/
 
-*****************
-Εγχειρίδιο Γρήγορης Εκκίνησης Viking 
-*****************
+************************************
+Εγχειρίδιο Γρήγορης Εκκίνησης Viking
+************************************
 
 Εκτέλεση
-=======
+========
 
 Ξεκινώντας
-~~~~~~~~~~~~~~~
+~~~~~~~~~~
 
 .. από το /usr/share/doc/viking/GETTING_STARTED
 
@@ -46,7 +46,7 @@
 
 
 Γεωκωδικοποίηση
-~~~~~~~~~
+~~~~~~~~~~~~~~~
 .. από το /usr/share/doc/viking/GEOCODED-PHOTOS
 
 Πως να γεωκωδικοποιήσετε τις εικόνες σας και να τις δείτε στο Viking:

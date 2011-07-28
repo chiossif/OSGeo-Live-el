@@ -1,19 +1,19 @@
 
-:Συγγραφέας: OSGeo Live
-:Συγγραφέας: Cameron Shorter
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo-Live
+:Author: Cameron Shorter
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _osgeolive-install-quickstart:
  
-*********************
+*******************************
 Γρήγορη Εκκίνηση του OSGeo-Live
-*********************
+*******************************
 
 Αυτό το εγχειρίδιο περιγράφει πως να ξεκινήσετε με το δοκιμαστικό OSGeo-Live DVD.
 
 Απαιτήσεις συστήματος
--------------------
+---------------------
 
 * Μνήμη RAM: 512 Meg, προτείνονται 1 Gig.
 * Επεξεργαστής: 1 GHz i686 ή συμβατό (Intel/AMD)
@@ -25,7 +25,7 @@
 * Ποντίκι: με 3-πλήκτρα, ειδικά για τους χρήστες Mac. 
 
 Εκτέλεση:
-----
+---------
 
   Το OSGeo-Live DVD, σε μορφή ISO είναι διαθέσιμο από: http://download.osgeo.org/livedvd 
   Τοποθετήστε το DVD στον υπολογιστή σας, και επανεκκινήστε το σύστημά σας.
@@ -54,10 +54,10 @@
     :scale: 70 %
     :alt: boot select
 
-  Δοκιμάστε τις εφαρμογές από το μενού "GeoSpatial". 
+  Δοκιμάστε τις εφαρμογές από το μενού :menuselection:`Geospatial`. 
 
 Δείτε ακόμα:
----------
+------------
 
  * :doc:`virtualbox_quickstart`
  * :doc:`osgeolive_install_quickstart`

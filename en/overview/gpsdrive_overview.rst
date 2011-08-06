@@ -1,4 +1,5 @@
 :Author: Hamish Bowman
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -61,6 +62,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/gpsdrive_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/gpsdrive_quickstart>`
 
 

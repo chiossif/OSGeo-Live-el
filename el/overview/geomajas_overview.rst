@@ -1,6 +1,8 @@
 :Author: Pieter De Graef
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live4.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+
 
 .. _geomajas-overview:
 
@@ -72,5 +74,5 @@ Geomajas
 Γρήγορη εκκίνηση
 ----------------
 
-* `Εγχειρίδια γρήγορης εκκίνησης <../quickstart/geomajas_quickstart.html>`_
+* :doc:`Εγχειρίδια γρήγορης εκκίνησης <../quickstart/geomajas_quickstart>`
 

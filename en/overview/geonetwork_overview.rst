@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geonetwork-overview:
 
@@ -64,7 +65,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.6.3
+**Software Version:** 2.6.4
 
 **Supported Platforms:** Windows, Linux, Mac
 
@@ -76,4 +77,4 @@ Details
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/geonetwork_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`

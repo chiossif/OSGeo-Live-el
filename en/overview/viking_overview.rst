@@ -1,4 +1,5 @@
 :Author: Hamish Bowman
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -68,6 +69,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/viking_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/viking_quickstart>`
 
 

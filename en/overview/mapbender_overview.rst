@@ -1,6 +1,7 @@
 :Author: Astrid Emde
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapbender-overview:
 
@@ -81,7 +82,7 @@ Details
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Software Version:** 2.7
+**Software Version:** 2.7.2
 
 **Supported Platforms:** Windows, Linux, Mac
 
@@ -91,6 +92,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/mapbender_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/mapbender_quickstart>`
 
 

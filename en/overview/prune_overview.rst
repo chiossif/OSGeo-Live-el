@@ -1,6 +1,7 @@
 :Author: activityworkshop
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.5
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _prune-overview:
 
@@ -60,5 +61,5 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/prune_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/prune_quickstart>`
 

@@ -30,11 +30,11 @@
 Γρήγορη εκκίνηση
 ----------------
 
--   `Ξεκινώντας με το το OSGeo-Live DVD <quickstart/osgeolive_quickstart.html>`_
--   `Αλλαγή γλώσσας και τύπου πληκτρολογίου <quickstart/internationalisation_quickstart.html>`_
--   `Εγκατάσταση του OSGeo-Live στον σκληρό σας δίσκο <quickstart/osgeolive_install_quickstart.html>`_
--   `Τρέξτε το OSGeo-Live σε μια εικονική μηχανή <quickstart/virtualbox_quickstart.html>`_
--   `Δημιουργήστε ένα εκκινήσιμο OSGeo-Live κλειδί USB <quickstart/usb_quickstart.html>`_
+-   :doc:`Ξεκινώντας με το το OSGeo-Live DVD <quickstart/osgeolive_quickstart>`_
+-   :doc:`Αλλαγή γλώσσας και τύπου πληκτρολογίου <quickstart/internationalisation_quickstart>`_
+-   :doc:`Εγκατάσταση του OSGeo-Live στον σκληρό σας δίσκο <quickstart/osgeolive_install_quickstart>`_
+-   :doc:`Τρέξτε το OSGeo-Live σε μια εικονική μηχανή <quickstart/virtualbox_quickstart>`_
+-   :doc:`Δημιουργήστε ένα εκκινήσιμο OSGeo-Live κλειδί USB <quickstart/usb_quickstart>`_
 
 Παρουσίαση
 ----------

@@ -19,90 +19,90 @@
 GeoTools
 ========
 
-GeoTools is an open source (LGPL) Java library which provides standards compliant methods for manipulating geospatial data, and uses data structures based on Open Geospatial Consortium (OGC) specifications.
+Η GeoTools είναι μια ανοιχτή (LGPL) βιβλιοθήκη σε Java η οποία παρέχει τυπικές μεθόδους για την διαχείρηση γεωχωρικών δεδομένων και δομών βασισμένες σε προδιαγραφές του Open Geospatial Consortium (OGC).
 
 .. image:: ../../images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
 
-Geotools is used by a number of projects including web services, command line tools and desktop applications. OSGeo-Live applications which include GeoTools include: 
+Η Geotools χρησιμοποιείται από έναν αριθμό προγραμμάτων στα οποία περιλαμβάνονβ\ται δικτυακές υπηρεσίες (web services), εργαλεία από την γραμμή εντολών και εφαρμογές με γραφική διεπαφή (desktop applications). Οι εφαρμογές OSGeo-Live στις οποίες περιλαμβάνεται η GeoTools: 
 :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Core Features
 -------------
 
-* Definition of interfaces for key spatial concepts and data structures
+* Ορισμός των διεπαφών για τις χωρικές δομές (spatial concepts) και τις δομές δεδομένων.
   
-  * Integrated Geometry support provided by Java Topology Suite (JTS)
-  * Attribute and spatial filters using OGC Filter Encoding specification
+  * Ολοκληρωμένη υποστήριξη γεωμετρίας μέσω της Java Topology Suite (JTS)
+  * Χωρικά και φίλτρα χαρακτηριστικώνμε βάση την προδιαγραφή OGC Filter Encoding
   
-* A clean data access API supporting feature access, transaction support and locking between threads
+* Καθαρό API με υποστήριξη: πρόσβασης, διαχείρησης και κλειδώματος μεταξύ των νημάτων (threads)
   
-  * Access GIS data in many file formats and spatial databases
-  * Coordinate reference system and transformation support
-  * Work with an extensive range of map projections
-  * filter and analyze data in terms of spatial and non-spatial attributes
+  * Πρόσβαση σε δεδομένα GIS με μεγάλη ποικιλία formats και γεω-χωρικών βάσεων δεδομέναν
+  * Υποστήριξη συστημάτων συντεταγμένων και μετατροπών μεταξύ τους
+  * Συνεργάζεται με πληθώρα χαρτογραφικών προβολών
+  * Φιλτάρει/αναλύει τόσο γεωχωρικά όσο και απλά δεδομένα
 
-* A stateless, low memory renderer, particularly useful in server-side environments.
+* A stateless, low memory renderer, εξαιρετικά χρήσιμο σε περιβάλον server.
   
-  * compose and display maps with complex styling
+  * συνθέτει και εμφανίζει χάρτες με σύνθετες επιλογές αναπαράστασης (styling)
 
 * Powerful *schema asisted* parsing technology using XML Schema to bind to GML content
   
   * The parsing / encoding technology is provided with bindings for many OGC standards including GML, Filter, KML, SLD, and SE.
   
-* GeoTools Plugins: open plug-in system allowing you to teach the library additional formats
+* GeoTools Plugins: ανοιχτό σύστημα προσθέτων (plug-in) το οποίο επιτρέπει την εκμάθηση των επιπλέον format των βιβλιοθηκών
   
-  * Plug-ins for the ImageIO-EXT project allowing GeoTools to read additional raster formats from GDAL
+  * Πρόσθετα για το πακέτο ImageIO-EXT τα οποία επιτρέπουν στην GeoTools να διαβάζει επιπλέον formats μέσω GDAL
  
-* GeoTools Extensions
+* GeoTools Επεκτάσεις
 
-  * Provide additional capabilities built using the spatial facilites of the core library.
+  * Παρέχουν επιπλέον δυνατότητες μέσω των χωρικών λειτουργιών της κεντρικής (core) βιβλιοθήκης.
   
   .. image:: ../../images/screenshots/800x600/geotools-extension.png
      :alt: Extensions built using the GeoTools library
 
-  * Extensions provide graph and networking support (for finding the shortest path), validation, a web map server client, bindings for xml parsing and encoding and color brewer.
+  * Επεκτάσεις οι οποίες παρέχουν γραφικές και διαδικτυακές λειτουργίες (πχ αλγόριθμος ελάχιστης διαδρομής), αξιολόγηση δεδομένων, έναν web map server client, bindings for xml parsing and encoding and color brewer.
 
 * GeoTools Unsupported
   
-  * GeoTools also operates as part of a wider community with a staging area used to foster new talent and promote experimentation.
+  * Η GeoTools είναι μέρος μιας ευρύτερης κοινότητας η οποία καλλιεργεί και αναδυκνύει νέα ταλέντα ενώ προάγει τον πειραματισμό.
   
-  * Some highlights are swing support (used in geotools tutorials), swt, local and web process support, additional symbology, additional data formats, generation of grids and a couple of implementations of ISO Geometry.
+  * Κάποια σημαντικά σημεία είναι η υποστήριξη swing (η οποία χρησιμοποιείται στα εγχειρίδια της geotools), swt, τοπική και δικτυακή υποστήριξη εφαρμογών, πρόσθετα σύμβολα, πολλά formats δεδομένων, παραγωγή κανάβων (grids) και υλοποιήσεις της γεωμετρίας ISO (ISO Geometry).
 
 Supported Formats
 -----------------  
 
-* raster formats and data access:
+* raster formats και δεδομένα:
   
   arcsde, arcgrid, geotiff, grassraster, gtopo30, image (JPEG, TIFF, GIF, PNG), imageio-ext-gdal, imagemoasaic, imagepyramid, JP2K, matlab.
   
-* Database "jdbc-ng" support:
+* Υποστήριξη σε βάσεις δεδομένων "jdbc-ng" :
   
   db2, h2, mysql, oracle, postgis, spatialite, sqlserver.
 
-* Vector formats and data access:
+* Διανυσματικά (vector) formats και δεδομένα:
   
   app-schema, arcsde, csv, dxf, edigeo, excel, geojson, org, property, shapefile, wfs.
 
 * XML Bindings:
 
-  Java data structures and bindings provided for the following:
+  Δομές δεδομένων Java και bindings τα οποία παρέχουν τα ακόλουθα:
   xsd-core (xml simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, vpf.
   
-  Additional Geometry, Filter and Style parser/encoders available for DOM and SAX applications.
+  Επιπρόσθετα εργαλεία Geometry, Filter και Style για την διαχείρηση/κωδικοποίηση εφαρμογών σε DOM και SAX.
   
 Implemented Standards
 ---------------------
 
-Support of numerous Open Geospatial Consortium (OGC) standards:
+Υποστήριξη σε προδιαγραφές της Open Geospatial Consortium (OGC):
 
-* OGC Style Layer Descriptor / Symbology Encoding data structures and rendering engine
-* OGC General Feature Model including Simple Feature support
-* OGC Grid Coverage representation of raster information
-* OGC Filter and Common Constraint Language (CQL)
-* Clients for Web Feature Service (WFS), Web Map Service (WMS) and experimental support for Web Process Service (WPS)
+* OGC Style Layer Descriptor / Symbology Encoding
+* OGC General Feature Model περιλαμβανομένης της λειτουργίας Simple Feature
+* OGC Grid Coverage για την αναπαράσταση δεδομένων raster
+* OGC Filter και Common Constraint Language (CQL)
+* Clients για Web Feature Service (WFS), Web Map Service (WMS) και πειραματική υποστήριξη σε Web Process Service (WPS)
 * ISO 19107 Geometry
 
 Details

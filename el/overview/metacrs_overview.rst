@@ -25,19 +25,19 @@ Coordinate Reference Systems Transformations
 
 .. comment: Can we please get an image. Maybe a collage of different projections. Make sure the image has rights to be included in a CC document.
 
-The group of MetaCRS projects provide libraries of methods to transform between difference coordinate reference systems.
-A geographic coordinate reference systems allows all points on the earth to be described as set of coordinates (such as latitude, longitude and elevation). Different systems are used to represent the 3 dimensional earth on a flat, 2 dimensional map.
+Η ομάδα την πακέτων MetaCRS παρέχει βιβλιοθήκες λογισμικού για την μετατροπή μεταξύ διαφόρων γεωγραφικών συστημάτων συντεταγμένων.
+Ένα γεωγραφικό σύστημα συντεταγμένων επιτρέπει σε όλα τα σημεία στην γη να αναπαριστώνται ως συντεταγμένες (όπως το γεωγραφικό μήκος, το γεωγραφικό πλάτος και το υψόμετρο). Διάφορα συστήματα χρησιμοποιούνται επίσης στην αναπαράσταση της τρισδιάστατης γήινης επιφάνειας σε δύο διαστάσεις.
 
-The MetaCRS libraries are included in other projects and some are also available via a command line interface.
+Οι βιβλιοθήκες MetaCRS περιλαμβάνονται/χρησιμοποιούνται επίσης και σε άλλα πακέτα λογισμικού ενώ πολλές είνα διαθέσιμες για εκτέλεση και από την γραμμή εντολών.
 
-The sub-projects that make up MetaCRS include:
+Στα πακέτα του MetaCRS περιλαμβάνονται:
 
 .. comment: Find examples for where all libraries are used, or don't mention any.
 .. comment: I assume camel case should be Proj4JS or Proj4js instead of Proj4Js? (I've changed below)
 
-* PROJ.4 (C++) - used in MapServer, GRASS GIS, PostGIS, Mapnik, several others.
-* Proj4js (JavaScript) - used in OpenLayers.
-* CS-Map (C++) - used in MapGuide.
+* PROJ.4 (C++) - χρησιμοποιείται από τα: MapServer, GRASS GIS, PostGIS, Mapnik και πολλά άλλα.
+* Proj4js (JavaScript) - χρησιμοποιείται από το OpenLayers.
+* CS-Map (C++) - χρησιμοποιείται από το MapGuide.
 * GeoTIFF/libgeotiff (C++) - .
 * Proj4J (Java) - used ???.
 * `SpatialReference.org <http://spatialreference.org/>`_  - website to retrieve coordinate system definitions.
@@ -45,17 +45,16 @@ The sub-projects that make up MetaCRS include:
 Core Features
 -------------
 
-* Provides point transformation from one coordinate reference system to another.
-* Includes transformation between datums.
-* Large number of projection classes supported.
+* Παρέχει μετασχηματισμούς μεταξύ γεωγραφικών συστημάτων συντεταγμένων.
+* Περιλαμβάνει μετατροπές μεταξύ των διαφόρων datums.
+* Υποστηρίζει μεγάλο αριθμό κλάσεων μετατροπών/προβολών.
 
 
 Implemented Standards
 ---------------------
 
-The projects typically use coordinate system definitions as defined by the 
-`European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`_ and defined in
-Well Known Text (WKT) format.
+Τα προγράμματα αυτά χρησιμοποιούν τυπικούς ορισμούς συστημάτων γεωγραφικών συντεταγμένων από το
+`European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`_ τα οποία έχουν καταγραφεί σε Well Known Text (WKT) format.
 
 Details
 -------

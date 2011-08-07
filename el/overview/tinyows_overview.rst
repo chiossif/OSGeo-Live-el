@@ -1,10 +1,7 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
-:License: Creative Commons
-
-
-.. Writing Tip:
-  The following becomes a HTML anchor for hyperlinking to this page
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _tinyows-overview:
 
@@ -12,90 +9,57 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://tinyows.refractions.net/
+  :target: http://www.tinyows.org/
 
 TinyOWS
 =======
 
-Web Services
-~~~~~~~~~~~~
+Web Feature Service
+~~~~~~~~~~~~~~~~~~~
 
-.. Writing Tip:
-  Address user questions of "What does the application do?",
-  "When would I use it?", "Why would I use it over other applications?",
-  "How mature is the application and how widely deployed is it?".
-  Don't mention licence or open source in this section.
-  Target audience is a GIS practitioner or student who is new to Open Source.
-  * First sentence should explain the application.
-  * Usually the application domain will not be familiar to readers. So the
-    next line or two should explain the domain. Eg: For GeoKettle, the next
-    line or two should explain what GoeSpatial Business Intelligence is.
-  * Remaining paragraph or 2 in this overview section should provide a
-    wider description and advantages from a user perspective.
+Ο TinyOWS είναι ένας εξυπηρετητής υψηλών επιδόσεων του προτύπου Transactional Web Feature Service (WFS-T), ο οποίος είναι εύκολο να εγκατασταθεί και να χρησιμοποιηθεί, με τη χρήση διεπαφών CGI ή FastCGI και τη χρήση της :doc:`PostGIS <../overview/postgis_overview>` για αποθήκευση δεδομένων.
 
-TinyOWS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems (GIS) and web-mapping applications in the same manner as Oracle Spatial enables the Oracle database.
-
-TinyOWS is stable, fast, standards compliant, with hundreds of spatial functions and is currently the most widely used Open Source spatial database. TinyOWS is used by diverse organisations from around the world, including risk adverse government agencies and organisations storing terrabytes of data serving millions of web requests per day.
-
-Database administration is available via pgAdmin, phpPgAdmin, among others. Importing and exporting data is provided by various converter tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2tinyows). And there are numerous desktop and browser GIS clients for viewing TinyOWS data.
-
-.. Writing Tip:
-  Provide a image of the application which will typically be a screen shot
-  or a collage of screen shots.
-  Store image in image/<application>_<name>.gif . Eg: udig_main_page.gif
-  Screenshots should be captured from a 1024x768 display.
-  Don't include the desktop background as this changes with each release
-  and will become dated.
-
-.. image:: ../../images/screenshots/800x600/pgadmin.gif
+.. image:: ../../images/screenshots/800x600/tinyows_digitizing.jpg
   :scale: 55 %
-  :alt: project logo
+  :alt: digitizing
   :align: right
 
-Core Features
--------------
+Ο TinyOWS χρησιμοποιείται ευρέως με τον :doc:`MapServer <../overview/mapserver_overview>` για την υλοποίηση υπηρεσιών WFS-T και γρήγορων WFS για το :doc:`QGIS <../overview/qgis_overview>` και/ή για το :doc:`OpenLayers <../overview/openlayers_overview>`. Χρησιμοποιείται στην παραγωγή σε οργανισμούς ανα τον κόσμο, περιλαμβανομένων κυβερνητικών υπηρεσιών με υψηλό ρίσκο.
+Ο TinyOWS υλοποιεί αυστηρά τα πρότυπα WFS 1.0 και 1.1, και έχει περάσει με επιτυχία όλα τα δοκιμαστικά τέστ OGC CITE (~ 1000 τεστ).
 
-* Hundreds of spatial functions
-  
-  * Buffers, unions, overlays, distance and more
-
-* ACID transactional integrity
-* R-Tree spatial index
-* Multi-user support
-* Row-level locking
-* Replication
-* Partitioning
-* Role-based security
-* Table-spaces, schemas
-
-Implemented Standards
+Βασικά Χαρακτηριστικά
 ---------------------
 
-.. Writing Tip: List OGC or related standards supported.
+* Transactional Web Feature Service (WFS-T)
+* Διεπαφή CGI και FastCGI
+* Σύνδεση με δεδομένα PostGIS
+* Δημιουργία εξόδου σε GML 2.1.2, 3.1.1 και GeoJson 1.0
+* Ρυθμίζεται με τη χρήση του αρχείου ρυθμίσεων του MapServer, επιτρέποντας ένα μόνο αρχείο ρυθμίσεων για τις δυο εφαρμογές.
 
-* OGC standards compliant (SFSQL)
+Υλοποιημένα Πρότυπα
+-------------------
+* WFS 1.0 και WFS 1.1: Βασικό και Συνθετο προφίλ
+* FE 1.0.0 και FE 1.1.0
+* GML 2.1.2 και 3.1.1 Simple Profile (SF-0)
 
 Details
 -------
 
-**Website:** http://tinyows.refractions.net/
+**Αρχική Ιστοσελίδα:** http://www.tinyows.org/
 
-**Licence:** GNU General Public License (GPL) version 2
+**Άδεια:** MIT
 
-**Software Version:** 1.5
+**Έκδοση Λογισμικού:** 1.0
 
-**Supported Platforms:** Windows, Linux, Mac
+**Υποστηριζόμενες πλατφόρμες:** Linux, Unix, Mac, Windows
 
-**API Interfaces:** SQL
+**Προγραμματιστικές διεπαφές:** CGI/FastCGI
 
-.. Writing Tip:
-  Link to webpage which lists the primary support details for the application,
-  preferably this would list both community and commercial contacts.
-
-**Support:** http://www.osgeo.org/search_profile
+**Υποστήριξη:** http://lists.maptools.org/pipermail/tinyows-users/
 
 
-Quickstart
-----------
+Γρήγορη εκκίνηση
+----------------
     
-* `Quickstart documentation <../quickstart/tinyows_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/tinyows_quickstart>`
+

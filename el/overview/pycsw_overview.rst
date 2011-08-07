@@ -12,39 +12,39 @@
 
 
 pycsw
-==========
+=====
 
-Metadata Catalog
-~~~~~~~~~~~~~~~~
+Κατάλογος Μεταδεδομένων
+~~~~~~~~~~~~~~~~~~~~~~~
 
-pycsw is an OGC CSW server implementation written in Python.
+Το pycsw είναι μια υλοποίηση εξυπηρετητή του προτύπου OGC CSW σε γλώσσα προγραμματισμού Python.
 
-pycsw implements clause 10 (HTTP protocol binding (Catalogue Services for the Web, CSW)) of the OpenGIS Catalogue Service Implementation Specification, version 2.0.2. Initial development started in 2010 (more formally announced in 2011).
+To pycsw υλοποιεί την οδηγία 10 (πρωτόκολο επικοινωνίας HTTP του προτύπου Catalogue Services for the Web, CSW) της προδιαγραφής υλοποίησης Υπηρεσίας Καταλόγου του OpenGIS, στην έκδοση 2.0.2. Η υλοποίηση ξεκίνησε το 2010 (και ανακοινώθηκε πιο επίσημα το 2011).
 
-pycsw allows for the publishing and discovery of geospatial metadata. Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2.
+Το pycsw επιτρέπει την δημοσίευση και αναζήτηση γεωχωρικών μεταδεδομένων. Υπάρχοντα αποθετήρια γεωχωρικών μεταδεδομένων μπορούν να δημοσιευθούν μέσω του προτύπου OGC:CSW 2.0.2.
 
-pycsw is Open Source, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).
-
-
-Core Features
--------------
-
-* fully passes the OGC CITE CSW test suite (103/103)
-* implements INSPIRE Discovery Services 3.0
-* implements ISO Metadata Application Profile 1.0.0
-* implements FGDC CSDGM Application Profile for CSW 2.0
-* supports ISO, Dublin Core, DIF, FGDC metadata models
-* simple configuration
-* transactional capabilities (CSW-T)
-* flexible repository configuration
-* federated catalogue distributed searching
-* realtime XML Schema validation
-* extensible profile plugin architecture
-* very lightweight (Python + CGI)
+Το pycsw είναι Λογισμικό Ανοιχτού Κώδικα, υπό την άδεια MIT, και υποστηρίζει όλες τις κύριες πλατφόρμες (Windows, Linux, Mac OS X).
 
 
-Implemented Standards
+Βασικά Χαρακτηριστικά
 ---------------------
+
+* Περνάει με επιτυχία τη σουίτα δοκιμής OGC CITE CSW (103/103)
+* Υλοποιεί την οδηγία INSPIRE Discovery Services 3.0
+* Υλοποιεί το πρότυπο ISO Metadata Application Profile 1.0.0
+* Υλοποιεί το πρότυπο FGDC CSDGM Application Profile για το CSW 2.0
+* Υποστηρίζει τα μοντέλα μεταδεδομένων ISO, Dublin Core, DIF, FGDC
+* Εγκαθίσταται και ρυθμίζεται απλά
+* Δυνατότητες εγγραφής και επικαιροποίησης μεταδεδομένων (CSW-T)
+* Ευέλικτη ρύθμιση αποθετηρίων
+* Κατανεμημένη αναζήτηση καταλόγου
+* Πιστοποίηση μεταδεδομένων με χρήση σχημάτων XML
+* Επεκτάσιμη αρχιτεκτονική υλοποίησης προσθέτων
+* Εξαιρετικά λίγες απαιτήσεις υλικού στον εξυπηρετητή (Python + CGI)
+
+
+Υλοποιημένα Πρότυπα
+-------------------
 
 * OGC CSW 	2.0.2
 * OGC Filter 	1.1.0
@@ -59,17 +59,17 @@ Implemented Standards
 * FGDC CSDGM 	1998
 
 
-Details
--------
+Λεπτομέρειες
+------------
 
-**Website:** http://pycsw.org
+**Κεντρική ιστοσελίδα:** http://pycsw.org
 
-**Licence:** MIT
+**Άδεια:** MIT
 
-**Software Version:** 1.0.0
+**Έκδοση Λογισμικού:** 1.0.0
 
-**Supported Platforms:** Windows, Linux, Mac
+**Υποστηριζόμενες Πλατφόρμες:** Windows, Linux, Mac
 
-**API Interfaces:** Python
+**Προγραμματιστικές Διεπαφές:** Python
 
-**Support:** http://pycsw.org/support.html
+**Υποστήριξη:** http://pycsw.org/support.html

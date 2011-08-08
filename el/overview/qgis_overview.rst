@@ -1,4 +1,5 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.5
 :License: Creative Commons
 
@@ -107,6 +108,6 @@ Quantum GIS (QGIS)
 Γρήγορη εκκίνηση
 ----------------
 
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/qgis_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/qgis_quickstart>`
 
 

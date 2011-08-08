@@ -1,6 +1,7 @@
-:Author: Ian Turton
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Author: Frank Gasdorf
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0draft
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geoserver-overview:
 
@@ -30,11 +31,10 @@ GeoServer
 browser) για να μπορούν να βλέπουν τους χάρτες όπως ακριβώς έχουν δημοσιοποιηθεί. 
 
 Ο GeoServer είναι η υλοποίηση αναφοράς του προτύπου`Open Geospatial
-Consortium <http://www.opengeospatial.org>`_ (OGC) `Web Feature
-Service <http://www.opengeospatial.org/standards/wfs>`_ (WFS) και του `Web
-Coverage Service <http://www.opengeospatial.org/standards/wcs>`_ (WCS),
-καθώς επίσης και ένας πιστοποιημένος εξυπηρετητής υψηλής απόδοσης του προτύπου `Web Map
-Service <http://www.opengeospatial.org/standards/wms>`_ (WMS).
+Consortium <http://www.opengeospatial.org>`_ (OGC):doc:`../standards/wfs_overview` και του 
+:doc:`../standards/wcs_overview`, 
+καθώς επίσης και ένας πιστοποιημένος εξυπηρετητής υψηλής απόδοσης του προτύπου 
+:doc:`../standards/wms_overview`. 
 Ο GeoServer αποτελεί ένα κεντρικό πυρήνα του Γεωχωρικού Διαδικτυόυ (Geospatial Web). 
 
 .. image:: ../../images/screenshots/800x600/geoserver.gif
@@ -72,9 +72,14 @@ Service <http://www.opengeospatial.org/standards/wms>`_ (WMS).
 Υλοποιημένα Πρότυπα
 -------------------
 
-* Υποστήριξη μεγάλου αριθμού προτύπων του Open Geospatial Consortium  (OGC)
+Υποστήριξη μεγάλου αριθμού προτύπων του Open Geospatial Consortium (OGC):
 
-* WMS, WFS-T, WCS, Filter Encoding, SLD, GML
+  * :doc:`../standards/wms_overview`
+  * :doc:`../standards/wfs_overview`, WFS-T (transactional)
+  * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/fe_overview`
+  * :doc:`../standards/sld_overview` 
+  * :doc:`../standards/gml_overview`
 
 Λεπτομέρειες
 ------------
@@ -96,5 +101,5 @@ Service <http://www.opengeospatial.org/standards/wms>`_ (WMS).
 Γρήγορη εκκίνηση
 ----------------
     
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geoserver_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geoserver_quickstart>`
 

@@ -1,6 +1,7 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _marble-overview:
 
@@ -49,7 +50,7 @@ Details
 
 **Licence:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 0.9.5
+**Software Version:** 1.0.2
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
@@ -61,6 +62,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/marble_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/marble_quickstart>`
 
 

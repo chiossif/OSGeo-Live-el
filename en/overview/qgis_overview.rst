@@ -1,4 +1,5 @@
 :Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.5
 :License: Creative Commons
 
@@ -17,8 +18,8 @@
   :target: http://www.osgeo.org
 
 
-Quantum GIS
-===========
+Quantum GIS (QGIS)
+==================
 
 Desktop GIS
 ~~~~~~~~~~~
@@ -97,6 +98,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/qgis_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/qgis_quickstart>`
 
 

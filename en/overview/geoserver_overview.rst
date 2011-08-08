@@ -1,8 +1,8 @@
 :Author: Ian Turton
-:Version: osgeo-live4.0
-:License: Creative Commons
-
-.. _geoserver-overview:
+:Author: Frank Gasdorf
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0draft
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :scale: 100%
@@ -30,12 +30,12 @@ almost any `format
 anything about GIS data. At the simplest level all they need is a web
 browser to see your maps exactly as you want. 
 
-GeoServer is the reference implementation of the `Open Geospatial
-Consortium <http://www.opengeospatial.org>`_ (OGC) `Web Feature
-Service <http://www.opengeospatial.org/standards/wfs>`_ (WFS) and `Web
-Coverage Service <http://www.opengeospatial.org/standards/wcs>`_ (WCS)
-standards, as well as a high performance certified compliant `Web Map
-Service <http://www.opengeospatial.org/standards/wms>`_ (WMS).
+GeoServer is the reference implementation of the `Open Geospatial 
+Consortium <http://www.opengeospatial.org>`_ (OGC) 
+:doc:`../standards/wfs_overview` and 
+:doc:`../standards/wcs_overview` standards, 
+as well as a high performance certified compliant 
+:doc:`../standards/wms_overview`. 
 GeoServer forms a core component of the Geospatial Web. 
 
 .. image:: ../../images/screenshots/800x600/geoserver.gif
@@ -73,9 +73,14 @@ Core Features
 Implemented Standards
 ---------------------
 
-* Support of numerous Open Geospatial Consortium  (OGC) standards
+Support of numerous Open Geospatial Consortium  (OGC) standards:
 
-* WMS, transactional WFS, WCS, Filter Encoding, SLD, GML
+  * :doc:`../standards/wms_overview`
+  * :doc:`../standards/wfs_overview`, WFS-T (transactional)
+  * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/fe_overview`
+  * :doc:`../standards/sld_overview` 
+  * :doc:`../standards/gml_overview`
 
 Details
 -------
@@ -84,7 +89,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.1
+**Software Version:** 2.1.1
 
 **Supported Platforms:** All Java 1.5 platforms: - Windows, Linux, Mac
 
@@ -95,4 +100,4 @@ Details
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/geoserver_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`

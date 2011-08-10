@@ -2,7 +2,7 @@
 :Author: OSGeo-Live
 :Author: Cameron Shorter
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _osgeolive-install-quickstart:
  
@@ -20,7 +20,7 @@
 * Σκληρός Δίσκος: 
 
  * Δεν απαιτείται για εκτέλεση απευθείας από το DVD 
- * 5 Gig σε περίπτωση που θελήσετε να εγκαταστήσετε το λειτουργικό σύστημα. 
+ * |osgeo-live-hdspace| σε περίπτωση που θελήσετε να εγκαταστήσετε το λειτουργικό σύστημα. 
 
 * Ποντίκι: με 3-πλήκτρα, ειδικά για τους χρήστες Mac. 
 
@@ -36,19 +36,19 @@
     :scale: 70 %
     :alt: boot
 
-  Επιλέξτε ENTER για να πάτε στην επόμενη οθόνη.
+  Επιλέξτε :kbd:`ENTER` για να πάτε στην επόμενη οθόνη.
 
   .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
     :scale: 70 %
     :alt: boot select
 
-  Επιλέξτε "live - boot the Live System"
+  Επιλέξτε :guilabel:`live - boot the Live System`
 
   .. image:: ../../images/screenshots/800x600/osgeolive_login.png
     :scale: 70 %
     :alt: boot select
 
-  Στην οθόνη εισαγωγής ονόματος χρήστη απλά επιλέξτε ENTER ή περιμένετε να σταματήσει η αντίστροφη μέτρηση.
+  Στην οθόνη εισαγωγής ονόματος χρήστη απλά επιλέξτε :kbd:`ENTER` ή περιμένετε να σταματήσει η αντίστροφη μέτρηση.
 
   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %

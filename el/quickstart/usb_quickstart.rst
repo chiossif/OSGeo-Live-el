@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Cameron Shorter
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _usb-quickstart:
  
@@ -16,8 +16,8 @@
 Απαιτήσεις
 ----------
 
-* Ένα δισκάκι USB 4 Gig εφόσον χρησιμοποιείτε την έκδοση osgeo-live-mini
-* Ένα δισκάκι USB 8 Gig εφόσον χρησιμοποιείτε την έκδοση osgeo-live
+* Ένα δισκάκι USB 4 GB εφόσον χρησιμοποιείτε την έκδοση osgeo-live-mini
+* Ένα δισκάκι USB 8 GB εφόσον χρησιμοποιείτε την έκδοση osgeo-live
 * Το αρχείο ISO του OSGeo-Live ή το DVD (που μπορείτε να κατεβάσετε από: http://live.osgeo.org/download.html)
 
 Δημιουργώντας το δισκάκι USB από το Ubuntu
@@ -30,7 +30,7 @@
   .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-Επιλέξτε "System->Administration->Startup Disk Creator"
+Επιλέξτε :menuselection:`System --> Administration --> Startup Disk Creator`
 
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
@@ -39,7 +39,7 @@
 
 Επιλέξτε το δισκάκι USB.
 
-Επιλέξτε "Make Startup Disk"
+Επιλέξτε :guilabel:`Make Startup Disk`
 
   .. image:: ../../images/screenshots/800x600/usb_installing.png
     :scale: 70 %
@@ -59,15 +59,15 @@
 
   .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
 
-Βήμα 1: Διανομή: Επιλέξτε τη διανομή xubuntu i386 που χρησιμοποιεί το osgeo-live. (για το osgeo-live-4.0, επιλέξτε xubuntu 10.04 Desktop i386)
+Βήμα 1: Διανομή: Επιλέξτε τη διανομή xubuntu i386 που χρησιμοποιεί το osgeo-live. (για το |osgeo-live-version|, επιλέξτε xubuntu 10.04 Desktop i386)
 
-Βήμα 2: Επιλέξτε το αρχείο iso που κατεβάσατε τοπικά. Σημείωση: Θα χρειαστεί να πληκτρολογήσετε το σημείο που βρίσκεται το αρχείο ISO, καθώς το κουμπί "Browse" βρίσκει μόνο τα αρχεία iso του xubuntu.
+Βήμα 2: Επιλέξτε το αρχείο iso που κατεβάσατε τοπικά. Σημείωση: Θα χρειαστεί να πληκτρολογήσετε το σημείο που βρίσκεται το αρχείο ISO, καθώς το κουμπί :guilabel:`Browse` βρίσκει μόνο τα αρχεία iso του xubuntu.
 
 Βήμα 3: Επιλέξτε το δισκάκι USB
 
-Βήμα 4: Επιλέξτε Persistence εαν θέλετε να σώζονται πληροφορίες μεταξύ εκτελέσεων του OSGeoLive.
+Βήμα 4: Επιλέξτε "Persistence" εαν θέλετε να σώζονται πληροφορίες μεταξύ εκτελέσεων του OSGeoLive.
 
-Επιλέξτε "Create"
+Επιλέξτε :guilabel:`Create`
 
   .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
 

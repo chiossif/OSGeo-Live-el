@@ -1,6 +1,6 @@
 :Author: Johan Van de Wauw
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _mapserver-quickstart:
 
@@ -21,7 +21,7 @@
 Εγχειρίδιο Γρήγορης Εκκίνησης MapServer
 ***************************************
 
-Ο MapServer είναι ένα 'λογισμικό ανοικτού κώδικα <http://www.opensource.org>`_ απόδοσης γεωγραφικών δεδομένων. Σας επιτρέπει να δημιουργήσετε "εικόνες γεωγραφικών χαρτών".
+Ο MapServer είναι ένα `λογισμικό ανοικτού κώδικα <http://www.opensource.org>`_ απόδοσης γεωγραφικών δεδομένων. Σας επιτρέπει να δημιουργήσετε "εικόνες γεωγραφικών χαρτών".
 
 Αυτό το εγχειρίδιο περιγράφει πώς να:
      

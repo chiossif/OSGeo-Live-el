@@ -1,6 +1,7 @@
 :Author: Daniel Kastl
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _pgrouting-overview:
 
@@ -11,16 +12,16 @@
   :target: http://www.pgrouting.org/
 
 pgRouting
-=========
+================================================================================
 
 GIS Tools
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pgRouting extends the `PostGIS <postgis_overview.html>`_/`PostgreSQL <http://www.postgresql.org>`_ geospatial database to provide geospatial routing functionality.
+pgRouting extends the :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ geospatial database to provide geospatial routing functionality.
 
 Advantages of the database routing approach are:
 
-* Data and attributes can be modified by many clients, like `Quantum GIS <qgis_overview.html>`_ and `uDig <udig_overview.html>`_ through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices.
+* Data and attributes can be modified by many clients, like :doc:`Quantum GIS <qgis_overview>` and :doc:`uDig <udig_overview>` through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices.
 * Data changes can be reflected instantaneously through the routing engine. There is no need for precalculation.
 * The "cost" parameter can be dynamically calculated through SQL and its value can come from multiple fields or tables.
 
@@ -30,7 +31,7 @@ Advantages of the database routing approach are:
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 pgRouting provides functions for:
 
@@ -46,7 +47,7 @@ pgRouting provides functions for:
 .. * OGC standards compliant
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.pgrouting.org
 
@@ -61,8 +62,8 @@ Details
 **Commercial Support:** http://www.pgrouting.org
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/pgrouting_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`
 
 

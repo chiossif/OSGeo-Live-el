@@ -1,6 +1,7 @@
 :Author: Klokan Petr Pridal
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _maptiler-overview:
 
@@ -12,10 +13,10 @@
 
 
 MapTiler
-========
+================================================================================
 
 Map Publishing
---------------
+--------------------------------------------------------------------------------
 
 MapTiler is a desktop application for the creation of map tiles for rapid raster map publishing. Geodata is transformed to tiles compatible with Google Maps and Earth - ready for publishing via direct upload to any webserver or a cloud storage (such as Amazon S3).
 
@@ -26,7 +27,7 @@ The application directly generates a ready to use simple viewer based on OpenLay
 MapTiler is a multi-platform desktop application. Installers are available for Windows, Mac OS X and packages for linux (Debian/Ubuntu).
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Well known Javascript APIs supported: OpenLayers, Google Maps API
 * No extra server software installation necessary
@@ -37,7 +38,7 @@ Core Features
 * Available commercial support and parallelized rendering on multi-core CPUs or on Amazon EC2 cluster
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.maptiler.org/
 
@@ -52,6 +53,6 @@ Details
 **Commercial support and applications:** http://www.maptiler.com/
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
-* `Quickstart documentation <../quickstart/maptiler_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/maptiler_quickstart>`

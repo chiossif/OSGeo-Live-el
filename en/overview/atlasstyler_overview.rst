@@ -1,6 +1,7 @@
 :Author: Stefan Tzeggai
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _atlasstyler-overview:
 
@@ -12,10 +13,10 @@
 
 
 AtlasStyler
-===========
+================================================================================
 
 Feature Style Editor
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ is a user-friendly desktop application for styling geodata. The resulting styles can be saved as OGC standards compliant SLD/SE files.
 
@@ -27,7 +28,7 @@ The created SLD files are compatible with all programs which support the OGC SLD
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Build styles using dialogs.
 * Based on OGC SLD standard.
@@ -36,13 +37,13 @@ Core Features
 * Fully translated into German, English, Italian, Turkish, Russian and French.
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * OGC Style Layer Descriptor (SLD) 1.0
 * OGC Symbology Encoding (SE)
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://en.geopublishing.org/AtlasStyler
 
@@ -59,8 +60,8 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/atlasstyler_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/atlasstyler_quickstart>`
 
 

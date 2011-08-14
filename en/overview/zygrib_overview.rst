@@ -1,4 +1,5 @@
 :Author: Hamish Bowman
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
@@ -12,16 +13,16 @@
 
 
 zyGrib
-=========
+================================================================================
 
 Weather forecasting 
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 zyGrib is a program to download and visualize weather forecast data in
 the standard GRIB distribution format.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
@@ -36,13 +37,13 @@ Core Features
 * Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude data.
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.zygrib.org
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 5.0
+**Software Version:** 5.0.2
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
@@ -50,7 +51,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/zygrib_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`
 

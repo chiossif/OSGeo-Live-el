@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.5
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _qgis-overview:
 
@@ -19,10 +19,10 @@
 
 
 Quantum GIS (QGIS)
-==================
+================================================================================
 
 Desktop GIS
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Quantum GIS (QGIS) is a user friendly, Open Source, GIS client where
 you can visualize, manage, edit, analyse data, and compose printable maps.
@@ -36,7 +36,7 @@ raster and database formats and functionality.
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Friendly graphical user interface.
 
@@ -75,12 +75,12 @@ Core Features
 * Extensible plugin architecture.
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * OGC standards compliant (WMS,WFS(Plugin))
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.qgis.org
 
@@ -96,7 +96,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/qgis_quickstart>`
 

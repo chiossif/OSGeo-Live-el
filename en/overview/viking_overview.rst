@@ -13,10 +13,10 @@
 
 
 Viking
-======
+================================================================================
 
 Manage and plot GPS data
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Viking <http://sourceforge.net/apps/mediawiki/viking/>`_ is a
 GPS data editor, analyzer and viewer. Viking aims to be easy to use,
@@ -27,7 +27,7 @@ It works with OpenStreetMap data and various online tile servers.
 
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/viking-0.9.8-europe.jpg
   :scale: 40 %
@@ -51,13 +51,13 @@ Core Features
 * Analyzing speed at different places, adding waypoints where you forgot to mark one but did slow down or stop.
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://sourceforge.net/apps/mediawiki/viking/
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 0.9.9
+**Software Version:** 0.9.94
 
 **Supported Platforms:** GNU/Linux, MS Windows
 
@@ -67,7 +67,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/viking_quickstart>`
 

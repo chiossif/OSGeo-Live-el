@@ -3,7 +3,7 @@
 :Author: Eric Lemoine
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapfish-overview:
 
@@ -21,10 +21,10 @@
 
 
 MapFish
-=======
+================================================================================
 
 Web Mapping Framework
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapFish is a flexible and complete framework for building rich web-mapping
 applications. It emphasizes high productivity, and high-quality development. 
@@ -36,8 +36,7 @@ and editing geographic objects.
 
 MapFish also provides a complete RIA-oriented JavaScript toolbox, a JavaScript
 testing environment, and tools for compressing JavaScript code. The JavaScript
-toolbox is composed of the `ExtJS <http://extjs.com>`_, `OpenLayers
-<http://www.openlayers.org>`_ , `GeoExt <http://www.geoext.org>`_ JavaScript
+toolbox is composed of the `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` , `GeoExt <http://www.geoext.org>`_ JavaScript
 toolkits.
 
 .. image:: ../../images/screenshots/800x600/mapfish-screenshot.png
@@ -46,7 +45,7 @@ toolkits.
   :align: right
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 MapFish is compliant with the `Open Geospatial Consortium
 <http://www.opengeospatial.org/>`_ standards.  This is achieved through
@@ -54,7 +53,7 @@ OpenLayers or GeoExt supporting several OGC norms, like WMS, WFS, WMC, KML, GML
 etc.
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.mapfish.org
 
@@ -68,7 +67,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/mapfish_quickstart>`
 

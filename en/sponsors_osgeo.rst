@@ -27,6 +27,7 @@ associated software, projects, or companies found within.
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.`
 
+
 OSGeo Sustaining Sponsors
 =========================
 
@@ -45,9 +46,11 @@ OSGeo Supporting Sponsors
   :alt: INPE
   :target: http://www.inpe.br/
 
-.. image:: ../images/logos/ingres.png
-  :alt: INGRES
-  :target: http://www.ingres.com
+.. Commented out:
+.. .. image:: ../images/logos/ingres.png
+..   :alt: INGRES
+..   :target: http://www.ingres.com
+
 
 .. image:: ../images/logos/osuk.gif
   :alt: Ordnance Survey
@@ -62,45 +65,54 @@ OSGeo Associate Sponsors
   :align: center
   :target: http://geocat.net/about-geocat
 
+
 .. image:: ../images/logos/astun.gif
   :alt: Astun Technology
   :align: center
   :target: http://www.isharemaps.com
+
 
 .. image:: ../images/logos/borealis.jpg
   :alt: BOREALIS
   :align: center
   :target: http://www.boreal-is.com
 
+
 .. image:: ../images/logos/ign_france.gif
   :alt: IGN
   :align: center
   :target: http://www.ign.fr
+
 
 .. image:: ../images/logos/pci.jpg
   :alt: PCI Geomatics
   :align: center
   :target: http://www.pcigeomatics.com
 
+
 .. image:: ../images/logos/c2c_logo.jpg
   :alt: Camptocamp
   :align: center
   :target: http://camptocamp.com
+
 
 .. image:: ../images/logos/lizardtech_logo_sml.gif
   :alt: LizardTech
   :align: center
   :target: http://www.lizardtech.com
 
+
 .. image:: ../images/logos/1spatial_sml.jpg
   :alt: 1Spatial
   :align: center
   :target: http://www.1spatial.com
 
+
 .. image:: ../images/logos/fbslogo_sml.gif
   :alt: First Base Solutions
   :align: center
   :target: http://www.firstbasesolutions.com
+
 
 .. image:: ../images/logos/metaspatial_sml.gif
   :alt: Metaspatial
@@ -113,6 +125,8 @@ For more information
 
 To sponsor OSGeo or discuss sponsorship opportunities further,
 please contact:
+
+::
 
    Tyler Mitchell
    Executive Director

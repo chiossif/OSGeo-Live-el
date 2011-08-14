@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _gvsig-overview:
 
@@ -18,10 +19,10 @@
 
 
 gvSIG Desktop
-==============
+================================================================================
 
 Desktop GIS
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 gvSIG_ is a Geographic Information System (GIS) desktop application
 designed for capturing, storing, handling, analysing and deploying any kind of
@@ -47,7 +48,7 @@ gvSIG is known for:
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Provides common GIS tools like data loading, map navigation, query 
   map information like alphanumeric information, distance measurement, thematic
@@ -69,7 +70,7 @@ Core Features
   * Catalogues: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Gazetteers: ADL, WFS, WFS-G
   
-* More than 290 geoalgorithms via SEXTANTE_ and GRASS integration
+* More than 290 geoalgorithms via SEXTANTE library and GRASS integration
   
 * Integrated advanced CAD tools:
 
@@ -92,7 +93,7 @@ Core Features
 
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 Advanced client support of numerous Open Geospatial Consortium (OGC) standards
 
@@ -103,7 +104,7 @@ Advanced client support of numerous Open Geospatial Consortium (OGC) standards
 * Search on gazetteers using WFS-G recommendation
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.gvsig.org/
 
@@ -117,9 +118,8 @@ Details
 
 
 .. _gvSIG: http://www.gvsig.org
-.. _SEXTANTE: http://forge.osor.eu/projects/sextante/
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
-* `Quickstart documentation <../quickstart/gvsig_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`

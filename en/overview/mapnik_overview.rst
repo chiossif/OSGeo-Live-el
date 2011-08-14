@@ -1,6 +1,7 @@
 :Author: Dane Springmeyer
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapnik-overview:
 
@@ -12,10 +13,10 @@
 
 
 Mapnik
-======
+================================================================================
 
 Cartographic rendering engine
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Mapnik is a toolkit for rendering beautiful maps, with clean, soft feature edges provided by quality anti-aliasing graphics, intelligent label placement, and scalable, SVG symbolisation. Most famously, mapnik is used to render the OpenStreetMap main map layers.
 
@@ -40,13 +41,13 @@ distributions and installers are commonly used on Mac OS X and windows.
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.mapnik.org/
 
 **Licence:** LGPL (GNU Lesser General Public Licence)
 
-**Software Version:** 0.7.0
+**Software Version:** 0.7.1
 
 **Supported Platforms:** Windows, Linux, Mac
 
@@ -55,8 +56,8 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/mapnik_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/mapnik_quickstart>`
 
 

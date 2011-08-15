@@ -1,6 +1,7 @@
-:Author: OSGeo-Live
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Author: Jody Garnett
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0draft
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geotools-overview:
 
@@ -8,7 +9,7 @@
   :scale: 60 %
   :alt: project logo
   :align: right
-  :target: http://gdal.org/
+  :target: http://geotools.org/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -17,7 +18,7 @@
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 GeoTools
-========
+================================================================================
 
 GeoTools is an open source (LGPL) Java library which provides standards compliant methods for manipulating geospatial data, and uses data structures based on Open Geospatial Consortium (OGC) specifications.
 
@@ -26,11 +27,11 @@ GeoTools is an open source (LGPL) Java library which provides standards complian
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
 
-Geotools is used by a number of projects including web services, command line tools and desktop applications. OSGeo-Live applications which include GeoTools include: 
+GeoTools is used by a number of projects including web services, command line tools and desktop applications. OSGeo-Live applications which include GeoTools include: 
 :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Definition of interfaces for key spatial concepts and data structures
   
@@ -48,7 +49,7 @@ Core Features
   
   * compose and display maps with complex styling
 
-* Powerful *schema asisted* parsing technology using XML Schema to bind to GML content
+* Powerful *schema assisted* parsing technology using XML Schema to bind to GML content
   
   * The parsing / encoding technology is provided with bindings for many OGC standards including GML, Filter, KML, SLD, and SE.
   
@@ -94,7 +95,7 @@ Supported Formats
   Additional Geometry, Filter and Style parser/encoders available for DOM and SAX applications.
   
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 Support of numerous Open Geospatial Consortium (OGC) standards:
 
@@ -106,7 +107,7 @@ Support of numerous Open Geospatial Consortium (OGC) standards:
 * ISO 19107 Geometry
 
 Details
--------
+--------------------------------------------------------------------------------
  
 **Website:** http://geotools.org/
 
@@ -121,6 +122,6 @@ Details
 **Support:** `Communication and Support <http://docs.geotools.org/latest/userguide/welcome/support.html>`_
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * `Quickstart documentation <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_

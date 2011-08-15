@@ -1,6 +1,7 @@
-:Author: Huawei Luo and Trevor Wekel
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Author: Trevor Wekel
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0draft
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapguide-overview:
 
@@ -18,10 +19,10 @@
 
 
 MapGuide Open Source
-====================
+================================================================================
 
 Web Service
------------
+--------------------------------------------------------------------------------
 
 `MapGuide Open Source <http://mapguide.osgeo.org/>`_ is a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services. MapGuide features an interactive viewer that includes support for feature selection, property inspection, map tips, and operations such as buffer, select within, and measure.
 
@@ -35,7 +36,7 @@ MapGuide can be deployed on Linux or Windows, supports Apache and IIS web server
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 **Interactive Map Viewing**
 
@@ -88,18 +89,18 @@ Core Features
 * Browse with Microsoft Internet Explorer, Mozilla Firefox, and Safari and Chrome
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Service 1.1.1 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://mapguide.osgeo.org/
 
 **Licence:** GNU Lesser General Public License (LGPL) 
 
-**Software Version:** 2.2.0
+**Software Version:** 2.4.0 Pre-Release
 
 **Supported Platforms:** Linux, Windows
 
@@ -107,8 +108,8 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/mapguide_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/mapguide_quickstart>`
 
 

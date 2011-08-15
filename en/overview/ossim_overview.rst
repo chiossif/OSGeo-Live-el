@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _ossim-overview:
 
@@ -18,10 +19,10 @@
 
 
 OSSIM
-=====
+================================================================================
 
 Image Processing
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Open Source Software Image Map (OSSIM) is a high performance engine for remote sensing, image processing, geographical information system and photogrammetry.
 
@@ -32,7 +33,7 @@ Many command line utilities, GUI applications, and integrated systems have been 
 
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
   :scale: 50 %
@@ -53,7 +54,7 @@ Core Features
 * Equation editors
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.ossim.org/
 
@@ -69,8 +70,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/ossim_quickstart.html>`_
-
-
+* :doc:`Quickstart documentation <../quickstart/ossim_quickstart>`

@@ -1,6 +1,7 @@
 :Author: Gérald Fenoy
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.5
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _zoo-overview:
 
@@ -11,10 +12,10 @@
   :target: http://zoo-project.org/
 
 ZOO Project
-===========
+================================================================================
 
 WPS Server
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ZOO Project provides a developer friendly Web Processing Service (WPS) framework for creating and chaining Web Processing Services.
 A WPS provides web access to functions which run spatial algorithms.
@@ -53,19 +54,19 @@ functions, and can now be implemented in C/C++, Fortran, Java, Python, PHP
 and JavaScript. 
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Multi language WPS server 
 * Simple Web Service creation and deployment procedure
 * Simple WPS chaining with ZOO API
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * OGC WPS 1.0.0
 
 Demo
-----
+--------------------------------------------------------------------------------
 
 * `Demo using simple C Services Provider based GEOS and OGR libraries <http://localhost/zoo-demo/spatialtools.html>`_
 * `Demo using simple Python Services Provider based GEOS and OGR libraries <http://localhost/zoo-demo/spatialtools-py.html>`_
@@ -73,7 +74,7 @@ Demo
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://zoo-project.org
 
@@ -89,8 +90,8 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/zoo-project_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/zoo-project_quickstart>`
 
 

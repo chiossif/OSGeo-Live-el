@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _openjump-overview:
 
@@ -11,10 +12,10 @@
   :target: http://www.openjump.org
 
 OpenJUMP GIS
-============
+================================================================================
 
 Desktop GIS
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 OpenJUMP is an easy to use and powerful deskstop GIS that enables users
 to edit, analyse, conflate, save and display geographic data.
@@ -23,10 +24,10 @@ It is also an excellent framework for rapid prototyping to develop custom GIS fu
 .. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
-  :align: center
+  :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Data Formats
 
@@ -59,14 +60,14 @@ Core Features
    
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
 * OGC standards supported: GML 2, SFS, WMS, WFS (Plugin), WFS-T (Plugin), SLD
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.openjump.org
 
@@ -81,6 +82,6 @@ Details
 **Commercial Support:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
-* `Quickstart documentation <../quickstart/openjump_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/openjump_quickstart>`

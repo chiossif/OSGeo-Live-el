@@ -1,4 +1,5 @@
 :Author: Hamish Bowman
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -11,10 +12,10 @@
   :target: http://www.openstreetmap.org
 
 OpenStreetMap
-=============
+================================================================================
 
 Tools for mapping the world
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `OpenStreetMap <http://www.openstreetmap.org>`_ is a project aimed
 squarely at creating and providing free geographic data such as street
@@ -29,7 +30,7 @@ of JOSM plugins have been included.
 
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
@@ -43,7 +44,7 @@ Core Features
 * Widespread geo-application integration
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.openstreetmap.org
 
@@ -52,6 +53,7 @@ Details
 * OpenStreetMap data: http://wiki.openstreetmap.org/index.php/OpenStreetMap_License
 
 * JOSM: GNU General Public License (GPL) version 2
+
 .. <!-- see /usr/share/doc/josm/copyright -->
 
 * JOSM plugins collection: Ranging from Public Domain to GPLv3
@@ -59,6 +61,7 @@ Details
 * Merkaartor: GNU General Public License (GPL) version 2
 
 * Gosmore: Public Domain and GPLv2
+
 .. <!-- see /usr/share/doc/gosmore/copyright -->
 
 * Osmarender: GNU General Public License (GPL) version 2
@@ -83,8 +86,8 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/osm_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/osm_quickstart>`
 
 

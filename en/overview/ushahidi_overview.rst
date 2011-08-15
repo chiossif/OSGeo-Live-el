@@ -1,6 +1,7 @@
 :Author: Henry Addo
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _ushahidi-overview:
 
@@ -12,10 +13,10 @@
 
 
 Ushahidi
-========
+================================================================================
 
 Incident Timeline & Mapping
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The `Ushahidi <http://www.ushahidi.com/>`_ Engine is a free and open source
 platform that allows anyone to gather distributed data via SMS, email or 
@@ -40,7 +41,7 @@ around the world.
 
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 * Interactive map.
 * Timeline.
 * Ability to subscribe to report alerts based on proximity.
@@ -59,18 +60,18 @@ Core Features
 * Cache.
 
 Demo
-----
+--------------------------------------------------------------------------------
 
 * `Ushahidi Demo instance <http://demo.ushahidi.com/>`_
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.ushahidi.com
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 2.0.1
+**Software Version:** 2.1
 
 **API Interfaces:** PHP
 
@@ -80,8 +81,8 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/ushahidi_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/ushahidi_quickstart>`
 
 

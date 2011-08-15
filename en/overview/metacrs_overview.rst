@@ -1,7 +1,8 @@
 :Author: OSGeo-Live
 :Author: Mike Adair
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _metacrs-overview:
 
@@ -9,7 +10,7 @@
   :scale: 60 %
   :alt: project logo
   :align: right
-  :target: http://gdal.org/
+  :target: http://trac.osgeo.org/metacrs/wiki
 
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
@@ -18,12 +19,17 @@
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 MetaCRS
-=======
+================================================================================
 
-Coordinate Reference Systems Transformations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Coordinate Reference System Transformations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. comment: Can we please get an image. Maybe a collage of different projections. Make sure the image has rights to be included in a CC document.
+.. image:: ../../images/project_logos/logo-metacrs.png
+  :scale: 100 %
+  :alt: map projection example
+  :align: right
+  :target: http://trac.osgeo.org/metacrs/wiki
+
 
 The group of MetaCRS projects provide libraries of methods to transform between difference coordinate reference systems.
 A geographic coordinate reference systems allows all points on the earth to be described as set of coordinates (such as latitude, longitude and elevation). Different systems are used to represent the 3 dimensional earth on a flat, 2 dimensional map.
@@ -32,18 +38,15 @@ The MetaCRS libraries are included in other projects and some are also available
 
 The sub-projects that make up MetaCRS include:
 
-.. comment: Find examples for where all libraries are used, or don't mention any.
-.. comment: I assume camel case should be Proj4JS or Proj4js instead of Proj4Js? (I've changed below)
-
-* PROJ.4 (C++) - used in MapServer, GRASS GIS, PostGIS, Mapnik, several others.
+* PROJ.4 (C++) - used in MapServer, GRASS GIS, PostGIS, Mapnik, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and various others.
 * Proj4js (JavaScript) - used in OpenLayers.
 * CS-Map (C++) - used in MapGuide.
-* GeoTIFF/libgeotiff (C++) - .
-* Proj4J (Java) - used ???.
+* GeoTIFF/libgeotiff (C++).
+* Proj4J (Java).
 * `SpatialReference.org <http://spatialreference.org/>`_  - website to retrieve coordinate system definitions.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Provides point transformation from one coordinate reference system to another.
 * Includes transformation between datums.
@@ -51,21 +54,14 @@ Core Features
 
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 The projects typically use coordinate system definitions as defined by the 
 `European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`_ and defined in
 Well Known Text (WKT) format.
 
-Details
--------
-
-.. comment: For Proj4js, We should only have one website. I've removed the trac reference (users can find it from the main website).
-.. comment: Need to work out the license for Proj4J
-
-
 PROJ.4
-------
+--------------------------------------------------------------------------------
 
   **Website:**  http://trac.osgeo.org/proj/
   
@@ -80,9 +76,9 @@ PROJ.4
   **Support:** http://lists.maptools.org/mailman/listinfo/proj
 
 Proj4js
--------
+--------------------------------------------------------------------------------
 
-  **Website:**  http://trac.osgeo.org/proj4js/ and http://proj4js.org
+  **Website:**  http://proj4js.org
   
   **Licence:** `LPGL <http://www.gnu.org/copyleft/lesser.html>`_
   
@@ -95,7 +91,7 @@ Proj4js
   **Support:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
 
 CS-Map
-------
+--------------------------------------------------------------------------------
 
   **Website:**  http://proj4js.org
   
@@ -110,7 +106,7 @@ CS-Map
   **Support:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
 
 GeoTIFF/libgeotiff
-------------------
+--------------------------------------------------------------------------------
 
   **Website:**  http://trac.osgeo.org/geotiff/
   
@@ -121,7 +117,7 @@ GeoTIFF/libgeotiff
   **Support:** http://lists.maptools.org/mailman/listinfo/geotiff
   
 Proj4J
-------
+--------------------------------------------------------------------------------
 
   **Website:**  http://trac.osgeo.org/proj4j/
   
@@ -135,8 +131,3 @@ Proj4J
   
   **Support:** http://lists.osgeo.org/mailman/listinfo/proj4j
   
-
-Quickstart
-----------
-    
-* `Quickstart documentation <../quickstart/metacrs_quickstart.html>`_

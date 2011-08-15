@@ -1,5 +1,6 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _opencpn-overview:
@@ -12,10 +13,10 @@
 
 
 OpenCPN
-=======
+================================================================================
 
 Marine GPS navigation software
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 OpenCPN provides free navigation software for use at the helm of vessels of all types and sizes, as well as offline for route planning. It has been developed by a team of active sailors using real world conditions for program testing and refinement.
 
 OpenCPN presents a user with the vessel's current position, speed and course superimposed upon accurate navigational chart images, tide and current predictions. Information received by standard radio links describing the position and intent of other vessels can also be shown.
@@ -24,7 +25,7 @@ As the host vessel moves, new charts are selected and displayed at user specifie
 
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/opencpn_screenshot.png
   :scale: 50 %
@@ -44,13 +45,13 @@ OpenCPN supports:
 * GRIB weather data overlay
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.opencpn.org
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.3.1
+**Software Version:** 2.5.0
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
@@ -58,8 +59,8 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/opencpn_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/opencpn_quickstart>`
 
 

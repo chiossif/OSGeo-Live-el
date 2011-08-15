@@ -1,6 +1,7 @@
 :Author: Pirmin Kalberer
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _spatialite-overview:
 
@@ -12,10 +13,10 @@
 
 
 SpatiaLite
-==========
+================================================================================
 
 Spatial Database
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 SpatiaLite is an SQLite_ database engine with spatial functions added. 
 
@@ -31,7 +32,7 @@ The files are also portable; the same database file will work on Windows, Linux,
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 The SpatiaLite extension enables SQLite to support spatial data conformant to OGC specifications.
 
@@ -51,7 +52,7 @@ The SpatiaLite extension enables SQLite to support spatial data conformant to OG
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.gaia-gis.it/spatialite/
 
@@ -65,8 +66,8 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/spatialite_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/spatialite_quickstart>`
 
 

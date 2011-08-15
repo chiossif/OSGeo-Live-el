@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _gdal-overview:
 
@@ -17,10 +18,10 @@
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 GDAL/OGR
-========
+================================================================================
 
 GeoSpatial Data Translation Tools
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Geospatial Data Abstraction Library (GDAL/OGR) provides command-line
 utilities to translate and process a wide range of raster and vector
@@ -41,7 +42,7 @@ Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Command-line utilities for data translation, image warping, subsetting, and various other common tasks
 * Highly efficient raster data access, taking advantage of tiling and overviews
@@ -50,7 +51,7 @@ Core Features
 * Coordinate system engine built on PROJ.4 and OGC Well Known Text coordinate system descriptions
 
 Popular Supported Formats
--------------------------
+--------------------------------------------------------------------------------
 
 GDAL supports over 50 raster formats, and OGR over 20 vector formats.
 
@@ -60,18 +61,18 @@ These include:
 * **Vector:** MapInfo (tab and mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial, and more ...
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 The OGR vector data model is compliant with the OGC Simple Features specification.
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:**  http://www.gdal.org
 
 **Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Software Version:** 1.7.3
+**Software Version:** 1.8.0
 
 **Supported Platforms:** Windows, Linux, Mac
 
@@ -80,6 +81,6 @@ Details
 **Support:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
-* `Quickstart documentation <../quickstart/gdal_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/gdal_quickstart>`

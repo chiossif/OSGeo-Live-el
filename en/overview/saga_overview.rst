@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _saga-overview:
 
@@ -12,10 +13,10 @@
 
 
 SAGA
-====
+================================================================================
 
 Desktop GIS
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 SAGA (System for Automated Geoscientific Analyses) is an
 open source geographic information system (GIS) used for editing and analysing
@@ -36,7 +37,7 @@ contributions from the growing world wide community.
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Access to a large number of scientific modules via the Graphical User Interface or the command line
 
@@ -58,15 +59,15 @@ Core Features
 * SAGA can be accessed from the R statistical language through the RSAGA module
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.saga-gis.org
 
 **Licence:** LGPL v2.1 (api); GPLv2 (GUI and modules)
 
-**Software Version:** 2.0.6
+**Software Version:** 2.0.7
 
-**Supported Platforms:** Linux, Windows
+**Supported Platforms:** Windows, Linux, FreeBSD
 
 **API Interfaces:** C++
 
@@ -74,8 +75,8 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/saga_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/saga_quickstart>`
 
 

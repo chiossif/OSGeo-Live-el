@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _udig_overview:
 
@@ -11,10 +12,10 @@
   :target: http://udig.refractions.net/
 
 User-friendly Desktop Internet GIS (uDig)
-=========================================
+================================================================================
 
 Desktop GIS
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/1024x768/udig-overview.png
   :scale: 50
@@ -33,7 +34,7 @@ uDig is:
 For developers uDig provides a common Java platform for building spatial applications with open source components. The website provides series of clear tutorials covering making a simple tool through to releasing your own custom application.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Desktop Client with Drag and Drop integration for File explorer and Web Browser
 * Integrate with your existing infrastructure: ArcSDE, Oracle, DB2 and more
@@ -49,12 +50,12 @@ Core Features
 * Printing and PDF Generation
 * For Developers
   
-  * Java Application built using the GeoTools, JTS Topology Suite and GeoAPI
-  * Industrial strength plug-in system provided by Eclipse Rich Client Platform 
+  * Java Application built using the :doc:`GeoTools <geotools_overview>`, JTS Topology Suite
+  * Industrial strength plug-in system provided by Eclipse Rich Client Platform
   * Use of native widgets
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Server (WMS)
 * OGC Web Feature Server (WFS)
@@ -64,7 +65,7 @@ Implemented Standards
 * OGC Style Layer Descriptor (SLD)
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://udig.refractions.net/
 
@@ -74,7 +75,7 @@ Details
 
 **Supported Platforms:** Windows, Linux, Mac
 
-**API Interfaces:** GeoAPI, GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
+**API Interfaces:** GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
 
 **Support:** http://udig.refractions.net/users/
 
@@ -82,8 +83,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/udig_quickstart.html>`_
-
-
+* :doc:`Quickstart documentation <../quickstart/udig_quickstart>`

@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.5
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _naturalearth-overview:
 
@@ -12,10 +13,10 @@
 
 
 Natural Earth
-=============
+================================================================================
 
 Map Data
-~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Natural Earth provides cartographers an off-the shelf solution for creating small-scale world, regional, and country maps at 1:10-, 1:50-, and 1:110- million scales. Both political (administrative) and physical (natural) features are included and vector features align perfectly with included raster data.
 
@@ -27,7 +28,7 @@ Natural Earth solves the common problem that many cartographers face: finding ve
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Vector features include name and other attributes        
 * Large polygons are split for more efficient data handling such as bathymetric layers.   
@@ -37,7 +38,7 @@ Core Features
 
 
 Data Sets
----------
+--------------------------------------------------------------------------------
 
 Cultural Vector Data Themes:
   Includes countries, disputed areas, states and provinces (1st order administrative divisions), and populated places (cities, towns). Roads, rails, urban polygons, parks and protected areas, Pacific nation groups, and water boundary indicators round out the cultural offerings.
@@ -50,7 +51,7 @@ Raster Data Themes:
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://naturalearthdata.com
 

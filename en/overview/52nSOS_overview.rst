@@ -1,6 +1,7 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _52nSOS-overview:
 
@@ -12,12 +13,12 @@
 
 
 52°North SOS
-=============
+================================================================================
 
 Web Service
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The 52°North `Sensor Observation Service (SOS) <../standards/sos_overview.html>`_ 
+The 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` 
 supports reading of live and archived data captured by in-situ and remote sensors. A sensor may 
 be a camera on a satellite or a water level meter in a stream.
  
@@ -27,7 +28,7 @@ be a camera on a satellite or a water level meter in a stream.
   :align: right
 
 Features
---------
+--------------------------------------------------------------------------------
 
 The current 52°North SOS (version 3.1.1) implements the core, transactional, and 
 parts of the enhanced profile of the SOS specification. The current 
@@ -56,31 +57,31 @@ release implements the latest schema version (1.0.0) and the following operation
 * A browser based client provides test XML queries for all supported operations.
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * `OGC Sensor Observation Service (SOS) <http://www.ogcnetwork.net/SOS>`_
 
 Details
--------
+--------------------------------------------------------------------------------
 
-* **Website:** http://52north.org/communities/sensorweb/sos
+**Website:** http://52north.org/communities/sensorweb/sos
 
-* **Licence:** GNU GPL v2.0
+**Licence:** GNU GPL v2.0
 
-* **Software Version:** SOS 3.2.0
+**Software Version:** SOS 3.2.0
 
-* **Supported Platforms:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
-* **API Interfaces:** Java
+**API Interfaces:** Java
 
-* **Commercial Support:** http://52north.org/
+**Commercial Support:** http://52north.org/
 
-* **Community Support:** http://sensorweb.forum.52north.org/
+**Community Support:** http://sensorweb.forum.52north.org/
 
-* **Community Website:** http://52north.org/communities/sensorweb/
+**Community Website:** http://52north.org/communities/sensorweb/
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/52nSOS_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`
 

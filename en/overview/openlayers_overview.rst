@@ -1,6 +1,8 @@
+:Author: Chris Schmidt
 :Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _openlayers-overview:
 
@@ -18,10 +20,10 @@
 
 
 OpenLayers
-==========
+================================================================================
 
 Browser GIS Client
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/openlayers-basic.png
   :scale: 100 %
@@ -35,7 +37,7 @@ runs inside the web browser, which makes OpenLayers easy to install, without
 any server side dependencies.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Simple to use Javascript API, designed to make development easy
 * Support for standard and customized protocols for interacting with servers
@@ -47,14 +49,14 @@ Core Features
   
   * OGC Standards: WMS, WMTS, WFS, WFS-T, GeoRS, GML
   
-  * Others: ArcGI, Images, MapGuide, MapServer, TileCache
+  * Others: ArcGIS, Images, MapGuide, MapServer, TileCache
 
 * Ability to parse vector data and metadata in many formats:
   
   * Atom, ArcXML, GeoJSON, GeoRSS, KML, OSM, SLD, WMTS
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://openlayers.org
 
@@ -68,8 +70,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/openlayers_quickstart.html>`_
-
-
+* :doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`

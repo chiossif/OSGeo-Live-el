@@ -1,4 +1,5 @@
 :Author: Hamish Bowman
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.5
 :License: Creative Commons
 
@@ -12,21 +13,21 @@
 
 
 MB-System
-=========
+================================================================================
 
 Sea floor mapping
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MB-System is an open source software package for the processing and 
 display of bathymetry and backscatter imagery data derived from
 multibeam, interferometry, and sidescan sonars. It makes extensive
-use of the `GMT <gmt_overview.html>`_ software.
+use of the doc:`GMT <gmt_overview>` software.
 
 MB-System has been under development since 1993, with active support
 from a number of research and science organisations.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
   :scale: 60 %
@@ -51,7 +52,7 @@ Core Features
 * Tide modeling and correction
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.ldeo.columbia.edu/res/pi/MB-System/
 
@@ -65,8 +66,8 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/mb-system_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/mb-system_quickstart>`
 
 

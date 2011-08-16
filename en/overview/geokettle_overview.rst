@@ -1,6 +1,7 @@
-:Author: OSGeo-Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Author: Thierry Badard 
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0draft
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geokettle-overview:
 
@@ -11,18 +12,16 @@
   :target: http://www.geokettle.org/
 
 GeoKettle
-=========
+================================================================================
 
-Data Integration
-~~~~~~~~~~~~~~~~
+Extract Transform Load (ETL)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoKettle is a "spatially-enabled" version of the `Pentaho Data Integration (Kettle) <http://www.pentaho.com/products/data_integration/>`_. It is a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool dedicated to the integration of different data sources for building and updating geospatial databases and data warehouses.
+GeoKettle is a "spatially-enabled" version of `Pentaho Data Integration <http://kettle.pentaho.com>`_ (also known as Kettle). It is a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool dedicated to the integration of different data sources for building and updating geospatial databases, data warehouses and web services.
 
-GeoKettle enables the Extraction of data from data sources, the Transformation of data in order to correct errors, make some data cleansing, change the data structure, make them compliant to defined standards, and the Loading of transformed data into a target DataBase Management System (DBMS), GIS file, or geospatial web service.
+GeoKettle enables the Extraction of data from data sources, the Transformation of data in order to correct errors, clean data, change data structure, make data compliant with standards, and Loading of transformed data into a target DataBase Management System (DBMS), GIS file, or geospatial web service. GeoKettle is particularly useful for automating complex and repetitive data processing without producing specific code, converting between data formats, migrating data between databases, feeding data into databases, etc.
 
-GeoKettle is particularly useful when a user wants to automate complex and repetitive data processing without producing any specific code, to make conversions between various data formats, to migrate data from one DBMS to another, to perform some data feeding tasks into various DBMS, to populate analytical data warehouses for decision support purposes, etc.
-
-In the geospatial domain, Geokettle compares to FME, a proprietary spatial ETL tool edited by Safe Software. GeoKettle is stable, fast, standards compliant, with hundreds of functions and read/write support for many file formats, services and DBMS. GeoKettle is used by diverse organisations from around the world, including governmental agencies, banks, insurance and geospatial system integrators.
+In the geospatial domain, Geokettle compares to FME, a proprietary spatial ETL tool. GeoKettle is stable, fast, standards compliant, with hundreds of functions and read/write support for many file formats, services and DBMS. GeoKettle is used by diverse organisations from around the world, including governmental agencies, banks, insurance and geospatial system integrators.
 
 .. image:: ../../images/screenshots/1024x768/geokettle-overview.png
   :scale: 50 %
@@ -30,11 +29,11 @@ In the geospatial domain, Geokettle compares to FME, a proprietary spatial ETL t
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Extract data from: 
 
-  * 35+ database types: MySQL, PostgreSQL, Oracle, ...
+  * 35+ database types: MySQL, PostgreSQL/PostGIS, Oracle, ...
   * XML files
   * XLS files
   * Xbase files (dBase, Foxpro, etc)
@@ -42,7 +41,9 @@ Core Features
   * Generated data
   * MS Access files
   * LDAP
-  * Geospatial data formats: Shapefile, ...
+  * SOLAP (Spatial OLAP) system: GeoMondrian
+  * Geospatial data formats: Shapefile, GML 3.1.1, KML 2.2, all OGR supported formats
+  * OGC Web services: Web Feature Service (WFS), Sensor Observation Service (SOS), Catalogue Web Service (CSW)
 
 * Transformation of data:
 
@@ -60,12 +61,17 @@ Core Features
   * Duplicating
   * Clustering (MPP)
   * Pivotting
-  * Geospatial data analysis and processing
+  * Geospatial data analysis: buffer, centroid, distance, intersection, union, ...
+  * Advanced geoprocessing: clipping, delaunay, simplify/smooth geometry, split features, ...
+  * Spatial aggregation
+  * Cartographic preview
 
 * Load data into a target format:
 
-  * Database loads
+  * Database loads: MySQL, PostgreSQL/PostGIS, Oracle, ...
   * Data warehouse population
+  * Geospatial data formats: Shapefile, GML 3.1.1, KML 2.2, all OGR supported formats
+  * OGC Web services: Catalogue Web Service (CSW), ...
   * Partitioned loading
   * Bulk loading
   * Parallel loading
@@ -81,18 +87,18 @@ Core Features
   * Plugin eco-system
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
-* OGC standards compliant (SFS)
+* OGC standards compliant (SFS, CSW, SOS)
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.geokettle.org/
 
 **Licence:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 3.2.0-20090609
+**Software Version:** 2.0-RC1
 
 **Supported Platforms:** Windows, Linux, Mac, Solaris
 
@@ -102,6 +108,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
-* `Quickstart documentation <../quickstart/geokettle_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/geokettle_quickstart>`

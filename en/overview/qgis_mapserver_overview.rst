@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.5
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _qgis_mapserver-overview:
 
@@ -18,13 +19,14 @@
 
 
 QGIS Server
-===========
+================================================================================
 
 Web Service
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-QGIS Server provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
-The close integration with QGIS means desktop maps can easily be exported to web maps by copying the QGIS project file into the server directory, and web maps look exactly the same as in the desktop.
+QGIS Server provides a web map service (WMS) using the same libraries as the Quantum GIS (QGIS) desktop application.
+Maps and print templates created in QGIS desktop can be published as web maps simply by copying the QGIS project file into the server directory. The resulting web maps look exactly the same as in the desktop.
+QGIS Server is usually run as CGI/FastCGI module within the Apache Webserver.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 40 %
@@ -33,22 +35,22 @@ The close integration with QGIS means desktop maps can easily be exported to web
 
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Web Map Service (WMS) implementation
-* Good integration with desktop GIS (QGIS)
-* Easy to use
-* Supports Styled Layer Descriptor (SLD)
+* Built-in PDF output
+* WYSIWYG map creation with QGIS
 * Advanced cartographic symbolisation
+* Supports Styled Layer Descriptor (SLD)
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.3.0
 * OGC Styled Layer Descriptor (SLD) 1.0
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.qgis.org/
 
@@ -62,8 +64,8 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/qgis_mapserver_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/qgis_mapserver_quickstart>`
 
 

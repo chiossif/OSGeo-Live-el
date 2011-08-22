@@ -49,7 +49,7 @@
 * :doc:`osm_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/osm_quickstart>`] - Εργαλεία Open Street Map
 * :doc:`prune_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/prune_quickstart>`] - Οπτικοποίηση, Επεξεργασία και Μετατροπή Γραμμών Πορείας GPS
 * :doc:`viking_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/viking_quickstart>`] - Οπτικοποίηση σημείων GPS
-* :doc:`zygrib_overview` -  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zygrib_quickstart>`] - Χάρτες πρόγνωσης καιρού
+* :doc:`zygrib_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zygrib_quickstart>`] - Χάρτες πρόγνωσης καιρού
 
 Χωρικά Εργαλεία
 --------------------------------------------------------------------------------
@@ -69,7 +69,7 @@
 * :doc:`qgis_mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/qgis_mapserver_quickstart>`] - Εξυπηρετητής QGIS
 * :doc:`mapproxy_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonetwork_quickstart>`] - Υπηρεσία Καταλόγου
-* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
+* :doc:`52nWSS_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nWSS_quickstart>`] - Web Security Service
 * :doc:`52nWPS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nWPS_quickstart>`]- Web Processing Service
 * :doc:`52nSOS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart>`]- Sensor Observation Service
 * :doc:`zoo-project_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart>`] - Web Processing Service

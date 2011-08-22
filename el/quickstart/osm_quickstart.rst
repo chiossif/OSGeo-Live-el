@@ -46,8 +46,8 @@ JOSM
 
 * Διαδικτυακό εγχειρίδιο χρήσης: http://www.use-it.be/europe/docs/OSMmanual/
 * Οδηγός χρήστη: http://wiki.openstreetmap.org/wiki/JOSM/Guide
-* Eκπαιδευτικό βίντεο <http://showmedo.com/videotutorials/video?name=1800050&amp;fromSeriesID=180>`_
-* Ανοίξτε κάποια δείγματα δεδομένων ως εξής:Μενού:`File --> Open... --> /usr/local/share/data/osm/feature_city.osm.bz2`
+* `Eκπαιδευτικό βίντεο <http://showmedo.com/videotutorials/video?name=1800050&amp;fromSeriesID=180>`_
+* Ανοίξτε κάποια δείγματα δεδομένων ως εξής Μενού :menuselection:`File --> Open... --> /usr/local/share/data/osm/feature_city.osm.bz2`
 * Περαιτέρω οδηγίες δίνονται όταν τρέξετε την εφαρμογή.
 
 
@@ -76,7 +76,7 @@ Gosmore
 
 ::
 
-  bzip2 -dc /usr/local/share/data/osm/feature_city.osm.bz2 | gosmore rebuild
+  bzip2 -dc /usr/local/share/data/osm/Denver_CBD.osm.bz2 | gosmore rebuild
 
 Αυτό θα δημιουργήσει το gosmore.pak.
 

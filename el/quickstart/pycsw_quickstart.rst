@@ -16,36 +16,37 @@
 Γρήγορη Εκκίνηση pycsw
 ********************************************************************************
 
-pycsw is an OGC CSW server implementation written in `Python`_.
+Το pycsw είναι μια υλοποίηση εξυπηρετητή του προτύπου OGC CSW σε γλώσσα προγραμματισμού `Python`_.
 
-pycsw implements clause 10 (HTTP protocol binding (Catalogue Services for the Web, CSW)) of the `OpenGIS Catalogue Service Implementation Specification`_, version 2.0.2.  Initial development started in 2010 (more formally announced in `2011`_).
+To pycsw υλοποιεί την οδηγία 10 (πρωτόκολο επικοινωνίας HTTP του προτύπου Catalogue Services for the Web, CSW) της προδιαγραφής υλοποίησης Υπηρεσίας Καταλόγου του OpenGIS, στην έκδοση 2.0.2. Η υλοποίηση ξεκίνησε το 2010 (και ανακοινώθηκε πιο επίσημα το 2011).
 
-pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2.
+Το pycsw επιτρέπει την δημοσίευση και αναζήτηση γεωχωρικών μεταδεδομένων. Υπάρχοντα αποθετήρια γεωχωρικών μεταδεδομένων μπορούν να δημοσιευθούν μέσω του προτύπου OGC:CSW 2.0.2.
 
-pycsw is `Open Source`_, released under an MIT :ref:`license <license>`, and runs on all major platforms (Windows, Linux, Mac OS X).
+Το pycsw είναι Λογισμικό Ανοιχτού Κώδικα, υπό την άδεια MIT, και υποστηρίζει όλες τις κύριες πλατφόρμες (Windows, Linux, Mac OS X).
 
-pycsw is an optional install on the OSGeo LiveDVD.  This QuickStart will describe how to enable pycsw display the testing interface and access the pycsw endpoint.
+Το pycsw είναι προεγκατεστημένο στο OSGeo Live. Αυτός ο οδηγός περιγράφει την διαδικασία εγκατάστασης και δοκιμής της υπηρεσίας μέσω της εγκατεστημένης εφαρμογής δοκιμών.
 
-.. Installation
+.. Εγκατάσταση
 .. ============
 .. 
 .. To install pycsw, TODO (how do we install?)
 
 
-Tester
-======
+Δοκιμαστική Εφαρμογή
+==========================
 
-To run the pycsw tester, open Firefox and navigate to http://localhost/pycsw/tester/index.html
+Για να εκτελέσετε την δοκιμαστική εφαρμογή, επιλέξτε από το μενού WebServices το εικονίδιο pycsw ή εναλλακτικά ανοίξτε ένα παράθυρο Firefox και πληκτρολογήστε http://localhost/pycsw/tester/index.html στη μπάρα διευθύνσεων.
 
 .. image:: ../../images/screenshots/1024x768/pycsw_tester.png
   :scale: 75 %
 
-The capabilities of the pycsw installation can be found at http://localhost/pycsw/csw.py?service=CSW&version=2.0.2&request=GetCapabilities.
+Το έγγραφο δυνατοτήτων της υπηρεσίας μπορούν να βρεθούν στο: http://localhost/pycsw/csw.py?service=CSW&version=2.0.2&request=GetCapabilities.
 
 .. image:: ../../images/screenshots/1024x768/pycsw_getcapabilities_response.png
   :scale: 75 %
 
-For full functionality, configuration options, and adding metadata to the catalogue, please consult the `documentation`_ on the pycsw website.
+Για πλήρη ανάλυση των δυνατοτήτων του λογισμικού, για ρυθμίσεις και προσθήκη μεταδεδομένων, μπορείτε να συμβουλευθείτε την επίσημη σελίδα του λογισμικού: http://pycsw.org/documentation.html
+
 
 .. _`Python`: http://www.python.org/
 .. _`OpenGIS Catalogue Service Implementation Specification`: http://www.opengeospatial.org/standards/cat

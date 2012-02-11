@@ -1,7 +1,7 @@
 Welcome to the OSGeo Live GIS DVD.
 
 
-See the road-sign Help icon on the Desktop for information
+See the road-sign Help icon on the Desktop for information      
 about the Live disc and virtual-machine, including a
 synopsis of bundled geospatial packages and a series of
 quick-start short tutorials.
@@ -13,9 +13,9 @@ Once you log back in (the password if you need it is
 you pick the keyboard layout. You can also set it via the
 menus with Applications > System > Language Support.
 
-Program installers for Mac OS X and Microsoft Windows
-can be found in the MacInstallers and WindowsInstallers
-directories.
+If you have the full DVD edition, various program installers
+for Macintosh and Microsoft Windows can be found in the
+MacInstallers and WindowsInstallers directories.
 
 Passwords for various things can be found in the
 passwords.txt file on the Desktop.

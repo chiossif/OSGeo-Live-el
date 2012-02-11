@@ -47,15 +47,14 @@ OssimPlanet
 
 * Επιλέξτε :menuselection:`File --> Open Image --> /home/user/data/raster/band1.tiff`
 
-* Επιλέξτε :menuselection:`menu --> Open kml --> /home/user/data/raster/*.kml`
-
 * Επιλέξτε :menuselection:`legend tree --> Image Layers --> open the trees --> double-click on the band1 image`,
   και θα δείτε την σκηνή στην περιοχή της εικόνας
 
 * Πλοηγηθείτε στην σκηνή αυτή.
 
 
-`Note`: Για να κλείσετε την λειτουργία daylight auto-shading, αποεπιλέξτε :menuselection:`Preferences --> Environment --> Enable Ephemeris`
+.. note::
+   Για να κλείσετε την λειτουργία daylight auto-shading, αποεπιλέξτε :menuselection:`File --> Preferences --> Environment --> Enable Ephemeris`
 
 
 Τεκμηρίωση

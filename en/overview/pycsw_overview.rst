@@ -1,12 +1,13 @@
 :Author: OSGeo-Live
+:Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.0
+:Version: osgeo-live5.5
 :License: Creative Commons
 
 .. _pycsw-overview:
 
 .. image:: ../../images/project_logos/logo-pycsw.png
-  :scale: 100 %
+  :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
@@ -15,17 +16,21 @@
 pycsw
 ================================================================================
 
-Metadata Catalog
+Metadata Catalogue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pycsw is an OGC CSW server implementation written in Python.
+pycsw enables users to publish a catalogue of dataset descriptions (metadata) to the web, using standards based interfaces and formats, such that it can be queried and updated by catalogue clients. pycsw is simple to setup within an Apache web server and can access metadata records stored as XML files within a database.
 
-pycsw implements clause 10 (HTTP protocol binding (Catalogue Services for the Web, CSW)) of the OpenGIS Catalogue Service Implementation Specification, version 2.0.2. Initial development started in 2010 (more formally announced in 2011).
+Metadata is 'data about data', storing such things as creation-date, author, title, area-of-interest, etc, and is usually encoded as XML files, following international standards such as ISO 19115, ISO 19139 and FGDC CSDGM.
 
-pycsw allows for the publishing and discovery of geospatial metadata. Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2.
+pycsw is a `Python`_ implementation of the :doc:`OGC Catalogue Services for the Web (CSW) standard<../standards/csw_overview>`. The CSW standard defines common interfaces to discover, browse and query metadata about spatial data, web services and related resources.
 
-pycsw is Open Source, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).
+pycsw is Open Source, released under an MIT :ref:`license <license>`, and runs on all major platforms (Windows, Linux, Mac OS X).
 
+.. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
+  :scale: 50 %
+  :alt: project logo
+  :align: right
 
 Core Features
 --------------------------------------------------------------------------------
@@ -47,10 +52,15 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* OGC CSW 	2.0.2
-* OGC Filter 	1.1.0
-* OGC OWS Common 	1.0.0
-* OGC GML 	3.1.1
+OGC Standards:
+
+* CSW 	2.0.2
+* Filter 	1.1.0
+* OWS Common 	1.0.0
+* GML 	3.1.1
+
+Metadata Standards:
+
 * Dublin Core 	1.1
 * SOAP 	1.2
 * ISO 19115 	2003
@@ -59,13 +69,12 @@ Implemented Standards
 * NASA DIF 	9.7
 * FGDC CSDGM 	1998
 
-
 Details
 --------------------------------------------------------------------------------
 
 **Website:** http://pycsw.org
 
-**Licence:** MIT
+**Licence:** `MIT`_
 
 **Software Version:** 1.0.0
 
@@ -73,4 +82,13 @@ Details
 
 **API Interfaces:** Python
 
-**Support:** http://pycsw.org/support.html
+**Support:** http://pycsw.org/docs/support.html
+
+.. _`Python`: http://www.python.org/
+.. _`MIT`: http://pycsw.org/docs/license.html#license
+
+Quickstart
+--------------------------------------------------------------------------------
+
+* :doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`
+

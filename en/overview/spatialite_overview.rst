@@ -1,6 +1,6 @@
 :Author: Pirmin Kalberer
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live4.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _spatialite-overview:
@@ -40,6 +40,7 @@ The SpatiaLite extension enables SQLite to support spatial data conformant to OG
 * Implements SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() and alike
 * The complete set of OpenGis functions is supported via GEOS, this comprehending sophisticated spatial analysis functions such as Overlaps(), Touches(), Union(), Buffer() ..
 * Supports full Spatial metadata along the OpenGis specifications
+* Supports alternative Geometry notations - EWKT, GML, KML, and GeoJSON
 * Supports importing and exporting to shapefiles
 * Supports coordinate reprojection via PROJ.4 and EPSG geodetic parameters dataset
 * Supports locale charsets via GNU libiconv
@@ -47,18 +48,19 @@ The SpatiaLite extension enables SQLite to support spatial data conformant to OG
 * The VirtualShape extension enables SQLite to access shapefiles as VIRTUAL TABLEs 
 * You can then perform standard SQL queries on external shapefiles, with no need for importing or converting them
 * The VirtualText extension enables SQLite to access CSV/TxtTab files as VIRTUAL TABLEs 
-* You can then perform standard SQL queries on external CSV/TxtTab files, with no need for importing or converting them
+* The VirtualXL extension enables SQLite to access xls spreadsheet tables as VIRTUAL TABLEs 
+* You can then perform standard SQL queries on external CSV/TxtTab files or Excel tables, with no need for importing or converting them
 * The GUI tool supports all this, in an user friendly way
 
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.gaia-gis.it/spatialite/
+**Website:** http://www.gaia-gis.it/gaia-sins/
 
 **Licence:** MPL v1.1 and GPL v3
 
-**Software Version:** 2.3.1 / 2.4 beta
+**Software Version:** spatialite 3.0.0 / librasterlite 1.0 / spatialite-gui 1.3.0 / spatialite-gis 1.0.0
 
 **Supported Platforms:** Linux, Mac, Windows
 
@@ -69,5 +71,4 @@ Quickstart
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/spatialite_quickstart>`
-
 

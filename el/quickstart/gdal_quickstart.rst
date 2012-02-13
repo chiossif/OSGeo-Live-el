@@ -12,48 +12,49 @@
 
 
 ******************
-GDAL/OGR Quickstart
+ Εγχειρίδιο Γρήγορης Εκκίνησης GDAL/OGR 
 ******************
 
-You will need nothing but a a terminal for this quickstart. If you want to visualize the results in a Desktop GIS you can use one of the Desktop GIS Software on OSGeo-Live f. e. QuantumGIS. 
+Δεν θα χρειαστείτε τίποτα άλλο από ένα τερματικό για αυτή την γρήγορη εκκίνηση. Εαν θέλετε να αναπαραστήσετε το αποτέλεσμα μιας εφαρμογής GIS μπορείτε να χρησιμοποιήσετε ένα από τα λειτουργικά εφαρμογών GIS που περιέχει το OSGeo-Live π.χ. QuantumGIS.
 
-This Quick Start is devided in two parts GDAL (raster data) and OGR (vector data). We will start with GDAL.
+Αυτό το Εγχειρίδιο γρήγορης εκκίνησης χωρίζεται σε δύο μέρη το GDAL (εικονιστικά δεδομένα) και το OGR (διανυσματικά δεδομένα). Θα αρχίσουμε με το GDAL μέρος.
 
-This Quick Start describes how to:
+Αυτό το Εγχειρίδιο γρήγορης εκκίνησης περιγράφει πως:
 
 GDAL
-  * Explore your image data with gdalinfo
-  * Format translations with gdal_translate 
-  * Reproject your data with gdalwarp
-  * Mosaic your data with gdal_warp or gdal_merge.py
-  * Build a shapefile as a raster tileindex with gdaltindex
-   
+  * Να εξερευνήσετε τα δεδομένα των εικόνων σας με το gdalinfo 
+  * Να τυποποιήσετε μεταφράσεις με το gdal_translate
+  * Να προβάλετε τα δεδομένα σας με το gdalwarp
+  * Να ενώσετε τα δεδομένα σας με το gdal_warp ή το gdal_merge.py
+  * Να δημιουργήσετε ένα αρχείο shapefile που θα είναι κατάλογος τετραγωνιδίων, μέσω της εφαρμογης gdalindex
 
+  
 OGR
-  * get information about your data with ogrinfo 
-  * use ogr2ogr to transform your data to other formats
+  * Να αποκτήσετε πληροφορίες για τα δεδομένα σας με το orginfo
+  * Να χρησιμοποιήσετε το org2org για να μεταφέρετε τα δεδομένα σας σε άλλα πρότυπα
+
  
 
-Get to know GDAL
+Γνωρίζοντας την GDAL
 ================
 
-You find the demo data at /usr/local/share/data. We want to have a look at the NaturalEarth data in this quickstart. We want to work with a copy of the data. So the first step is to copy the data to your home directory.
-
+Μπορείτε να βρείτε δοκιμαστικά δεδομένα στο /usr/local/share/data. Θέλουμε να περιηγηθούμε στα NaturalEarth δεδομένα σε αυτό το εγχειρήδιο. Θέλουμε να δουλέψουμε με ένα αντίγραφο των δεδομένων. Έτσι το πρώτο βήμα είναι να δημιουργήσουμε ένα αντίγραφο των δεδομένων στο αντίστοιχο φάκελό σας.
 :: 
   
   cd /home/user
   cp /usr/local/share/data/natural_earth/ /gdal_natural_earth 
 
  
-You find a NaturalEarth Raster file and a tfw-file at:
+Μπορείτε να βρείτε ένα NaturalEarth εικονιστικό αρχείο και ένα tfw-file στο: 
 :: 
   
   cd /home/usr/gdal_natural_earth/HYP_50M_SR_W
 
 
-.. tip:: Open the file with a Desktop GIS like Quantum GIS. And have a look.
+.. Συμβουλή:: Ανοίξτε το αρχείο με ένα πρόγραμμα εφαρμογών όπως το Quantum GIS. Και ρίξτε μια ματιά.
 
-Get information about the raster data with gdalinfo
+
+Βρείτε πληροφορίες για τα εικονιστικά δεδομένα με το gdalinfo
 ===================================================
 :: 
   
@@ -83,74 +84,71 @@ Get information about the raster data with gdalinfo
 	Band 2 Block=10800x1 Type=Byte, ColorInterp=Green
 	Band 3 Block=10800x1 Type=Byte, ColorInterp=Blue
 
-Note: 
-  * Driver is "GTiff/GeoTIFF"
-  * Size is 10800x5400
-  * 3 Bands of type Byte. 
-  * Coordinates
-  * no coordinate system
+Σημείωση: 
+  * Ο οδηγός είναι "GTiff/GeoTIFF"
+  * Το μέγεθος είναι 10800x5400
+  * 3 κανάλια του τύπου Byte
+  * Συντεταγμένες
+  * Κανένα σύστημα συντεταγμένων
+ 
 
 
 
-Simple Format Translation
+Απλή Μετάφραση των προτύπων
 ===========================
 
-First get to know your drivers. The --formats commandline switch of gdal_translate can be used to see a list of available format drivers.  
+Αρχικά αναγνωρίστε τους οδηγούς σας. Τα --πρότυπα της γραμμής εντολών αλλάζουν από το gdal_translate ώστε να μπορούν να εντοπίσουν μια λίστα από παρεχόμενα πρότυπα οδηγών. 
 
-Each format reports if it is 
-  * read only (ro), 
-  * read/write (rw) or 
-  * read/write/update (rw+).
+Κάθε πρότυπο αναφέρει εάν είναι: 
+  * μόνο για ανάγνωση (ro), 
+  * για ανάγνωση/εγγραφη (rw) ή 
+  * για ανάγνωση/εγγραφή/ενημέρωση (rw+).
 
 ::
  
- gdal_translate --formats
+ gdal_translate --format
 
-The --format commandline switch can be used to query details about a particular driver, including creation options, and permitted data types.
-
+Τα --format της γραμμής εντολών μπορεί να αλλάζουν για να μπορούν να αναζητήσουν λεπτομέρειες για ένα συγκεκριμένο οδηγό, συμπεριλαμβανομένων των επιλογών δημιουργίας και τα επιτρεπτά είδη δεδομένων 
 ::
 
  gdalinfo --format jpeg
  gdal_translate --format png 
 
-Translation
+
+Μετάφραση
 ===========
 
-Translations are accomplished with the gdal_translate command. The default output format is GeoTIFF:
-
+Οι μεταφράσεις γίνονται με την εντολή gdal_translate. Το προεπιλεγμένο πρότυπο του αποτελέσματος είναι GeoTIFF: 
 ::
 
  gdal_translate HYP_50M_SR_W.tif HYP_50M_SR_W.png 
 
-The -of flag is used to select an output format and the -co flag is used to specify a creation option:
-
+Το πρόθεμα -of χρησιμοποιείται για την επιλογή ενός προτύπου αποτελέσματος και το πρόθεμα -co χρησιμοποιείται για να ορίσει την επιλογή δημιουργίας:
 ::
 
   gdal_translate -of JPEG -co QUALITY=40 HYP_50M_SR_W.tif HYP_50M_SR_W.jpg
 
-The -ot switch can be used to alter the output data type.  
-
+Το -ot μπορεί να χρησιμοποιηθεί για να αλλάξει τον τύπο δεδομένου εξόδου.
 ::
  
    gdal_translate -ot Int16 HYP_50M_SR_W.tif HYP_50M_SR_W_Int16.tif
 
-Use gdalinfo to verify data type.
+Χρησιμοποιείστε το gdalinfo για να επιβεβαιώσετε τον τύπο των δεδομένων.
 
 
-Rescaling
+Αλλαγή κλίμακας
 =========
 
-The -outsize switch can be used to set the size of the output file. 
-
+Η επιλογή -outsize μπορεί να χρησιμοποιηθεί για να ορίσει το μέγεθος του αρχείου εξόδου.
 ::
 
     gdal_translate -outsize 50% 50% HYP_50M_SR_W.tif  HYP_50M_SR_W_small.tif
 
-Use gdalinfo to verify the size.
+Χρησιμοποιήστε το gdalinfo για να επιβεβαιώσετε το μέγεθος.
 
-The -scale switch can be used to rescale data. Explicit control of the input and output ranges is also available. The gdalinfo -mm switch can be used to see pixel min/max values. 
+Η επιλογή -scale μπορεί να χρησιμοποιηθεί για αλλαγή της κλίμακας των δεδομένων. Σαφής έλεγχος των ορίων εισόδου και εξόδου είναι επίσης διαθέσιμος. Η επιλογή του gdalinfo -mm μπορεί να χρησιμοποιηθεί για να εμφανιστούν οι τιμές του ελάχιστου και μέγιστου εικονοστοιχείου
 
-Let's split our image into two with -srcwin which makes a copy based on pixel/line location (xoff yoff xsize ysize). You also could use -projwin and define the corners in georeferenced coordinates (ulx uly lrx lry).
+Ας χωρίσουμε την εικόνα μας στα δύο με την επιλογή -srcwin η οποία δημιουργεί ένα αντίγραφο με βάση την θέση του εικονοστοιχείου/γραμμής (xoff yoff xsize ysize). Μπορείτε επίσης να χρησιμοποιήσετε το -projwin και να ορίσετε τα όρια στις γεωδαιτικές εικονοσυντεταγμένες (ulx uly lrx lry).
 
 ::
 
@@ -159,15 +157,17 @@ Let's split our image into two with -srcwin which makes a copy based on pixel/li
     gdal_translate -srcwin 0 2700 5400 5400 HYP_50M_SR_W.tif  east.tif
 
 
-Raster tileindex with gdaltindex
+
+Τετραγωνίδια εικονιδίων με το gdaltindex
 ========================================================
-You can build a shapefile as a raster tileindex. For every image a polygon is generated with the bounds of the extent of the polygon and the path to the file.
+Μπορείτε να δημιουργήσετε ένα αρχείο shapefile σαν τετραγωνίδια εικονιδίων. Για κάθε εικόνα δημιουργείται ένα πολύγωνο που περιέχει τα όρια της έκτασης του πολυγώνου και τη διεύθυνση του αρχείου στο δίσκο.
+
 
 ::
 
  gdaltindex index_natural_earth.shp *st.tif
 
-Have a look at your output shapefile with Quantum GIS and ogrinfo (you will learn more about ogrinfo later in this tutorial)
+Ρίξτε μια ματιά στο αρχείο εξόδου shapefile με το Quantum GIS και το ogrinfo (θα μάθετε μερισσότερα για το ogrinfo αργότερα σε αυτόν τον οδηγό)
 
   .. image:: ../../images/screenshots/800x600/gdal_gdaltindex.png
      :scale: 80
@@ -193,29 +193,30 @@ Have a look at your output shapefile with Quantum GIS and ogrinfo (you will lear
     POLYGON ((-179.999999999999972 90.0,-0.00000000001796 90.0,-0.00000000001796 -89.999999999982009,-179.999999999999972 -89.999999999982009,-179.999999999999972 90.0))
   
 
-Reprojecting
+Προβολή
 ============
 
-For this process we assume that HYP_50M_SR_W.tif has been properly created with
-bounds. As we saw before with gdainfo no coordinate system  was set. So we assign WGS84 as coordinate system to the image in the first step.
+Για αυτή την διαδικασία υποθέτουμε πως το HYP_50M_SR_W.tif έχει δημιουργηθεί σωστά με 
+όρια. Όπως είδαμε νωρίτερα με το gdainfo δεν έχει οριστεί κανένα σύστημα συντεταγμένων. Έτσι ορίζουμε σε αρχικό στάδιο το WGS84 ως σύστημα συντεταγμένων για την εικόνα.
 
 ::
 
      gdal_translate -a_srs WGS84 HYP_50M_SR_W.tif HYP_50M_SR_W_4326.tif
 
-The gdalwarp command can be used to reproject images. Here we reproject
-the WGS84 geographic image to the Mercator projection:
+Η εντολή gdalwarp μπορεί να χρησιμοποιηθεί για να προβάλει εικόνες. Εδώ προβάλαμε
+την εικόνα με γεωαναφορά στο WGS84, στο σύστημα προβολής Mercator:     
 
 ::
 
    gdalwarp -t_srs '+proj=merc +datum=WGS84' HYP_50M_SR_W_4326.tif mercator.tif
 
-Use gdalinfo to verify the change and have a look at the image.
+Χρησιμοποιείστε το gdalinfo για να επιβεβαιώσετε τις αλλαγές και να ρίξετε μια ματιά στην εικόνα.
+
 
   .. image:: ../../images/screenshots/800x600/gdal_mercator.png
      :scale: 80
 
-Here we reproject to the Ortho projection.  
+Εδώ προβάλαμε στην Ορθή προβολή. 
 
 ::
 
@@ -225,40 +226,39 @@ Here we reproject to the Ortho projection.
 .. image:: ../../images/screenshots/800x600/gdal_ortho.png
      :scale: 80
 
-Note how the poles are clipped?  This is because the edges at the pole
-can't be reprojected gdalwarp does not read all the data.  We can force
-gdalwarp to read a bunch of surplus data around chunks as one way to 
-resolve this. Read more about this in the RasterTutorial http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial.
+Σημειώστε πως οι πόλοι είναι κομμένοι; Αυτό συμβαίενι επειδή οι ακμές στους πόλους
+δεν μπορούν να προβληθούν και η gdalwarp δεν μπορεί να διαβάσει όλα τα δεδομένα. Μπορούμε να αναγκάσουμε
+την gdalwarp να διαβάσει ένα πλήθος δεδομένων σε μεγάλα κομμάτια, ως ένας τρόπος να
+λύσουμε το πρόβλημα. Διαβάστε περισσότερα για αυτό στο RasterTutorial http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial. 
 
 
 
-Mosaicing
+Συνένωση
 =========
 
-gdal_merge.py is a python script that can be used for simple mosaicing tasks. Mosaic the east.tif and west.tif into a single file:
-
+gdal_merge.py είναι ένα αρχείο script python το οποίο μπορεί να χρησιμοποιηθεί ως ένα απλό εργαλείο συνένωσης. Συνένωση της east.tif και της west.tif σε ένα απλό αρχείο.  
 ::
 
    gdal_merge.py  east.tif west.tif -o merged.tif
 
-The same task can be accomplished with gdalwarp. gdalwarp has a variety of advantages over gdal_merge, but can be slow to merge many files:
-
+Η ίδια εφαρμογή μπορεί να γίνει με το gdalwarp. Το gdalwarp έχει μια ποικιλία πλεονεκτημάτων σε σχέση με το gdal_merge, αλλά μπορεί να είναι πολύ αργό στην ένωση πολλς αρχείων:
 ::
 
    gdalwarp east.tif west.tif warpmerged.tif
 
 
 
-Get to know OGR
+Γνωρίζοντας το OGR
 ===============
 :: 
   
   cd /home/usr/gdal_natural_earth/
 
 
-.. tip:: Open the shape file with a Desktop GIS like Quantum GIS. And have a look.
+..συμβουλή:: Ανοίξτε ένα αρχείο shape file με μια εφαρμογή GIS όπως το Quantum GIS. Ρίξτε μια ματιά.
 
-Get information about the vector data with ogrinfo
+
+Πληροφορηθείτε για τα διανυσματικά δεδομένα με το ogrinfo
 ==================================================
 
 :: 
@@ -274,7 +274,8 @@ Get information about the vector data with ogrinfo
   6: 10m-urban-area (Polygon)
   7: 10m_populated_places_simple (Point)
 
-Get a summary about your data with ogrinfo together with -so.
+Μπορείτε να πάρετε μια σύνοψη για τα δεδομένα σας με το ogrinfo με χρήση του -so.
+
 ::
 
 	ogrinfo -so ../natural_earth/ 10m-admin-0-countries
@@ -298,13 +299,14 @@ Get a summary about your data with ogrinfo together with -so.
 	SHAPE_LENG: Real (19.11)
 	SHAPE_AREA: Real (19.11)
 
-If you run ogrinfo without a parameter you will get a summary about your data and afterwards a section for every dataset.
+Εάν χρησιμοποιήσετε το orginfo χωρίς παράμετρο, θα πάρετε μια σύνοψη που αφορά τα δεδομένα σας και στην συνέχεια ένα τμήμα από κάθε σύνολο δεδομένων.
 ::
 
 	ogrinfo ../natural_earth/ 10m-admin-0-countries
 
 
-You can forward the result from ogrinfo to grep to filter and get only the attribute COUNTRY.
+
+Μπορείτε να προωθήσετε το αποτέλεσμα από το ogrinfo για να χρησιμοποιήσετε το φίλτρο για να πάρετε την απόδοση για την χώρα σας.
 :: 
 	ogrinfo ../natural_earth/ 10m-admin-0-countries | grep COUNTRY
 	COUNTRY: String (100.0)
@@ -317,45 +319,48 @@ You can forward the result from ogrinfo to grep to filter and get only the attri
 	COUNTRY (String) = Andorra
 	....
 
-You can convert your data to other formats. Get the list of the supported formats with --formats.
+Μπορείτε να μετατρέψετε τα δεδομένα σας σε άλλα πρότυπα. Μπορείτε να δείτε την λίστα με τα πρότυπα που υποστηρίζονται με την εντολή --formats.
 
-User ogr2ogr to convert data between file formats 
+
+Χρήση του ogr2ogr για μετατροπή δεδομένων μεταξύ αρχείων προτύπων
 =================================================
-You can use ogr2ogr to converts simple features data between file formats. You can use --formats to get the list of the supported formats with read/write information. 
+Μπορείτε να χρησιμοποιήσετε το ugr2ogr για να μετατρέψετε τα απλά αντικείμενα των δεδομένων σε διάφορα αρχεία προτύπων. Μπορείτε να χρησιμοποιήσετε την εντολή --format για να δείτε την λίστα με τα πρότυπα που υποστηρίζονται με την ανάγνωση/εγγραφή πληροφοριών.
 
-Convert the countries to GML.
+
+Μετατροπή των χωρών σε GML.
 ::
 
   ogr2ogr --formats
   ogr2ogr -f GML countries.xml 10m-admin-0-countries.shp	  
 
 
-Things to try
+Πράγματα να προσπαθήσετε
 =============
 
-Here are some additional challenges for you to try:
+Εδώ υπάρχουν κάποιες πρόσθετες προκλήσεις για να προσπαθήσετε:
 
-#. Try gdalwarp or gdal_merge.py to mosaic your data
+#. Χρησιμοποιήστε το gdalwarp ή το gdal_merge.py για να ενώσετε τα δεδομένα σας
 
-#. Try gdaladdo to build internal overviews
+#. Χρησιμοποιήστε το gdaladdo για να δημιουργήσετε διάφορες επισκοπήσεις
 
-#. QGIS uses GDAL/OGR too to suport many formats. It also provides the GdalTools Plugin to process raster data. This plugin integrates the gdal-tools into QGIS. 
+#. Το QGIS χρησιμοποιεί τις GDAL/OGR προκειμένου να υποστηρίξει διάφορους τύπους. Παρέχει επίσης και το GdalTools Plugin για πρόσβαση σε εικονιστικά δεδομένα. Αυτή η εφαρμογή ενσωματώνει τα εργαλεία της gdal στο QGIS. 
 
-#. Try ogr2ogr to import/export your vector data to other formats like PostGIS. Have a look at the options ogr2ogr provides.
+#. Χρησιμοποιήστε το ogr2ogr για να εισάγετε/εξάγετε τα διανυσματικά σας δεδομένα σε άλλους τύπους δεδομένων όπως το PostGIS. Ρίξτε μια ματια τις επιλογές που παρέχει το ogr2ogr.
 
-#. Try the QGIS plugin OGR-Layer-Konverter.
+#. Χρησιμοποιήστε το QGIS plugin OGR-Layer-Konverter.
 
 
-What Next?
+Τι ακολουθεί;
 ==========
 
-This is only the first step on the road to using GDAL and OGR. There is a lot more functionality you can try.
+Αυτό είναι μόνο το πρώτο βήμα για την χρήση της GDAL και του OGR. Υπάρχουν πολλές ακόμα λειτουργίες που μπορούμε να χρησιμοποιήσουμε. 
+
 
 GDAL Project home
 
   http://www.gdal.org
 
-All about OGR
+Όλα για το OGR
 
   http://gdal.org/ogr/index.html
 

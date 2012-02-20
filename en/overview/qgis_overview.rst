@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live4.5
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _qgis-overview:
@@ -86,7 +86,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 1.7.3
+**Software Version:** 1.7.4
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 

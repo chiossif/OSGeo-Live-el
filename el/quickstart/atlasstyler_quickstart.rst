@@ -41,7 +41,7 @@ AtlasStyler (Δημιουργώντας στύλ με το πρότυπο SLD)
 δεξί κλικ στο μενού (εκεί που είναι οι 'Applications' και 'Places') και επιλέξτε 'Customize Panel'. Εκεί επιλέξτε 'Autohide' και το μενού κρύβεται
 εκτός και μεταφέρετε το ποντίκι σας στην κορυφή της οθόνης. 
 
-1) Εκτελέστε :menuselection:`Geospatial --> Desktop GIS --> AtlasStyler` για να ξεκινήσει η εφαρμογή
+1) Εκτελέστε :menuselection:`Geospatial --> Desktop GIS --> AtlasStyler` για να ξεκινήσει η εφαρμογή.
  
 2) Χρησιμοποιείστε τα κουμπιά εισόδου ώστε να προσθέσετε αρχεία ESRI Shapefiles ή άλλες πηγές PostGIS. 
 

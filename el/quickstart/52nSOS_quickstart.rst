@@ -11,51 +11,55 @@
   :target: http://52north.org/sos
   
 ***********************
-52°North SOS Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης 52°North SOS
 ***********************
 
-Getting Started
+Αρχίζοντας
 ===============
 
-The 52°North SOS is a web service, that allows you to provide and collect spatial sensor data (including metadata and measurements/observations).
+Το 52°North SOS είναι μια υπηρεσία δικτύου, η οποία σας επιτρέπει να παρέχετε και να συλλέγετε χωρικά δεδομένα από αισθητήρες (συμπεριλαμβανομένων των μεταδεδομένων και των μετρήσεων/παρατηρήσεων).
 
-1) Go to :menuselection:`Geospatial --> Web Services --> Start 52North SOS` to start the 52°North SOS or use this `direct link <http://localhost:8080/52nSOSv3.1.1/>`_.
-  (If the service is not reachable, try to start the Tomcat servlet engine following the steps at the bottom of this page.)
 
-2) Firefox will open the 52°North SOS test client (see Fiq. 1):
+1) Πηγαίνετε στο :menuselection:`Geospatial --> Web Services --> Start 52North SOS` για να αρχίσετε το 52°North SOS ή χρησιμοποιήστε το από το `direct link <http://localhost:8080/52nSOSv3.1.1/>`_.
+  (Εάν η υπηρεσία δεν είναι διαθέσιμη, δοκιμάστε να ξεκινήσετε την μηχανή Tomcat servlet ακολουθώντας τα βήματα στο κάτω μέρος της σελίδας.) 
+
+
+2) Ο περιηγητής Firefox θα ανοίξει το 52°North SOS test client (δείτε Εικόνα 1):
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
   :scale: 100 %
   :alt: screenshot of 52°North SOS test client
   :align: center
   
-**Fig. 1**: 52°North SOS test client - welcome page  
+**Εικόνα 1**: 52°North SOS test client - welcome page  
   
-3) To get started with the SOS, select the **GetCapabilities_allSections.xml** [1] request from the drop down list next to "Request Examples".
-  
-4) Push the **Send button** [2] and the request will be transmitted to the 52°North SOS. As result, a XML document is returned (see Fig. 2), which shows a the capabilities of the SOS (available data,...).
+3) Προκειμένου να ξεκινήσετε με το SOS, επιλέξτε το **GetCapabilities_allSections.xml** [1] αίτημα από την πτυσσόμενη λίστα δίπλα στο "Request Examples".
+
+
+4) Πατήστε το **Send button** [2] και το αίτημά σας θα μεταδοθεί στο 52°North SOS. Ως αποτέλεσμα, ένα XML αρχείο επιστρέφει (δείτε Εικόα 2), το οποίο εμφανίζει τις δυνατότητες του SOS (διαθέσιμα δεδομένα,...).
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_response.png
   :scale: 70 %
   :alt: screenshot of 52°North SOS output - GetCapabilities response encoded in XML
   :align: center
   
-**Fig. 2**: 52°North SOS - GetCapabilities response (XML encoded)
+**Εικόνα 2**: 52°North SOS - GetCapabilities response (XML encoded)
   
-5) In Order to build your own requests you will need the `capabilities of the 52°North SOS <http://localhost:8080/52nSOSv3.1.1/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_. Using this input, you can edit the provided requests by the test client. Just select them from the drop down menu.
+5) Προκειμένου να χτίσετε τα δικά σας αιτήματα, θα χρειαστείτε τα `capabilities of the 52°North SOS <http://localhost:8080/52nSOSv3.1.1/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_. Χρησιμοποιώντας αυτή την είσοδο, μπορείτε να επεξεργαστείτε τα παρεχόμενα αιτήματα από έναν test client. Απλά επιλέξτε τα από το πτυσσόμενο μενού.
 
-Additional Information
+
+Πρόσθετες πληροφορίες
 ======================
 
-* To learn more about 52°North SOS and/or 52°North, potential starting points are:
+* Προκειμένου να μάθετε περισσότερα σχετικά με το 52°North SOS ή το 52°North, τα υποθετικά σημεία αρχής είναι:
 
-* the 52°North `SOS overview <../overview/52nSOS_overview.html>`_,
-* the 52°North Sensor Web mailing list: swe@52north.org, 
-* check the 52°North `Sensor Web community forum <http://sensorweb.forum.52north.org/>`_, 
-* 52°North `SOS website <http://52north.org/communities/sensorweb/sos/>`_, or 
-* the website of the `52°North Sensor Web Community <http://52north.org/communities/sensorweb/>`_.
+* το 52°North `SOS overview <../overview/52nSOS_overview.html>`_,
+* η 52°North Sensor λίστα ηλεκτρικού ταχυδρομίου: swe@52north.org, 
+* ελέγξτε το 52°North `Sensor Web community forum <http://sensorweb.forum.52north.org/>`_, 
+* 52°North `SOS website <http://52north.org/communities/sensorweb/sos/>`_, ή 
+* την διαδικτυακή διεύθυνση `52°North Sensor Web Community <http://52north.org/communities/sensorweb/>`_.
 
-* When the SOS is not available, please check if the tomcat servlet engine is running using the following command:
+* Όταν το SOS δεν είναι διαθέσιμο, παρακαλείσθε να ελέγξετε εάν η μηχανή tomcat servlet τρέχει χρησιμοποιώντας την ακόλουθη εντολή:
 
 ::
 

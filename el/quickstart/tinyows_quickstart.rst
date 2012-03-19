@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Pirmin Kalberer
-:Version: osgeo-live5.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _tinyows-quickstart:
@@ -12,89 +12,89 @@
   :target: http://www.tinyows.org/
 
 ********************************************************************************
-TinyOWS Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης TinyOWS
 ********************************************************************************
 
-TinyOWS is a high performance, Transactional Web Feature Service (WFS-T) which is light weight and easy to deploy, using a CGI or FastCGI interface and using :doc:`PostGIS <../overview/postgis_overview>` for data storage.
+Το TinyOWS είναι ένα λογισμικό υψηλών επιδόσεων που υλοποιεί την διαδικτυακή υπηρεσία Transactional Web Feature Service (WFS-T) σε ένα ελαφρύ και εύκολα διαχειρίσημο περιβάλλον, με τη χρήση τεχνολογιών όπως CGI ή FastCGI και σε βάση δεδομένων :doc:`PostGIS <../overview/postgis_overview>` για αποθήκευση των χωρικών δεδομένων.
 
-This Quick Start describes how to:
+Αυτός ο οδηγός περιγράφει πως:
 
-  * display a WFS layer in QGIS
-  * edit a WFS layer using WFS-T in QGIS
+  * να παρουσιάσετε ένα επίπεδο WFS στο λογισμικό QGIS
+  * να επεξεργαστείτε ένα επίπεδο WFS στο QGIS μεσω της τεχνολογίας WFS-T
 
 
-Display a WFS layer with QGIS
+Παρουσίαση δεδομένων επιπέδου WFS στο λογισμικό QGIS
 ================================================================================
 
-#. Click :menuselection:`Desktop --> Desktop GIS --> Quantum GIS`.
+#. Κάντε κλίκ στο μενού :menuselection:`Desktop --> Desktop GIS --> Quantum GIS`.
 
-#. Click :menuselection:`Layer --> Add PostGIS Layer...`.
+#. Κάντε κλίκ στο :menuselection:`Layer --> Add PostGIS Layer...`.
 
-   * We display the original PostGIS layer first
+   * Εδώ εμφανίζεται το αρχικό επίπεδο της PostGIS
 
-#. Press :guilabel:`New`.
+#. Επιλέξτε :guilabel:`New`.
 
-#. Fill in  **pgrouting** as Connection name and Database
+#. Πληκτρολογήστε  **pgrouting** σαν όνομα σύνδεσης (Connection name) και Database
 
-#. Press :guilabel:`OK`.
+#. Πιέστε :guilabel:`OK`.
 
-#. Press :guilabel:`Connect`.
+#. Πιέστε :guilabel:`Connect`.
 
-#. Select **ways** in the table list
+#. Επιλέξτε **ways** στην λίστα πινάκων
 
-#. Press :guilabel:`Add`.
+#. Επιλέξτε :guilabel:`Add`.
 
-#. Zoom in
+#. Κάντε μεγέθυνση
 
-#. Select :menuselection:`Plugins -> Manage Plugins -> WFS Plugin -> OK`
+#. Επιλέξτε από το μενού :menuselection:`Plugins -> Manage Plugins -> WFS Plugin -> OK`
 
-   * Enable the WFS Layer plugin.
+   * Ενεργοποιούμε το πρόσθετο για επίπεδα WFS.
 
-#. Click :menuselection:`Layer --> Add WFS Layer...`.
+#. Κάντε κλίκ στο μενού :menuselection:`Layer --> Add WFS Layer...`.
 
-   * Now we add a WFS layer based on the same table
+   * Τώρα προσθέτουμε ένα επίπεδο WFS βασισμένο στον ίδιο πίνακα
 
-#. Press :guilabel:`New`.
+#. Επιλέξτε :guilabel:`New`.
 
-#. Fill in  **tinyows** as name **http://localhost/cgi-bin/tinyows** as URL
+#. Συμπληρώστε  **tinyows** σαν όνομα και **http://localhost/cgi-bin/tinyows** σαν URL
 
-#. Press :guilabel:`OK`.
+#. Επιλέξτε :guilabel:`OK`.
 
-#. Press :guilabel:`Connect`.
+#. Πιέστε :guilabel:`Connect`.
 
-#. Select **ows:ways** in the layer list
+#. Επιλέξτε **ows:ways** στη λίστα επιπέδων
 
-#. Check :guilabel:`Only request features overlapping the current view extent`.
+#. Ενεργοποιήστε :guilabel:`Only request features overlapping the current view extent`.
 
-#. Press :guilabel:`OK`.
+#. Πιέστε :guilabel:`OK`.
 
-   * WFS layer is now displayed:
+   * Το επίπεδο WFS τώρα εμφανίζεται:
 
 .. image:: ../../images/screenshots/800x600/tinyows_wfs_layer.png
   :scale: 80 %
 
-Edit data with WFS-T
+Επεξεργασία δεδομένων μέσω WFS-T
 ================================================================================
 
-#. Click :menuselection:`Layer --> Toggle Editing`.
+#. Πιέστε :menuselection:`Layer --> Toggle Editing`.
 
-#. Click :menuselection:`Edit --> Node Tool`.
+#. Πιέστε :menuselection:`Edit --> Node Tool`.
 
-#. Move a vertex (cross) to another position
+#. Μετακινήστε εναν κόμβο σε άλλη θέση
 
-#. Click :menuselection:`Layer --> Save edits`.
+#. Πιέστε :menuselection:`Layer --> Save edits`.
 
-#. Hide layer unchecking **tows:ways** in the layer list
+#. Κρύψτε το επίπεδο απενεργοποιώντας **tows:ways** στη λίστα επιπέδων
 
-   * You should see the edited way in an other color, coming directly from PostGIS.
+   * Μπορείτε να δείτε τις επεξεργασίες με άλλο χρώμα μέσω της απευθείας σύνδεσης με την PostGIS.
 
 
-What Next?
+Τι ακολουθεί;
 ================================================================================
 
-To learn more about TinyOWS, a starting point is the `User Documentation`_ on the TinyOWS homepage.
+Για να μάθετε περισσότερα σχετικά με το TinyOWS, ένα καλό σημείο έναρξης είναι το εγχειρίδιο χρήσης στην κεντρική ιστοσελίδα `TinyOWS`_.
 
-.. _`User Documentation`: http://tinyows.org/trac/wiki/UserDocumentation
+.. _`TinyOWS`: http://tinyows.org/trac/wiki/UserDocumentation
 
 
 

@@ -35,60 +35,60 @@
 Στη συνέχεια θα αλλάξουμε το στύλ του χάρτη μέσω του λογισμικού QGIS.
 
 
-Edit QGIS project
+Επεξεργασία χώρου εργασίας QGIS
 =================
 
-#. Click :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS`.
+#. Κάντε κλίκ :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS`.
 
-#. Choose :menuselection:`File --> Open Project...` from the menu bar.
+#. Επιλέξτε :menuselection:`File --> Open Project...` από το μενού.
 
-#. Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`.
+#. Επιλέξτε :file:`QGIS-NaturalEarth-Example.qgs` και πιέστε :guilabel:`Open`.
 
-   * You should see the same world map rendered by QGIS.
-     We will now change river styling and look at the result in the web map viewer. 
+   * Θα πρέπει να δείτε τον ίδιο παγκόσμιο χάρτη μέσα στο QGIS.
+     Θα αλλάξουμε το στύλ του ποταμού και θα δούμε το αποτέλεσμα στον περιηγητή. 
 
-#. Double click **10m_rivers_lake_centerlines** in the Layers tree.
+#. Κάντε διπλό κλίκ **10m_rivers_lake_centerlines** στο δέντρο των επιπέδων.
 
-#. Change the color in Outline Options to a different blue tone.
+#. Αλλάξτε το χρώμα στις επιλογές χρώματος ορίου σε έναν άλλο τόνο του μπλέ.
 
-#. Press :guilabel:`OK`.
+#. Πιέστε :guilabel:`OK`.
 
-   * Rivers are now rendered in a new color.
+   * Οι ποταμοί είναι πλέον χρωματισμένοι σε νέο χρώμα.
 
-#. Save the project with :menuselection:`File --> Save Project`.
+#. Αποθηκεύστε την εργασία με :menuselection:`File --> Save Project`.
 
-#. Reopen the web browser
+#. Κλείστε και ανοίξτε πάλι τον περιηγητή
 
-#. Zoom in
+#. Κάντε μεγέθυνση
 
-   * You should now see rivers rendered in the same new color.
+   * Θα πρέπει να βλέπετε τώρα τους ποταμούς με διαφορετικό χρώμα.
 
 
-Create a new QGIS project
+Δημιουργία νέου χώρου εργασίας QGIS
 =========================
 
-#. Reopen QGIS
+#. Ανοίξτε το QGIS
 
-#. Choose :menuselection:`File --> New Project`.
+#. Επιλέξτε :menuselection:`File --> New Project`.
 
-#. Click :menuselection:`Layer --> Add Vector Layer...`.
+#. Κάντε κλίκ :menuselection:`Layer --> Add Vector Layer...`.
 
-#. Browse to dataset :file:`/home/user/data/natural_earth/10m_admin_0_countries.shp`.
+#. Βρείτε το αρχείο :file:`/home/user/data/natural_earth/10m_admin_0_countries.shp`.
 
-#. Press :guilabel:`Open`.
+#. Πιέστε :guilabel:`Open`.
 
-   * You should see all world countries.
+   * Θα πρέπει να δείτε όλες τις χώρες του κόσμου.
 
-#. Save the project with :menuselection:`File --> Save Project`.
+#. Αποθηκεύστε την εργασία με την επιλογή :menuselection:`File --> Save Project`.
 
-#. Use file name :file:`/home/user/world.qgs` and press :guilabel:`Save`.
+#. Χρησιμοποιήστε το όνομα αρχείου  :file:`/home/user/world.qgs` και πιέστε :guilabel:`Save`.
 
-#. Open the `WMS URL <http://localhost/cgi-bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_.
+#. Ανοίξτε στον περιηγητή την διεύθυνση `WMS <http://localhost/cgi-bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_.
 
-   * You should see all world countries, this time rendered by QGIS mapserver.
+   * Θα πρέπει να δείτε όλες τις χώρες του κόσμου αυτή τη φορά από τον εξυπηρετητή QGIS Server.
 
 
-What Next?
+Τι ακολουθεί;
 ==========
 
-To learn more about QGIS mapserver, you can follow the blog articles of `Linfiniti <http://linfiniti.com/2010/08/qgis-mapserver-a-wms-server-for-the-masses/>`_ or `3LIZ <http://www.3liz.com/blog/rldhont/index.php/2010/12/03/355-qgis-mapserver-an-wysiwyg-open-source-wms-server>`_.
+Για να μάθετε περισσότερα για το λογισμικό QGIS Server, μπορείτε να παρακολουθήσετε τα άρθρα στους ιστοχώρους `Linfiniti <http://linfiniti.com/2010/08/qgis-mapserver-a-wms-server-for-the-masses/>`_ ή `3LIZ <http://www.3liz.com/blog/rldhont/index.php/2010/12/03/355-qgis-mapserver-an-wysiwyg-open-source-wms-server>`_.

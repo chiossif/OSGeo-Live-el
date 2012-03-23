@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Pirmin Kalberer
-:Version: osgeo-live4.5
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _qgis_mapserver-quickstart:
@@ -11,28 +11,28 @@
   :align: right
 
 *************************
-QGIS mapserver Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης QGIS Server 
 *************************
 
-QGIS mapserver provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
+Ο εξυπηρετητής QGIS Server παρέχει την υλοποίηση μιας διαδικτυακής υπηρεσίας WMS βασισμένη σε βιβλιοθήκες από το λογισμικό Quantum GIS (QGIS).
 
-This Quick Start describes how to:
+Αυτό το εγχειρίδιο περιγράφει πως:
 
-  * update an existing QGIS project and render it with QGIS mapserver
-  * create a new QGIS project and open the WMS directly in a browser
+  * να γίνει ενημέρωση ενός υπάρχοντος χώρου εργασίας QGIS (project) και δημοσίευσή του σε έναν εξυπηρετητή QGIS Server
+  * να γίνει δημιουργία ενός νέου χώρου εργασίας QGIS και να δημιουργηθεί μια υπηρεσία WMS απευθείας σε έναν περιηγητή
 
-Start GeoExt viewer
+Εκκίνηση εφαρμογής GeoExt
 ===================
 
-OSGeo-Live contains an example of web map viewer based on the GeoExt Javascript framework and using QGIS mapserver for rendering the map.
+Το OSGeo-Live περιλαμβάνει ένα παράδειγμα εφαρμογής οπτικοποίησης δεδομένων μέσω διαδικυου, βασισμένη στο περιβάλλον GeoExt που είναι υλοποιημένο σε γλώσσα Javascript και χρησιμοποιεί τον εξυπηρετητή QGIS Server για παρουσίαση του χάρτη.
 
-* Click :menuselection:`Desktop --> Spatial Tools --> QGIS Mapserver`
+* Κάντε κλίκ :menuselection:`Desktop --> Spatial Tools --> QGIS Mapserver`
 
-You should see a browser window with a web map viewer showing a world map.
+Θα πρέπει να μπορείτε να δείτε έναν παγκόσμιο χάρτη σε ένα παράθυρο του περιηγητή σας.
    
 .. image:: ../../images/screenshots/800x600/qgis_mapserver_browser.jpg
 
-We will now change the map styling using QGIS.
+Στη συνέχεια θα αλλάξουμε το στύλ του χάρτη μέσω του λογισμικού QGIS.
 
 
 Edit QGIS project

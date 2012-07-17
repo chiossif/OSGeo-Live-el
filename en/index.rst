@@ -31,14 +31,33 @@ Many applications are also provided with installers for `Apple OSX <../MacInstal
 Quick Starts
 --------------------------------------------------------------------------------
 
--   :doc:`Getting started with the OSGeo-Live DVD <quickstart/osgeolive_quickstart>`
--   :doc:`Change language or keyboard type <quickstart/internationalisation_quickstart>`
--   :doc:`Install OSGeo-Live on your hard disk <quickstart/osgeolive_install_quickstart>`
--   :doc:`Run OSGeo-Live in a Virtual Machine <quickstart/virtualbox_quickstart>`
--   :doc:`Create an OSGeo-Live bootable USB thumb drive <quickstart/usb_quickstart>`
+.. toctree::
+   :maxdepth: 1
+
+   Getting started with the OSGeo-Live DVD <quickstart/osgeolive_quickstart>
+   Change language or keyboard type <quickstart/internationalisation_quickstart>
+   Install OSGeo-Live on your hard disk <quickstart/osgeolive_install_quickstart>
+   Run OSGeo-Live in a Virtual Machine <quickstart/virtualbox_quickstart>
+   Create an OSGeo-Live bootable USB thumb drive <quickstart/usb_quickstart>
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   overview/overview
+   quickstart/*_quickstart
+   standards/standards
+   contact
+   copyright
+   disclaimer
+   download
+   sponsors
+   sponsors_osgeo
+   presentation
 
 Presentation
 --------------------------------------------------------------------------------
 A half hour presentation, highlighting all OSGeo-Live applications, is available as a video, along with source slides and script.
 
-Details at http://live.osgeo.org/en/presentation.html.
+Details at :doc:`presentation`.

@@ -3,8 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons
 
-.. _pycsw-quickstart:
-
 .. image:: ../../images/project_logos/logo-pycsw.png
   :scale: 80 %
   :alt: project logo
@@ -21,7 +19,7 @@ pycsw implements clause 10 (HTTP protocol binding (Catalogue Services for the We
 
 pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2.
 
-pycsw is `Open Source`_, released under an MIT :ref:`license <license>`, and runs on all major platforms (Windows, Linux, Mac OS X).
+pycsw is `Open Source`_, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).
 
 pycsw is installed by default on the OSGeo Live DVD.  This QuickStart will describe how to:
 
@@ -49,7 +47,7 @@ pycsw requires the following supporting libraries:
 Installing from Source
 ----------------------
 
-:ref:`Download <pycsw>` the latest version or fetch svn trunk:
+`Download pycsw`_ the latest version or fetch svn trunk:
 
 .. code-block:: bash
 
@@ -167,7 +165,7 @@ After a sucessful validation, the XML file can be saved to the local disk and vi
 Using GIMED
 -----------
 
-:ref:`GIMED <gimed>` is a Free Software for creating and editing INSPIRE compliant metadata XML files.
+`GIMED`_ is a Free Software for creating and editing INSPIRE compliant metadata XML files.
 To install the application, use the following commands from a terminal:
 
 .. code-block:: bash
@@ -231,7 +229,7 @@ To install the plugin:
 
   $ cd ~
   $ cd .qgis/python/plugins
-  $ svn co https://qgiscommunitypl.svn.sourceforge.net/svnroot/qgiscommunitypl/python/plugins/qgcsw qgcsw
+  $ svn co https://qgiscommunitypl.svn.sourceforge.net/svnroot/qgiscommunitypl/python/plugins/qgcsw/trunk qgcsw
 
 Data Discovery
 ==============
@@ -288,6 +286,6 @@ For more information on pycsw, please consult the `documentation`_ on the pycsw 
 .. _`SQLAlchemy`: http://www.sqlalchemy.org/
 .. _`Shapely`: http://trac.gispython.org/lab/wiki/Shapely
 .. _`pyproj`: http://code.google.com/p/pyproj/
-.. _`pycsw`: http://pycsw.org/download.html
-.. _`gimed`: http://sourceforge.net/projects/gimed/
+.. _`Download pycsw`: http://pycsw.org/download.html
+.. _`GIMED`: http://sourceforge.net/projects/gimed/
 

@@ -1,9 +1,9 @@
-.. GeoSpatial Standards documentation master file, created by
+.. Geospatial Standards documentation master file, created by
    sphinx-quickstart on Mon Jul 19 08:52:52 2010.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Open GeoSpatial Consortium Standards
+Open Geospatial Consortium Standards
 ================================================================================
 
 Introduction
@@ -30,24 +30,20 @@ Most of the OGC standards developed in recent years are standards for the Web se
 
 Acronyms in the figure are defined below. Some of these are “OGC standards” and others are publicly available “Discussion Papers”, “Requests” and “Recommendation Papers”. (Note that some in work candidate standards are not yet public, but are accessible by OGC members.) 
 
-* :doc:`wms_overview`
-* :doc:`wfs_overview`
-* :doc:`wcs_overview`
-* :doc:`wps_overview`
-* :doc:`csw_overview`
-* :doc:`sos_overview`
-* Sensor Model Language (SensorML)
+.. add all standard overview documents to the toc and add all others right behind
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   
+   *_overview
+
 * Sensor Planning Service (SPS)
 * Web Terrain Service (WTS)
 * Grid Coverage Service
 * Coordinate Transformation Service
 * Web Coverage Processing Service (WCPS)
 * Web Map Tile Service (WMTS)
-* :doc:`gml_overview`
-* :doc:`kml_overview`
-* :doc:`sensorml_overview`
-* :doc:`sld_overview`
-* :doc:`fe_overview`
 * Simple Features (SF)
 * Sensor Web Enablement (SWE)
 * XML for Image and Map Annotation (XIMA)

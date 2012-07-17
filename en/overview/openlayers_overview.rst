@@ -5,8 +5,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _openlayers-overview:
-
 .. image:: ../../images/project_logos/logo-OpenLayers-large.png
   :scale: 50 %
   :alt: project logo
@@ -62,13 +60,13 @@ Details
 
 **Website:** http://openlayers.org
 
-**License:** MIT-style license
+**License:** 2-clause BSD License (aka FreeBSD License) 
 
-**Software Version:** 2.11
+**Software Version:** 2.12
 
 **API Interface:** JavaScript
 
-**Support:** http://trac.openlayers.org 
+**Support:** https://github.com/openlayers/openlayers 
 
 
 Quickstart

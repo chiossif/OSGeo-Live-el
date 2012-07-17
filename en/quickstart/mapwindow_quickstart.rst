@@ -1,13 +1,11 @@
 :Author: Richard R. Schneider Dept. Biological Sciences University of Alberta Edmonton, Alberta, Canada 
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
-:Copyright: © 2011 Richard R. Schneider 
 :Product: MapWindow GIS 4.8.6
 :Version: osgeo-live5.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :PDF: http://www.mapwindow.org/apps/wiki/lib/exe/fetch.php?media=quick_guide_to_mapwindows_4.8.6.pdf
 :Editor: http://rst.ninjs.org/
-
-.. _mapwindow-quickstart:
+:Copyright: 2011 Richard R. Schneider
 
 .. image:: ../../images/project_logos/logo-MapWindow.png
   :alt: MapWindow GIS

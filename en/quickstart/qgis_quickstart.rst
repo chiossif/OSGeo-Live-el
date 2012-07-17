@@ -1,19 +1,17 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Author: Pirmin Kalberer
 :Version: osgeo-live4.5
-:License: Creative Commons
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _qgis-quickstart:
- 
 .. image:: ../../images/project_logos/logo-QGIS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-***************
+********************************************************************************
 QGIS Quickstart 
-***************
+********************************************************************************
 
 Quantum GIS (QGIS) is a user friendly Desktop GIS client which lets
 you visualize, manage, edit, analyse data and compose printable maps.
@@ -25,7 +23,7 @@ This Quick Start describes how to:
 
 
 Edit QGIS project
-=================
+================================================================================
 
 #. Click :menuselection:`Desktop --> Desktop GIS --> Quantum GIS`.
 
@@ -52,7 +50,7 @@ Edit QGIS project
 
 
 Create a new QGIS project
-=========================
+================================================================================
 
 #. Choose :menuselection:`File --> New Project`.
 
@@ -66,17 +64,15 @@ Create a new QGIS project
 
 
 What Next?
-==========
+================================================================================
+
+Tutorials for more advanced features of QGIS are collected as `OSGeo-Live QGIS tutorials`_.
 
 To learn more about QGIS, a starting point is the `Documentation page`_ on the QGIS homepage.
 
-OSGeo Live contains a `A Gentle Introduction to GIS`_  and the `QGIS User Guide`_.
+OSGeo-Live contains a `A Gentle Introduction to GIS`_  and the `QGIS User Guide`_.
 
+.. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/
 .. _`Documentation page`: http://www.qgis.org/en/documentation.html
-.. _`A Gentle Introduction to GIS`: file:///usr/local/share/qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
-.. _`QGIS User Guide`: file:///usr/local/share/qgis/qgis-1.6.0_user_guide_en.pdf
-
-
-
-
-
+.. _`A Gentle Introduction to GIS`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
+.. _`QGIS User Guide`: ../../qgis/qgis-1.7.0_user_guide_en.pdf

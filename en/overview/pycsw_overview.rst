@@ -4,14 +4,11 @@
 :Version: osgeo-live5.5
 :License: Creative Commons
 
-.. _pycsw-overview:
-
 .. image:: ../../images/project_logos/logo-pycsw.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
-
 
 pycsw
 ================================================================================
@@ -25,7 +22,7 @@ Metadata is 'data about data', storing such things as creation-date, author, tit
 
 pycsw is a `Python`_ implementation of the :doc:`OGC Catalogue Services for the Web (CSW) standard<../standards/csw_overview>`. The CSW standard defines common interfaces to discover, browse and query metadata about spatial data, web services and related resources.
 
-pycsw is Open Source, released under an MIT :ref:`license <license>`, and runs on all major platforms (Windows, Linux, Mac OS X).
+pycsw is Open Source, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).
 
 .. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
   :scale: 50 %
@@ -76,7 +73,7 @@ Details
 
 **Licence:** `MIT`_
 
-**Software Version:** 1.0.0
+**Software Version:** 1.2.0
 
 **Supported Platforms:** Windows, Linux, Mac
 

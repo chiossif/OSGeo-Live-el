@@ -6,6 +6,13 @@
 |osgeo-live-version| Contents
 ================================================================================
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   *_overview
+
 Browser Clients
 --------------------------------------------------------------------------------
 * :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser GIS Client
@@ -36,7 +43,7 @@ Desktop GIS
 * :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
 * :doc:`saga_overview` - [:doc:`QuickStart <../quickstart/saga_quickstart>`]
 * :doc:`ossim_overview` - [:doc:`QuickStart <../quickstart/ossim_quickstart>`] - Image Processing
-* :doc:`geopublisher_overview`- [:doc:`QuickStart <../quickstart/geopublisher_quickstart>`] - Catalogue
+* :doc:`geopublisher_overview` - [:doc:`QuickStart <../quickstart/geopublisher_quickstart>`] - Catalogue
 * :doc:`atlasstyler_overview` - [:doc:`QuickStart <../quickstart/atlasstyler_quickstart>`] - Style Editor
 * :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering
 * :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping
@@ -76,19 +83,26 @@ Web Services
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-.. temp disabled to save on disc space: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
-
 Data
 --------------------------------------------------------------------------------
-* :doc:`naturalearth_overview` - Geographic Data Sets
-* :doc:`nc_dataset_overview`
-* :doc:`osm_dataset_overview` - Sample extract from OpenStreetMap
+
+.. toctree::
+   :maxdepth: 1
+
+   Natural Earth - Geographic Data Sets <naturalearth_overview>
+   nc_dataset_overview
+   OpenStreetMap - Sample extract from OpenStreetMap <osm_dataset_overview>
 
 Geospatial Libraries
 --------------------------------------------------------------------------------
-* :doc:`geotools_overview` - Java GIS Toolkit
-* :doc:`metacrs_overview` - Coordinate Reference System Transformations
-* :doc:`liblas_overview`  - LiDAR Data Access
+
+.. toctree::
+   :maxdepth: 1
+
+   GeoTools - Java GIS Toolkit <geotools_overview>
+   GEOS - C/C++ Spatial Library <geos_overview> 
+   MetaCRS - Coordinate Reference System Transformations <metacrs_overview>
+   libLAS - LiDAR Data Access <liblas_overview>
 
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------

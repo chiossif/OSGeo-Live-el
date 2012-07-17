@@ -3,8 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _otb-overview:
-
 .. image:: ../../images/project_logos/logo-otb.png
   :scale: 100 %
   :alt: project logo
@@ -60,7 +58,7 @@ Details
 **Licence:** CeCILL (CeCILL is compatible with GPL and enhanced to
   address French law)
 
-**Software Version:** 3.10
+**Software Version:** 3.12
 
 **Supported Platforms:** Linux, Mac, Windows
 

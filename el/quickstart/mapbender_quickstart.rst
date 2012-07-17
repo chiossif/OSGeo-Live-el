@@ -6,7 +6,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
-.. _mapbender-quickstart:
+.. _mapbender-quickstart-el:
  
 .. image:: ../../images/project_logos/logo-Mapbender.png
   :scale: 100 %
@@ -52,7 +52,7 @@
   .. image:: ../../images/screenshots/800x600/mapbender_welcome.png
      :scale: 80
 
-Μετά από την επιτυχημένη σύνδεση κατευθύνστε στο :guilabel:`application overview ` (επισκόπηση εφαρμογών).
+Μετά από την επιτυχημένη σύνδεση κατευθύνστε στο :guilabel:`application overview` (επισκόπηση εφαρμογών).
 
 
 
@@ -100,7 +100,7 @@
 
 #. Γνωρίστε το Mapbender και δοκιμάστε την λειτουργικότητα και τις εφαρμογές που παρέχει.
    
-   *Για παράδειγμα επιλέξτε gui, gui_digitize
+   * Για παράδειγμα επιλέξτε gui, gui_digitize
      
   .. image:: ../../images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80

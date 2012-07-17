@@ -9,8 +9,6 @@
   :align: right
   :target: http://en.geopublishing.org/AtlasStyler
 
-.. _atlasstyler-quickstart: 
-
 *****************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης AtlasStyler 
 *****************************************

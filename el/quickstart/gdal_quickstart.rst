@@ -2,8 +2,6 @@
 :Version: osgeo-live4.5p
 :License: Creative Commons
 
-.. _gdal_quickstart:
- 
 .. image:: ../../images/project_logos/logo-GDAL.png
   :scale: 60 %
   :alt: project logo
@@ -308,7 +306,9 @@ gdal_merge.py είναι ένα αρχείο script python το οποίο μπ�
 
 Μπορείτε να προωθήσετε το αποτέλεσμα από την ogrinfo για να χρησιμοποιήσετε το φίλτρο για να πάρετε την απόδοση για την χώρα σας.
 :: 
+
 	ogrinfo ../natural_earth/ 10m-admin-0-countries | grep COUNTRY
+	
 	COUNTRY: String (100.0)
 	COUNTRY (String) = Afghanistan
 	COUNTRY (String) = Akrotiri Sovereign Base Area

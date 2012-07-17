@@ -2,7 +2,7 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _52nWPS-quickstart:
+.. _52nWPS-quickstart-el:
  
 .. image:: ../../images/project_logos/logo_52North_160.png
   :scale: 100 %
@@ -20,6 +20,7 @@
 	ή από το μενού επιλογών.
 
 *	Ο περιηγητής Firefox θα ανοίξει το 52WPS-TestClient.
+*	Φροντίστε να έχετε ξεκινήσει τον Geoserver λόγω του ότι ορισμένες από τις δοκιμαστικές εφαρμογές χρησιμοποιούν δεδομένα από την τοπική εγκατάσταση.
 
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png

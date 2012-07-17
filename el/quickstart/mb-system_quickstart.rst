@@ -2,8 +2,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _mb-system-quickstart:
- 
 .. image:: ../../images/project_logos/logo-mb-system.gif
   :scale: 30 %
   :alt: project logo

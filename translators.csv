@@ -1,6 +1,3 @@
-﻿# please add the names of all translators
-#  - Order alphabetically by language, then by first name
-#  - remove punctuation from email addresses to stop harvesting for junk mail
 Language,i18n code,Name,Country,Email,Osgeo_id
 Spanish,es,Agustín Díez,Spain,adiez uv es,
 Spanish,es,David Mateos,Spain,porquewhich hotmail com,
@@ -26,11 +23,11 @@ Italian,it,Marco Puppin,Italy,puppingeo gmail com,
 German,de,Astrid Emde,Germany,astrid emde wheregroup com,astrid_emde
 German,de,Daniel Kastl,Germany,daniel georepublic de,
 German,de,Dominik Helle,Germany,helle omniscale de,
+German,de,Frank Gasdorf,Germany,fgdrf users.sourceforge.net,fgdrf
 German,de,Lars Lingner,Germany,lars lingner eu,gislars
 German,de,Otto Dassau,Germany,dassau gbd-consult de,dassau
 German,de,Ruth Schoenbuchner,Germany,ruth schoenbuchner csgis de,
 German,de,Thomas Baschetti,Germany,info thomas-baschetti de,tbaschetti
-German,de,Frank Gasdorf,Germany,fgdrf users.sourceforge.net,fgdrf
 Greek,el,Angelos Tzotsos,Greece,tzotsos gmail com,kalxas
 Greek,el,Christos Iossifidis,Greece,chiossif gmail com,chiossif
 Greek,el,Argyros Argyridis,Greece,arargyridis gmail com,Argy7
@@ -42,3 +39,12 @@ Japanese,ja,Yoichi Kayama,Japan,yoichi.kayama gmail com,
 Polish,pl,Milena Nowotarska,Poland,do.milenki gmail com,milenan
 Chinese,zh,Xianfeng Song,China,song.osgeo gmail com,
 Chinese,zh,Jing Wang,China,wangjing-2008-jing 163 com,
+Chinese,zh,Zhengfan Lin,China,public t lin gmail com,tanner
+Catalan,ca,Òscar Fonts,Spain,oscar.fonts gmail com,oscarfonts
+Catalan,ca,Raf Roset,Spain,rafroset gmail com,
+Catalan,ca,Anna Muñoz,Spain,a.munyoz.b gmail com,
+Catalan,ca,Cristhian Pin,Spain,cpinperez gmail com,
+Catalan,ca,Marc Torres,Spain,geoinquiet gmail com,
+Catalan,ca,Assumpcio Termens,Spain,atermens gmail com,
+Catalan,ca,Estela Llorente,estela.llorente gmail com,
+Japanese,ja,Toshikazu Seto,Japan,tosseto gmail com,

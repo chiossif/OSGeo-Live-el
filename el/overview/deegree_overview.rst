@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _deegree-overview:
+.. _deegree-overview-el:
 
 .. image:: ../../images/project_logos/logo-deegree.png
   :scale: 80 %
@@ -38,7 +38,7 @@ OGC στον κόσμο του Ελεύθερου λογισμικού. Περι
 
 
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.gif
+.. image:: ../../images/screenshots/1024x768/deegree_mainpage.jpg
   :scale: 50%
   :alt: project logo
   :align: right

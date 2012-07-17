@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons
 
-.. _osm-overview:
+.. _osm-overview-el:
 
 .. image:: ../../images/project_logos/logo-osm.png
   :scale: 80 %
@@ -86,6 +86,6 @@ JOSM περιλαμβάνονται.
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/osm_quickstart>`
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/osm_quickstart>`
 
 

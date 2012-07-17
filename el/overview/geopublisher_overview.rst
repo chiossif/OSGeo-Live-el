@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _geopublisher-overview:
+.. _geopublisher-overview-el:
 
 .. image:: ../../images/project_logos/logo-Geopublisher.png
   :scale: 100 %
@@ -68,6 +68,6 @@ Geopublisher
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geopublisher_quickstart>`
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geopublisher_quickstart>`
 
 

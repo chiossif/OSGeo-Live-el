@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _saga-overview:
+.. _saga-overview-el:
 
 .. image:: ../../images/project_logos/logo-saga.png
   :scale: 100 %
@@ -77,6 +77,6 @@ SAGA
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/saga_quickstart>`
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/saga_quickstart>`
 
 

@@ -3,8 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _mapbender-overview:
-
 .. image:: ../../images/project_logos/logo-Mapbender.png
   :scale: 100 %
   :alt: project logo
@@ -69,7 +67,7 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.0.0, 1.1.0, 1.1.1
+* OGC Web Map Service (WMS) 1.0.0, 1.1.0, 1.1.1, 1.3.0
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 * OGC Web Map Context (WMC) 1.1.0 
 
@@ -82,7 +80,7 @@ Details
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Software Version:** 2.7.2
+**Software Version:** 2.7.3
 
 **Supported Platforms:** Windows, Linux, Mac
 

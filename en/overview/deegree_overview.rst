@@ -3,8 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _deegree-overview:
-
 .. image:: ../../images/project_logos/logo-deegree.png
   :scale: 80 %
   :alt: project logo
@@ -42,7 +40,7 @@ deegree gets your SDI up and running, using your own data and fulfilling
 your requirements.
 
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.gif
+.. image:: ../../images/screenshots/1024x768/deegree_mainpage.jpg
   :scale: 50%
   :alt: project logo
   :align: right

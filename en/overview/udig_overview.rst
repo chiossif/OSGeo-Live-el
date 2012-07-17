@@ -3,8 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _udig_overview:
-
 .. image:: ../../images/project_logos/logo-uDig.png
   :scale: 30
   :alt: udig logo
@@ -50,7 +48,7 @@ Core Features
 * Printing and PDF Generation
 * For Developers
   
-  * Java Application built using the :doc:`GeoTools <geotools_overview>`, JTS Topology Suite
+  * Java Application built using the :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
   * Industrial strength plug-in system provided by Eclipse Rich Client Platform
   * Use of native widgets
 

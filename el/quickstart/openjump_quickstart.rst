@@ -1,19 +1,19 @@
-:Πρωτουργός: OSGeo-Live
-:Πρωτουργός: Landon Blake
-:Πρωτουργός: Stefan Steiniger
-:Έκδοση: osgeo-live5.5
-:Άδεια: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-:Ευχαριστίες: OpenJUMP Community
+:Author: OSGeo-Live
+:Author: Landon Blake
+:Author: Stefan Steiniger
+:Version: osgeo-live5.5
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:Thanks: OpenJUMP Community
 
 ********************************************************************************
-Οδηγός γρήγορης εκκίνησης OpenJUMP
+Εγχειρίδιο γρήγορης εκκίνησης OpenJUMP
 ********************************************************************************
 
 Το OpenJUMP είναι ένα πρόγραμμα GIS που επιτρέπει την εύκολη προβολή και επεξεργασία διανυσματικών δεδομένων GIS. Έχει επίσης και περιορισμένη υποστήριξη για την προβολή raster δεδομένων.
 
 Αυτός ο οδηγός περιγράφει πώς:
 
-  *Το OpenJUMP θα φορτώσει ένα ESRI shapefile.
+  * Το OpenJUMP θα φορτώσει ένα ESRI shapefile.
   * Θα ρυθμιστεί η εμφάνιση του επιπέδου από το shapefile για ευκολότερη θέαση.
   * Θα γίνει η επεξεργασία των γεωμετριών των χαρακτηριστικών σε ένα επίπεδο.
 

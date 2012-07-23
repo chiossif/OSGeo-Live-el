@@ -1,8 +1,8 @@
-:Πρωτουργός: Barry Rowlingson
-:Πρωτουργός: Astrid Emde
-:Πρωτουργός: Cameron Shorter
-:Έκδοση: osgeo-live5.0
-:Άδεια: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:Author: Barry Rowlingson
+:Author: Astrid Emde
+:Author: Cameron Shorter
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-PostGIS.png
   :scale: 30 %
@@ -30,9 +30,6 @@ O πελάτης κάνει ένα αίτημα στο διακομιστή κα
 
 Δημιουργία μιας Χωρικής Βάσης Δεδομένων
 ================================================================================
-
-.. review comment: Suggest providing a screen grab (or 2) which shows how to select
-   and open an xterm. Cameron
 
 Ένας διακομιστής PostgreSQL σας επιτρέπει να οργανώσετε τα δεδομένα, τοποθετώντας τα σε χωριστές βάσεις δεδομένων. Κάθε βάση λειτουργεί ανεξάρτητα από τις άλλες, με τους δικούς της πίνακες, θεάσεις (views) χρήστες κτλ. Όταν συνδέεστε στην PostgreSQL θα πρέπει να καθορίσετε τη βάση δεδομένων.
 

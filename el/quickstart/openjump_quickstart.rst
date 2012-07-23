@@ -1,87 +1,68 @@
-:Author: OSGeo-Live
-:Author: Landon Blake
-:Author: Stefan Steiniger
-:Version: osgeo-live5.5
-:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-:Thanks: OpenJUMP Community
+:Πρωτουργός: OSGeo-Live
+:Πρωτουργός: Landon Blake
+:Πρωτουργός: Stefan Steiniger
+:Έκδοση: osgeo-live5.5
+:Άδεια: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:Ευχαριστίες: OpenJUMP Community
 
 ********************************************************************************
-OpenJUMP Quickstart 
+Οδηγός γρήγορης εκκίνησης OpenJUMP
 ********************************************************************************
 
-OpenJUMP is a desktop GIS program that allows for easy viewing and editing 
-of vector GIS data. It also has limited support for the viewing of raster
-data.
+Το OpenJUMP είναι ένα πρόγραμμα GIS που επιτρέπει την εύκολη προβολή και επεξεργασία διανυσματικών δεδομένων GIS. Έχει επίσης και περιορισμένη υποστήριξη για την προβολή raster δεδομένων.
 
-This Quick Start describes how to:
+Αυτός ο οδηγός περιγράφει πώς:
 
-  * Open an ESRI shapefile with OpenJUMP.
-  * Style the layer created from the shapefile for easier viewing.
-  * Edit the geometries of the features in a layer.
+  *Το OpenJUMP θα φορτώσει ένα ESRI shapefile.
+  * Θα ρυθμιστεί η εμφάνιση του επιπέδου από το shapefile για ευκολότερη θέαση.
+  * Θα γίνει η επεξεργασία των γεωμετριών των χαρακτηριστικών σε ένα επίπεδο.
 
-Starting OpenJUMP
+Εκκίνηση OpenJUMP
 ================================================================================
 
-OSGeo Live-DVD: start OpenJUMP link on desktop or run /usr/bin/openjump
+Από το OSGeo Live-DVD: Εκίνηση του OpenJUMP μέσω του συνδέσμου στην επιφάνεια εργασίας ή μέσω του /usr/bin/openjump
 
-General: For Windows, go to the bin folder of the OpenJUMP directory and double 
-click the openjump.exe or openjump.bat file. For Linux, execute the oj_linux.sh 
-file from a terminal. For MacOSX, click on the OpenJUMP application symbol.
+Γενικά: Για τα Windows, πλοηγηθείτε στον φάκελο bin του OpenJUMP και κλικάρετε δύο φορές το αρχείο openjump.exe ή το openjump.bat. Για το Linux, εκτελέστε το oj_linux.sh 
+από ένα τερματικό. Για το MacOSX, κλικάρετε στο αντίστοιχο σύμβολο του OpenJUMP.
 
-(Please note: A Java runtime environment is required to run OpenJUMP. 
-You can download a Java runtime environment for your computer here: 
+(Παρακαλώ σημειώστε: Απαιτείται η εγκατάσταση της Java για την εκτέλεση του OpenJUMP. 
+Μπορείτε να κατεβάσετε την Java για τον υπολογιστή σας από εδώ: 
 http://java.com/en/download/index.jsp)
 
-Basic User Interface Overview
+Βασική επισκόπηση της διεπαφής του χρήστη
 ================================================================================
 
-The OpenJUMP user interface has four (4) basic components as most other desktop GIS.
-(i) The first is a top-level menu bar for accessing most functionality. (ii) The 
-second is a main toolbar that sits just below the menu bar. The buttons give 
-access to the most important display and navigation functions. (iii) The third 
-is a tree view on the left that shows the layer list of the active project. 
-(iv) The fourth is the layer view. This is the actual map where a graphical 
-representation of the spatial data in each layer is given. Finally there is an 
+Η διεπαφή του OpenJUMP έχει τέσσερα (4) βασικά τμήματα όπως τα περισσότερα GIS.
+(i) Το πρώτο είναι μια λίστα πάνω πάνω για πρόσβαση στις περισσότερες δυνατότητες. (ii) Το δεύτερο είναι μια κεντρική εργαλειοθήκη η οποία βρίσκεται ακριβώς κάτω από την προηγούμενη λίστα. Τα κουμπιά δίνουν πρόσβαση στις πιο σημαντικές συναρτήσης προβολής και πλοήγησης. (iii) Το τρίτο είναι ένα δενδροδιάγραμμα στα αριστερά που δείχνει τη λίστα των επιπέδων του τρέχοντος σχεδίου . 
+(iv) Το τέταρτο είναι η θέαση των επιπέδων. Αυτό στην πραγματικότητα είναι ο χάρτης όπου δίνεται μια γραφική αναπαράσταση των χωρικών δεδομένων του κάθε επιπέδου. Τέλος υπάρχει χαμηλά μια γραμμή πληροφοριών που προβάλει τις πληροφορίες του κέρσορα, εκτελεί την επεξεργασία αναφορών και δείχνει τη χρήση μνήμης
 information bar at the bottom displaying mouse pointer coordinates, processing 
-reports, and memory usage. A project window contains a layer list and a layer 
-view. Each instance of OpenJUMP can contain multiple projects. In our quick 
-start, we will only be working with a single window.
+reports, and memory usage. Ένα παράθυρο σχεδίου περιέχει μια λίστα με τα επίπεδα και μια προβολή αυτών. Κάθε εκκίνηση του OpenJUMP μπορεί να περιέχει πολλαπλά σχέδια. Σε αυτή τη γρήγορη εκκίνηση, θα δουλεύουμε μόνο με ένα παράθυρο.
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_01.png
    :scale: 55 
 
-Open an ESRI Shapefile
+Άνοιγμα ενός ESRI Shapefile
 ================================================================================
 
-This section of the quick start briefly explains how to open an ESRI shapefile.
+Αυτό το κεφάλαιο του οδηγού, εξηγεί πώς να ανοίξετε ένα shapefile.
 
-On the top-level menu bar in OpenJUMP, select the [File] menu. Then select the 
-option [Open File...]. This will present you with a dialog box that allows you 
-to open files containing geospatial data. In our example, you want to browse for 
-an ESRI shapefile. Look for a file with the .shp extension. Select the file and 
-click the [Finish] button on the dialog. After a few moments, you will be able 
-to see the data from your shapefile in the Layer View. You will also see a new 
-layer created for your data in the Layer List. The name of the layer will match 
-the name of the shapefile.
+Στην πάνω λίστα του OpenJUMP, Επιλέξτε την λίστα [File]. Μετά επιλέξτε την επιλογή [Open File...]. Αυτό θα σας ανοίξει ένα πλαίσιο διαλόγου που σας επιτρέπει να ανοίξετε αρχεία που περιέχουν γεωχωρικά δεδομένα. Στο παράδειγμά μας, θέλετε να να αναζητήσετε ένα ESRI shapefile. Αναζητήστε ένα αρχείο με κατάληξη .shp. Επιλέξτε το αρχείο και επιλέξτε το κουμπί [Finish] στο διάλογο. Μετά από λίγη ώρα , θα μπορείτε να δείτε τα δεδομένα του shapefile στο Layer View. Θα δείτε επίσης ένα νέο επίπεδο που δημιουργήθηκε για τα δεδομένα σας στη Λίστα των επιπέδων (Layer List). To όνομα του επιπέδου θα ταυτίζεται με το όνομα του shapefile.
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_02.png
    :scale: 55 
 
-Another quicker option is to directly drag and drop your shapefile in the Layer View.
+Μια πιο γρήγορη επιλογή είναι να σύρετε και να αφήσετε απευθείας το shapefile στο Layer view.
 
-Style a Layer
+Τροποποιώντας αισθητικά ένα Επίπεδο
 ================================================================================
 
-This section of the quick start briefly explains how to style a layer.
+Αυτό το κεφάλαιο του οδηγού εξηγεί με συντομία πως να επεξεργαστείτε την εμφάνιση ενός επιπέδου.
 
-In the Layer List, right click* on the layer name. This will show a pop-up menu. 
-Go to the [Style] menu entry and the choose [Change Styles]. The Change Styles 
-dialog has five (5) tabs that allow you to change how the layer is displayed at 
-the Layer View. This includes changing the stroke color, the fill color, line
-style and line thickness, transparency, adding labels, and determining at which 
-maximum and minimum scales the layer is displayed at.
+Στη Layer List, κάντε δεξί κλικ* στο όνομα του επιπέδου. Αυτό θα εμφανίζει έναν αναδυόμενο διάλογο. 
+Πηγαίνετε στη λίστα [Style] και επιλέξτε [Change Styles]. Ο διάλογος Change Styles 
+έχει πέντε (5) που σας επιτρέπουν να αλλάξετε πώς προβάλλεται το επίπεδο στο Layer View. Αυτό περιλαμβάνει την αλλαγή στο χρώμα του περιγράμματος, το χρώμα γεμίσματος, το πάχος και το είδος της γραμμής, τη διαφάνεια του επιπέδου, την προσθήκη τίτλων και τον καθορισμό σε ποια μέγιστη και ελάγιστη κλίμακα προβάλλεται το επίπεδο.
 
-* MacOSX users press the :guilabel:`Apple` key to access this menu.
+* Οι χρήστες του MacOSX πατήστε το πλήκτρο :guilabel:`Apple` για να αποκτήσετε πρόσβαση σε αυτή τη λίστα.
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_03.png
    :scale: 55 
@@ -89,13 +70,11 @@ maximum and minimum scales the layer is displayed at.
 .. image:: ../../images/screenshots/1024x768/openjump_ss_04.png
    :scale: 55 
 
-Edit Feature Geometries in a Layer
+Επεξαργασία γεωμετριών σε ένα Επίπεδο
 ================================================================================
 
-In the Layer List, right click on the layer name. This will show a pop-up menu. 
-Check the box next to the Editable menu entry called "Editable". This will open 
-a new floating toolbar over the Layer View on the right side. This toolbar has a 
-set of buttons that you can use to edit the geometry of a geographic feature.
+Στη λίστα των επιπέδων, κάντε δεξί κλικ στο όνομα του επιπέδου. Αυτό θα εμφανίζει έναν αναδυόμενο διάλογο. 
+Επιλέξτε το κουτί δίπλα στην αναφορά της λίστας Editable με το όνομα "Editable". Αυτό θα ανοίξει μια νέα γραμμή εργαλείων πάνω από το Layer View στα δεξιά. Αυτή η γραμμή εργαλείων έχει ένα σύνολο από κουμπιά που μπορείτε να χρησιμοποιήσετε για να επεξεργαστείτε τη γεωμετρία ενός χαρακτηριστικού.
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_05.png
    :scale: 55 
@@ -103,43 +82,33 @@ set of buttons that you can use to edit the geometry of a geographic feature.
 .. image:: ../../images/screenshots/1024x768/openjump_ss_06.png
    :scale: 55 
 
-Let's try a quick edit. First we need to select a geometry and then we move a 
-point of the geometry. To do that, we first click the button that shows a mouse 
-cursor in the editing toolbar. Use it to click on and select a single feature in 
-the Layer View. It should change to yellow and small yellow squares appear at 
-each angle point (vertex) in the feature geometry. 
+Ας δοκιμάσουμε μια γρήγορη επεξεργασία. Πρώτα θα πρέπει να διαλέξουμε μια γεωμετρια και μετά θα μετακινήσουμε ένα σημείο της γεωμετρίας. Για να συμβεί αυτό, πρώτα επιλέγουμε το κουμπί που δείχνει ένα κέρσορα ποντικιού στην γραμμή εργαλείων editing. Χρησιμοποιήστε το για να κλικάρετε και να επιλέξετε ένα και μόνο χαρακτηριστικό στο Layer View. Θα πρέπει να αλλάξει σε κίτρινο και μικρά κιτρινα τετράγωνα να εμφανιστούν σε κάθε γωνία της γεωμετρίας. 
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_07.png
    :scale: 55 
 
-Next, click on the button 
-that shows a blue crosshair with a yellow square in the middle, the :guilabel:`Move Vertex Tool` 
-(Hoovering over the buttons gives you a button description). You should 
-now see your mouse cursor change to a small black crosshair when you move it 
-over the Layer View. 
+Στη συνέχεια, πατήστε στο κουμπί που δείχνει ένα μπλε σταυρό με ένα κίτρινο τετράγωνο στη μέση, το :guilabel:`Move Vertex Tool` 
+(Περνώντας το δείχτη του ποντικιού πάνω από τα κουμπιά, σας δίνει μια περιγραφή του κουμπιού). Θα πρέπει τώρα να δείτε το δείκτη του ποντικιού άλλαξε σε ένα μικρό μαύρο κέρσορα όταν το κινείτε πάνω στο Layer View. 
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_08.png
    :scale: 55 
 
-Try using this to move the vertex on the geometry you 
-selected by clicking an the vertex and dragging it (leaving the mouse button 
-pressed).
+Δοκιμάστε αυτό να κινήσετε το διάνυσμα της γεωμετρίας που διαλέξατε κλικάρωντας στο διάνυσμα και τραβώντας το (κρατήστε πατημένο το αριστερό κλικ).
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_09.png
    :scale: 55 
    
-Other Learning Resources for OpenJUMP
+Άλλες πηγές εκμάθησης του OpenJUMP
 ================================================================================
 
-This is only the first step on the road to using OpenJUMP. There is a lot more 
-material left for you to discover.
+Αυτό είναι μόλις το πρώτο βήμα στο δρόμο να χρησιμοποιήσετε το OpenJUMP. Υπάρχει περισσότερο υλικό το οποίο μπορείτε να μελετήσετε.
 
-You can download tutorials for the OpenJUMP here:
+Μπορείτε να κατεβάσετε υλικό εκμάθησης για το OpenJUMP here:
 http://sourceforge.net/projects/jump-pilot/files/Documentation/
 
-You can read the OpenJUMP wiki here:
+Μπορείτε να διαβάσετε το wiki του OpenJUMP wiki εδώ:
 http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Main_Page
 
-And you can get help fast on the OpenJUMP users mailing list:
+Και μπορείτε να λάβετε βοήθεια γρήγορα, στη λίστα ηλεκτρονικού ταχυδρομείου των χρηστών OpenJUMP:
 http://groups.google.com/group/openjump-users
 

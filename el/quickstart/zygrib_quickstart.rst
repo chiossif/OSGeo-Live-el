@@ -13,82 +13,47 @@
 zyGrib Quickstart 
 ********************************************************************************
 
-Running
+Εκτέλεση
 ================================================================================
 
-Getting data
+Λήψη δεδομένων
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After launching the program you will be presented with a map of the
-world. No GRIB weather forecast data is shipped with this disc, you'll
-have to download some, which will require an internet connection. As
-GRIB data is often used by offshore sailors, a number of low-bandwidth
-email and radio-modem services are available for those without a steady
-internet connection. i.e. while requiring some connection to the outside
-world as a data source, this connection is not required at run-time unlike
-many other web mapping programs.
+Μετά την εκκίνηση της εφαρμογής θα σας εμφανιστεί ένας χάρτης του κόσμου. Εξαιτίας της μη συμπερίληψης μετεωρολογικών προβλέψεων GRIB με το DVD θα πρέπει να έχετε σύνδεση στο διαδίκτυο ώστε να μεταφορώσετε όσα χρειάζεστε. Καθώς τα δεδομένα αυτά χρησιμοποιούντε από ναυτικούς ανοιχτής θάλλασας είναι διαθέσιμα μέσω ηλεκτρονικών μυνημάτων radio-modem διότι δεν έχουν σταθερή πρόσβαση. Γιαθτό το λόγο παρότι χρειάζεται μια σύνδεση με τον κόσμο αυτή δεν είναι απαραίτητο να είναι ταυτόχρονη με την εκτέλεση όπως σε άλλα διαδικτυακά προγράμματα χαρτογράφισης.
 
-You may get GRIB data from many sources, but as a convenience the zyGrib
-authors maintain a data server. The first thing to do is to check that the
-connection to the server is operational. Click on the power plug icon
-near the right hand end of the toolbar, after a moment it should tell you
-that the connection is ok.
+Μπορείτε να λάβετε δεδομένα από πολλές πηγές αλλά οι εκδότες της zyGrib παρέχουν έναν εξυπηρετητή για ευκολία. Πρώτα πρώτα ελέγξτε ότι η σύνδεση με τον εξυπηρετητή είναι ενεργή. Κάντε κλικ στο εικονίδιο της ενεργοποίησης power στο δεξί άκρο της μπάρας των εργαλείων και μετά από 1-2 λεπτά θα ενημερωθείτε για την διαθεσιμότητα της σύνδεσης.
 
-We are usually interested in local weather conditions, so next left-mouse
-click drag a box on the map canvas on a part of the world you are interested
-in. The Gulf of Mexico or the southern tip of Africa often have dynamic winds.
-With your box drawn on the map click the zoom-to-box icon on the taskbar (the
-magnifying glass with a small box underneath it), and again mark out a box
-of interest with a left-click drag, but this time covering most or all of the
-zoomed-in map canvas.
+Συνήθως ενδιαφερόμαστε σε τοπικές καιρικές συνθήκες έτσι με αριστερό κλικ και κύλιση παρκάρετε ένα ορθογώνιο με την περιοχή που σας ενδιαφέρει. Ο Κόλπος του Μεξικού ή η βόρεια άκρη της Αφρικής έχουν δυνατούς ανέμους. Με το ορθογώνιο έτοιμο κάντε κλικ στο εικονίδιο zoom-to-box στην μπάρα εργαλείων (είναι ο μεγεθυντικός φακός με το ορθογώνιο) και ξανά επιλέξτε ένα ορθογώνιο αλλά αυτή την φορά όλη ή σχεδόν όλη την επιφάνεια που έχετε μεγενθύνει.
 
-Now select :menuselection:`File --> Download GRIB` and select the features
-you want to download. If in doubt the defaults are ok. When ready click
-the ``Download GRIB file`` button at the bottom, and save the file to disk.
+Τώρα επιλέξτε:menuselection:`File --> Download GRIB` και στην συνέχεια τα χαρακτηριστικά που θέλετε να κατεβάσετε. Σε περίπτωση αμφιβολίας οι τιμές είναι ήδη ρυθμισμένες σωστά. Όταν είστε έτοιμοι επιλέξτε με κλικ το κουμπί ``Download GRIB file`` στο κάτω μέτος και αποθηκεύστε το αρχείο στον δίσκο.
 
-All going well you should now see a weather map with a time slider along
-the bottom, set for right now. You can use the mouse wheel to zoom in if
-you like.
+Αν όλα πήγαν καλά θα πρέπει τώρα να βλέπετε έναν χάρτη καιρού με δυνατότητα χρονικής κύλισης στο κάτω μέρος, ρυθμισμένη στο «τώρα». Μπορείτε να χρησιμοποιείσετε την ροδέλα του ποντικιού για να κάνετε zoom in.
 
 
-Changing views
+Αλλάζοντας οθόνες προβολής
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-By moving the mouse around the map you'll see the exact conditions under
-the cursor listed in the pane on the left.
+Μετακινόντας τον κέρσορα του ποντικιού βλέπετε αριστερά τις ακριβείς συνθήκες στην συγκεκριμένη περιοχή.
 
-You can change the time by moving the slider along the bottom, or from the
-drop down menu in the top-left of the window.
+Μπορείτε να αλλάξετε τον χρόνο κυλώντας στο κάτω μέρος της οθόνης ή από το αναδιπλούμενο μενού επιλογών στο άνω αριστερό άκρο του παράθυρου εργασίας.
 
-From the ``Data`` menu you can select the variable to visualize. For example
-Select :menuselection:`Data --> Cloud Cover` and the view should change.
+Από την επιλογή ``Data`` μπορείτε να επιλέξετε την μεταβλητή που θέλετε να απεικονίσετε. Για παράδειγμα επιλέξτε :menuselection:`Data --> Cloud Cover` και η απεικόνιση θα αλλάξει.
 
-If you downloaded data for the Gulf of Mexico you'll be interested to view
-the CAPE data. "CAPE" stands for Convective Available Potential Energy at
-ground level. It is a measure of atmospheric instability, and high values
-(1000s of J/kg) indicate a threat of thunderstorms and/or tornadoes.
+Εάν κατεβάσατε δεδομένα για τον Κόλπο του Μεξικού ίσως ενδιαφέρεστε να δείτε τα δεδομένα CAPE (Convective Available Potential Energy στο έδαφος). Είναι μια μέτρηση της ατμοσφαιρικής αστάθειας. Υψηλές τιμές (1000s of J/kg) δείχνουν απειλή από καταιγίδα ή/και τυφώνα.
 
-If you downloaded data for southern Africa cloud cover may be more interesting.
+Εάν κατεβάσατε δεδομένα στην Αφρική ίσως είναι πιο ενδιαφέρουσα η απεικόνιση της νεφοκάλυψης.
 
 
-Creating an animation
+Δημιουργώντας ένα animation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When you click the right-hand most icon on the toolbar (a rocketship) a new
-window will open and an animation will be generated. Sit tight while it runs
-through the time sequence for the first time. When it is done it will rewind
-to the beginning of the time series, and from there you can play, pause,
-rewind as you like. You can also save each frame as an image file for later
-encoding into an AVI, MPEG, or animated
-GIF `using other software <http://grass.osgeo.org/wiki/Movies>`_.
+Όταν επιλέξετε το πιο δεξιό εικονίδιο (έναν πύραυλο) ένα νέο παράθυρο θα ανοίξει και θα δημιουργθεί ένα animation. Κάντε υπομονή όσο εκτελείται διαχρονικά για πρώτη φορά. Όταν τελειώσει μπορείτε να το επαναφέρετε στην αρχή να το ξαναδείτε ή να το σταματήσετε σε όποιο σημείο θέλετε.Μπορείτε επίσης να αποθηεύσετε κάθε εικόνα ως αρχείο ώστε να την κωδικοποιήσετε στην συνέχεια μέσα σε AVI, MPEG ή κινούμενο GIF με αλλά λογισμικά <http://grass.osgeo.org/wiki/Movies>`_.
 
-When you're done click the red power button to close.
+Όταν τελειώσετε απλά επιλέξτε το κόκκινο κουμπί για τέλος.
 
 
-See also
+Δείτε επίσης
 ================================================================================
 
-The :doc:`OpenCPN software <../overview/opencpn_overview>` (also on this
-disc) has a GRIB overlay plugin which you may try with your newly
-downloaded GRIB file. See
-the :doc:`OpenCPN quickstart <../quickstart/opencpn_quickstart>` for details.
+Το :doc:`OpenCPN software <../overview/opencpn_overview>` (διαθέσιμο σε αυτόν τον δίσκο) έχει ένα GRIB overlay plugin το οποίο μπορείτε να δοκιμάσετε με τα κατεβασμένα δεδομένα. Δείτε το :doc:`OpenCPN quickstart <../quickstart/opencpn_quickstart>` για περισσότερες λεπτομέρειες.
+

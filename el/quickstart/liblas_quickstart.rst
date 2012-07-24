@@ -10,46 +10,34 @@
   :target: http://liblas.org/
 
 ********************************************************************************
-Getting Started with libLAS
+Εγχειρίδιο Γρήγορης Εκκίνησης libLAS
 ********************************************************************************
 
 .. contents::
     :depth: 3
     :backlinks: none
 
-Processing
+Εκτέλεση
 --------------------------------------------------------------------------------
 
-The libLAS 'command-line utilities' provide the bulk of 
-user-facing operational software for libLAS, although the underlying libLAS 
-library is what powers them.  Below is a listing of common operations that 
-you might want to do on LAS data, and the utilities and approaches to 
-take to complete those tasks.
+Το libLAS 'command-line utilities' προμηθεύει μια πληθώρα από εύχρηστα λειτουργικά λογισμικά για το libLAS, αν και η θεμελιώδης libLAS βιβλιοθήκη δίνει πολλές δυνατότητες για αυτά. Παρακάτω παρουσιάζεται μια λίστα με τις βασικές λειτουργίες, που μπορεί να χρειαστείτε για εφαρμογή σε LAS δεδομένα, τις χρήσεις και τις προσεγγίσεις για την ολοκλήρωση των συγκεκριμένων θεμάτων.
 
-Reprojecting an LAS file
+
+Πραγματοποιώντας ορθή προβολή ενός αρχείου LAS
 ..............................................................................
 
-All LAS data are in some sort of coordinate system, even if that coordinate 
-system is not described in the LAS file.  For terrestrial LAS data, these 
-coordinate system descriptions often map to coordinate systems described 
-by the `EPSG`_ database.  Another source of information about coordinate 
-systems in http://spatialreference.org.  
+Όλα τα LAS δεδομένα είναι σε ένα σύστημα συντεταγμένων, ακόμα και αν το σύστημα αυτό δεν αναφέρεται στο αρχείο LAS. Για τα LAS δεδομένα που αφορούν την γή, οι περιγραφές του συστήματος συνταταγμένων συχνά αποτυπώνονται σε ένα σύστημα που περιγράφεται από το `EPSG`_ database. Άλλη πηγή πληροφοριών σχετικά με τα συστήματα συντεταγμένων μπορεί να βρεθεί στο http://spatialreference.org. 
 
 
 ::
     
     lasinfo --no-check srs.las
 
-.. note::
+.. σημείωση::
 
-    The --no-check option tells lasinfo to only print the header information 
-    for the file and to not scan through all of the points.  For a 10 point file, 
-    this of course isn't much of a concern, but with a 50 or 500 million point 
-    file, it isn't worth waiting for a full scan of the data if all you 
-    want is header information.
-
-Our 'lasinfo' invocation tells us that the ``srs.las`` file 
-is in a UTM North Zone 17 coordinate system:
+    Η επιλογή --no-check ορίζει στο lasinfο να εκτυπώσει μόνο τις επικεφαλίδες των πληροφοριών του αρχείου και να μην σαρώσει όλα τα σημεία. Για ένα αρχείο που περιέχει μόνο 10 σημεία δεν έχει μεγάλη σημασία, αλλά για ένα αρχείο με 50 και 500 χιλιάδες σημεία δεν αξίζει η αναμονή για την πλήρη σάρωση όλων των σημείων εάν αρκούν οι πληροφορίες από την επικεφαλίδα του αρχείου.
+ 
+To 'lasinfo' ορίζει ότι το αρχείο ``srs.las`` είναι στο σύστημα συντεταγμένων UTM North Zone 17:
 
 ::
 
@@ -72,16 +60,13 @@ is in a UTM North Zone 17 coordinate system:
             AUTHORITY["EPSG","9001"]],
         AUTHORITY["EPSG","32617"]]
 
-Now that we know our input coordinate system, we can make a decision about 
-what to reproject the data to.  In our first example, we're going to use 
-the venerable plate carrée non-coordinate system, `EPSG:4326`_.
+Τώρα που είναι γνωστό το σύστημα συντεταγμένων που εισάγεται, μπορεί να παρθεί η απόφαση σε τι θα προβληθούν τα δεδομένα. Στο πρώτο παράδειγμα, θα χρησιμοποιηθεί το σύστημα Plate Carrée μη-συντεταγμένων `EPSG:4326`_.
 
 ::
 
     las2las srs.las --t_srs EPSG:4326
 
-Our process succeeds, but after a quick inspection of the data with 
-``lasinfo output.las`` we see a problem:
+Η όλη διαδικασία ολοκληρώθηκε, αλλά μετά από μια γρήγορη επιθεώρηση των δεδομένων με το ``lasinfo output.las`` παρατηρήθηκε το πρόβλημα:
 
 ::
 
@@ -92,19 +77,13 @@ Our process succeeds, but after a quick inspection of the data with
     Min X, Y, Z: 		-83.43, 39.01, 170.58, 
     Max X, Y, Z: 		-83.43, 39.01, 170.76,
 
-The ``srs.las`` file had a scale of 0.01, or two decimal places of precision
-for its X, Y, and Z coordinates. For UTM data, this is ok, because it implies
-an implicit precision of 1 cm. For decimal degree data of the unprojected
-Plate Carrée coordinate system, it causes us to lose a bunch of precision. We
-need to set our scale values to something that can hold more precision in our
-case:
+Το αρχείο ``srs.las`` είχε κλίμακα 0.01, ή δύο δεκαδικά ψηφία ακρίβεια για τις συντεταγμένες X, Y και Z. Για τα UTM δεδομένα, αυτό αρκεί, καθώς υποδηλώνει μια υπονοούμενη ακρίβεια του 1 cm. Για τα δεκαδικά δεδομένα του Plate Carrée συστήματος συντεταγμένων, το γεγονός αυτό μας κάνει να χάσουμε ακρίβεια. Πρέπει λοιπόν να οριστεί η τιμή της κλίμακας σε κάτι που έχει μεγαλύτερη ακρίβεια, στην περίπτωσή μας:
 
 ::
 
     las2las --t_srs EPSG:4326 srs.las --scale 0.000001 0.000001 0.01
 
-Another quick inspection with 'lasinfo' gives us something 
-we're more comfortable with:
+Μια άλλη γρήγορη επισκόπηση στο 'lasinfo' μας δίνει κάτι με το οποίο είμαστε πιο εξοικειωμένοι:
 
 ::
 
@@ -116,7 +95,7 @@ we're more comfortable with:
     Max X, Y, Z: 		-83.427548, 39.012618, 170.76    
 
 
-Output LAS file to text
+Αποτέλεσμα του LAS αρχείο στο κείμενο
 ..............................................................................
 
 

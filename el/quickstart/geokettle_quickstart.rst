@@ -10,123 +10,122 @@
   :target: http://www.geokettle.org/
 
 ********************************************************************************
-GeoKettle Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης GeoKettle
 ********************************************************************************
 
+Το GeoKettle είναι ένα ισχυρό εργαλείο εξαγωγής, μετατροπής και ανάθεσης χωρικών μεταδεδομένων. Στοχεύει στην ολοκλήρωση διαφορετικών πηγών για την ανάπτυξη και ενημέρωση χωρικών βάσεων δεδομένων. Επιτρέπει την εξαγωγή δεδομένων από τα αρχεία τους, τον μετασχηματισμό των δεδομένων ώστε να διορθώνονται λάθη, να διαγράφονται περιττές εγγραφές, να αλλάζει την δομή τους, να τα προσαρμόζει σε ορισμένες γνωστές τυποποιήσεις και τέλος την ανάθεση (loading) των νέων δεδομένων σε μια σύγχρονη βάση δεδομένων, αρχεία GIS ή γεωχωρικές διαδικτυακές υπηρεσίες.
 
-GeoKettle is a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool. It is dedicated to the integration of different data sources for building and updating geospatial databases and data warehouses. It enables the Extraction of data from data sources, the Transformation of data in order to correct errors, make some data cleansing, change the data structure, make them compliant to defined standards, and the Loading of transformed data into a target DataBase Management System (DBMS), GIS file, or geospatial web service.
+Αυτό το εγχειρίδιο περιγράφει πως:
 
-This Quick Start describes how to:
+  * Φορτώσεις έναν δεδομένο μετασχηματισμό ή να
+  * Δημιουργήσεις έναν νέο μετασχηματισμό.
 
-  * Load an existing data transformation
-  * Create a new data transformation
-
-Start GeoKettle 
+Εκκίνηση GeoKettle 
 ================================================================================
 
-#. Choose :menuselection:`Spatial Tools --> GeoKettle` from the Geospatial start menu
-#. Please wait, the application will take a few moments to start up
-#. You will be prompted with the following dialog. Fill in the repository information or simply click the "No repository" button to enter the GeoKettle's workbench
+#. Επιλέξτε :menuselection:`Spatial Tools --> GeoKettle` από το Geospatial start menu
+#. Περιμένετε... η εφαρμογή χρειάζεται λίγο χρόνο να ξεκινήσει
+#. Θα ερωτηθείτε εαν θα δώσετε πληροφορίες για αποθετήριο ή απλά πατήστε το κουμπί "No repository" για να μπείτε στο χώρο εργασίας του GeoKettle.
 
   .. image:: ../../images/screenshots/800x600/geokettle_welcome.png
     :scale: 80 %
 
-Workbench
+Χώρος εργασίας
 ================================================================================
 
-As illustrated in the following screenshot, the Workbench window is composed of different panels.
+Όπως βλέπετε στην ακόλουθη εικόνα ο χώρος εργασίας αποτελείται από διαφορετικά πεδία.
 
   .. image:: ../../images/screenshots/1024x768/geokettle_workbench.png
     :scale: 80 %
 
-The left part acts as a catalog containing all the steps which could compose a data transformation. The right part of the workbench is the area where the transformation itself would be designed and runned/debugged.
+Αριστερά υπάρχει ένας κατάλογος ο οποίος περιέχει όλα τα βήματα τα οποία αποτελεούν έναν μετασχηματισμό. Το δεξί μέρος του χώρου εργασίας είναι η περιοχή όπου ο μετασχηματισμός θα σχεδιαστεί και θα τρέξει / αποσφαλματωθεί.
 
-The contents of these panels will be described further as we demonstrate their use.
+Τα περιεχόμενα αυτών των περιοχών θα παρουσιαστούν στην συνέχεια όπως θα εμφανίζεται η χρήση τους.
 
-Loading an existing transformation
+Φορτώνοντας έναν υπάρχοντα μετασχηματισμό
 ================================================================================
 
-To load an existing transformation, select :menuselection:`File --> Open`. Browse to the transformation samples subdirectory :file:`samples/transformations/geokettle`, then select one of the available sample transformations and click :guilabel:`OK`. GeoKettle transformation are stored in files with the extension `*.ktr`.
+Για να φορτώσετε έναν μετασχηματισμό επιλέξτε :menuselection:`File --> Open`. Πλοηγηθείτε στον φάκελο με τα δείγματα μετασχηματισμών :file:`samples/transformations/geokettle`, στην συνέχεια επιλέξτε έναν από τα διαθέσιμα δείγματα και κάντε κλικ στο :guilabel:`OK`. Οι μετασχηματισμοί του GeoKettle αποθηκεύονται σε αρχεία με την επέκταση `*.ktr`.
 
-The following picture shows the sample « intersection » transformation. You should observe that the content of the two main parts which compose the workbench have changed.
+Στην ακόλουθη εικόνα βλέπετε τον μετασχηματισμό «τομής». Θα παρατηρήσετε ότι τα περιεχόμενα των δύο υποπεριοχών του χώρου εργασίας έχουν αλλάξει.
 
   .. image:: ../../images/screenshots/1024x768/geokettle_intersection_transformation.png
     :scale: 80 %
 
-A description of the transformation and optionnal directives can be seen in the yellow tooltip area.
+Μια περιγραφή του μετασχηματισμού και ενδεχόμενες οδηγίες βρίσκονται στην κίτρινη περιοχή των υποδείξεων.
 
-Before starting the transformation, you will need to specify wich shapefile to use. In order to do that, double click on each of the « GIS file input » steps to make the following dialog appear.
+Πριν ξεκινήσετε τον μετασχηματισμό, θα χρειαστεί να ορίσετε ποιο αρχείο τύπου shapefile θα χρησιμοποιείστε. Για να το κάνετε αυτό διπλοτατήστε σε κάθε ένα από τα βήματα « GIS file input » για να εμφανιστεί ο ακόλουθος διάλογος.
 
   .. image:: ../../images/screenshots/800x600/geokettle_shapefile_input_step.png
 
 .. note: 
-   You may also customize any steps of any transformation by double clicking on it.
+   Μπορείτε επίσης να ρυθμίσετε κατά τις επιλογές σας όποιο βήμα θέλετε αρκεί να το διπλοχτυπήσετε.
 
-Enter the name of your shapefile including the `*.shp` extension or leave it as is to use the sample dataset and click :guilabel:`OK`.
+Δώστε το όνομα του αρχείου shapefile συμπεριλαμβάνοντας την επέκταση `*.shp` ή αφήστε το όπως είναι και επιλέξτε :guilabel:`OK`.
 
-You are now ready to start the transformation. To do so, simply hit the play button in the toolbar above your transformation. 
+Τώρα είστε έτοιμοι να ξεκινήσετε τον μετασχηματισμό. Για να το κάνετε αυτό απλά πατήστε τον κουμπί εκκίνησης (play) στην γραμμή εργαλείων πάνω από τον μετασχηματισμό.
 
-Creating a new data transformation
+Δημιουργώντας έναν νέο μετασχηματισμό
 ================================================================================
 
-Launch GeoKettle and access the workbench in the same way you would do when loading an existing transformation (see previous section).
+Εκκινείστε το GeoKettle και ανοίξτε την επιφάνεια εργασίας όπως κάνατε στο προηγούμενο εδάφιο.
 
-To create a new transformation, select :menuselection:`File --> New --> Transformation`. You can specify the name of the transformation by saving it under a different name (select :menuselection:`File --> Save as...`).
+Για να δημιουργήσετε έναν μετασχηματισμό επιλέξτε :menuselection:`File --> New --> Transformation`. Μπορείτε να αλλάξετε το όνομά του αποθηκεύοντάς το ως νέο επιλέγοντας :menuselection:`File --> Save as...`.
 
-As shown in the following picture, all available steps are listed by category in the left area of the workbench. Expand any category to see its available steps.
+Όπως φαίνεται στην ακόλουθη εικόνα όλα τα απαραίτητα βήματα είναι κατηγοριοποιημένα αριστερά στον χώρο εργασίας. Επεκτείνεται κάθε κατηγορία να δείτε τα περιεχόμενά της βήματα.
 
   .. image:: ../../images/screenshots/800x600/geokettle_your_transformation.png
     :scale: 80 %
 
-To add a new step to the transformation, drag it from the **Steps** panel to the **transformation** panel. You may then customize this new added step to your transformation by double clicking on it.
+Για να προσθέσετε ένα νέο βήμα στον μετασχηματισμό, κυλίστε από την περιοχή **Steps** στην περιοχή **transformation**. Στην συνέχεια μπορείτε να προσαρμόσετε το νέο βήμα στον μετασχηματισμό σας με διπλό κλικ.
 
 
-**Hops**
+**Σύνδεσμοι (Hops)**
 
-A hop, represented as an arrow between 2 steps, defines the dataflow between those steps. As shown in the following picture, adding a hop from **Table Input** to **Add sequence** means that the resulting output of **Table Input** will be sent to the **Add sequence** step for further processing and etc.
+Οι σύνδεσμοι αναπαριστώνται ως βέλος μεταξύ δύο βημάτων και ορίζουν την ροή των δεδομένων μεταξύ τους. Ώπως φαίνεται στην ακόλουθη εικόνα προσθέτω έναν σύνδεσμο από το **Table Input** στο **Add sequence** σημαίνει πως το αποτέλεσμα του **Table Input** θα διοχετευτεί στο βήμα **Add sequence** κτλ.
 
   .. image:: ../../images/screenshots/800x600/geokettle_hop.png
     :scale: 60 %
 
-To create a new hop, select 2 steps, right click on one of them and select :menuselection:`New hop`. Another way of doing it is to press and hold :kbd:`Ctrl` while selecting the 2 steps. 
+Για να δημιουργήστε ένα νέο σύνδεσμο επιλέξτε δύο βήματα, κάντε δεξί κλικ σε ένα απ' αυτά και επιλέξτε :menuselection:`New hop`. Ένας τρόπος να το κάνετε αυτό είναι να πατήσετε :kbd:`Ctrl` όπως επιλέγετε τα δύο βήματα.
 
-Any hop can be edited at any time by double clicking on it or right clicking on it and selecting :menuselection:`Edit hop` in the popup menu.
-
-
-**Setting up the transformation**
-
-Most of the steps in a transformation will require custom parametrization before being usable. Double click on any step to display a dialog interface in which you can see and specify each requested parameter values.
+Κάθε σύνδεσμος μπορεί να διορθωθεί με διπλό κλίκ ή με δεξί κλικ και στην συνέχεια επιλογή :menuselection:`Edit hop` στο αναδυόμενο μενού επιλογών.
 
 
-**Running a transformation**
+**Ρυθμίζοντας τον μετασχηματισμό**
 
-When executing a transformation, a new panel appears below the one where the transformation is designed. This panel (aka the **Execution Results** panel) contains information about data flow through all steps involved in the transformation. 
+Τα περισσότερα από τα βήματα σε ένα μετασχηματισμό απαιτούν πρόσθετη παραμετροποίηση πριν χρησιμοποιηθούν. Διπλοεπιλέξτε οποιοδήποτε βήμα και θα παρουστιαστεί μια οθόνη διαλόγου με τις απαραίτητες ρυθμίσεις.
 
-The **Step Metrics** tab (shown in the the next figure) will be initially displayed. You can see in this tab general information regarding the transformation's dataflow such as the number of rows read, written, in input and in output in each step. The column **Active** informs the user if the step is started, running, finished, aborted, etc. The time ellapsed since the step has been started is shown in the column **Time**, as well as the average speed (column **Speed**) of the step (rows/seconds).
+
+**Εκτελώντας τον μετασχηματισμό**
+
+Όταν εκτελείτε έναν μετασχηματισμό, εμφανίζεται μια νέα επιφάνεια κάτω απ' αυτήν  στην οποία σχεδιάστηκε ο μετασχηματισμός. Αυτή η περιοχή ονομάζεται **Execution Results** και περιέχει πληροφορίες για την ροή δεδομένων όλων των βημάτων του μετασχηματισμού.
+
+Θα εμφανιστεί αρχικά η καρτέλα **Step Metrics** (εμφανίζεται στην ακόλουθη εικόνα). Θα δείτε εδώ γενικές πληροφορίες σχετικά με την ροή των δεδομένων όπως το πλήθος των εγγραφών που διαβάστηκαν, γράφτηκαν, στην είσοδο και την έξοδο κάθε βήματος. Η στήλη **Active** σας πληροφορεί σχετικά με την κατάσταση του βήματος: Εκκίνηση, εκτέλεση, ολοκλήρωση, διακοπή κτλ. Στην στήλη **Time** εμφανίζεται ο χρόνος που έχει χρειαστεί από την έναρξη του βήματος ενώ στην στήλη **Speed** η ταχύτητα σε εγγραφές ανά δευτερόλεπτο.
 
   .. image:: ../../images/screenshots/1024x768/geokettle_running_transformation.png
     :scale: 70 %
 
 
-**Previewing a transformation**
+**Επιβλέποντας έναν μετασχηματισμό**
 
-Trying to execute a transformation may result in errors in the **Execution Results** panel (see next figure). Please then review the content of the **Logging** tab. There is always a lot of usefull information dealing with the source and reason of the error. Modify the parameters of the faulty step and restart the transformation.
+Η προσπάθεια εκτέλεσης ενός μετασχηματισμού ίσως δώσει λάθη στην περιοχή **Execution Results** όπως εμφανίζεται στην επόμενη εικόνα. Σε αυτή την περίπτωση θα πρέπει να δείτε τα περιεχόμενα της καρτέλας **Logging**. Εκεί υπάρχουν πλήθος πληροφοριών οι οποίες αναφέρονται στην πηγή και την αιτία των λαθών. Αλλάξτε τις παραμέτρους του βήματος που εμφανίζει τα μηνύματα λαθών και επανεκκινείστε τον μετασχηματισμό.
 
   .. image:: ../../images/screenshots/1024x768/geokettle_transformation_fail.png
     :scale: 70 %
 
-To help in finding the source of an error, you can also preview the results of a transformation from another step earlier in the workflow. To do so, right click on the step, and select :menuselection:`Preview` in the popup menu that appears. This way, you can see in a tabular and cartographic way what the data looks like at this point in the overall process without executing the whole transformation.
+Για να βοηθηθείτε στην εύρεση της πηγής ενός σφάλματος, μπορείτε επίσης να δείτε τα αποτελέσματα του προηγούμενου στην ροή εκτέλεσης, βήματος. Για να το κάνετε αυτό, επιλέξτε το βήμα με διπλό κλικ, και στην συνέχεια :menuselection:`Preview` στο αναδυόμενο παράθυρο. Με αυτόν το τρόπο θα δείτε σε μια πινακοποιημένη χαρτογραφική εικόνα πως εμφανίζονται τα δεδομένα μέχρι εδώ χωρίς να έχει ολοκληρωθεί ο μετασχηματισμός.
 
-Things to Try
+Δοκιμάστε επίσης
 ================================================================================
 
-Here are some additional challenges for you to try:
+Ορίστε μερικές προκλήσεις για να δοκιμάσετε:
 
-#. Explore the diversity of all the steps that GeoKettle provides
-#. Try the GeoKettle debugger in order to debug a faulty transformation
-#. Try to build a transformation with your own data
+#. Διερευνείστε την ποικιλία των βημάτων που περιλαμβάνει το GeoKettle.
+#. Δοκιμάστε τον αποσφαλματιστή του GeoKettle για να διορθώσετε έναν μετασχηματισμό.
+#. Δομικάστε έναν μετασχηματισμό με τα δικά σας δεδομένα.
 
-What Next?
+Τι ακολουθεί;
 ================================================================================
 
-Take a look at the GeoKettle user and developer documentation and tutorials available on the `wiki <http://wiki.spatialytics.org>`_ of the project. Do not hesitate also to ask for help on the Spatialytics `forum <http://www.spatialytics.com/forum>`_.
+Ρίξτε μια ματιά στην τεκμηρίωση χρήστη και στα άλλα εγχειρίδια στην διεύθυνση του εγχειρήματος `wiki <http://wiki.spatialytics.org>`_ . Μην διστάσετε να αναζητήσετε βοήθεια στο Spatialytics `forum <http://www.spatialytics.com/forum>`_.

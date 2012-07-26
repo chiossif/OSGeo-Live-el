@@ -46,7 +46,7 @@
 ================================================================================
 Ρύθμιση της μηχανής
 ================================================================================
-Για να εκτελέσετε την εικονική μηχανή OSGeo, πρέπει πρώτα να δημιουργηθεί ένα αρχείο ρυθμίσεων τύπου **vmx**. Ο γρήγορος τρόπος είναι να περιηγηθείτε στην παρακάτω διαύθυνση: 
+Για να εκτελέσετε την εικονική μηχανή OSGeo, πρέπει πρώτα να δημιουργηθεί ένα αρχείο ρυθμίσεων τύπου **vmx**. Ο γρήγορος τρόπος είναι να περιηγηθείτε στην παρακάτω διεύθυνση: 
 
 `EasyVMX: <http://www.easyvmx.com/easyvmx.shtml>`_
 
@@ -71,10 +71,10 @@
 .. image:: ../../images/screenshots/800x600/vmware_easyvmx_output.png
         :scale: 75
 
-The file basename (without the vmx extension) should match the file basename of the OSGeo vmdk file. Also double check the line in the vmx file that refers to ``scsi0:0.fileName =``. Make sure that this also **exactly matches the downloaded vmdk** file name.
-Save this new vmx file into the same directory as your downloaded OSGeo vmdk.
+Το όνομα του αρχείου (χωρίς την επέκταση vmx) θα πρέπει να ταιριάζει στο όνομα του αρχείου vmdk. Επιπλέον ελέγξτε την γραμμή του αρχείου vmx που αναφέρεται σε ``scsi0:0.fileName =``. Θα πρέπει να είναι σε καε περίπτωση σύμφωνο με το όνομα του αρχείου vmdk που κατέβηκε από το διαδίκτυο.
+Αποθηκεύστε το νέο αρχείο vmx στο ίδιο φάκελο με το αρχείο vmdk της OSGeo.
 
-Now fire up VMWare Player and click the **Open a Virtual Machine** button. Browse to the directory where both the downloaded vmdk and the newly created vmx are located. Point to the vmx and the new virtual machine should be added to the list in the Player window. Click the **Play Virtual Machine** button and the OSGeo VM should boot up.
+Ξεκινήστε το λογισμικό VMWare Player και κάντε κλίκ στο κουμπί **Open a Virtual Machine**. Βρείτε το φάκελο στον οποίο είναι αποθηκευμένα τα αρχεία vmdk και το νέο αρχείο vmx. Επιλέξτε το αρχείο vmx και η νέα εικονική μηχανή θα προστεθεί στη λίστα του λογισμικού VMWare Player. Κάντε κλίκ στο κουμπί **Play Virtual Machine** και η μηχανή θα ξεκινήσει.
 
 .. image:: ../../images/screenshots/800x600/vmware_open.png
         :scale: 90
@@ -82,25 +82,25 @@ Now fire up VMWare Player and click the **Open a Virtual Machine** button. Brows
         :scale: 90
 
 ================================================================================
-Once the VM is running
+Εφόσον η μηχανή έχει ξεκινήσει
 ================================================================================
-The first thing you'll want to do is install the VMWare-tools packages. Once these are installed, you can improve the display resolution, and **share folders** between your host computer and the OSGeo-Live VM. Run this command in a command terminal to install the VMWare tools:
+Το πρώτο βήμα που πρέπει να γίνει είναι η εγκατάσταση του λογισμικού VMWare-tools. Με την εγκατάστασή του μπορεί να βελτιωθεί η ανάλυση της ανάλυσης της οθόνης και να ρυθμιστούν κοινοί φάκελοι μεταξυ της μηχανής OSGeo-Live και του διακομιστή. Εκτελέστε την παρακάτω εντολή από το τερματικό για να εγκαταστήσετε το VMWare tools:
  
 ::
 
         sudo apt-get install open-vm-dkms open-vm-toolbox
 
 
-In the Virtual Machine window, select :menuselection:`Virtual Machine --> Virtual Machine Settings` menu, shift over to the Options tab, and click the Shared Folders setting. Now you can click the "+" button to add a directory from your host computer to be shared inside the virtual OSGeo Live system. Suppose you want to share the directory `C:\\Users\\your_name\\Downloads`. Click the browse button to find the directory, give it a name such as "Downloads", and click "Save".
+Στο παράθυρο της εικονικής μηχανής επιλέξτε από το μενού :menuselection:`Virtual Machine --> Virtual Machine Settings`, μετακινηθείτε στην καρτέλα Options, και κάντε κλίκ στην επιλογή Shared Folders. Από αυτή τη στιγμή υπάρχει η δυνατότητα με το κουμπί "+" να μοιραστείτε ένα φάκελο από τον εξωτερικό υπολογιστή σας μέσα στο σύστημα OSGeo Live. Εαν θέλετε να μοιραστείτε το φάκελο `C:\\Users\\your_name\\Downloads`. Κάντε κλίκ στο κουμπί της περιήγησης για να εντοπίσετε το φάκελο , δώστε του ένα όνομα πχ "Downloads", και κάντε κλίκ στο "Save".
 
 .. image:: ../../images/screenshots/800x600/vmware_shared.png 
         :scale: 80
 
 
-Now run two additional commands in the terminal to mount the shared folder:
+Στη συνέχεια εκτελέστε δυο ακόμα εντολές στο τερματικό για να προσαρτήσετε τον φάκελο στο σύστημά σας:
 ::
 
         sudo mkdir /mnt/Downloads
         sudo mount -t vmhgfs .host:/Downloads /mnt/Downloads
 
-And enjoy...
+Καλή συνέχεια...

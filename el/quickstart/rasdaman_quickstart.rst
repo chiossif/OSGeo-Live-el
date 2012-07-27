@@ -12,48 +12,48 @@
 
 
 ********************************************************************************
-rasdaman Quickstart
+Εγχειρίδιο Γρήγορης Εκκίνησης rasdaman
 ********************************************************************************
 
-rasdaman is a raster server allowing queries on n-D raster data stored in a standard relational database.
+Ο rasdaman είναι ενας εξυπηρετητής εικονιστικών δεδομένων (raster server) που επιτρέπει τα ερωτήματα σε Ν-διάστατα εικονιστικά δεδομένα, αποθηκευμένα σε μια κλασική σχεσιακή βάση δεδομένων.
 
-This Quick Start describes how to try out queries on a sandbox of raster objects. Before trying these examples, the rasdaman server has to be started (Geospatial -> Databases -> Rasdaman -> Start Rasdaman Server).
+Το εγχειρίδιο αυτό περιγράφει πως να δοκιμάσετε να εκτελέσετε ερωτήματα σε ένα σύνολο εικονιστικών δεδομένων. Πριν κάνετε την δοκιμή ο εξυπηρετητής rasdaman πρέπει να ξεκινήσει από το μενού (Geospatial -> Databases -> Rasdaman -> Start Rasdaman Server).
 
-Exploring the 1-D to 4-D examples
+Περιήγηση σε παραδείγματα 1-D εως και 4-D
 ================================================================================
 
-    * Go to the EarthLook `Earthlook <http://localhost:8080/earthlook/index.php>`_ demo to explore various demo data sets. The small ones are part of OSGeo-Live, those utilizing larger sets forward directly to the `Earthlook site <http://kahlua.eecs.jacobs-university.de/~earthlook/demos/index.php>`_ .
+    * Περιηγηθείτε στην δοκιμαστική εφαρμογή `Earthlook <http://localhost:8080/earthlook/index.php>`_ για να δοκιμάσετε διάφορα σύνολα δεδομένων. Τα μικρότερα από αυτά είναι διαθέσιμα στο OSGeo-Live, τα μεγαλύτερα από αυτά θα σας προωθήσουν απευθείας στον διαδικτυακό τόπο `Earthlook <http://kahlua.eecs.jacobs-university.de/~earthlook/demos/index.php>`_ .
 
-Running queries locally
+Εκτελώντας ερωτήματα τοπικά
 ================================================================================
 
-    * Open a console and open the sample database installed locally
-    * use the rasql utility to send queries and receive results, for example::
+    * Ξεκινήστε ένα τερματικό και επιλέξτε την βάση δεδομένων που είναι εγκατεστημένη τοπικά
+    * Χρησιμοποιήστε το εργαλείο rasql για να στείλετε ερωτήματα και να λάβετε αποτελέσματα, για παράδειγμα::
 
       $ rasql -q "select png(rgb.red + rgb.blue ) from rgb" --out file
 
-    * use your favorite image inspection tool to open the file generated.
+    * Χρησιμοποιήστε το αγαπημένο σας εργαλείο επισκόπησης εικόνων για να επιθεωρήσετε τα αποτελέσματα.
 
 
-Create your own database
+Δημιουργία νέας βάσης δεδομένων
 ================================================================================
 
-    * Open a console
-    * `Download and install rasdaman <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/Download>`_ and `its prerequisites <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/RequiredPackages>`_
-    * run the demo ingestion script::
+    * Ανοίξτε ένα τερματικό
+    * `Μεταφορτώστε και εγκαταστήστε το rasdaman <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/Download>`_ και `τα απαιτούμενα λογισμικά <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/RequiredPackages>`_
+    * Εκτελέστε το δοκιμαστικό πρόγραμμα::
 
       $ install_demo.sh
 
-    * use the rasql utility to send queries and receive results, for example::
+    * Χρησιμοποιήστε το εργαλείο rasql για να στείλετε ερωτήματα και να λάβετε αποτελέσματα, για παράδειγμα::
 
       $ rasql -q "select png( rgb.red + rgb.blue ) from rgb" --out file
 
 
-Things to Try
+Επιπλέον δοκιμές
 ================================================================================
 
-Here are some additional challenges for you to try:
+Εδώ θα βρείτε επιπλέον οδηγίες για δοκιμές:
 
-    * Explore the demo data sets by browsing the `rasql query language guide <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/browser/manuals_and_examples/manuals/pdf/ql-guide.pdf>`_
-    * To learn more about the OGC  `Web Coverage Processing Service <http://www.opengeospatial.org/standards/wcps>`_ (WCPS) Language standard (which was heavily inspired by rasdaman), a starting point is the  `documentation and tutorials page <http://kahlua.eecs.jacobs-university.de/~earthlook/tech/interface-wcps.php>`_ . 
+    * Περιηγηθείτε στα δοκιμαστικά δεδομένα με τον `οδηγό χρήσης της γλώσσας rasql <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/browser/manuals_and_examples/manuals/pdf/ql-guide.pdf>`_
+    * Για να μάθετε περισσότερα για το πρότυπο OGC `Web Coverage Processing Service <http://www.opengeospatial.org/standards/wcps>`_ το πρότυπο (WCPS) (το οποίο βασίστηκε στο  rasdaman), ένα αρχικό σημείο είναι `ο οδηγός χρήσης και εγχειρίδια εκμάθησης <http://kahlua.eecs.jacobs-university.de/~earthlook/tech/interface-wcps.php>`_ . 
 

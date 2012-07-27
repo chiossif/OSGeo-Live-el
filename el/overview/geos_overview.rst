@@ -46,15 +46,15 @@ GEOS
 Περισσότερες λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Website:**  http://geos.osgeo.org/
+**Κεντρική ιστοσελίδα:**  http://geos.osgeo.org/
 
-**Licence:** LGPL
+**Άδεια:** LGPL
 
-**Software Version:** 3.3.2
+**Έκδοση Λογισμικού:** 3.3.2
 
-**Supported Platforms:** Windows, Linux, Mac
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**API Interfaces:** C, C++
+**Προγραμματιστικές διεπαφές:** C, C++
 
-**Support:** http://lists.osgeo.org/mailman/listinfo/geos-devel, http://www.osgeo.org/search_profile
+**Υποστήριξη:** http://lists.osgeo.org/mailman/listinfo/geos-devel, http://www.osgeo.org/search_profile
 

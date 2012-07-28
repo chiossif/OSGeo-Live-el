@@ -7,377 +7,314 @@
    :align: right
 
 ********************************************************************************
-gvSIG Quickstart 
+Εγχειρήδιο Γρήγορης Εκκίνησης gvSIG 
 ********************************************************************************
 
-Project description
+Περιγραφή της εργασίας
 ================================================================================
 
-"gvSIG is a Geographic Information System (GIS), that is, a desktop application 
-designed for capturing, storing, handling, analyzing and deploying any kind of 
-referenced geographic information in order to solve complex management and 
-planning problems. gvSIG is known for having a user-friendly interface, being 
-able to access the most common formats, both vector and raster ones. It 
-features a wide range of tools for working with geographic-like information 
-(query tools, layout creation, geoprocessing, networks, etc.), which turns 
-gvSIG into the ideal tool for users working in the land realm." 
-`gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`_ 2011
+"Το gvSIG είναι ένα γεωγραφικό σύστημα πληροφοριών (GIS), το οποίο είναι μια εφαρμογή για υπολογιστές σχεδιασμένη για να παγιδεύει, αποθηκεύει, κρατάει, αναλύει και αναπτύσει οποιοδήποτε τύπο από αναφερόμενη γεωγραφική πληροφορία προκειμένου να λύσει πολύπλοκα προβλήματα διαχείρισης και σχεδίασης. Το gvSIG είναι γνωστό για το εύκολο στον χρήστη περιβάλλον του, την δυνατότητά του να προσεγγίζει τα περισσότερα πρότυπα, τόσο διανυσματικά όσο και σε πλέγμα. Περιέχει ένα μεγάλο εύρος από εργαλεία για εργασίες σε γεωγραφικές πληροφορίες (εργαλεία για ερωτήσεις, δημιουργία στρωμάτων, γεω-επεξεργασίες, διασυνδέσεις κ.τ.λ.), τα οποία κάνουν το gvSIG ιδανικό εργαλείο για χρήστες που εργάζονται στην περιοχή της γής." `gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`_ 2011
 
-This quickstart describes how to...
+
+Αυτό το εγχειρήδιο γρήγορης εκκίνησης περιγράφει πως να ...
 =================================== 
 
-* Start gvSIG and create a view;
-* Define the projection of a view;
-* Add raster and vector data to a view;
-* Navigate around a view;
-* Change how layers are presented in a view;
-* Select the towns that occur within a particular region and export 
-  these to a new file;
-* To create a map with a graticule; and
+* Να ξεκινήσει το gvSIG και να δημιουργήσει μια απεικόνηση; 
+* Να ορίσει μια προβολή της απεικόνισης;
+* Να προσθέσει δεδομένα σε πλέγμα και σε διανύσματα σε μια απεικόνιση;
+* Να πλοηγηθεί σε μια απεικόνηση;
+* Να αλλάξει το πως τα στρώματα παρουσιάζονται σε μια απεικόνηση;
+* Να επιλέξει τις πόλεις που υπάρχουν σε μια συγκεκριμένη περιοχή και να τις εκάγει σε νέο αρχείο;
+* Να δημιουργήσει έναν χάρτη με τον κάναβο; και 
+* Να αποθηκεύσει την τρέχουσα εργασία ή να βγεί από το gvSIG.
 * Save the current project or exit gvSIG. 
 
-Start gvSIG and create a view
+
+Ξεκίνημα του gvSIG και δημιουργία μιας απεικόνησης
 ================================================================================
 
-Select gvSIG from the application menu. The application usually takes about
-a minute to startup.
+Επιλέξτε το gvSIG από το μενό εφαρμογών. Η εφαρμογή παίρνει συνήθως κάποια λεπτά για να ξεκινήσει.
 
-#. By default gvSIG opens with an empty project file with the 'View' document 
-   type selected. 
-#. Click on the [New] button to create a view.
+#. Εξ ορισμού του το gvSIG ανοίγει με μια άδεια εργασία με το τύπο τύπο έγγραφο 'View' επιλεγμένο.
+#. Κλικάρετε στο κουμπί [New] για να δημιουρησετε μια απεικόνηση.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_001.png
    :scale: 55 
 
-Define the projection of your view
+Ορισμός μιας προβολής της απεικόνησης σας
 ================================================================================
 
-Open the view properties dialog
+Ανοίξτε την απεικόνησης από την ιδιότητα διαλόγου
 --------------------------------------------------------------------------------
 
-#. Select the newly created view. By default it is titled ``Untitled - 0`` but
-   may be ``Untitled - 1`` if you created then deleted a view already. 
-#. Click on the [Properties] button to open the **View properties** dialog.
-#. Click on the [...] button following the 'Current projection'. 
-   This will open the **New CRS** dialog.
+#. Επιλέξτε μια καινούργια δημιουργία απεικόνησης. Εξ ορισμού έχει τίτλο ``Untitled - 0`` αλλά μπορεί να έχει και τίτλο ``Untitled - 1`` εάν το δημιουργήσετε, τότε μπορεί κιόλας να διαγραφεί η απεικόνηση.
+#. Κλικάρετε στο κουμπί [Properties] για να ανοίξει ο διάλογος **View properties**.
+#. Κλικάρετε στο κουμπί [...] που ακολουθεί το 'Current projection'.  Αυτό θα ανοίεξι το διάλογο **New CRS**.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_002.png
    :scale: 55 
 
-Defining your Coordinate Reference System
+Ορίστε το αναφερόμενο σύστημα συντεταγμένων σας
 --------------------------------------------------------------------------------
 
-#. Using the dropdown list for 'Type', select EPSG.
-#. Enter the EPSG code for the Coordinate Reference System. For this example 
-   we are using EPSG=4326, which is the WGS84 2D Geographic Projection. Then
-   click on the [Search] button. This will list the selected CRS in the table 
-   below the search input field.
-#. Select [OK] to return to the **View Properties** dialog.
+#. Χρήση της προς τα κάτω αναπτυσσόμενης λίστας για 'Type', επιλέξτε EPSG.
+#. Βαλτε τον κωδικό EPSG για το αναφερόμενο σύστημα συντεταγμένων. Για αυτό το παράδειγμα χρησιμοποιούμε το EPSG=4326, το οποίο αποτελεί την γεωγραφική προβολή WGS84 2D. Στην συνέχεια, κλικάρετε στο κουμπί [Search]. Αυτό θα σας δώσει μια λίστα με τα επιλεγμένα CRS στον παρακάτω πίνακα στο πεδίο της έρευνας.
+#. Επιλέξτε [OK] για να γυρίσετε στο **View Properties** διάλογο.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_003.png
    :scale: 55 
 
-Saving the view properties
+Αποθηκεύοντας τις ιδιότητες των απεικονήσεων
 --------------------------------------------------------------------------------
 
-#. Note that the EPSG code is now 4326 and that the map units have changed to 
-   degrees.
-#. Select [OK] to return to the **Project Manager**.
+#. Προσέξτε πως ο κωδικός EPSG είναι τώρα 4326 και ότι οι μονάδες του χάρτη έχουν αλλάξει σε μοίρες.
+#. ΕΠιλέξτε [OK] για να γυρίσετε στο **Project Manager**.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_004.png
    :scale: 55 
 
-Open the view
+Άνοιγμα μιας απεικόνησης
 --------------------------------------------------------------------------------
    
-#. Select the newly created view.
-#. Click on the [Open] button to open the *View*.
-#. The view window consists of three zones.
-#. The top-left cell contains a list of vector or raster layers being used in 
-   the view (i.e. Table-of-Contents).
-#. The bottom-left cell displays the extent of the main view over a selected 
-   vector file.
-#. The right cell is the main display area where raster and vector data is 
-   rendered.
-#. Select the 'Maximise window' icon to have the view occupy the entire screen.
+#. Επιλέξτε μια καινούργια απεικόνηση.
+#. Κλικάρετε στο κουμπί [Open] για να ανοίξει το *View*.
+#. Το παράθυρο της απεικόνισς αποτελείται από τρείς ζώνες.
+#. Το πάνω αριστερά κελί περιέχει μια λίστα με τα διανυσματικά ή σε μορφή πλέγματος στρώματα που χρησιμοποιούνται στην απεικόνηση (π.χ. ο πίνακας των περιεχομένων). 
+#. Το κάτω αριστερά κελί παρουσιάζει την έκταση της βασικής απεικόνησης σε σχέση με το επιλεγμένο διανυσματικό αρχείο. 
+#. Το δεξί κελί περιέχει την βασική περιοχή απεικόνησης όπου δεδομένα σε μορφή πλέγματος και διανυσματικά έχουν αποδωθεί.
+#. Επιλέξτε το εικονίδιο 'Maximise window' για να προσαρμοστεί η απεικόνηση σε όλη την οθόνη.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_005.png
    :scale: 55 
 
-The View - adding raster and vector data
+Η απεικόνηση - πρόσθεση δεδομένων σε μορφή πλέγματος και διανυσματικά
 ================================================================================
 
-Open the add layer dialog
+Άνοιγμα του διαλόγου πρόσθεσης στρώματος
 --------------------------------------------------------------------------------
    
-#. Click on the 'Add layer' icon in the main toolbar to open the **Add layer** dialog.
-#. Select [Add] in the **Add layer** dialog. By default the first tab is *File* 
-   so the **Open** file dialog will appear.
-#. Drill down to the ``/usr/local/share/data/natural_earth/HYP_50M_SR_W`` directory.
+#. Κλικάρετε το εικονίδιο 'Add layer' στην βασική γραμμή εντολών για να ανοίξει ο διάλογος **Add layer**.
+#. Επιλέξτε το [Add] στο διάλογο **Add layer**. Εξ ορισμού τη πρώτη επιγραφή είναι το *File* οπότε το **Open** διάλογος αρχείου εμφανίζεται.
+#. Αvοίξτε κάτω το ``/usr/local/share/data/natural_earth/HYP_50M_SR_W`` φάκελο αρχείων.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_006.png
    :scale: 55 
 
-Selecting a raster file
+Επιλέγοντας το αρχείο σε μορφή πλέγματος
 --------------------------------------------------------------------------------
    
-#. Select *gvSIG Raster Driver* from the file type dropdown list. By default 
-   the shapefile driver is used so the directory may appear empty. 
-#. Select ``HYP_50M_SR_W.tif``.
-#. Click on the [OK] button to return to the **Add layer** dialog.
+#. Επιλέξτε το *gvSIG Raster Driver* από το αρχείο πληκτρολογώντας στην αναπτυσσόμενη προς τα κάτω λίστα. Εξ ορισμού οι οδηγοί του αρχείου τύπου shapefile χρησομοποιούν ένα φάκελο αρχείων που μπορεί να εμφανίζεται άδειος. 
+#. Επιλέξτε το ``HYP_50M_SR_W.tif``.
+#. Κλικάρετε στο κουμπί [OK] για να επιστρέψετε στο **Add layer** διάλογο.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_007.png
    :scale: 55 
 
-Selecting vector files
+Επιλέγοντας διανυσματικά αρχεία
 --------------------------------------------------------------------------------
   
-#. The **Add layer** dialog now has the raster file listed.
-#. Select the [Add] button to add some vector files. The **Open** files dialog 
-   will appear.
-#. Select the [Up one level] button in the menu to change the directory to the 
-   ``/usr/local/share/data/natural_earth`` directory.
-#. Select *gvSIG shp driver* from the file type dropdown list.
-#. Select the ``10m_admin_1_states_provinces.shp``, ``10m_populated_places_simple.shp`` and 
-   ``10m_rivers_lake_centerlines.shp`` shapefiles from the list. Hold down the control 
-   key to select multiple files.
-#. Click on the [OK] button to return to the **Add layer** dialog.
-#. Click on the [OK] button on the **Add layer** dialog to return to the view.
+#. Ο διάλογος **Add layer** τώρα έχει μια λίστα με αρχεία σε μορφή πλέγματος.
+#. Επιλέξτε το κουμπί [Add] για να προσθέσετε διανυσματικά αρχεία. Ο διάλογος του **Open** αρχείων θα εμφανιστεί.
+#. Επιλέξτε το κουμπί [Up one level] στο μενού για να αλλάξει ο φάκελος των αρχείων στον φάκελο ``/usr/local/share/data/natural_earth``.
+#. Επιλέξτε το *gvSIG shp driver* από το αρχείο αναπτύσσοντας προς τα κάτω την λίστα.
+#. Επιλέξτε τα ``10m_admin_1_states_provinces.shp``, ``10m_populated_places_simple.shp`` και ``10m_rivers_lake_centerlines.shp`` αρχεία τύπου shapefile από την λίστα. Πατήστε το πλήκτρο control για να επιλέξετε περισσότερα από ένα αρχεία.
+#. Κλικάρετε το κουμπί [OK] για να επιστρέψετε στον διάλογο **Add layer**.
+#. Κλικάρετε το κουμπί [OK] στον διάλογο **Add layer** για να επιστρέψετε στην απεικόνηση.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_008.png
    :scale: 55 
 
-The View - basic navigation
+Η απεικόνηση - βασική περιήγηση
 ================================================================================
 
-Zoom into a region
+
+Ζουμάρισμα σε μια περιοχή
 --------------------------------------------------------------------------------
 
-Once back at the main view you'll see the vector files super-imposed over 
-the raster file. The colours shown in this screen shot may differ from yours 
-depending on the user preferences.
-       
-#. By default the *Zoom in* tool is selected on the main toolbar. 
-#. Use the mouse pointer to draw a bounding box around South-east Australia. 
-   Do this by selecting the top-left corner of the bounding box, holding 
-   down the left-mouse-button, and dragging the bottom-right corner of 
-   the bounding box over the selected area. Release the left-mouse button once 
-   you have the approximate area defined. 
+Γυρνώντας πίσω στη βασική απεικόνηση θα δείτε τα διανυσματικά αρχεία που επιβάλλονται πανω στα αρχεία με μορφή πλέγματος. Τα χρώματα που εμφανίζονται στην οθόνη μπορούν να διαφοροποιηθούν με τα δικά σας ανάλογα με τις επιθυμίες του χρήστη. 
+
+#. Εξ ορισμού το εργαλείο *Zoom in* επιλέγεται από την βασική μπάρα εργαλείων. 
+#. Χρησιμοποιείστε το δείκτη του ποντικιού για να ζωγραφίσετε το κουτί του ορίου γύρω από την Νότιο-ανατολική Αυστραλία. Κάντε το επιλέγοντας την πάνω αριστερά γωνία του κουτιού ορίου, κρατώντας πατημένο το αριστερό κουμπί του ποντικιού και σύρετε την κάτω δεξιά γωνία του κουτιού στην επιλεγμένη περιοχή. Αφήστε το αριστερό κουμπί του ποντικιού όταν έχετε ορίσει την κατάλληλη περιοχή.  
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_009.png
    :scale: 55 
 
-Fine-scale navigation
+Κομψή-κλίμακωτή πλοήγηση
 --------------------------------------------------------------------------------
    
-The view will automatically change to show the area within the selected bounding box. 
+Η απεικόνηση θα αλλάξει αυτόματα για να δείξει την περιοχή μέσα στην οποία βρήσκεται το επιλεγμένο κουτί ορίου.
 
-#. The size of the Table-of-Contents column can be adjusted using the mouse to 
-   help see long file names.
-#. Adjust what is shown in the view by using the highlighted tools, so that 
-   Victoria is central. 
+#. Το μέγεθος της στήλης του πίνακα περιεχομένων μπορεί να προσαρμοστεί με χρήση του ποντικιού, για να βοηθήσει στα μεγάλα ονόματα αρχείων.
+#. Προσαρμόστε το τι φαίνεται στην απεικόνηση χρησιμοποιώντας τα κύρια εργαλεία, έτσι ώστε η Victoria να είναι κεντρικά.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_010.png
    :scale: 55 
 
-The View - changing how layers look
+Η απεικόνηση - αλλάζοντας το πως φαίνονται τα στρώματα
 ================================================================================
 
-Making a polygon transparent
+Δημιουργώντας ένα σαφές πολύγωνο
 --------------------------------------------------------------------------------
    
-#. Select the ``10m_admin_1_states_provinces.shp`` layer using the 
-   left-mouse-button and click again with the right-mouse-button.
-#. Select the *Properties* submenu.
-#. The **Layer properties** dialog box will appear.
+#. Επιλέξτε το ``10m_admin_1_states_provinces.shp`` στρώμα χρησιμοποιώντας το αριστερό κουμπί του ποντικιού και κλικάροντας πάλι με το δεξί κουμπί του ποντικιού.
+#. Επιλέξτε το υπομενού *Properties*.
+#. Ο διάλογος **Layer properties** θα εμφανιστεί.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_011.png
    :scale: 55 
 
-Changing the symbology of a vector layer
+Αλλάζοντας τον συμβολισμό ενός διανυσματικού στρώματος
 --------------------------------------------------------------------------------
    
-#. Select the *Symbols* tab at the top of the **Layers properties** dialog.
-#. Select [Choose symbol] button so the **Symbol selector** dialog appears.
-#. Uncheck the *Fill color* box so the polygons are transparent.
-#. Click on the [OK] button to return to the **Layers properties** dialog.
+#. Επιλέξτε την επιλογή *Symbols* από το πάνω **Layers properties** διάλογο.
+#. Επιλέξτε το κουμπί [Choose symbol] οπότε ο **Symbol selector** διάλογος εμφανίζεται.
+#. Βγάλτε την επιλογή από το *Fill color* κουτί ώστε τα πολύγωνα να γίνουν σαφή.
+#. Κλικάρετε το κουμπί [OK] για να γυρίσετε στον διάλογο **Layers properties**.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_012.png
    :scale: 55 
 
-Changing the labelling of a vector layer
+Αλλάζοντας τις ετικέτες ενός διανυσματικού στρώματος
 --------------------------------------------------------------------------------
    
-#. Select the *Labelling* tab at the top of the **Layers properties** dialog.
-#. Change the text attributes to those shown on the image, then click on the 
-   [Accept] button.
+#. Επιλέξτε την επιλογή *Labelling* στο πάνω **Layers properties** διάλογο.
+#. Αλλάξτε τις ιδιότητες του κειμένου όπως αυτές φαίνονται στην εικόνα, και στην συνέχεια κλικάρετε το κουμπί [Accept].
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_013.png
    :scale: 55 
 
-The result
+Αποτέλεσμα
 --------------------------------------------------------------------------------
    
-Note that this is a very basic view showing a point, a line and a polygon vector 
-file superimposed over a raster file. It is just as easy to have an aerial 
-photograph or Digital Terrain Model as a backdrop to your vector data, or
-to show other vector data stored in different formats.
+Σημειώστε πως αυτή είναι μια πολύ βασική απεικόνηση που εμφανίζει ένα σημείο, μια γραμμή και ένα αρχείο με πολυγωνικό διάνυσμα πάνω από ένα αρχείο σε μορφή πλέγματος. Είναι το ίδιο εύκολο να έχετε μια αεροφωτογραφία ή ένα ψηφιακό μοντέλο εδάφους σαν ένα πίσω σκηνικό για τα διανυσματικά δεδομένα ή να εμφανίσετε άλλα διανυσματικά δεδομένα αποθηκευμένα σε διάφορα πρότυπα.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_014.png
    :scale: 55 
 
-A user exercise - change the symbology and labelling of the point and line layers
+Μια άσκηση για τον χρήστη - αλλάξτε τον συμβολισμό και την ετικέτα σημείου και γραμμής στρωμάτων
 ---------------------------------------------------------------------------------
-   
-Following the previous few steps change the symbols, colour and labelling 
-of the rivers and towns to generally match the following screen shot.  
+
+Ακολουθούν τα προηγούμενα βήματα αλλαγής συμβόλου, χρώματος και ετικέτας για ποτάμια και πόλεις για να ταιριάζουν γενικά με την παρακάτω απεικόνηση.    
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_015.png
    :scale: 55 
 
-Simple analysis - select towns within a region
+Απλή ανάλυση - επιλογή πόλεων μέσα σε μια περιοχή
 ================================================================================
 
-Selecting the region
+Επιλέγοντας την περιοχή
 --------------------------------------------------------------------------------
    
-#. Select the ``10m_admin_1_states_provinces.shp`` layer using the 
-   left-mouse-button.
-#. Select the 'Select by point' icon in the main toolbar.
-#. Click the polygon representing the State of Victoria. The polygon will 
-   go yellow or some other colour depending on your user preferences.
+#. Επιλέξτε το ``10m_admin_1_states_provinces.shp`` στρώμα με χρήση του αριστερού κουμπιού του ποντικιού.
+#. Επιλέξτε το εικονίδιο 'Select by point' από την βασική μπάρα εργαλείων.
+#. Κλικάρετε το πολύγωνο που αναπαριστά στην περιοχή της State of Victoria. ΤΟ πολύγωνο θα γίνει κίτρινο ή κάποιο άλλο χρώμα ανάλογα με τις προτιμήσεις του χρήστη.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_016.png
    :scale: 55 
 
-Selecting the towns contained within a region
+Επιλέγοντας τις πόλεις που βρίσκονται μέσα στην περιοχή
 --------------------------------------------------------------------------------
    
-#. Select the ``10m_populated_places_simple.shp`` layer using the left-mouse-button.
-#. Select ``View > Selection > Selection by layer`` to open the **Selection by Layer** dialog
-#. Change the two selection criteria using the dropdown boxes on the left-hand 
-   side of the **Selection by Layer** dialog. Click the [New set] button to 
-   select towns within the selected polygon. 
-#. Select the [Cancel] button in the **Selection by Layer** dialog to return 
-   to the view. 
+#. Επιλέξτε το ``10m_populated_places_simple.shp`` στρώμα με χρήση του αριστερού κουμπιού του ποντικιού.
+#. Επιλέξτε το ``View > Selection > Selection by layer`` για να ανοίξει ο **Selection by Layer** διάλογος.
+#. Αλλάξτε τα δύο επιλεγμένα κριτήρια χρησιμοποιώντας τα αναπτυσσόμενα προς τα κάτω κουτιά στην αριστερή πλευρά του **Selection by Layer** διαλόγου. Κλικάρετε το κουμπί [New set] για να επιλέξετε τις πόλεις μέσα στο επιλεγμένο πολύγωνο. 
+#. Επιλέξτε το κουμπί [Cancel] στο **Selection by Layer** διάλογο για να επιστρέψετε στην απεικόνηση 
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_017.png
    :scale: 55 
 
-Unselect the polygon so you can see what has happened
+Βγάλτε την επιλογή του πολυγώνου για να δείτε τι θα γίνει
 --------------------------------------------------------------------------------
    
-#. Select the ``10m_admin_1_states_provinces.shp`` layer using the left-mouse-button.
-#. Select the 'Clear selection' icon in the main toolbar.
-#. You can now see that the only those towns within Victoria are selected.
+#. Επιλέξτε το στρώμα ``10m_admin_1_states_provinces.shp`` με χρήση του αριστερού κουμπιού του ποντικιού.
+#. Επιλέξτε το εικονίδιο 'Clear selection' από την βασική μπάρα εργαλείων.
+#. Τώρα μπορείτε να δείτε ότι μόνο οι πόλεις μέσα στην περιοχή της Victoria είναι επιλεγμένες.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_018.png
    :scale: 55 
 
-Export the selected towns to a new shapefile
+Εξάγετε τις επιλεγμένες πόλεις σε ένα νέο αρχείο τύπου shapefile
 --------------------------------------------------------------------------------
    
-#. Select the ``10m_populated_places_simple.shp`` layer using the left-mouse-button.
-#. Select ``Layer > Export to... > SHP`` to start the export.
-#. The **Export to...** dialog appears. gvSIG recognises that only 26 features 
-   are selected so warns you that only a subset of the shapefile will be 
-   exported. Select the [Yes] button to continue.
-#. The **Save** dialog appears. Give the file a name and save in a 
-   directory of choice. Select the [Save] button to continue. 
-   Note that if you already have a file by the name chosen a warning message 
-   will be shown. 
-#. The **Add layer** dialog appears. Select the [Yes] button to add the new 
-   shapefile to the Table-of-Contents.
+#. Επιλέξτε το ``10m_populated_places_simple.shp`` στρώμα με χρήση του αριστερού κουμπιού του ποντικιού.
+#. Επιλέξτε το ``Layer > Export to... > SHP`` για να αρχίσει η εξαγωγή.
+#. Ο **Export to...** διάλογος εμφανίζεται. Το gvSIG αναγνωρίζει ότι μόνο 26 χαρακτηριστικά έχουν επιλογεί οπότε σας προειδοποιεί ότι μόνο ένα υποσύνολο του αρχείου τύπου shapefile θα εξαχθεί. Επιλέξτε το κουμπί [Yes] για να συνεχίσετε.
+#. Ο διάλογος **Save** εμφανίζεται. Δώστε στο αρχείο ένα όνομα και αποθηκεύστε το στον φάκελο αρχείων της αρεσκεία σας. Επιλέξτε το κουμπί [Save] για να συνεχίσετε. 
+   Σημειώστε ότι εάν υπάρχει και άλλο αρχείο με το ίδιο όνομα θα εμφανιστεί ένα μήνυμα προειδοποίησης.
+#. Ο διάλογος **Add layer** εμφανίζεται. Επιλέξτε το κουμπί [Yes] για να προσθέσετε ένα νέο αρχείο τύπου shapefile στον πίνακα περιεχομένων.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_019.png
    :scale: 55 
 
-Showing only towns within a region
+Εμφανίζοντας μόνο τις πόλεις μέσα στην περιοχή
 --------------------------------------------------------------------------------
 
-#. Once you return to the view, uncheck ``10m_populated_places_simple.shp`` in 
-   the Table-of-Contents.
-#. Change the symbology and labelling of ``test.shp`` to match the screenshot 
-   below. 
-#. Now the view only includes towns and that occur within the State of Victoria.
-#. Select the 'Close window' icon to return to the **Project manager** so we
-   can create a map using this view.
+#. Όταν επιστρέψετε στην απεικόνηση, βγάλτε την επιλογή ``10m_populated_places_simple.shp`` από τον πίνακα περιεχομένων.
+#. Αλλάξτε τον συμβολισμό και τις ετικέτες του ``test.shp`` για να μοιάζει με το παρακάτω στιγμιότυπο οθόνης. 
+#. Τώρα η απεικόνηση περιέχει μόνο τις πόλεις που υπάγονται μέσα στην περιοχή της State of Victoria.
+#. Επιλέξτε το εικονίδιο 'Close window' για να επιστρέψετε στο **Project manager** οπότε να μπορείτε να δημιουργήσετε έναν χάρτη με χρήση αυτής της απεικόνησης.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_020.png
    :scale: 55 
    
-How to create a map
+Πως να δημιουργήσετε έναν χάρτη
 ================================================================================
 
-Create a new map and open it
+
+Δημιουργείστε ένα νέο χάρτη και ανοίξτε το
 --------------------------------------------------------------------------------
 
-#. Select the *Map* document type in the **Project Manager**.
-#. Click on the [New] button to create a map.
-#. Select the newly created map. By default it is titled ``Untitled - 0``.
-#. Click on the [Open] button.
-#. An empty map will appear in its own window titled ``Map: Untitled - 0``.
-   Note that a series of points are placed over the page. This is called a
-   grid or guides and are used to snap elements to while formatting your
-   map.
-#. Select the 'Maximise window' icon to have the map occupy the entire 
-   screen. 
+#. Επιλέξτε το αρχείο τύπου *Map* από το **Project Manager**.
+#. Κλικάρετε το κουμπί [New] για να δημιουργήσετε ένα χάρτη.
+#. Επιλέξτε ένα νέο χάρτη. Εξ ορισμού ο τίτλος του είναι ``Untitled - 0``.
+#. Κλικάρετε το κουμπί [Open].
+#. Ένας άδειος χάρτης θα εμφανιστεί στο δικό του παράθυρο με το τίτλο ``Map: Untitled - 0``.
+   Σημειώστε πως μια σειρά από σημεία έχουν τοποθετηθεί στην σελίδα. Αυτό ονομάζεται κάναβος ή οδηγός και χρησιμοποιείται για να αποτυπώσει τα στοιχεία προτυποποιώντας τον χάρτη σας. 
+#. Επιλέξτε το εικονίδιο 'Maximise window' για να προσαρμοστεί ο χάρτης σε όλη την οθόνη.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_021.png
    :scale: 55 
 
-Insert a view with a grid/graticule
+Εισάγετε μια απεικόνηση με κάναβο/τετράγωνα
 ----------------------------------- 
    
-#. Click on the 'Insert view' icon in the main menu
-#. Create a bounding box representing the extent of the map on the page by 
-   clicking on the empty map while holding down the left-mouse-button and 
-   dragging out the box, only letting go once the the area to be used is 
-   complete. This opens the **Properties of view framework** dialog.
-#. Select the *view* created earlier.
-#. Check the *Show Grid* option (this actually creates a graticule).
-#. Click on the [Configure] grid button to open the **Grid settings** dialog.
-#. In the **Grid settings** dialog change the grid interval to 1.0, that is 
-   1 degree between lines representing latitude and longitude.
-#. Select the grid format (use lines rather than points for ease of viewing).
-#. Increase the font size to 14.
-#. Select the [Ok] button to return to the **Properties of view framework** dialog then 
-   select the [Accept] button to exit and return to your map.
+#. Κλικάρετε το εικονίδιο 'Insert view' από το βασικό μενού
+#. Δημιουργείστε ένα κουτί ορίου που αναπαριστά την έκταση του χάρτη στην σελίδα κλικάροντας τον άδειο χάρτη, κρατώντας πατημένο το αριστερό κουμπί του ποντικιού και σύροντας το έξω από το κουτί, μόνο μπαίνοντας στην περιοχή που χρησιμοποιείται είναι ολοκληρωμένο.  Αυτό ανοίγει τον διάλογο **Properties of view framework**.
+#. Επιλέξτε το *view* για ευκολότερη δημιουργία.
+#. Κλικάρετε την επιλογή *Show Grid* (αυτή στην πραγματικότητα δημιουργεί ένα τετράγωνο).
+#. Κλικάρετε το κουμπί του κανάβου [Configure] για να ανοίξετε το διάλογο **Grid settings**.
+#. Στον διάλογο **Grid settings** αλλάξτε την τιμή του κανάβου σε 1.0, αυτό είναι 1 μοίρα μεταξύ των γραμμών του γεωγραφικού μήκους και πλάτους.
+#. Επιλέξτε το πρότυπο του κανάβου (χρησιμοποιείστε γραμμές αντί για σημεία για πιο εύκολη απεικόνηση).
+#. Αυξήστε το μέγεθος της γραμματοσειράς σε 14.
+#. Επιλέξτε το κουμπί [Ok] για να επιστρέψετε στο διάλογο **Properties of view framework** και στην συνέχεια επιλέξτε το κουμπί [Accept] για έξοδο και επιστροφή στον χάρτη σας.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_022.png
    :scale: 55 
 
-What else can you do to a map?
+Τι άλλο μπορείτε να κάνετε σε έναν χάρτη;
 --------------------------------------------------------------------------------
    
-#. Select ``Map > Properties`` from the main menu to open the 
-   **Map Properties** dialog box. Unselect the *Visualise Grid* checkbox then 
-   select the [OK] button. The 'snap-to' guides/grid used while formatting 
-   should now be removed from the page and the image should match what is 
-   shown below.  
-#. Additional elements like a scale and north arrow can be added to the map 
-   using the icons in the main toolbar or with the submenus in the ``Map`` menu.
-#. The map can be printed or exported to PDF or Postscript for incorporation 
-   into other works.
-#. Select the 'Close window' icon to return to the **Project manager**
+#. Επιλέξτε το ``Map > Properties`` από το βασικό μενού για να ανοίξετε το κουτί διαλόγου **Map Properties**. Βγάλτε την επιλογή *Visualise Grid* από το κλικαρισμένο κουτί και επιλέξτε το κοθμπί[OK]. Το 'snap-to' οδηγός/κάναβος χρησιμοποιείται όσο το πρότυπο πρέπει να αφαιρεθεί από την σελίδα και η εικόνα πρέπει να μοιάζει με αυτή που απεικονίζεται παρακάτω. 
+#. Άλλα στοιχεία όπως η κλίμακα και το βέλος του βορρά μπορεί να προσθεθεί στον χάρτη χρησιμοποιώντας τα ρικονίδια από την βασική γραμμή εργαλείων ή από τα υπομενού στο μενού ``Map``.
+#. Ο χάρτης μπορεί να εκτυπωθεί ή να εξαχθεί σε PDF ή Postscript για συνεργασία με άλλες εργασίες.
+#. Επιλέξτε το εικονίδιο 'Close window' για να επιστρέψετε στο **Project manager**
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_023.png
    :scale: 55 
 
-Saving your project or exiting gvSIG
+Αποθηκεύοντας την εργασία σας και βγαίνοντας από το gvSIG
 ================================================================================
    
-#. Projects can be saved for use later by using the ``File > Save as...`` 
-   menu option, or
-#. Projects can be exited or closed by using the ``File > Exit`` menu option.
+#. Οι εργασίες μπορούν να αποθηκευτούν για μετέπειτα χρήση με χρήστη του μενού επιλογής ``File > Save as...`` ή 
+#. Οι εργασίες μπορούν να βγούν ή να κλείσουν με χρήση του μενού επιλογής ``File > Exit``.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_024.png
    :scale: 55 
 
-Where to from here...
+Από εδώ και πέρα...
 ================================================================================
 
-Some English help and tutorials are available on the 
-`gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`_ website. 
+Βοήθεια στα αγγλικά και διάφοροι οδηγοί χρήσης είναι διαθέσιμοι στην ιστοσελίδα 
+`gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`. 
 
 

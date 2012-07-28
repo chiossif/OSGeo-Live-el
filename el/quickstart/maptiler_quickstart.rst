@@ -9,62 +9,64 @@
   :alt: project logo
   :align: right
 
-MapTiler Quickstart
+Εγχειρίδιο Γρήγορης Εκκίνησης MapTiler
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`MapTiler <http://www.maptiler.org/>`_ provides a simple way of creating a set of tiles from any georeferenced map image. The tiles can then be presented as a as a georeferenced map overlay on a web server. It follows the `Open Source Geospatial Foundation's (OSGeo's) <http://www.osgeo.org/>`_ `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_ specification.
+Το `MapTiler <http://www.maptiler.org/>`_ προσφέρει έναν απλό τρόπο για δημιουργία συνόλου τετράγωνων από γεωαναφερμένες εικόνες χαρτών. Τα τετράγωνα μπορεί να παρουσιαστούν σαν γεωαναφερμένα στρώματα χαρτών σε ένα διαδικτυακό εξυπηρετητή. Ακολουθεί τις προδιαγραφές του `Open Source Geospatial Foundation's (OSGeo's) <http://www.osgeo.org/>`_ `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`.
 
-* **Input options**: Any georeferenced image file, eg. a TIFF, JPEG from ArcGIS, QGIS.
-* **Output options**: A set of directories with tiled images which can be copied to a web server for presentation as a georeferenced overlay. `View examples <http://examples.maptiler.org/>`_. 
-* **Strengths**: MapTiler is simple, free, open-source software, with an easy wizard, described below, to guide through the options.
+* **Input options**: Οποιοδοτε γεωαναφερμένο αρχείο εικόνας π.χ. από TIFF, JPEG μέχρι ArcGIS, QGIS.
+* **Output options**: Ένα σύνολο από φακέλους αρχείων με τις τετράγωνες εικόνες που μπορεί να αντιγραφούν σε ένα διαδικτυακό εξυπηρετητή για παρουσίαση σαν γεωαναφερμένα στρώματα.`View examples <http://examples.maptiler.org/>`_. 
+* **Strengths**: Το MapTiler είναι ένα ελεύθερο, ανοιχτού κώδικα λογισμικό με εύκολο οδηγό, που παρουσιάζεται παρακάτω, για καθοδήγηση στις επιμέρους επιλογές. 
 
-MapTiler takes advantage of the fact that `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , and other online mapping providers including `OpenStreetMap <http://www.openstreetmap.org/>`_  use the same projection and tiling profile and the tiles are therefore compatible. The `Tiles à la Google Maps <http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/>`_ page describes and illustrates this. MapTiler prepares tiles using this specification as an easy and quick way of preparing a georeferenced map in a mashup web page.
 
-Start MapTiler
+Το MapTiler εκμεταλλεύεται το γεγονός ότι τα `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , και άλλα εργαλεία για χάρτες στο διαδίκτυο συμπεριλαμβάνοντας το `OpenStreetMap <http://www.openstreetmap.org/>`_ χρησιμοποιούν την ίδια προβολή, τα ίδια προφίλ τετραγώνων και έτσι τα τετράγωνα είναι συμβατά. Η σελίδα `Tiles à la Google Maps <http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/>`_ το περιγράφει και το εξηγεί. Το MapTiler φτιάχνει τα τετράγωνα χρησιμοποιώντας αυτές τις προδιαγραφές σαν έναν εύκολο και γρήγορο τρόπο για δημιουργία γεωαναφερμένων χαρτών σε διαδικτυακές σελίδες.
+
+
+Αρχίζοντας με το MapTiler
 --------------------------------------------------------------------------------
 
-1. `Download MapTiler <http://help.maptiler.org/beta/>`_ to your it on your computer or start it directly from this LiveDVD.
+1. `Κατεβάστε το MapTiler <http://help.maptiler.org/beta/>`_ στον υπολογιστή σας ή αρχίστε το κατευθείαν από αυτό το LiveDVD.
 
-2. Select the **Tile Profile**. Choose *Google Maps Compatible (Spherical Mercator)* for standard web publishing. Choose *Google Earth (KML SuperOverlay)* if you also want to generate a KML file for use in Google Earth. Click *Continue*.
+2. Επιλέξτε το **Tile Profile**. Επιλέξτε το *Google Maps Compatible (Spherical Mercator)* για την βασική διαδικτυακή έκδοση. Επιλέξτε *Google Earth (KML SuperOverlay)* εάν θέλετε επίσης να δημιουργήσετε ένα KML αρχείο για χρήση το Google Earth. Κλικάρετε το *Continue*.
 
 .. image:: ../../images/screenshots/1024x768/maptiler1.jpg
     :width: 90 %
     :align: center
 
-3. Choose the **Source Data Files**. Browse to select the raster image you want to tile. It is also possible to select a NODATA colour that will appear as transparent in the resulting image. Click *Continue*.
+3. Επιλέξτε το **Source Data Files**. Αναζητήστε να επιλέξετε την εικόνα πλέγμα που θέλετε να κάνετε να δημιουργήσετε τετράγωνα. Μπορείτε επίσης να επιλέξετε το NODATA στοιχείο που εμφανίζεται σαν διαφάνεια στην τελική εικόνα. Κλικάρετε το *Continue*.
 
 .. image:: ../../images/screenshots/1024x768/maptiler2.jpg
     :width: 90 %
     :align: center
 
-4. Specify the **Spatial Reference System / Coordinate System** of the image. Specify the id-number from the EPSG/ESRI database. If you have maps from UK for example the transformation should include the `EPSG:27700 with TOWGS84 <http://help.maptiler.org/coordinates/europe/uk>`_ parameter. Click *Continue*.
+4. Ορίστε το **Spatial Reference System / Coordinate System** της εικόνας. Ορίστε το νούμερο από την EPSG/ESRI βάση δεδομένων. Εάν έχετε χάρτες από την Αγγλία για παράδειγμα, ο μετασχηματισμός πρέπει να περιέχει την παράμετρο `EPSG:27700 με TOWGS84 <http://help.maptiler.org/coordinates/europe/uk>`_ . Κλικάρετε *Continue*.
 
 .. image:: ../../images/screenshots/1024x768/maptiler3.jpg
     :width: 90 %
     :align: center
 
-5. Specify details about the **Tile Pyramid**. The default settings for zoom levels and file format are often best. Click *Continue*.
+5. Ορίστε τις λεπτομέρειες για το= **Tile Pyramid**. Οι επιλογές που υπάρχουν για το επίπεδο ζουμαρίσματος και τοπρότυπο του αρχείου είναι συνήθως οι καλύτερες. Κλικάρετε *Continue*.
 
 .. image:: ../../images/screenshots/1024x768/maptiler4.jpg
     :width: 90 %
     :align: center
 
-6. Specify details about the **Destination folder and Addresses / URLs** for the tileset. If you do not know these, they can be added into the default *googlemaps.html* and *openlayers.html* files after tile generation. Click *Continue*.
+6. Ορίστε τις λεπτομέρειες για το **Destination folder and Addresses / URLs** του συνόλου τετραγώνων. Εάν αυτό δεν το γνωρίζετε, τότε μπορείτε να προσθέσετε τα επιλεγμένα *googlemaps.html* και *openlayers.html* αρχεία για μετά την δημιουργία τετραγώνων. Κλικαρετε *Continue*.
 
 .. image:: ../../images/screenshots/1024x768/maptiler5.jpg
     :width: 90 %
     :align: center
 
-7. Tick the **Viewers that should be generated**. By default, a *googlemaps.html* and *openlayers.html* file are generated. You can also choose to generate a KML SuperOverlay file for Google Earth. Click *Continue*.
+7. Μαρκάρετε το **Viewers that should be generated**. Από μόνο του, το *googlemaps.html* και το *openlayers.html* αρχεία δημειουργούνται. Μπορείτε επίσης να επιλέξετε να δημιουργήσετε ένα KML SuperOverlay αρχείο από το Google Earth. Κλικάρετε *Continue*.
 
 .. image:: ../../images/screenshots/1024x768/maptiler6.jpg
     :width: 90 %
     :align: center
 
-8. Specify the **Details for generating the Viewers**, such as the title, copyright notice, and API keys. If you do not know these, they can be added into the default *googlemaps.html / openlayers.html* files after tile generation. Click *Continue*.
+8. Ορίστε το **Details for generating the Viewers**, όπως τον τίτλο, την σημείωση για τα δικαιώματα, και τα API κλειδιά. Εάν δεν το γνωρίζετε αυτό, αυτά μπορούν να πρσθεθούν στα επιλεγμένα *googlemaps.html / openlayers.html* αρχεία μετά από την δημιουργία των τετραγώνων. Κλικάρετε *Continue*.
 
 .. image:: ../../images/screenshots/1024x768/maptiler7.jpg
     :width: 90 %
     :align: center
 
-9. Click **Render** to start rendering the image. When complete, MapTiler provides a link to the finished tileset. Open the *googlemaps.html* or *openlayers.html* files in a web browser to view the tileset as an overlay on the live online map. To present this on the web, just copy the entire tileset and all subdirectories to a web server, and edit the googlemaps.html or openlayers.html files as required.
+9. Κλικάρετε το **Render** για να αρχίσετε να οπτικοποιήσετε την εικόνα. Όποτε ολοκληρωθεί, το MapTiler δίνει έναν σύνδεσμο για να τελειώσει το σύνολο των τετραγώνων. Ανοοίξτε το *googlemaps.html* ή το *openlayers.html* αρχεία σε ένα διαδικτυακό εξυπηρετητή για να δείτε το στρώμα του συνόλου των τετραγώνων σε ένα διαδικτυακό χάρτη. Για να το παρουσιάσετε στο διαδίκτυο, απλά αντιγράψτε ολόκληρο το σύνολο των τετραγώνων και όλο το σύνολο των φακέλων και υποφακέλων των αρχείων σε ένα σιαδικτυακό εξυπηρετητή, και επεξεργαστείτε το googlemaps.html ή το openlayers.html αρχεία όπως απαιτείται.

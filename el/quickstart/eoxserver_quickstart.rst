@@ -11,155 +11,130 @@
   :target: http://eoxserver.org/
 
 ================================================================================
- EOxServer Quickstart
+ Εγχειρίδιο Γρήγορης Εκκίνησης EOxServer
 ================================================================================
 
-Overview
---------
+Επισκόπηση
+----------
 
-EOxServer is a server for Earth Observation (EO) data. More precisely it is 
-a Python application and framework for presenting EO data and metadata.
+Ο εξυπηρετητής EOxServer είναι μια εφαρμογή για τηλεπισκοπικά δεδομένα. Πιο συγκεκριμένα είναι μια εφαρμογή και πλατφόρμα Python για της θέαση δεδομένων και μεταδεδομένων παρατήρησης της Γης.
 
-This Quick Start describes how to:
+Αυτός ο οδηγός περιγράφει πως:
 
-* Install EOxServer in OSGeo-Live
-* Access and use the demonstration instance
+* Να εγκαταστήσετε τον EOxServer στο OSGeo-Live
+* Να αποκτήσετε πρόσβαση στην δοκιμαστική εφαρμογή
 
-See the :doc:`EOxServer Overview <../overview/eoxserver_overview>`, the 
-`EOxServer 0.2.0 Documentation 
-<../../eoxserver-docs/EOxServer_documentation.pdf>`_, or the `online 
-documentation <http://eoxserver.org/doc/>`_ for more information.
+Δείτε την  :doc:`Περίληψη του EOxServer <../overview/eoxserver_overview>`, το 
+`Εγχειρίδιο χρήσης του EOxServer 0.2.0 
+<../../eoxserver-docs/EOxServer_documentation.pdf>`_, ή το `διαδικτυακό 
+εγχειρίδιο <http://eoxserver.org/doc/>`_ για περισσότερες πληροφορίες.
 
-.. contents:: Contents
+.. contents:: Περιεχόμενα
 
-Installation
+Εγκατάσταση
 ------------
 
-Run the following commands to install EOxServer::
+Εκτελέστε τις παρακάτω εντολές στο τερματικό για να εγκαταστήσετε τον EOxServer::
 
     cd /usr/local/share/gisvm/bin/
     sudo ./install_eoxserver.sh
 
-Note the password for the user `user` is `user`.
+Θυμηθήτε ότι ο κωδικός πρόσβασης για τον χρήστη `user` είναι `user`.
 
-The script not only installs EOxServer but also creates and deploys a 
-`demonstration instance <http://localhost/eoxserver/>`_, downloads the 
-documentation, adds launchers to the desktop, etc.
+Η εφαρμογή εγκατάστασης δεν εγκαθιστά μόνο τον EOxServer αλλά δημιουργεί και μια 
+`δοκιμαστική εφαρμογή <http://localhost/eoxserver/>`_, μεταφορτώνει τα εγχειρίδια χρήσης, προσθέτει συντομέυσεις στην επιφάνεια εργασίας κλπ.
 
-Demonstration Instance
+Δοκιμαστική Εφαρμογή
 ----------------------
 
-The new icon on the desktop labelled `EOxServer` launches a browser showing 
-the demonstration instance available at http://localhost/eoxserver/.
+Το εικονίδιο στην επιφάνεια εργασίας με τον τίτλο `EOxServer` ανοίγει έναν περιηγητή που δείχνει στην κεντρική σελίδα της εφαρμογής: http://localhost/eoxserver/.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_start.png
   :scale: 50 %
-  :alt: EOxServer demonstration start
+  :alt: Εκκίνηση EOxServer
 
-The other new icon on the desktop labelled `EOxServer Documentation` 
-launches a pdf viewer showing the available documentation.
+Το δεύτερο εικονίδιο με τίτλο `EOxServer Documentation` ανοίγει μια εφαρμογή θέασης pdf που αφορά το εγχειρίδιο χρήσης.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_documentation.png
   :scale: 50 %
-  :alt: EOxServer documentation
+  :alt: Εγχειρίδιο EOxServer
 
-Web Client
-~~~~~~~~~~
+Διαδικτυακή εφαρμογή πελάτης
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The **Web Client** link allows you to see a list of available `Dataset 
-Series` and `Stitched Mosaics`. The demonstration has one `Dataset Series` 
-configured named "MER FRS 1P RGB reduced" holding three ENVISAT MERIS 
-scenes. Please refer to the `online demonstration documentation 
-<http://eoxserver.org/doc/en/users/demonstration.html>`_ for more 
-information on the available data.
+Η διαδικτυακή εφαρμογή επιτρέπει στον χρήστη να δεί μια λίστα με τις διαθέσιμες `Σειρές δεδομένων` και τα `Μωσαικά Εικόνων`. Η δοκιμαστική εφαρμογή έχει μια σειρά δεδομένων με το όνομα "MER FRS 1P RGB reduced" που περιλαμβάνει τρείς σκηνές ENVISAT MERIS. Παρακαλούμε να ανατρέξετε στο διαδικτυακό  `εγχειρίδιο <http://eoxserver.org/doc/en/users/demonstration.html>`_ για περισσότερες πληροφορίες σχτικά με τα διαθέσιμα δεδομένα.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_webclient1.png
   :scale: 50 %
-  :alt: EOxServer demonstration embedded client dataset series selection
+  :alt: Δοκιμαστική εφαρμογή EOxServer με προβολή σειράς δεδομένων
 
-Selecting a list entry provides you with a map view showing the outlines of 
-the available `Datasets`.
+Επιλέγοντας μια εγγραφή από τη λίστα, παρουσιάζεται στο χάρτη το περίγραμμα των διαθέσιμων δεδομένων.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.jpg
   :scale: 50 %
-  :alt: EOxServer demonstration embedded client outlines
+  :alt: Περίγραμμα δεδομένων EOxServer
 
-Using the standard OpenLayers controls you can enable also previews of the 
-available data.
+Χρησιμοποιώντας τα κλασικά εργαλεία της εφαρμογής OpenLayers, μπορεί ο χρήστης να ενεργοποιήσει την προεπισκόπηση των διαθεσίμων δεδομένων.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
   :scale: 50 %
-  :alt: EOxServer demonstration embedded client outlines and previews
+  :alt: Παρουσίαση προεπισκόπησης εικόνων εντός EOxServer
 
-With the **Date slider** the `Datasets` shown can be limited to the time 
-interval of interest.
+Με το εργαλείο χρόνου τα δεδομένα που αντιστοιχούν σε μια χρονική περίοδο μπορούν να φιλτραριστούν από τον χρήστη ανάλογα με τις απαιτήσεις του.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.jpg
   :scale: 50 %
-  :alt: EOxServer demonstration embedded client date change
+  :alt: Παρουσίαση δεδομένων με βάση την χρονική περίοδο στον EOxServer
 
-The **Download** button provides you a list of downloadable `Datasets`. 
-Downloadable means within the set Bounding Box or currently viewn map extent 
-if not set and the set time interval. You can select which `Datasets` to 
-download in which size, projection, format, and band subset.
+Το κουμπί **Download** παρέχει μια λίστα με τα διαθέσιμα δεδομένα για μεταφόρτωση. Η μεταφόρτωση μπορεί να γίνει με τη χρήση πολυγώνου στον χάρτη ή με την έκταση του χάρτη που βλέπει ο χρήστης, είτε με την χρονική περίοδο που έχει καθοριστεί. Ο χρήστης μπορεί να επιλέξει ποια δεδομένα θα κατεβάσει, σε ποιο μέγεθος, σε ποιο σύστημα συντεταγμένων, σε ποιό τύπο αρχείου και με ποια φασματικά κανάλια.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.jpg
   :scale: 50 %
-  :alt: EOxServer demonstration embedded client download selection
+  :alt: Επιλογή μεταφόρτωσης EOxServer
 
-**Start Download** initiates the actual download which might result in 
-multiple files if multiple `Datasets` have been selected.
+Το κουμπί **Start Download** εκκινεί τη διαδικασία μεταφόρτωσης που μπορεί να οδηγήσει σε πολλαπλά αρχεία εφόσον περισότερα από ένα δεδομένα έχουν επιλεγεί.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.jpg
   :scale: 50 %
-  :alt: EOxServer demonstration embedded client download
+  :alt: Παράδειγμα μεταφόρτωσης δεδομένων στον EOxServer
 
-Admin Client
-~~~~~~~~~~~~
+Διαχειριστική εφαρμογή
+~~~~~~~~~~~~~~~~~~~~~~
 
-The **Admin Client** link brings you to the login page for the `Admin 
-Client`. The password for the user `admin` is `admin`.
+Η συντόμευση **Admin Client** μεταφέρει τον χρήστη σε σελίδα πιστοποίησης της διαχειριστικής εφαρμογής. Ο κωδικός ασφαλείας για τον χρήστη `admin` είναι `admin`.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_adminclient1.png
   :scale: 50 %
-  :alt: EOxServer demonstration admin client login
+  :alt: Εισαγωγή χρήστη διαχειριστικής εφαρμογής EOxServer
 
-The `Admin Client` is Djangos standard admin and allows you to configure the 
-available data. Please feel free to explore the client. More information can 
-be found `online <http://eoxserver.org/doc/en/users/operators.html>`_.
+Η διαχειριστική εφαρμογή είναι βασισμένη στην διαχειριστική εφαρμογή του Django και επιτρέπει στον χρήστη να ρυθμίσει τα διαθέσιμα δεδομένα στο σύστημα. Μπορείτε να πειραματιστείτε με την εφαρμογή. Περισότερες πληροφορίες μπορούν να βρεθούν στις παρακάτω `πηγές <http://eoxserver.org/doc/en/users/operators.html>`_.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_adminclient2.png
   :scale: 50 %
-  :alt: EOxServer demonstration admin client start
+  :alt: Έναρξη διαχειριστικής εφαρμογής EOxServer
 
-It is for example possible to view and alter the `EO Metadata` of the 
-configured `Dataset Series`.
+Είναι για παράδειγμα δυνατό για τον χρήστη να δεί και να αλλάξει τα μεταδεδομένα της σειράς δεδομένων που διατίθενται στην εφαρμογή.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.jpg
   :scale: 50 %
-  :alt: EOxServer demonstration admin client 
+  :alt: Παράδειγμα διαχειριστικής εφαρμογής EOxServer
 
-Log Viewer
-~~~~~~~~~~
+Ημερολόγιο συμβάντων
+~~~~~~~~~~~~~~~~~~~~
 
-The **Log Viewer** link provides an easy way to view the latest log entries.
+Ο σύνδεσμος **Log Viewer** παρέχει έναν έυκολο τρόπο για εποπτεία των συμβάντων στον εξυπηρετητή και αποσφαλμάτωση.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_logviewer.png
   :scale: 50 %
-  :alt: EOxServer demonstration log viewer
+  :alt: Ημερολόγιο συμβάντων EOxServer
 
-What Next?
-----------
+Περισσότερες πληροφορίες
+------------------------
 
-This is a simple demonstration, but you can do much more with EOxServer. The 
-project website contains a lot of resources to help you get started. Here’s 
-a few resources to check out next:
+Αυτή είναι μια απλή επίδειξη της εφαρμογής, αλλά ο χρήστης μπορεί να κάνει πολλά περισσότερα με τον EOxServer. Η ιστοσελίδα του έργου περιλαμβάνει πολλές πηγές και πληροφορίες που μπορούν να βοηθήσουν τον χρήστη που μόλις ξεκινάει. Ακολουθούν οι παρακάτω σελίδες:
 
-* Read the `EOxServer Operators' Guide 
+* Οδηγός `Διαχειριστή` 
   <http://eoxserver.org/doc/en/users/operators.html>`_.
-* Read the complete `EOxServer Users' documentation 
-  <http://eoxserver.org/doc/en/users/index.html>`_ starting from the `EOxServer 
-  Basics <http://eoxserver.org/doc/en/users/basics.html>`_.
-* Ready to use EOxServer? Then join the community on the `mailing lists 
-  <http://eoxserver.org/doc/en/users/mailing_lists.html>`_ to exchange ideas, 
-  discuss potential software improvements, and ask questions.
+* Πλήρης οδηγός χρήσης `EOxServer' 
+  <http://eoxserver.org/doc/en/users/index.html>`_ ξεκινώντας από τα `βασικά  <http://eoxserver.org/doc/en/users/basics.html>`_.
+* Νοιώθετε έτοιμοι να χρησιμοποιήσετε τον EOxServer; Μπορείτε να γρφτείτε στην `λίστα ηλεκτρονικού ταχυδρομίου <http://eoxserver.org/doc/en/users/mailing_lists.html>`_ για ανταλλαγή ιδεών, πιθανές βελτιώσεις στο λογισμικό, και για επίλυση αποριών.

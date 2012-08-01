@@ -58,50 +58,32 @@ Files\\MapWindow\\Plugins. Μερικές φορές ένα πρόσθετο ε�
 -----------------
 2.4 Προβολές
 -----------------
-A projection is a mathematical
-transformation used to display the 3-dimensional earth onto your 2-dimensional computer screen.
-Different projections are available, each with its own benefits, costs, and appropriate uses. A
-detailed discussion of projections is beyond the scope of this guide, but a few basic points need
-to be covered. The main issue is that the various layers in your project all need to use the same
-projection if the overlays are to line up. In MapWindow, the projection of a layer is defined in
-a supplemental file carrying the .prj extension. This is a common format for projections, also
-used in ArcMap. A layers projection can be viewed in the 
-**General** tab of the 
-**Layer Properties** dialog, which is opened by double-clicking the layer in the
-legend or clicking the 
-**Properties** toolbar button 
+Ως προβολή εννοούμε τον μαθηματικό μετασχηματισμό για την αναπαράσταση της 3-διάστατης γης στις 2-διαστάσεις της οθόνης του Η/Υ. Υπάρχουν πολλές διαφορετικές προβολές η κάθε μία με τα πλεονεκτήματα, τα μειονεκτήματά και τς χρήσεις της. Δεν θα μπούμε σε αναλυτική περιγραφή των προβολών απλά θα αναφέρουμε μερικά σημαντικά θέματα. Το κυριότερο είναι ότι κατά την απεικόνιση των διαφορετικών επιπέδω θα πρέπει όλα να βρίσκονται στην ίδια προβολή διαφορετικά δεν θα συμπίπτουν γεωδαιτικά. Στο λογισμικό MapWindow η προβολή κάθε πειπέδου ορίζεται από ένα αρχείο με επέκταση .prj. Αυτό το είδος αρχείων είναι διαδεδομένο και στο λογισμικό ArcMap. Μπορούμε να δούμε την προβολή ενός επιπέδου από την καρτέλα **General** στον διάλογο **Layer Properties**ο οποίος ανοίγει με διπλό κλικ στον τίτλο του επιπέδου ή με την επιλογή **Properties** στην εργαλειοθήκη.
 
-The first map that you add to a project defines the projection for the entire project. Each
-subsequent layer must have the same projection or MapWindow will display a warning dialog. This
-dialog allows you to reproject the incoming layer, or do nothing (in which case the layers may be
-misaligned). Note that reprojecting a layer involves more than just changing the contents of the
-.prj file, there are also changes to the shape of the polygons. Therefore, it is best to
-reproject to a new file, rather than overwriting the old. If a map layer is missing the .prj file
+Ο πρώτος χάρτης ο οποίος προστίθεται σε ένα πρότζεκτ ορίζει και την προβολή που θα χρησιμοποιηθεί στην συνέχεια. κάθε νέο επίπεδο πρέπει να έχει την ίδια προβολή διαφορετικά θα εμφανιστεί κατάλληλη ειδοποίηση. Αυτό μας επιτρέπει είτε να ρυθμίσουμε το νέο επίπεδο είτε να προβληθεί ως έχει χωρίς γεωδαιτική σύμπτωση. Σημειώστε εδώ ότι η επαναπροβολή ενός επιπέδου δεν είναι απλά μια ρύθμιση στα περιεχόμενα του αρχείου .prj, αλλά θα πρέπει να γίνουν αλλαγές στο σχήμα των πολυγώνων. Γιαυτό είναι καλή πρακτική να επαναπροβάλουμε δεδομένα σε νέα αρχεία και να μην καταργούμε τα παλιά.
+
+If a map layer is missing the .prj file
 it will be necessary to define a projection for it. This can be done in MapWindow using the 
 **Toolbox**, but the process is outside the scope of this guide. 
 
 ----------------------------
-2.5 Basic toolbar functions
+2.5 Βασικές λειτουργίες της γραμμής εργαλείων
 ----------------------------
-A suite of basic map
-functions is accessed through a set of toolbar buttons. Their use is quite intuitive so only a
-brief explanation is provided here. Note that several functions require the user to first select
-a target layer, which is done by clicking it in the legend. You can move the toolbars (click and
-drag at the dotted line) and the text labels can be toggled on and off via right-click. 
+Οι βασικές χαρτογραφικές λειτουργίες είναι προσβάσιμες από την γραμμή εργαλείων. Η χρήση τους είναι εξαιρετικά απλή κι έτσι εδώ θα δώσουμε μόνο μια σύντομη περιγραφή. Σημειώστε ότι μερικές από αυτές προϋποθέτουν πριν την εκτέλεσή τους την επιλογή ενός επιπέδου απλά με κλικ στον τίτλο του. Μπορείτε να μετακινήσετε την εργαλειοθήκη ενώ τα ονόματα των εργαλείων μπορείτε να τα ανοιγο-κλείσετε με δεξί κλικ.
 
 ================================================================================  =================================================================
 ================================================================================  =================================================================
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomin.png          Zoom in: either click the area of interest or draw a bounding box. Zooming in and out can also be done using the mouse wheel.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomout.png         Zoom out.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomfullextent.png  Zoom to the full extent of all visible layers.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomselected.png    Zoom to selected shapes of the target layer.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomprevious.png    Move backwards through a list of earlier map views.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomnext.png        Move forward through a list of earlier map views.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomlayer.png       Zoom to the extent of the target layer.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-pan.png             Click and drag the map within the display window.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-select.png          Select shapes from the target layer. Ctrl-click to select multiple shapes, or draw a bounding box. See section 4.2 for more information on selections.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-measure.png         Opens a dialog used to display the perimeter and area of shapes selected from the target layer or shapes drawn with the mouse.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-identify.png        Click to view the attributes of shapes in the target layer.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomin.png          Μεγέθυνση: είτε κάντε κλικ στην περιοχή ενδιαφέροντος είτε σωγαρφίστε ένα περιβάλον ορθογώνιο. Μπορείτε επίσης να χρησιμοποιήσετε το ροδάκι του ποντικιού.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomout.png         Σμίκρυνση.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomfullextent.png  Απεικόνιση του συνόλου της έκτασης όλων των επιπέδων.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomselected.png    Απεικόνιση της έκτασης των επιλεγμένων σχημάτων στο επίπεδο.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomprevious.png    Επιλογή προηγούμενης απεικόνισης.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomnext.png        Επιλογή επόμενης απεικόνισης.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomlayer.png       Απεικόνιση της έκτασης του ενεργού επιπέδου.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-pan.png             Αλλαγή της απεικονιζόμενης επιφάνειας με κύλιση.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-select.png          Επιλογή σχημάτων από το ενεργό επίπεδο. Χρησιμοποιείστε παράλληλα το πλήκτρο Ctrl για να επιλέξετε περισσότερα του ενός ή σχηματίστε τον περιβάλλον τους ορθογώνιο.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-measure.png         Εμφανίζει ένα [παράθυρο διαλόγου με την περίμετρο και το εμβαδό των σχημάτων που έχουν επιλεγεί ή ζωγραφιστεί με το ποντίκι.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-identify.png        Εμφανίζει τα χαρακτηριστικά των σχημάτων στο επιλεγμένο επίπεδο.
 ================================================================================  =================================================================
 
 ==============================

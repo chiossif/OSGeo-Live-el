@@ -15,7 +15,7 @@
   :target: http://www.mapwindow.org
   
 ===============
-1. Introduction
+1. Εισαγωγή
 ===============
 This quickstart provides an introduction to a limited set of the functionality 
 provided by MapWindow GIS v4.8.6 and it provides instructions on how to accomplish 

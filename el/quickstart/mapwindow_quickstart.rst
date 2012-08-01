@@ -26,31 +26,17 @@
 Το λογισμικό είναι σε συνεχή ανάπτυξη και έτσι είναι πιθανό λειτουργίες που περιγράφονται σε αυτό το εγχειρίδιο να έχουν βελτιωθεί ή/και τροποποιηθεί αν εκτελείτε νεώτερη έκδοση του. Παράλληλα βρίσκεται σε ανάπτυξη ένα διαδικτυακό εγχειρίδιο και έτσι ανατρέξτε εκεί αν εντοπίσετε προβλήματα ή θέλετε περισσότερες πληροφορίες τις οποίες δεν βρίσκετε εδώ.
 
 ===================
-2. Getting Started
+2. Ξεκινώντας
 ===================
 --------------
-2.1 Projects
+2.1 Εργασίες
 --------------
-The project file maintains a record of the different layers, labels, colors and
-styles you have defined for your map. When MapWindow starts it initiates a new project. You can
-also start a new project at any time by clicking the
-**New** toolbar button. Any changes that you make to a project are not stored until
-you click the
-**Save** toolbar button, or save when prompted on exit. Previous projects are accessed
-by clicking the
-**Open** toolbar button or selecting
-**File** from the top menu and clicking
-**Recent Projects**. You can also double click on the project file name in Windows Explorer,
-which opens the project in a new instance of MapWindow. Project files carry the extension .mwprj.
+Το αρχείο εργασιών περιέχει μια εγγραφή των διαφορετικών επιπέδων, τίτλων, χρωμμάτων και τύπων τα οποία έχετε ορίσει στον χάρτη σας. Όταν ξεκινάει το λογισμικό θεωρεί ένα νέο αρχείο εργασιών/πρότζεκτ. Μπορείτε να δημιουργήσετε ένα νέο πρότζεκτ πατώντας το κουμπί **New** στην εργαλειοθήκη. Οι αλλαγές που θα κάνετε δεν θα αποθηκευτούν αν δεν πατήσετε το κουμπί **Save** ή σε περίπτωση εξόδου από το λογισμικό επιλέξετε αποθήκευση. Παλαιότερα αποθηκευμένα αρχεία εργασιών είναι διαθέσιμα με το κουμπί **Open** ή επιλέγοντας **File** και στην συνέχεια τα πρόσφατα πρότζεκτ από την επιλογή **Recent Projects**. Παράλληλα μπορείτε με διπλο κλικ να ανοίξετε το αρχείο από τον διαχειριστή αρχείων του συστήματός σας. Τα αρχεία αυτά έχουν επέκταση .mwprj.
 
-Besides saving the layers and related symbology the project file stores a few
-additional settings such as map units, projections, and so on. These can be accessed by selecting
-the **File** menu and clicking on
-**Settings**. Users will generally not have to make any changes to these settings so they
-will not be discussed here.
+Πέρα από την αποθήκευση των επιπέδων και τους ανάλογους συμβολισμούς το αρχείο εργασιών περιέχει και πρόσθετες ρυθμίσεις όπως μονάδες, προβολές και πολλά άλλα. Και αυτά είναι διαθέσιμα με την επιλογή **File** και στην συνέχεια κλικ στο **Settings**. Οι χρήστες γενικά δεν μεταβάλουν αυτές τις ρυθμίσεις οπότε δεν θα επεκταθούμε περισσότερο εδώ.
 
 --------------
-2.2 Plug-ins
+2.2 Πρόσθετα (Plug-Ins)
 --------------
 The installation program installs a
 number of core plug-ins, such 

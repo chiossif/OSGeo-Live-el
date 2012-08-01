@@ -21,11 +21,7 @@
 
 Το λογισμικό MapWindow είναι διαθέσιμο για ελεύθερη μεταφόρτωση ως ένα έτοιμο προς εγκατάσταση εκτελέσιμο αρχείο τύπου exe από τον ιστοχώρο www.mapwindow.org. Είναι μια εφαρμογή στο λειτουργικό σύστημα Windows η οποία απαιτεί επιπρόσθετα την εγκατάσταση του πλαισίου .ΝΕΤ της Microsoft. Εκτελείται σε εξπι, βήστα και εφτάρια και τρέχει μια χαρά σε ΚΜΕ 64b. Το λογισμικό είναι αρκετά εύκολο στην χρήση και οι νέοι χρήστες θα προσαρμοστούν σε αυτό ταχύτατα. Με δυο-τρεις μόνο εξαιρέσεις, οι λειτουργίες που θα παρουσιάσουμε, θα παρέχουν στον χρήστη εμπειρίες ανάλογες του ArcMap.
 
-The MapWindow desktop program that is the focus of this guide is just one part of a larger
-open-source project. The core software is also available as an ActiveX component, allowing
-programmers to develop customized GIS applications. It is also possible for advanced users to
-modify and extend the desktop program to fit individual needs. More information on the MapWindow
-project and its various facets can be obtained from the MapWindow website. 
+Το πρόγραμμα MapWindow είναι σε αυτό το εγχειρίδιο λενα τμήμα ενός ευρύτερου πρότζεκτ ανοιχτού λογισμικού. Το λογισμικό κορμός είναι επίσγης διαθέσιμο ως συστατικό ActiveX επιτρέποντας στους προγραμματιστές να αναπτύσσουν πρόσθετες εφαρμογές GIS με βάση τις ανάγκες τους. Παράλληλα είναι δυνατή η τροποποίηση και επέκτεση του προγράμματος ώστε κα καλύψει τις ανάγκες έμεπιρων χρηστών. Περισσότερες πληροφορίες για το πρότζεκτ και τα διάφορα πρόσθετα μπορείτε να πάρετε από τον ιστοχώρο του MapWindow.
 
 Because MapWindow is under continuous development it may not behave exactly as described in
 this guide if you are using a newer version of the program. A web-based users guide is under

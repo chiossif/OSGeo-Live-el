@@ -17,13 +17,7 @@
 ===============
 1. Εισαγωγή
 ===============
-This quickstart provides an introduction to a limited set of the functionality 
-provided by MapWindow GIS v4.8.6 and it provides instructions on how to accomplish 
-a suite of basic GIS tasks. My aim is to provide an easy-to-follow guide for users that are mainly interested in displaying GIS
-data, conducting simple queries, and exporting high quality maps for use in publications and
-presentations. This being the case, not all of the functionality of MapWindow is covered. In
-particular, the guide only covers the main program and not the plug-ins (except for the shapefile
-editor).
+Αυτό το εγχειρίδιο είναι μια εισαγωγή σε ένα υποσύνολο της λειτουργικότητας του λογισμικού MapWindow GIS v4.8.6 παρέχοντας τις οδηγίες για να εκτελέσετε βασικές λειτουργίες GIS. Στόχος μας είναι να παρέχουμε έναν εύκολο οδηγό ώστε οι χρήστες που ενδιαφέρονται στην αναπαράσταση δεδομένων GIS, στην εκτέλεση απλών αναζητήσεων και στην παραγωγή υψηλής ποιότητας χαρτών για δημοσιεύσεις. Με βάση αυτό δεν καλύπτεται εδώ όλη η λειτουργικότητα του λογισμικού: ειδικότερα περιέχονται λειτουργίες του βασικού προγράμματος κορμού και όχι των πρόσθετων (plugins) (με εξαίρεση των διορθωτή αρχείων τύπου shapefile).
 
 The MapWindow desktop software is available for free download as a single ready-to-install
 .exe file from the MapWindow website: www.mapwindow.org. MapWindow is a **native Windows**

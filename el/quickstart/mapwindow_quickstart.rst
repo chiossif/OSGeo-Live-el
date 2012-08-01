@@ -19,12 +19,7 @@
 ===============
 Αυτό το εγχειρίδιο είναι μια εισαγωγή σε ένα υποσύνολο της λειτουργικότητας του λογισμικού MapWindow GIS v4.8.6 παρέχοντας τις οδηγίες για να εκτελέσετε βασικές λειτουργίες GIS. Στόχος μας είναι να παρέχουμε έναν εύκολο οδηγό ώστε οι χρήστες που ενδιαφέρονται στην αναπαράσταση δεδομένων GIS, στην εκτέλεση απλών αναζητήσεων και στην παραγωγή υψηλής ποιότητας χαρτών για δημοσιεύσεις. Με βάση αυτό δεν καλύπτεται εδώ όλη η λειτουργικότητα του λογισμικού: ειδικότερα περιέχονται λειτουργίες του βασικού προγράμματος κορμού και όχι των πρόσθετων (plugins) (με εξαίρεση των διορθωτή αρχείων τύπου shapefile).
 
-The MapWindow desktop software is available for free download as a single ready-to-install
-.exe file from the MapWindow website: www.mapwindow.org. MapWindow is a **native Windows**
-application that requires installation of the Microsoft .NET framework. It runs on XP, Vista, and
-Windows 7 and works fine on 64-bit machines. The program is quite intuitive to use and new users
-will be up and running quickly. With only a couple of exceptions it provides a user experience
-that meets or exceeds that of ArcMap, for the procedures covered in this guide. 
+Το λογισμικό MapWindow είναι διαθέσιμο για ελεύθερη μεταφόρτωση ως ένα έτοιμο προς εγκατάσταση εκτελέσιμο αρχείο τύπου exe από τον ιστοχώρο www.mapwindow.org. Είναι μια εφαρμογή στο λειτουργικό σύστημα Windows η οποία απαιτεί επιπρόσθετα την εγκατάσταση του πλαισίου .ΝΕΤ της Microsoft. Εκτελείται σε εξπι, βήστα και εφτάρια και τρέχει μια χαρά σε ΚΜΕ 64b. Το λογισμικό είναι αρκετά εύκολο στην χρήση και οι νέοι χρήστες θα προσαρμοστούν σε αυτό ταχύτατα. Με δυο-τρεις μόνο εξαιρέσεις, οι λειτουργίες που θα παρουσιάσουμε, θα παρέχουν στον χρήστη εμπειρίες ανάλογες του ArcMap.
 
 The MapWindow desktop program that is the focus of this guide is just one part of a larger
 open-source project. The core software is also available as an ActiveX component, allowing

@@ -23,10 +23,7 @@
 
 Το πρόγραμμα MapWindow είναι σε αυτό το εγχειρίδιο λενα τμήμα ενός ευρύτερου πρότζεκτ ανοιχτού λογισμικού. Το λογισμικό κορμός είναι επίσγης διαθέσιμο ως συστατικό ActiveX επιτρέποντας στους προγραμματιστές να αναπτύσσουν πρόσθετες εφαρμογές GIS με βάση τις ανάγκες τους. Παράλληλα είναι δυνατή η τροποποίηση και επέκτεση του προγράμματος ώστε κα καλύψει τις ανάγκες έμεπιρων χρηστών. Περισσότερες πληροφορίες για το πρότζεκτ και τα διάφορα πρόσθετα μπορείτε να πάρετε από τον ιστοχώρο του MapWindow.
 
-Because MapWindow is under continuous development it may not behave exactly as described in
-this guide if you are using a newer version of the program. A web-based users guide is under
-development in the MapWindow website and you might want to have a look there if you are running
-into problems or want information on functions not covered here.
+Το λογισμικό είναι σε συνεχή ανάπτυξη και έτσι είναι πιθανό λειτουργίες που περιγράφονται σε αυτό το εγχειρίδιο να έχουν βελτιωθεί ή/και τροποποιηθεί αν εκτελείτε νεώτερη έκδοση του. Παράλληλα βρίσκεται σε ανάπτυξη ένα διαδικτυακό εγχειρίδιο και έτσι ανατρέξτε εκεί αν εντοπίσετε προβλήματα ή θέλετε περισσότερες πληροφορίες τις οποίες δεν βρίσκετε εδώ.
 
 ===================
 2. Getting Started

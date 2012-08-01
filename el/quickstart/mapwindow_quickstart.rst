@@ -41,43 +41,19 @@
 Το πρόγραμμα εγκατάστασης εγκαθιστά ένα σύνολο από βασικά πρόσθετα όπως τον διορθωτή αρχείων **Shapefile Editor** ο οποίος παρέχει πρόσθετη λειτουργικότητα στο βασικό πρόγραμμα. Πρόσθετα θα βρείτε στον ιστοχώρο του λογισμικού MapWindow. Για να εγκαταστήσετε ένα νέο πρόσθετο κατεβάστε το αρχείο zip και αποσυμπιέστε το στον υποφάκελο προσθέτων του MapWindow συνήθως είναι ο C:\\Program
 Files\\MapWindow\\Plugins. Μερικές φορές ένα πρόσθετο είναι απλά ένα αρχείο τύπου dll αλλά άλλες φορές είναι ολόκληρος υποφάκελος και πολλά αρχεία. Και σε αυτή την περίπτωση ο νέος υποφάκελος πάει στην ίδια θέση \\MapWindow\\Plugins. 
 
-Πριν χρησιμοποιήσετε κάποιο πρόσθετο θα πρέπει να το ενεργοποιήσετε μέσα στο MapWindow. Για να συμβεί αυτό επιλέξτε **Plug-ins** από το κεντρικό μενού επιλογών και στην συνέχεια κάντε κλικ πάνω στο πρόσθετο που θέλετε να ενεργοποιήσετε. Θα παραμείνει ενεργό, ακόμη και σε νέα πρότζεκτ, μέχρι να κάνετε κλικ ξανά. Μέ την ενεργοποίηση ενός πρόσθετου θα είναι διαθέσιμη στην επιφάνεια εργασίας και η εργαλειοθήκη του επιτρέποντάς σας να την χρησιμοποιήσετε.
+Πριν χρησιμοποιήσετε κάποιο πρόσθετο θα πρέπει να το ενεργοποιήσετε μέσα στο MapWindow. Για να συμβεί αυτό επιλέξτε **Plug-ins** από το κεντρικό μενού επιλογών και στην συνέχεια κάντε κλικ πάνω στο πρόσθετο που θέλετε να ενεργοποιήσετε. Θα παραμείνει ενεργό, ακόμη και σε νέα πρότζεκτ, μέχρι να κάνετε κλικ ξανά. Με την ενεργοποίηση ενός πρόσθετου θα είναι διαθέσιμη στην επιφάνεια εργασίας και η εργαλειοθήκη του επιτρέποντάς σας να την χρησιμοποιήσετε.
 
 ----------------------
 2.3 Προσθέτοντας νέα επίπεδα
 ----------------------
-The maps you produce will
-usually be composed of several GIS data layers. These layers are adding either by dragging and
-dropping files from Windows Explorer onto the map display window or by clicking the 
-**Add** toolbar button. Each layer that is added is listed in the legend window (use 
-**View -> Panels -> Show Legend** if it is not visible). Double clicking the layer in
-the legend or clicking the 
-**Properties** toolbar button will bring up the 
-**Layer properties** dialog which has several tabs for making changes to a layers
-properties. For example, to change the name displayed in the legend select the 
-**General** tab and modify the text in the 
-**Name** textbox. Other properties will be dealt with in subsequent sections. To
-remove a map layer click the 
-**Remove** toolbar button. Clicking the 
-**Clear** toolbar button will remove all map layers. 
 
-The colored icons displayed in the legend illustrate the type of data in the layers
-(polygon, line or point) and the current symbology. The order of the layers in the legend
-determines the overlay order in the map: layers that are higher in the list cover layers that are
-lower. If a layer seems to be missing it might be because it is completely covered by other
-layers. To change the order of a layer just click and drag it to where you want it to go. A small
-checkbox beside each legend entry allow you to turn the display of individual map layers on and
-off. 
+Οι χάρτες που θα παράγετε περιέχουν πολλά επίπεδα δεδομένων GIS. Αυτά τα επίπεδα μπορείτε να τα απροσθέσετε είτε με επιλογή και σύρσιμο στην επιφάνεια απεικόνισης, αρχείων από τον διαχειριστή αρχείων του συστήματός σας είτε με το κουμπί **Add** της εργαλειοθήκης. Κάθε επίπεδο που προσθέτετε αναγράφεται στο παράθυρο τίτλων (επιλέξτε **View -> Panels -> Show Legend** σε περίπτωση που δεν είναι ορατό). Με διπλό κλικ στον τίτλο ή με το κουμπί **Properties** θα ενεργοποιήσετε τον διάλογο **Layer properties** ο οποίος διαθέτει πληθώρα επιλογών για τις ρυθμίσεις των επιπέδων. Για παράδειγμα, για να αλλάξετε ένα όνομα στο παράθυρο τίτλων επιλέξτε την καρτέλα **General** και αλλάξτε το όνομα στο κουτί **Name**. Ανάλογα τροποποιείτε εφόσον το θέλετε κι άλλες ιδιότητες. Για να σβήσετε ένα επίπεδο πατήστε το κουμπί **Remove**. Πατώντας το κουμπί **Clear** σβήνετε όλα τα επίπεδα.
 
-MapWindow will display different kinds of GIS data, including: vectors (polygons, lines,
-and points), rasters (rectangular grids of data), and images. Many different file formats are
-supported, including .shp, .asc, .aux, .bgd, .bil, .dem, dt1, .hdr, .img, .jpg, .sid, .std, .tif
-and others. The ESRI shapefile (.shp) is the vector format used by MapWindow when generating new
-vector files. It uses GeoTiff and the .bgd format when generating new raster files. 
+Τα χρωματιστά εικονίδια επιδεικνύουν τον τύπο δεδομένων στο επίπεδο (πολύγωνο, γραμμή ή σημείο) και τον τρέχοντα συμβολισμό. Η σειρά τίτλων των επιπέδων καθορίζει και την σειρά επικάλυψης στον χάρτη: επίπεδα τα οποία είναι υψηλότερα στην λίστα καλύπτουν τα επίπεδα που βρίσκονται χαμηλότερα. Εάν ένα επίπεδο δεν απεικονίζεται είναι διότι έχει καλυφθεί από τα υπόλοιπα. Για να αλλάξετε αυτήν την σειρά απλά σύρτε ένα επίπεδο στην νέα επιθυμητή θέση του. Ένα κουτί ενεργοποίησης δίπλα σε κάθε τίτλο επιτρέπει να ενεργοποιείτε ή όχι ένα επίπεδο.
 
-To add a scale to your map open the 
-**View** menu and select 
-**Show Floating Scale Bar**. 
+Το λογισμικό MapWindow μπορεί να επεικονίσει διάφορους τύπους δεδομένων όπως διανυσματικά (πολύγωνα, γραμμές και σημεία), πινακοποιημένα (γραφικές απεικονίσεις ράστερ) και εικόνες. Υποστηρίζονται πολλοί και διαφορετικοί τύποι αρχείων όπως .shp, .asc, .aux, .bgd, .bil, .dem, dt1, .hdr, .img, .jpg, .sid, .std, .tif και πολλοί άλλοι. Ο τύπος ESRI shapefile (.shp) είναι ο διανυσματικός τύπος που χρησιμοποιείται από το λογισμικό. Για αρχεία τύπου ράστερ χρησιμοποιεί αρχεία GeoTiff και .bgd. 
+
+Για να δώσετε κλίμακα στον χάρτη σας ανοίξτε το μενού **View** και επιλέξτε **Show Floating Scale Bar**.
 
 -----------------
 2.4 Projections

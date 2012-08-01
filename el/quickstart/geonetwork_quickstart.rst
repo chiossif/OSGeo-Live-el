@@ -10,193 +10,193 @@
   :align: right
 
 ********************************************************************************
-GeoNetwork Quickstart 
+Οδηγός Γρήγορης Εκκίνησης GeoNetwork
 ********************************************************************************
 
-|GN| opensource is a standards based, distributed spatial information
-management system. It is designed to enable access to spatial data from a variety of data providers through descriptive metadata.
+To ανοιχτού κώδικα |GN| είναι βασισμένο στις προδιαγραφές, διανέμει χωρικές πληροφορίες στο σύστημα διαχείρησης. 
+Είναι σχεδιασμένο να ενεργοποιήσει την πρόσβαση στα χωρικά δεδομέν από ποικιλία προμηθευτών δεδομένων μέσω περιγραφικών μεταδεδομένων.
 
-Apart from how to start |GN|, this Quick Start describes:
+Εκτός από το πως να ξεκινήσετε το |GN|, αυτός ο οδηγός γρήγορης εκκίνησης περιγράφει:
 
-- some of the different ways you can search for spatial data
-- how to download and display data from the search results
-- the system of privileges, roles and user groups that |GN| uses.
+- κάποιους από τους διαφορετικούς τρόπους που μπορείτε να ψάξετε χωρικά δεδομένα
+- πως να κατεβάσετε και να δείξετε δεδομένα από τα αποτελέσματα αναζήτησης
+- τα προτερήμετα του συστήματος, τους ρόλους και τις ομάδες των χρηστών που χρησιμοποιούν το |GN|.
 
-Detailed documentation can be found in http://localhost:8880/geonetwork/docs/eng/users/index.html or by clicking on the 'Help' link on the |GN| home page.
+Αναλυτική βιβλιογραφία μπορεί να βρεθεί στο http://localhost:8880/geonetwork/docs/eng/users/index.html ή κλικάρωντας τον σύνδεσμο 'Help' στην κεντρική σελίδα του |GN|.
 
-Start |GN|
+Εκκίνηση του |GN|
 --------------------------------------------------------------------------------
 
-- Select the "Start GeoNetwork" icon.
-- The application will take a few moments to start up
-- Go to the |GN| home page at http://localhost:8880/geonetwork. Your first view of |GN| should look like the screenshot below.
+- Επιλέξτε το εικονίδιο "Start GeoNetwork".
+- Η εφαρμογή θέλει λίγο χρόνο για να ξεκινήσει
+- Πηγαίνετε στην κεντρική σελίδε του |GN| στο http://localhost:8880/geonetwork. Η πρώτη απεικόνηση του |GN| πρέπει να μοιάζει με το παρακάτω στιγμιότυπο οθόνης.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-firstviews.png
 
-- To get to know |GN| we are going to load the sample metadata. Log in to |GN| using the username *admin* and password *admin* in the dedicated fields on the top right corner, then click the login button.
+- Για να αρχίσετε να μαθαίνετε το |GN| θα πρέπει να φορτώσετε κάποια δείγματα μεταδεδομένων. Κάντε είσοδο στο |GN| χρησιμοποιώντας ως όναμα χρήστη το *admin* και ως κωδικό το *admin* στα αντίστοιχα πεδία στην πάνω δεδξιά γωνία, στην συνέχεια κλικάρετε το κουμπί της ειδόσου.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-login.png
 
-- You should now see an *Administration* link in the banner. Click on it.
+- Πρέπει να δείτε ένα σύνδεσμο *Administration* στο διαφημιστικό εικονίδιο. Κλικάρετέ το.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-administration-banner.png
 
-- When the *Administration* page appears, scroll to the bottom of the page and load the sample data by clicking on the 'Add sample metadata' button.
+- Στην συνέχεια εμφανίζεται η σελίδα *Administration*, μετακινηθείτε στο κάτω μέρος της σελίδας και φορωστε τα δεδομένα κλικάρωντας το κουμπί 'Add sample metadata'.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-addsampledatabutton.png
 
-- Return to the 'Home' page after the sample metadata has been loaded to continue the rest of the quick start guide. When you return to the homepage your screen should look something like the one shown below.
+- Επιστρέψτε στην σελίδα 'Home' αφού φορτωθούν τα μεταδεδομένα του δείγματος και συνεχίστε τον υπόλοιπο οδηγό χρήγορης εκκίνησης. Όταν γυρίσετε στην κεντρική σελίδα η οθόνη σας πρέπει να μοιάζει με κάτι σαν την παρακάτω απεικόνηση.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-returntohomepage.png
 
-Searching
+Αναζήτηση
 --------------------------------------------------------------------------------
 
-There are many different ways to search the catalogue for maps and other geographic data. This guide will introduce you to the most popular search methods: default, advanced and by category. Whichever search you choose, remember that you will see results based on your privileges and assigned work group (more on this later).
+Υπάρχουν πολλοί διαφορετικοί τρόποι για να κάνετε αναζήτηση στο κατάλογο για χάρτες και άλλα γεωγραφικά δεδομένα. Αυτός ο οδηγός θα σας παρουσιάσει τις πιο δημοφιλής μεθόδους αναζήτησης: εξ ορισμού, προχωρημένη και ανα κατηγορία. Οποιαδήποτε αναζήτηση και να διαλέξετε, θυμηθείτε ότι θα δείτε αποτελέσματα βασισμένα στα προνόμια σας και στην αντίστοιχη ομάδα εργασίας (περισσότερα για αυτό αργότερα).  
 
-.. note:: 
-	The term *data* refers to datasets, maps, tables, documents, etc, in fact anything that can be linked to the metadata record that describes it.
+.. Σημείωση::
+    Ο όρος *data* αναφέρεται σε δεδομένα, χάρτες, πίνακες, αρχεία, κ.τ.λ., στην πραγματικότητα οτιδήποτε μπορεί να έχει σύνδεσμο με την καταχώρηση των μεταδεδομένων που τα περιγράφει.
 
-Default Search
+Εξ ορισμού έρευνα
 --------------------------------------------------------------------------------
 
-The default search allows you to search text within the entire record, such as
-keywords of the metadata and/or geographic location.
+Η εξ ορισμού έρευνα σας επιτρέπει να αναζητήσετε κείμενο μέσα σε όλη την καταχώρηση, όπως είναι
+λέξεις κλειδιά των μεταδεδομένων και/ή γεωγραφική τοποθεσία.
 
-**Free text search.** *Type* a search term in the *What?* field. You can type anything here
-(free text). You can use quotes around text to find exact combinations of words.
+**Free text search.** *Type* ένας όρος της αναζήτησης στο πεδίο *What?*. Μπορείτε να πληκτρολογήσετε οτιδήποτε εδώ
+(ελεύθερο κειμένου). Μπορείτε να χρησιμοποιείσετε αναφορές στο κείμενο για να βρείτε τους ίδιο συνδιασμό λέξεων.
 
-Text and operators (and, or, not) are not case sensitive. 
+Το κείμενο και οι τελεστές (και, ή, όχι) δεν είναι ευαίσθητοι σε υποθέσεις.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-what.png
 
   *The free text field.*
 	
-**Geographic search.** For the geographic search, two options are available for selecting a particular
-region to limit the search:
+**Geographic search.** Για την γεωγραφική αναζήτηση, δύο επιλογές είναι διαθέσιμες για επιλογή των συγκεκριμένων
+περιοχών για περιορισμό της αναζήτησης:
 
-You can select a **region** from a predefined list;
+Μπορείτε να επιλέξετε μια **region** από την προκαθορισμένη λίστα,
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-where1.png
   
   *The region field*
 
-You can select your own *area of interest* in a more interactive way. A small global map is shown on the screen from which you can drag and drop the frame of your location area. Just click on the button on the upper right of the map screen.
+Μπορείτε να επιλέξετε την δική σας *area of interest* με έναν πιο διαδραστικό τρόπο. Ένας μικρός παγκόσμιος χάρτης εμφανίζεται στην οθόνη σας από τον οποίο μπορείτε να προσαρμόσετε το πλαίσιο στην δική σας περιοχή. Μετά απλά κλικάρετε στο κουμπί πάνω δεξιά στην οθόνη του χάρτη.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-where2.png
   
   *Interactive Area Of Interest map*
 
-**Perform search.** Both types of search, free text search and geographic search can be combined to
-restrict the query further.
+**Perform search.** Και οι δύο τύποι αναζήτησης, ελεύθερο κείμενο και γεωγραφική αναζήτηση μπορούν να συνδυαστούν με
+αυστηρές μετέπειτα ερωτήσεις.
 
-Click the *Search* button to proceed and show the results.
+Κλικάρετε το κουμπί *Search* για να προχωρήσετε και να εμφανίσετε τα αποτελέσματα.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-search_button.png
 
   *The Search button*
 
-Searching by Categories
+Αναζήτηση ανά κατηγορίες
 --------------------------------------------------------------------------------
 
-An additional way to search data within the |GN| database, from the home page, is searching by **Category**. A list of categories is provided to the user to identify data at a more generic level: **Applications**, **Audio/Video**, **Case study and best practises**, **Conference proceedings**, **Datasets**, **Directories**, **Interactive resources**, **Maps and graphics**, **Other information resources**, **Photo**.
+Ένας άλλος τρόπος για αναζήτηση δεδομένων μέσα σε |GN| βάσεις δεδομένων, από την κεντρική σελίδα, είναι η αναζήτηση ανά **Category**. Μία λίστα από κατηγορίες παρέχεται στο χρήστη για να αναγνωρίσει δεδομένα σε πιο γενικό επίπεδο: **Applications**, **Audio/Video**, **Case study and best practises**, **Conference proceedings**, **Datasets**, **Directories**, **Interactive resources**, **Maps and graphics**, **Other information resources**, **Photo**.
 
-To search only for maps, click on **Maps and Graphics**. A list of maps will be displayed from which you
-may view details of every single map; just clicking on the **Metadata** button of the map you wish to review.
+Για αναζήτηση μόνο σε χάρτες, κλικάρετε στο **Maps and Graphics**. Μια λίστα από χάρτες θα σας εμφανιστεί από την οποία
+θα μπορείτε να δείτε λεπτομέρειες από κάθε ξεχωριστό χάρτη, απλά κλικάρετε στο κουμπί **Metadata** του χάρτη που θέλετε να δείτε.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-Categories.png
 
   *Search by Category*
   
-Advanced Search
+Προχωρημένη Αναζήτηση
 --------------------------------------------------------------------------------
 
-The advanced search option works similarly to the default search. However, you can be more specific in your search criteria as it offers different elements to look for data, each of them focusing one of the following aspects: *What?, Where?, When?*
+Η επιλογή της προχωρημένης αναζήτησης λειτουργεί παρόμοια με την εξ ορισμού αναζήτηση. Παρόλα αυτά, μποτείτε να γίνετε πιο συγκεκριμένοι στα κριτήρια αναζήτησής σας, καθώς προσφέρει διαφορετικά στοιχεία για εύρεση δεδομένων, από τα οποία κάθε ένα εστιάζει σε μια από τις ακόλουθες οπτικές: *What?, Where?, When?*
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-advanced_search1.png
 
   *Advanced search options*
 
-To perform an **advanced search**, from the home page **click Advanced** just below the search bottom.
+Για να πραγματοποιηθεί μια **advanced search**, από την κεντρική σελίδα **click Advanced** ακριβώς κάτω από το κουμπί της αναζήτησης.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-advanced_search_button.png
 
   *Show advanced search options*
 
-In the **WHAT?** section the elements are all related to the data content. Through them, in addition to searching only free keywords in the entire metadata content, you can also search directly in the title or abstract fields and add more keywords to customise your search further. You can also specify the level of accuracy you wish to reach in performing your search.
+Στην παράγραφο **WHAT?** τα στοιχεία είναι όλα σχετικά με το περιεχόμενο των δεδομένων. Μέσω αυτών, επιπροσθέτως για αναζήτηση μόνο λέξεων κλειδιών σε όλο το περιεχόμενο των μεταδεδομένων, μπορείτε επίσης να αναζητήσετε ακριβώς στο πεδίο του τίτλου ή της περίληψης και να προσθέσετε περισσότερες λέξεις κλειδιά για να προσαρμόσετε περισσότερο την αναζήτησή σας. Μπορείτε επίσης να προσδιορίσετε το επίπεδο ακρίβειας που θέλετε να φτάσετε στην πραγματοποιούμενη αναζήτηση.    
 
-- To search by **Title, Abstract, Free Text, or Keyword(s)** type any text into the respective field. You can enter information in one or multiple field(s). If you do not want to search by a given field, simply leave it blank;
+- Για αναζήτηση ανά **Title, Abstract, Free Text, or Keyword(s)** πληκτρολογήστε οτποιοδήποτε κείμενο στο απαιτούμενο πεδίο. Μπορείτε να εισάγετε πληροφορίες σε ένα ή περισσότερα πεδίο(ά). Εάν δεν θέλετε να αναζητήσετε με βάση κάποιο πεδίο, απλά αφήστε το κενό, 
 
-- You can choose the **accuracy of your search**, in terms of spelling words, from **Precise** = 1 to **Imprecise** = 0.2, through 3 more consecutive steps which are equal to 0.8, 0.6, 0.4.
+- Μπορείτε να επιλέξετε το **accuracy of your search**, με όρους ορθογραφίας λέξεων, από **Precise** = 1 σε **Imprecise** = 0.2, με 3 συνεχώμενα βήματα που είναι ίσα με 0.8, 0.6, 0.4.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-advanced_search_what.png
 
   *"What" section in the Advanced search*
 
-The **WHERE?** parameters, which are related to the spatial extent, allow you, as in the default search, either to select your own area of interest or to select a predefined region from the drop-down list. In this section you can also type the geographic coordinates of a specific location that is not available from the above list.
+Η παράμετρος **WHERE?** , η οποπία είναι σχετική με τη χωρική έκταση, σας επιτρέπει, όπως στην εξ ορισμού αναζήτηση, είτε να επιλέξετε την δική σας περιοχή ενδιαφέροντος είτε να επιλέξετε από μια προεπιλεγμένη περιοχή μέσω μιας αναπτυσσόμενης προς τα κάτω λίστας. Σε αυτή την παράγραφο μπορείτε επίσης να πληκτρολογήσετε τις γεωγραφικές συντεταγμένες μιας συγκεκριμένης περιοχής που δεν είναι διαθέσιμη στην παραπάνω λίστα.
 
-- To select **your own area of interest**, drag and drop the frame of your area on the global map using the appropriate tool on the bottom left of the map screen;
+- Για να επιλέξετε **your own area of interest**, προσαρμόστε το πλαίσιο της περιοχής σας στο παγκόσμιο χάρτη με χρήση των κατάλληλων εργαλείων κάτω αριστερά της οθόνης του χάρτη,
 
-- To use **free coordinates**, type the lat-long geographic references in the appropriate fields around the map screen, without any limitation of decimal figures;
+- Για χρήση των **free coordinates**, πληκτρολογήστε τα γεωγραφικά πλάτη και μήκη αναφορών στα αντίστοιχα πεδία γύρω από την οθόνη του χάρτη, χωρίς κάποιο περιορισμό στα δεκαδικά ψηφία,
 
-- To use the coordinates of a **predefined region**, select the region from the drop-down list.
+- Για χρήση των συντεταγμένων μιας **predefined region**, επιλέξτε μια περιοχή από την αναπτυσσόμενη προς τα κάτω λίστα.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-advanced_search_where.png
 
   *"Where" section in the Advanced search*
 
-Whatever type of geographic search you decide to perform, in the **Spatial search type** field, you can choose from different options: **is**, **overlaps**, **encloses**, **is fully outside of**. If you use this field, be cautious as this limits your output data as follows:
+Οποιοδήποτε τύπο γεωγραφικής αναζήτησης και να επιλέξετε να εφαρμόσετε, στο πεδίο **Spatial search type**, μπορείτε να επιλέξετε από πλήθος επιλογών:**is**, **overlaps**, **encloses**, **is fully outside of**. Εάν χρησιμοποιήσετε αυτό το πεδίο, να είστε προσεκτκοί καθώς περιορίζει τα δεδομένα εξόδου σας όπως φαίνεται παρακάτω:
 
-- If you choose **Spatial search type** *is* “Country”, only maps for the selected country will be displayed. In other words, a city map within that country will not show in the output results.
+- Εάν επιλέξετε στο  **Spatial search type** *is* “Country”, μόνο χάρτες για τις επιλεγμένες χώρες θα εμφανιστούν. Με άλλα λόγια, ο χάρτης της πόλης μέσα σε αυτή την χώρα δεν θα εμφανιστεί σαν παραγόμενο αποτέλεσμα.
 
-- If you choose **Spatial search type** *overlaps* “Country”, all maps with the bounding box overlapping that country will be displayed in the results, i.e. the neighbouring countries, the continent of which that country is part of and the global maps.
+- Εάν επιλέξετε στο **Spatial search type** το *overlaps* “Country”, όλοι οι χάρτες με κοινά όρια με την συγκεκριμένη χώρα θα παρουσιαστούν σαν αποτέλεσμα,μ π.χ. οι γειτονικές χώρες, η ήπειρος στην οποία υπάγεται η χώρα και οι παγκόσμιοι χάρτες.
 
-- If you choose **Spatial search type** *encloses* “Country” you will get, in the output results, maps of that country first and then all maps within its bounding box.
+- Εάν επιλέξετε στο **Spatial search type** το *encloses* “Country”, θα πάρετε στα παραγόμενα αποτελέσματα, αρχικά χάρτες αυτής της χώρας και στην συνέχεια όλους τους χάρτες μέσα στο κουτί των ορίων της.
 
-- Similarly, if you choose **Spatial search type** *is fully outside of* a selected region, only maps that follow that exact criteria will show in the output results.
+- Παρομοίως, εάν επιλέξετε στο **Spatial search type** το  *is fully outside of* μια συγκεκριμένη περιοχή, μόνο χάρτες που ακολουθούν αυτό το συγκεκριμένο κριτήριο θα εμφανιστούν σαν παραγόμενο αποτέλεσμα.
 
-The **WHEN?** section gives you the possibility to restrict your search in terms of temporal extent, indicating a specific range of time referred to the data creation or publication date.
+Η παράγραφος **WHEN?** σας δίνει την δυνατότητα να περιορίσετε την αναζήτησή σας με όρους χρονικής έκτασης, αναδεικνύοντας ένα συγκεκριμένο φάσμα αναφερόμενου χρόνου στα δεδομένα που δημιουργούνται ή την ημερομηνία έκδοσης.
 
-- To specify a range of time, click on the date selector button next to **From – To** fields. Make use of the symbols **>** and **>>** on top of the calendar to select the month and the year first and then click on the exact day; a complete date will be filled in using the following standard order: YY-MM-DD.
+- Για να ορίσετε ένα χρονικό εύρος, κλικάρετε στο κουμπί επιλογέα ημερομηνίας δίπλα στο πεδίο **From – To**. Χρησιμοποιείστε το σύμβολο **>** και **>>** στην κορυφή του ημερολογίου για να επιλέξετε το μήνα και το έτος πρώτα και μετά κλικάρετε την συγκεκριμένη μέρα, η ολοκληρομένη ημερομηνία θα συμπληρωθεί με χρήση της ακόλουθης σειράς: YY-MM-DD. 
 
-- To clean the time fields, simply click on the white cross on their right; the box **Any** will be automatically selected and the search will be performed without any restriction on the time period.
+- Για να καθαρίσετε το πεδίο του χρόνου, απλά κλικάρετε το λευκό σταυρό στα δεξιά, το κουτί **Any** θα επιλεχθεί αυτόματα και η αναζήτηση θα πραγματοποιηθεί χωρίς κάποιο περιορισμό στη χρονική περίοδο.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-advanced_search_when.png
 
   *"When" section in the Advanced search*
 
-Finally, the advanced search allows you to apply further restrictions on the basis
-of additional parameters as data source, data categories and data format.
+Τέλος, η προχωρημένη αναζήτηση σας επιτρέπει να εφαρμόσετε και επιπλέον περιορισμούς με βάση
+πρόσθετες παραμέτρους όπως η πηγή των δεδομένων, οι κατηγορίες των δεδομένων και το τύπο των δεδομένων.
 
-- To limit your queries to only one **Catalogue** out of those made available by the installation through the harvesting process, highlight the catalogue of preference or just keep **Any** selected to search all sites.
+- Για να μειώσετε τις ερωτήσεις μόνο σε ένα **Catalogue** εκτός αυτών που είναι διαθέσιμοι με την εγκατάσταση μέσω των διαδικασιών, τονίστε τον κατάλογο προτίμησης ή απλά αφήστε το **Any** επιλεγμένο για να αναζητήσετε όλες τις θέσεις.
 
-- To search for data organised by **Category**, such as Applications, Datasets, etc., simply highlight the category you wish to search in from the related drop-down list, otherwise we suggest to leave this field in **Any** Category.
+- Για αναζήτηση δεδομένων οργανωμένων ανά **Category**, όπως Εφαρμογών, Ομάδων με δεδομένα κ.τ.λ., απλά τονίστε την κατηγορία που επιθυμείτε να αναζητήσετε μέσα στην αναπτυσσόμενη προς τα κάτω λίστα, διαφορετικά προτίνουμε να αφήσετε στο πεδίο κατηγορίας το**Any**.
 
-- You can search for **Digital** or **Hard Copy** maps. To search in one or the other, simply check the box next to the one you wish to search. If no box is checked, all content will be searched.
+- Μπορείτε να αναζητήσετε για **Digital** ή **Hard Copy** χάρτες. Για αναζήτηση κάποιου από τα δύο, απλά κλικάρετε το κουτί δίπλα σε αυτό που επιθυμείτε την αναζήτηση. Εάν δεν έχει επιλεχθεί κανένα κουτί, όλο το περιεχόμενο θα αναζητηθεί. 
 
-At last, you can customise the number of output results per page in the *Hits Per Page* field. Simply highlight the number of records to be displayed or leave the field set on the default number (10).
+Τέλος, μπορείτε να προσαρμόσετε το νούμερο των παραγόμενων αποτελεσμάτων ανά σελίδα στο πεδίο *Hits Per Page*. Απλά τονίστε το νούμερο των καταχωρήσεων που πρέπει να εμφανιστούν ή αφήστε το περίο στο εξ ορισμού νούμερο (10).
 
-- Click the **Search** button.
+- Κλικάρετε το κουμπί **Search**.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-advanced_search_morerest.png
 
   *Other options in the Advanced search*
 
-Search Results
+Αναζήτηση αποτελεσμάτων
 --------------------------------------------------------------------------------
 
-The output of a search provides you a list of the metadata records that should fit
-your request. For each record, the result page shows the title, an abstract and the
-keywords. According to the privileges that have been set for each metadata, a
-maximum of four sections can be consulted, as shown below.
+Το αποτέλεσμα της αναζήτησης σας δίνει μια λίστα με τις καταχωρήσεις μεταδεδομένων που ταιριάζουν
+στις αιτήσεις σας. Για κάθε καταχώρηση, η παραγόμενη σελίδα δείχνει το τίτλο, την περίληψη και τις
+λέξεις κλειδιά. Σύμφωνα με τα προνόμια που έχετε δώσει για κάθε μεταδεδομένο, το περισσότερο
+τέσσερις παράγραφοι μπορούν να εμφανιστούν, όπως φαίνεται και παρακάτω.  
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-search_output2.png
 
     *Search results*
 
-#. **Metadata**: The metadata section describes the dataset (e.g.: citation, data owner, temporal/spatial/methodological information) and could contain links to other web sites that could provide further information about the dataset.
+#. **Metadata**: Η παράγραφος των μεταδεδομένων περιγράφει τις ομάδες δεδομένων (π.χ. αναφορά, ιδιοκτήτης δεδομένων, χρονική/χωρική/μεθοδολογική πληροφορία) και μπορεί να περιέχει συνδέσμους σε άλλες διαδικτυακές σελίδες που μπορεί να περιέχουν περισσότερες πληροφορίες για τα δεδομένα. 
 
-#. **Download**: Depending on the privileges that have been set for each record, when this button is present, the dataset is available and downloadable. The process for retrieving data is simple and quick by  just clicking the download button or by using the proper link in the specific metadata section for distribution info in the full metadata view.
+#. **Download**: Ανάλογα με τα προνόμια που έχουν δοθεί στην καταχώρηση, όταν παρουσιάζετε αυτό το κουμπί, η ομάδα δεδομένων είναι διαθέσιμη και μπορεί να τα κατέβάσετε. Η διαδικασία για ανάκτηση είναι απλή και γρήγορη απλά κλικάροντας το κουμπί για κατέβασμα ή με χρήση του σωστού συνδέσμου στη συγκεκριμένη παράγραφο μεταδεδομένων για πληροφορίες διανομής στη πλήρη απεικόνηση των μεταδεδομένων.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-search_output1.png
     
@@ -206,39 +206,39 @@ maximum of four sections can be consulted, as shown below.
     
         *Available services related to the resource*
 
-#. **Interactive Map**: The map service is also optional. When this button is shown, an interactive map for this layer is available and, by default, it will be displayed on the map screen of the simple search. To better visualise the map through the map viewer, **click** on **Show Map** on the top of search results panel.
+#. **Interactive Map**: Οι υπηρεσίες χάρτη είναι επίσης προαιρετικές. Όταν εμφανίζεται αυτό το κουμπί, ένας διαδραστικός χάρτης για αυτό το στρώμα είναι διαθέσιμος και, εξ ορισμού, θα εμφανιστεί στην οθόνη του χάρτη της απλής αναζήτησης. Για καλύτερη απεικόνηση του χάρτη μέσω του προγράμματος απεικόνησης του χάρτη, **click** στο **Show Map** στο πάνω πίνακα του αποτελέσματος αναζήτησης.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-interactive_map.png
     
         *The interactive map viewer*
 
-#. **Graphic Overviews**: There are small and large overviews of the map used to properly evaluate usefulness of the data, especially if the interactive map is not available. Simply click on the small figure to enlarge it.
+#. **Graphic Overviews**: Υπάρχουν μικρές και μεγάλες επισκοπήσεις του χάρτη για χρήση της σωστής αξιολόγησης της χρησιμότητας των δεδομένων, κυρίως εάν ο διαδραστικός χάρτης δεν είναι διαθέσιμος. Απλά κλικάρετε στο μικρό σχήμα και μεγαλώστε το.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-thumbnail.png
     
         *Large figure (graphic overview)*
 
-Privileges, roles and user groups
+Προνόμια, ρόλοι και ομάδες χρηστών
 --------------------------------------------------------------------------------
 
-|GN| uses a system of *Privileges*, *Roles* and *User groups*.
+Το |GN| χρησιμοποιεί ένα σύστημα από *Privileges*, *Roles* και *User groups*.
 
-There are no restrictions for users to search and access **public information** in a |GN| opensource based catalogue. To get access to **restricted information** or advanced functionality, an account to log in is required. This should be provided by the |GN| administrator.
+Δεν υπάρχουν περιορισμοί για τους χρήστες για αναζήτηση και πρόσβαση **public information** σε ένα ανοιχτού κόδικα κατάλογο |GN|. Για να αποκτήσετε πρόσβαση στις **restricted information** ή στις προχωρημένες λειτουργίες, απαιτείται λογαριασμός και είσοδος χρήστη. Αυτό δίνεται από τον διαχειριστή του |GN|.
 
-To log in, simply go to the home page and enter your username and password in the dedicated fields on the top right corner, then click the login button.
+Για να πραγματοποιήσετε είσοδο, απλά πηγαίνετε στην κεντρική σελίδα και εισάγετε το όνομα χρήστη και το κωδικό στα ανάλογα πεια στην πάνω δεξιά γωνία, έπειτα κλικάρετε στο κουμπί εισόδου.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-login.png
 
     *Login*
 
-**Privileges.** Depending on the privileges set on a metadata record and on your role as an authenticated user, you will be able to read about a resource and download or interactively browse data related to that resource.
+**Privileges.** Ανάλογα με τα προνόμια που έχουν δωθεί στην καταχώρηση μεταδεδομένων και τον ρόλο σας σαν πιστοποιημένος χρήστης, μπορείτε να διαβάσετε για τις πηγές και να κατεβάσετε ή διαδραστικά να ανεβάσετε δεδομένα σχετικά με τη πηγή.
 
-**Roles.** Users with an *Editor* role can create, import and edit metadata records. They can also upload data and configure links to interactive map services.
+**Roles.** Οι χρήστες με έναν ρόλο *Editor* μπορούν να δημιουργήσουν και να επεξεργαστούν τις καταχωρήσεις μεταδεδομένων. Μπορούν επίσης να ανεβάσουν τα δεδομένα και να διαμορφώσουν συνδέσμους για διαδραστικές υπηρεσίες χάρτη.
 
-**User groups.** Every authenticated user is assigned to a particular work group and is able to view data within that work group.
+**User groups.** Σε κάθε πιστοποιημένος χρήστη έχει ανατεθεί μια συγκεκριμένη ομαδική εργασία και μπορεί να δεί να δεδομένα μέσα στην ομαδική εργασία.
 
-More information
+Περισσότερες πληροφορίες
 --------------------------------------------------------------------------------
 
-Click on the 'Help' link in the banner of the GeoNetwork home page or go there directly by clicking on this link: http://localhost:8880/geonetwork/docs/eng/users/index.html
+Κλικάρετε το σύνδεσμο 'Help' στο εικονίδιο διαφήμισης της κεντρικής σελίδας του GeoNetwork ή πηγαίνετε κατευθείαν να κλικάρετε σε αυτό τον σύνδεσμο: http://localhost:8880/geonetwork/docs/eng/users/index.html
 

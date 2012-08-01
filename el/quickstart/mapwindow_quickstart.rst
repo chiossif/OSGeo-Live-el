@@ -38,22 +38,13 @@
 --------------
 2.2 Πρόσθετα (Plug-Ins)
 --------------
-The installation program installs a
-number of core plug-ins, such 
-**Shapefile Editor**, that provide additional functionality to the base program.
-Additional plug-ins are available from the MapWindow website. To install a new plug-in download
-the zip file and extract it to the MapWindow plug-in folder, usually C:\\Program
-Files\\MapWindow\\Plugins. Sometimes the plug-in is a single .dll, but it can also be a folder
-containing multiple files in which case the whole folder goes into \\MapWindow\\Plugins. 
+Το πρόγραμμα εγκατάστασης εγκαθιστά ένα σύνολο από βασικά πρόσθετα όπως τον διορθωτή αρχείων **Shapefile Editor** ο οποίος παρέχει πρόσθετη λειτουργικότητα στο βασικό πρόγραμμα. Πρόσθετα θα βρείτε στον ιστοχώρο του λογισμικού MapWindow. Για να εγκαταστήσετε ένα νέο πρόσθετο κατεβάστε το αρχείο zip και αποσυμπιέστε το στον υποφάκελο προσθέτων του MapWindow συνήθως είναι ο C:\\Program
+Files\\MapWindow\\Plugins. Μερικές φορές ένα πρόσθετο είναι απλά ένα αρχείο τύπου dll αλλά άλλες φορές είναι ολόκληρος υποφάκελος και πολλά αρχεία. Και σε αυτή την περίπτωση ο νέος υποφάκελος πάει στην ίδια θέση \\MapWindow\\Plugins. 
 
-Before you can use any of the plug-ins they have to be activated within MapWindow. To do
-this select 
-**Plug-ins** from the main menu and click on the plug-in you wish to activate. It
-will remain activated, even in new projects, until you click it again. Once a plug-in is
-activated a new toolbar button or menu item will be displayed enabling you to use it. 
+Πριν χρησιμοποιήσετε κάποιο πρόσθετο θα πρέπει να το ενεργοποιήσετε μέσα στο MapWindow. Για να συμβεί αυτό επιλέξτε **Plug-ins** από το κεντρικό μενού επιλογών και στην συνέχεια κάντε κλικ πάνω στο πρόσθετο που θέλετε να ενεργοποιήσετε. Θα παραμείνει ενεργό, ακόμη και σε νέα πρότζεκτ, μέχρι να κάνετε κλικ ξανά. Μέ την ενεργοποίηση ενός πρόσθετου θα είναι διαθέσιμη στην επιφάνεια εργασίας και η εργαλειοθήκη του επιτρέποντάς σας να την χρησιμοποιήσετε.
 
 ----------------------
-2.3 Adding data layers
+2.3 Προσθέτοντας νέα επίπεδα
 ----------------------
 The maps you produce will
 usually be composed of several GIS data layers. These layers are adding either by dragging and

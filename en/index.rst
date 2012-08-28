@@ -22,7 +22,7 @@ To try out the applications, simply:
 #. Insert DVD or USB thumb drive in computer or virtual machine.
 #. Reboot computer. (verify boot device order if necessary)
 #. Press "Enter" to startup & login.
-#. Trial applications from the "Geospatial" menu.
+#. Select and run applications from the "Geospatial" menu.
 
 Many applications are also provided with installers for `Apple OSX <../MacInstallers/>`_ and
 `Microsoft Windows <../WindowsInstallers/>`_.
@@ -37,7 +37,7 @@ Quick Starts
    Getting started with the OSGeo-Live DVD <quickstart/osgeolive_quickstart>
    Change language or keyboard type <quickstart/internationalisation_quickstart>
    Install OSGeo-Live on your hard disk <quickstart/osgeolive_install_quickstart>
-   Run OSGeo-Live in a Virtual Machine <quickstart/virtualbox_quickstart>
+   Run OSGeo-Live in a Virtual Machine <quickstart/virtualization_quickstart>
    Create an OSGeo-Live bootable USB thumb drive <quickstart/usb_quickstart>
 
 .. toctree::
@@ -46,7 +46,7 @@ Quick Starts
    :glob:
 
    overview/overview
-   quickstart/*_quickstart
+   quickstart/*quickstart
    standards/standards
    contact
    copyright
@@ -55,6 +55,7 @@ Quick Starts
    sponsors
    sponsors_osgeo
    presentation
+   test
 
 Presentation
 --------------------------------------------------------------------------------

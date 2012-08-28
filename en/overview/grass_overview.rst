@@ -44,11 +44,11 @@ open-source software released under the terms of the GNU General Public License.
 
 The GRASS software includes more than 400 built-in analysis modules.
 Additionally, over 100 community supplied modules and toolboxes are
-available for free from the community wiki site. After 28 years of continuous
-development GRASS is both the oldest and largest Open Source GIS available.
-It is easily scriptable and versatile enough to be used both for batch data
-processing on massively-parallel supercomputers as well as a handy desktop
-GIS for handheld PDAs or netbooks.
+available for free from the community wiki site. After nearly 30 years of
+continuous development GRASS is both the oldest and largest Open Source GIS
+available. It is easily scriptable and versatile enough to be used both for
+batch data processing on massively-parallel supercomputers as well as a handy
+desktop GIS for handheld PDAs or netbooks.
 
 
 .. _GRASS: http://grass.osgeo.org
@@ -66,13 +66,13 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 6.4.1
+**Software Version:** 6.4.2
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
 **API Interfaces:** C, Python, Bourne Shell
 
-**Support:** http://grass.osgeo.org/community/
+**Support:** http://grass.osgeo.org/community/support.php
 
 
 Quickstart

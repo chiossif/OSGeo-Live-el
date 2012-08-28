@@ -24,13 +24,15 @@ EOxServer
 για πιο εύκολη αναζήτηση και οπτικοποίηση από τους χρήστες.
 
 * Λογισμικό Ανοιχτού Κώδικα: άδεια χρήσης MIT
-* Πλατφόρμα Λογισμικού: Βασισμένο σε λογισμικά ανοιχτού κώδικα (Python, MapServer, Django/GeoDjango, GDAL, SpatiaLite ή PostGIS, και PROJ.4)
+* Πλατφόρμα Λογισμικού: Βασισμένο σε λογισμικά ανοιχτού κώδικα (Python, :doc:`MapServer <mapserver_overview>`, 
+  Django/GeoDjango, :doc:`GDAL <gdal_overview>`, :doc:`SpatiaLite <spatialite_overview>` ή 
+  :doc:`PostGIS <postgis_overview>`, και PROJ.4)
 * Εύκολη διαδικτυακή απεικόνιση: Μέσω γραφικού διαχειριστικού εργαλείου και εντολές τερματικού για εγγραφή εικόνων
 * Αποθετήριο μεγάλου όγκου τηλεπισκοπικών δεδομένων: Οι διαχειριστές εισάγουν υπάρχοντα σύνολα τηλεπισκοπικών δεδομένων
 * Υπηρεσίες Ανοιχτών Προτύπων: Ανοιχτά πρότυπα που είναι ευρέως διαδεδομένα: Open Geospatial Consortium (OGC), WMS, WCS, EO-WMS, EO-WCS
 * Εύκολη πρόσβαση από τους χρήστες: Φιλικό γραφικό περιβάλλον για απεικόνιση, αποκοπή εικόνων και μεταφόρτωση
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
   :scale: 50 %
   :alt: EOxServer embedded client screen shot
   :align: right
@@ -75,13 +77,13 @@ EOxServer
 Δοκιμαστική εφαρμογή
 --------------------------------------------------------------------------------
 
-* `Τοπικά <http://localhost/eoxsever/>`_
+* `Τοπικά <http://localhost/eoxserver/>`_
 * `Στο Διαδίκτυο <https://eoxserver.org/demo_stable/>`_
 
 Εγχειρίδιο Χρήσης
 --------------------------------------------------------------------------------
 
-* `Εγχειρίδιο EOxServer 0.2.0 <../../eoxserver-docs/EOxServer_documentation.pdf>`_
+* `Εγχειρίδιο EOxServer 0.2.1 <../../eoxserver-docs/EOxServer_documentation.pdf>`_
 
 Λεπτομέρειες
 --------------------------------------------------------------------------------
@@ -90,7 +92,7 @@ EOxServer
 
 **Άδεια:** `MIT <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Έκδοση Λογισμικού:** 0.2.0
+**Έκδοση Λογισμικού:** 0.2.1
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Windows, Mac
 

@@ -1,6 +1,6 @@
 :Author: Gérald Fenoy
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-Zoo.png
@@ -9,15 +9,21 @@
   :align: right
   :target: http://zoo-project.org/
 
-ZOO Project
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100
+  :alt: OSGeo Incubation Project
+  :align: right
+  :target: http://www.osgeo.org
+
+ZOO-Project
 ================================================================================
 
 WPS Server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ZOO Project provides a developer friendly Web Processing Service (WPS) framework for creating and chaining Web Processing Services.
+ZOO-Project provides a developer friendly Web Processing Service (WPS) framework for creating and chaining Web Processing Services.
 A WPS provides web access to functions which run spatial algorithms.
-Zoo Project supports many programming languages and comes with two demo applications using simple
+ZOO-Project supports many programming languages and comes with two demo applications using simple
 spatialtools Services Providers (a C shared library and a Python module)
 based on the GEOS and OGR Libraries.
 

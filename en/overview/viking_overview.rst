@@ -35,7 +35,7 @@ Core Features
 
 * Realtime GPS tracking and track recording.
 
-* Preparing tracks and waypoints for trips using maps from services such as Googlemaps, Terrasever. You only need to upload the data to your GPS before you leave. The maps together with your tracks and waypoints can also be printed and used during the trip.
+* Preparing tracks and waypoints for trips using maps from services such as OpenStreetMap and Bing Aerial. You only need to upload the data to your GPS before you leave. The maps together with your tracks and waypoints can also be printed and used during the trip.
 
 * After trips, tracks and waypoints from GPS can be downloaded, stored, managed and reused in later trips.
 
@@ -54,7 +54,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 0.9.94
+**Software Version:** 1.2.1
 
 **Supported Platforms:** GNU/Linux, MS Windows
 

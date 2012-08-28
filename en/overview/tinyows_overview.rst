@@ -1,13 +1,19 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-TinyOWS.png
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://www.tinyows.org/
+  :target: http://mapserver.org/trunk/tinyows/
+
+.. image:: ../../images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 TinyOWS
 ================================================================================
@@ -36,24 +42,24 @@ Core Features
 
 Implemented Standards
 --------------------------------------------------------------------------------
-* WFS 1.0 and WFS 1.1: Basic and Transitional profiles
+* WFS 1.0 and WFS 1.1: Basic and Transactionnal profiles
 * FE 1.0.0 and FE 1.1.0
 * GML 2.1.2 and 3.1.1 Simple Profile (SF-0)
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.tinyows.org/
+**Website:** http://mapserver.org/trunk/tinyows/
 
 **Licence:** MIT
 
-**Software Version:** 1.0
+**Software Version:** 1.0.0
 
 **Supported Platforms:** Linux, Unix, Mac, Windows
 
 **API Interfaces:** CGI/FastCGI
 
-**Support:** http://lists.maptools.org/pipermail/tinyows-users/
+**Support:** http://lists.osgeo.org/mailman/listinfo/mapserver-users
 
 
 Quickstart

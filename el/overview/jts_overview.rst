@@ -9,25 +9,21 @@
   :align: right
   :target: http://tsusiatsoftware.net/jts/main.html
 
-JTS Topology Suite (JTS)
+Σουίτα Τοπολογίας JTS
 ================================================================================
 
-The JTS Topology Suite is an open source (LGPL) Java API of spatial predicates and functions for
-processing geometry.  JTS offers a complete, consistent, robust implementation of fundamental
-algorithms for processing linear geometry on the 2-dimensional Cartesian plane.
+Η σουίτα τοπολογίας JTS (Java Topology Suite) είναι μια ελεύθερη πλατφόρμα (API) σε γλώσσα προγραμματισμού Java υπό την άδεια LGPL που υλοποιεί ρουτίνες και συναρτήσεις για την επεξεργασία γεωμετρίας. Η JTS προσφέρει μια ολοκληρωμένη, σταθερή και ευέλικτη υλοποίηση βασικών αλγορίθμων για επεξεργασία γραμμικών γεωμετριών στο Καρτεσιανό σύστημα συντεταγμένων.
 
-JTS is written in 100% pure Java and is fast enough production use.
+Η JTS είναι γραμμένη 100% σε Java και είναι αρκετά γρήγορη για παραγωγή.
 
 .. image:: ../../images/screenshots/800x600/jts-overview.jpg
   :scale: 60 %
   :alt: JTS Topology Suite implementation of Simple Features for SQL Geometry
   :align: right
 
-Computational stability in JTS project is backed by an extensive set of tests. A small application
-is provided to run tests tests and experiment with Geometry interactively. We hope to include this
-application on future editions of the OSGeo-Live project.
+Η υπολογιστική σταθερότητα της JTS εξασφαλίζεται από ένα μεγάλο σύνολό δοκιμαστικών εφαρμογών. Μια μικρή εφαρμογή παρέχεται για την διεξαγωγή των δοκιμών και τον πειραματισμό με γεωμετρίες. Ελπίζουμε να περιλάβουμε αυτή την εφαρμογή σε μελοντικές εκδόσεις του OSGeo-Live.
 
-OSGeo-Live applications which directly use JTS:
+Οι εφαρμογές του OSGeo-Live που χρησιμοποιούν την JTS:
 :doc:`52nSOS_overview`,
 :doc:`52nWPS_overview`,
 :doc:`kosmo_overview`,
@@ -44,52 +40,49 @@ OSGeo-Live applications which directly use JTS:
 :doc:`zoo-project_overview`,
 :doc:`gvsig_overview`
 
-OSGeo-Live applications which provide their own implementation of Geoemtry, backed by internal
-use of JTS operations:
+Οι εφαρμογές του OSGeo-Live που παρέχουν την δική του υλοποίηση σχετικά με τη γεωμετρία, με εσωτερική χρήση της  JTS:
 :doc:`deegree_overview` (GML3 geometry),
 :doc:`geotools_overview` (ISO 19107 Geometry)
 
-The :doc:`geos_overview` project is a port of JTS to the C++ environment, bringing
-these high quality operations to many additional applications. Additional ports are available
-for C# and JavaScript.
+Το λογισμικό :doc:`geos_overview` είναι μια μεταφορά της JTS στο περιβάλλον της C++, με την υλοποίηση των ποιοτικών συναρτήσεων σε επιπλέον λογισμικά. Επιπλέον υπάρχουν μεταφορές για τις γλώσσες C# και JavaScript.
 
-Core Features
+Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-* Geometry Model
-* Geometry Operations
-* Precision Handling
-* Geometric Constructions
-* Metric Functions
-* Spatial algorithms
-* Mathematical Functions
-* Spatial structures
-* Input/Output
-* High-Precision Arithmetic
+* Μοντέλο Γεωμετρίας
+* Τελεστές Γεωμετρίας
+* Χειρισμός ακρίβειας
+* Αρχικοποίηση γεωμετρίας (Constructions)
+* Μετρικές συναρτήσεις
+* Χωρικοί αλγόριθμοι
+* Μαθηματικές συναρτήσεις
+* Χωρικές δομές
+* Είσοδος/Έξοδος
+* Αριθμητική υψηλής ακρίβειας
 
-Supported Formats
------------------
+Υποστηριζόμενα Πρότυπα
+----------------------
 
-* well-known text (WKT) and well-known-binary (WKB)
+* Καθιερομένα πρότυπα κειμένου και διαδικών αρχείων (well-known text WKT και well-known-binary WKB)
 * GML 2
-* Java Swing/AWT writing
+* Java Swing/AWT (εγγραφή)
 
-Implemented Standards
+Υλοποιημένα Πρότυπα
 --------------------------------------------------------------------------------
 
-Support of numerous Open Geospatial Consortium (OGC) standards:
+Υποστήριξη προτύπων του Open Geospatial Consortium (OGC):
 
 * OGC Simple Features for SQL (SFSQL)
 
-Details
+Λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Website:** http://tsusiatsoftware.net/jts/main.html
+**Κεντρική ιστοσελίδα:** http://tsusiatsoftware.net/jts/main.html
 
-**Licence:** LGPL
+**Άδεια:** LGPL
 
-**Supported Platforms:** Cross Platform Java
+**Υποστηριζόμενες πλατφόρμες:** Όλες οι πλατφόρμες που υποστηρίζει η Java 
 
-**API Interfaces:** Java
+**Προγραμματιστικές διεπαφές:** Java
 
-**Support:** `JTS Mailing List <https://lists.sourceforge.net/lists/listinfo/jts-topo-suite-user>`_
+**Υποστήριξη:** `Λίστα ηλεκτρονικού ταχυδρομίου JTS <https://lists.sourceforge.net/lists/listinfo/jts-topo-suite-user>`_

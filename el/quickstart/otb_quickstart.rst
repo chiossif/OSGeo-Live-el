@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+﻿:Author: OSGeo-Live
 :Author: Manuel Grizonnet
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -53,7 +53,7 @@
 * Επιλέξτε "Close" όταν είσαστε ικανοποιημένοι από το αποτέλεσμα.
 * Στο κεντρικό παράθυρο, κάντε δεξί κλίκ στο "Clustered Image" στην εικόνα αποτελέσματος "MeanShift0" και επιλέξτε "Display in viewer" 
 
-  .. image:: ../../images/screenshots/800x600/otb-mean_shift.png
+  .. image:: ../../images/screenshots/800x600/otb-mean_shift.jpg
      :scale: 100 %
 
 Εκτέλεση επιβλεπόμενης ταξινόμησης βασισμένης στον αλγόριθμο SVM με το Monteverdi
@@ -68,7 +68,7 @@
 * Κάντε κλίκ στο κουμπί `Learn` για τη δημιουργία ενός μοντέλου εκπαίδευσης από τις κατηγορίες εισόδου 
 * Κάντε κλίκ στο κουμπί `Display` για να δείτε το αποτέλεσμα της επιβλεπόμενης ταξινόμησης για ολόκληρη την εικόνα
 
-  .. image:: ../../images/screenshots/800x600/otb-svm.png
+  .. image:: ../../images/screenshots/800x600/otb-svm.jpg
      :scale: 100 %
 
 Για την πλήρη διαδικασία δείτε το `άρθρο`_.
@@ -81,8 +81,8 @@
 
 * Εγχειρίδια OTB
 
-  Ακολουθήστε τα `εγχειρίδια <http://www.orfeo-toolbox.org/SoftwareGuide/SoftwareGuidepa2.html#x17-49000II>`_ για να μάθετε περισσότερα για το OTB.
+  Ακολουθήστε τα `εγχειρίδια <http://www.orfeo-toolbox.org/SoftwareGuide/SoftwareGuidepa2.html#x17-49000II>`__ για να μάθετε περισσότερα για το OTB.
 
 * Εγχειρίδια στο DVD
 
-  Δείτε επίσης τα `εγχειρίδια <file:///usr/local/share/otb/>`_ σε αυτό το DVD.
+  Δείτε επίσης τα `εγχειρίδια <file:///usr/local/share/otb/>`__ σε αυτό το DVD.

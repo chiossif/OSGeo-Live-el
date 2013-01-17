@@ -15,34 +15,35 @@ Cartaro
 
 Geospatial CMS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Cartaro provides geospatial functionality and web services within the Drupal Content Management System (CMS). With just a few clicks within Cartaro, you can set-up and run OGC standards based web services, as well as build maps into web pages. Cartaro builds upon robust Open Source components: the :doc:`PostGIS <../overview/postgis_overview>` database, :doc:`GeoServer <../overview/geoserver_overview>` and GeoWebCache web services, :doc:`OpenLayers <../overview/openlayers_overview>` maps in the browser, all managed from within the powerful `Drupal <http://drupal.org>`_ CMS.
 
-Cartaro is designed for CMS websites needing to handle geospatial data, and for organisations wanting a light-weight Spatial Data Infrastructure (SDI) with minimal configuration and programming.
+Το λογισμικό Cartaro παρέχει γεωχωρικές λειτουργίες και διαδικτυακές υπηρεσίες μέσω του συστήματος Drupal CMS. Με ελάχιστες επιλογές στο Cartaro θα έχετε εγκαταστήσει και θα λειτουργείτε διαδικτυακές λειτουργίες OGC καθώς και την προβολή και χρήση χαρτών μέσα σε ιστοσελίδες. Το Cartaro είναι δομημένο με χρήση Ανοιχτών λογισμικών όπως: :doc:`PostGIS <../overview/postgis_overview>` ως βάση δεδομένων, :doc:`GeoServer <../overview/geoserver_overview>` και GeoWebCache ως διαδικευακές λειτουργίες, :doc:`OpenLayers <../overview/openlayers_overview>` για προβολή και χρήση χαρτών, όλα εντός του ισχυρού συστήματος `Drupal <http://drupal.org>`_ CMS.
+
+To Cartaro είναι σχεδιασμένο για χρήση σε ιστοχώρους  CMS οι οποίοι χειρίζονται γεωχωρικά δεδομένα και για οργανισμούς οι οποίοι επιθυμούν Γεωχωρικές Δομές με ελάχιστη διαμόρφωση και προγραμματισμό.
 
 .. image:: ../../images/screenshots/1024x768/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right
 
-Core Features
+Κύρια Συστατικά
 --------------------------------------------------------------------------------
 
-Most SDI functionality comes right out of the box through the close integration of Drupal with PostGIS and GeoServer. The main features of Cartaro are:
+Οι περισσότερες λειτουργίες παρέχονται άμεσα μέσω της ολοκλήρωσης του με τα Drupal, PostGIS και GeoServer. Τα κύρια συστατικά του είναι:
 
-* Spatial data storage with true geometry data types
-* Creation of data types from within the Drupal GUI
-* Integrated online editing of geospatial data
-* Data publishing with integrated maps
-* Configuration of map layouts and behaviors
-* Symbol styling
-* Data publishing through OGC standards-compliant web services (OWS) like WMS and WFS
-* High performance map output through GeoWebCache
-* Transparent privilege handling and security for all spatial data
-* Content publication workflow and revision moderation
-* Basic metadata collection through access to GeoServer-GUI
-* Full extensibility through thousands of Drupal modules or individual programming
+* Αποθήκευση χωρικών δεδομένων με γεωμετρικούς τύπους δεδομένων
+* Δημιουργία νέων τύπων δεδομένων μέσω του γραφικού περιβάλλοντος του Drupal
+* Ολοκληρωμένη διαδραστική ενημέρωση γεωχωρικών δεδομένων
+* Διάθεση δεδομένων με περιεχόμενους χάρτες
+* Διαμόρφωση των χαρτογραφικών χαρακτηριστικών και λειτουργιών
+* Σχεδιασμό συμβόλων
+* Διάθεση δεδομένων μέσω OGC συμβατών διαδικτυακών λειτουργιών (OWS) όπως WMS και WFS
+* Υψηλών επιδόσεων χαρτογραφική απεικόνιση μέσω GeoWebCache
+* Διάφανη διαχείρηση προνομίων και ασφάλειας για όλα τα γεωχωρικά δεδομένα
+* Ανάλυση της ροής των περιεχομένων και τυποποίηση επανεκδόσεων
+* Συλλογή μεταδεδομένων με πρόσβαση στο γραφικό περιβάλλον GeoServer
+* Πλήρη επεκτασιμότητα μέσω χιλιάδων πρόσθετων μονάδων του Drupal ή προσωπικού προγραμματισμού
 
-Implemented Standards
+Ακολουθούμενες τυποποιήσεις
 --------------------------------------------------------------------------------
 
   * :doc:`../standards/wms_overview`
@@ -52,7 +53,7 @@ Implemented Standards
   * :doc:`../standards/sld_overview` 
   * :doc:`../standards/gml_overview`
 
-Details
+Περισσότερα
 --------------------------------------------------------------------------------
 
 **Website:** http://cartaro.org/

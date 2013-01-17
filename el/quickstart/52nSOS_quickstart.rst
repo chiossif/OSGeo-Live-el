@@ -1,4 +1,4 @@
-:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -8,12 +8,12 @@
   :align: right
   :target: http://52north.org/sos
 
-***************************************************************************************************
+******************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης 52°North SOS
-***************************************************************************************************
+******************************************
 
 Ξεκινώντας
-===================================================================================================
+==========
 
 Το λογισμικό 52°North SOS υλοποιεί μια υπηρεσία δικτύου, η οποία σας επιτρέπει να παρέχετε και να συλλέγετε χωρικά δεδομένα από αισθητήρες (συμπεριλαμβανομένων των μεταδεδομένων και των μετρήσεων/παρατηρήσεων).
 
@@ -23,7 +23,7 @@
 
 2) Ο περιηγητής Firefox θα ανοίξει στην δοκιμαστική εφαρμογή 52°North SOS (δείτε Εικόνα 1):
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_start.png
   :scale: 100 %
   :alt: screenshot of 52°North SOS test client
   :align: center
@@ -48,14 +48,13 @@
 Πρόσθετες πληροφορίες
 ===================================================================================================
 
-* Προκειμένου να μάθετε περισσότερα σχετικά με το 52°North SOS ή την 52°North, τα σημεία ενημέρωσης είναι:
+Προκειμένου να μάθετε περισσότερα σχετικά με το 52°North SOS ή την 52°North, τα σημεία ενημέρωσης είναι:
 
-* η περίληψη `52°North SOS <../overview/52nSOS_overview.html>`_,
+* :doc:`η περίληψη 52°North SOS <../overview/52nSOS_overview>`,
 * η λίστα ηλεκτρικού ταχυδρομίου 52°North Sensor: swe@52north.org, 
 * το forum `Sensor Web <http://sensorweb.forum.52north.org/>`_, 
 * η κεντρική ιστοσελίδα `52°North SOS <http://52north.org/communities/sensorweb/sos/>`_, ή 
 * η διαδικτυακή διεύθυνση `κοινότητας 52°North Sensor Web <http://52north.org/communities/sensorweb/>`_.
-
 * Όταν το SOS δεν είναι διαθέσιμο, παρακαλείσθε να ελέγξετε εάν η υπηρεσία tomcat servlet τρέχει χρησιμοποιώντας την ακόλουθη εντολή:
 
 ::
@@ -77,3 +76,4 @@
   :alt: EO2HEAVEN - Earth Observation and ENVironmental Modeling for the Mitigation of HEAlth Risks
   :align: center
   :target: http://www.eo2heaven.org/
+

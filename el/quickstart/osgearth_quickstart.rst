@@ -5,7 +5,7 @@
 
 .. _osgearth-quickstart-el:
  
-.. image:: ../../images/project_logos/logo-osgearth.gif
+.. image:: ../../images/project_logos/logo-osgearth.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -26,12 +26,12 @@
 
 * Σε ένα τερματικό ανοίξτε το osgearth simple viewer με την εντολή::
 
-   osgearth_simple --window 50 50 900 700
+    osgearth_simple --window 50 50 900 700
 
-* Πατήστε '1'-'5' για προκαθορισμένες οπτικές γωνίες.
+* Πατήστε :kbd:`1` - :kbd:`5` για προκαθορισμένες οπτικές γωνίες.
 * Με απλό κλικ πλοηγείστε; με δεξί ή τον τροχό κύλισης για zoom in ή zoom out.
 * Για στροφή αριστερό και δεξί κλικ και ταυτόχρονη κύλιση στο ποντίκι.
-* Πατείστε το 'escape' για έξοδο. 
+* Πατείστε το :kbd:`ESCAPE` για έξοδο. 
 
 
 Προσθέτοντας μια υπήρεσία WMS
@@ -52,7 +52,7 @@
    export OSG_FILE_PATH=/usr/share/osgearth
    osgviewer /usr/share/osgearth/maps/openstreetmap.earth
 
-*  Πατήστε 'h' για βοήθεια. Δείτε επίσης openscenegraph.org_ για περισσότερα.
+*  Πατήστε :kbd:`h` για βοήθεια. Δείτε επίσης openscenegraph.org_ για περισσότερα.
 
 .. _openscenegraph.org: http://www.openscenegraph.org/projects/osg/wiki/Support/UserGuides/osgviewer
 

@@ -1,13 +1,11 @@
-.. Writing Tip:
-  This Quick Start should describe how to run a simple example, which
-    covers one of the application's primary functions.
-  The Quick Start should be able to be executed in around 5 minutes.
-  The Quick Start may optionally include a few more sections
-    which describes how to run extra functions.
-  This document should describe every detailed step to get the application
-    to work, including every screen shot involved in the sequence.
-  Finish off with "Things to Try" and "What Next?" sections.
-  Assume the user has very little domain expertise, so spell everything out.
+.. Συνοπτικές λεπτομέρειες:
+Αυτό το εγχειρίδιο ταχείας εκκίνησης περιγράφει πως να εκτελέσετε ένα απλό παράδειγμα το οποίο να καλύπτει κάποιες από τις κύριες λειτουργίες.
+θα πρέπει να έχει ολοκληρωθεί σε περίπου 5 λεπτά.
+Μπορεί επιλεκτικά να περιλαμβάνει επιπλέον τομείς οι οποίοι να περιγράφουν πρόσθετες λειτουργίες.
+Αυτό το κείμενο θα πρέπει να περιγράφει με λεπτομέρεια κάθε βήμα, περιλαμβάνοντας στην πορεία και αποσπάσματα οθόνης.
+Ολοκληρώνετε με την παράγραφο "Δομικάστε πρόσθετες λειτουργίες" και "Τι ακολουθεί;"
+Τέλος προϋποθέτει ότι ο χρήστης έχει μικρή εμπειρία σε διαχείριση ιστοχώρων κι έτσι εξηγεί τα πάντα.
+
 
 :Author: Friedjoff Trautwein (http://www.geops.de)
 :Author: Augustus Kling (http://www.geops.de)
@@ -22,134 +20,129 @@
   :target: http://cartaro.org
 
 ********************************************************************************
-Cartaro Quickstart 
+Εγχειρίδιο ταχείας εκμάθησης Cartaro
 ********************************************************************************
 
-Cartaro is a geo-enabled Content Management System (CMS) to manage and publish geospatial and non-geospatial content. 
+Το λογισμικό Cartaro  είναι ένα CMS με ενεργοποιημένες γεωχωρικές λειτουργίες διαχείρισης και έκδοσης/διάθεσης γεωχωρικού και μη γεωχωρικού περιεχομένου. 
 
+Αυτό το εγχειρίδιο θα σας οδηγήσει στα ακόλουθα βήματα:
 
+  * Να δημιουργήσετε νέο γεωχωρικό περιεχόμενο
+  * Να διαμορφώσετε το Cartaro να παρουσιάζει το νέο γεωχωρικό περιεχόμενο
+  * Να προσθέσετε νέο
 
-This Quick Start will guide you through the following tasks:
-
-  * Create a new geo-enabled content type
-  * Configure Cartaro to display the new content type 
-  * Add new content
-
-.. contents:: Contents
+.. contents:: Περιεχόμενα
   
-Start Cartaro
+Εκκίνηση Cartaro
 ================================================================================
 
-.. Writing Tip:
-  Describe steps to start the application
-  This should include a graphic of the pull-down list, with a red circle
-  around the application menu option.
-  #. A hash numbers instructions. There should be only one instruction per
-     hash.
+.. Λεπτομέρειες:
+Περιγραφή των βημάτων εκκίνησης της εφαρμογής
+Αυτή πρέπει να περιλαμβάνει μια αναδυόμενη γραφική λίστα με κόκκινο κύκλο γύρω από το κεντρικό μενού επιλογών.
+  #. Αριθμημένες οδηγίες. Θα πρέπει να υπάρχει μόνο μία οδηγία ανά αριθμό.
 
-#. Choose |osgeolive-Other-Start Cartaro| from menu
-#. The application will take a few moments to start up
-#. Go to the Cartaro web page at http://localhost/cartaro (this should happen automatically)
+#. Επέλεξε |osgeolive-Other-Start Cartaro| από το μενού
+#. Η εφαρμογή θα χρειαστεί χρόνο για να ξεκινήσει
+#. Πλοηγηθείτε στον ιστοχώρο του Cartaro http://localhost/cartaro (αυτό θα πρέπει να συμβεί αυτόματα)
 
-.. Writing Tip:
-  For images, use a scale of 50% from a 1024x768 display (preferred) or
-  70% from a 800x600 display.
-  Images should be stored here:
+.. Λεπτομέρεια:
+  Για απεικόνιση εικόνων επιλέξτε κλίμακα 50% σε μία οθόνη 1024x768 ή 70% σε οθόνη 800x600.
+  Οι εικόνες αποθηκεύονται εδώ:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/1024x768/
 
 
-Front Page
+Κύρια σελίδα
 ================================================================================
 
-When you open the Cartaro page, you will see the screen above. The front page contains an example map with capital cities.
+Όταν ανοίγετε το Cartaro βλέπετε την παραπάνω σελίδα η οποία περιέχει έναν χάρτη παράδειγμα με πρωτεύουσες.
 
 .. image:: ../../images/screenshots/1024x768/cartaro_frontpage.png
     :scale: 60 %
     :align: center
 
 
-* Click on **Log in** on the upper right corner to access the administrative interface. Please use *admin* as username and *geoserver* as password. You will now see the admin tool bar on top.
+* Επιλέξτε **Log in** στο άνω δεξί άκρο για να αποκτήσετε πρόσβαση στο διαχειριστικό περιβάλλον. Χρησιμοποιείστε*admin* ως όνομα χρήστη και *geoserver* ως συνθηματικό. Τώρα θα δείτε στην κορυφή την μπάρα επιλογών διαχείρισης.
 
 .. image:: ../../images/screenshots/1024x768/cartaro_userpage.png
     :scale: 60 %
     :align: center
   
-.. tip::  You can return to the Front Page anytime by clicking on the home icon in the upper left corner.
+.. tip::  Μπορείτε να επιστρέψετε στην αρχική σελίδα επιλέγοντας τον εικονίδιο home στην άνω αριστερή γωνία.
 
 
-Create new content type
+Δημιουργία νέου τύπου περιεχόμενου
 ================================================================================
 
-Content types are describing the fields and the structure of a specific kind of content (e.g. the content type *Capital* contains the fields name and location).
-To create a new content type, just follow the steps below.
+Οι τύποι περιεχνομένου περιγράφουν τα πεδία και την δομή ενός ειδικού τύπου περιεχομένου (π.χ. ο τύπος *Capital* περιέχει τα ονόματα και την θέση).
+Για να δημιουργήσετε έναν νέο τύπο απλά ακολουθείστε τα ακόλουθα βήματα.
 
-* Choose :menuselection:`Structure --> Content types` from the menu bar and click on **Add content type** 
+* Επιλέξτε :menuselection:`Structure --> Content types` από την μπάρα επιλογών και στην συνέχεια κλικ **Add content type** 
 
 
 .. image:: ../../images/screenshots/1024x768/cartaro_contenttypes.png
     :scale: 80 %
     :align: center
 
-* Type a name for the new content type and describe it if you want
-* Finish by clicking on **Save and add fields**
+* Γράψτε ένα όνομα για τον νέο τύπο και αν θέλετε μια περιγραφή
+* Τελειώστε με κλικ στην επιλογή **Save and add fields**
 
 
 .. image:: ../../images/screenshots/1024x768/cartaro_new_contenttype.png
     :scale: 80 %
     :align: center
 
-* Add new field by choosing a descriptive name, select  *Geospatial data*  as field type and  *OpenLayers Map*  as widget
-* Finish by clicking on **Save**
+* Προσθέστε ένα νέο πεδίο επιλέγοντας ένα σχετικό όνομα, στην συνέχεια επιλέξτε *Geospatial data* ως τύπο του νέου πεδίου και *OpenLayers Map*  σαν πρόσθετο εργαλείο απεικόνισης
+* Ολοκληρώστε με **Save**
 
 
 .. image:: ../../images/screenshots/1024x768/cartaro_new_field.png
     :scale: 70 %
     :align: center
 
-* Select the geometry type that describes the kind of geospatial information you want to store. Choose *Polygon* to follow our example.
-* Finish by clicking on **Save field settings**
+* Επιλέξτε την γεωμετρία η οποία περιγράφει τον τύπο της γεωχωρικής πληροφορίας την οποία θέλετε να αποθηκεύσετε. Επιλέξτε *Polygon* για να συνεχίσετε σε αυτό το παράδειγμα.
+* Ολοκληρώστε με **Save field settings**
 
-.. tip::  Other types of geometry are also available. Choose the type that fits best for your needs. Read the information below the *Geometry type* drop-box for additional help.
+.. λεπτομέρεια::  Είναι διαθέσιμοι κι άλλοι τύποθ δεδομένων. Επιλέξτε τον τύπο ο οποίος είναι καλύτερος για τις ανάγκες σας. Διαβάστε τις πληροφορίες στο ανασυόμενο παράθυρο του *Geometry type* για πρόσθετη βοήθεια.
 
 
 .. image:: ../../images/screenshots/1024x768/cartaro_field_settings.png
     :scale: 70 % 
     :align: center
 
-* Press *Save settings* to finally finish the field creation
+* Πατήστε *Save settings* για να ολοκληρώβσετε την δημιουργία πεδίων
 
 .. image:: ../../images/screenshots/1024x768/cartaro_manage_field.png
     :scale: 70 % 
     :align: center
 
-Configure GeoServer
+Διαμόρφωση του GeoServer
 ================================================================================
 
-:doc:`GeoServer <../overview/geoserver_overview>` is used to provide the geospatial fields of your new content type as layer via :doc:`Web Feature Service (WFS) <../standards/wfs_overview>` and :doc:`Web Map Service (WMS) <../standards/wms_overview>`.
+:doc:`GeoServer <../overview/geoserver_overview>` χρησιμοποιείται για να παρέχει τα γεωχωρικά πεδία από τον νέο τύπο περιεχομένου ως νέο επίπεδο μέσω :doc:`Web Feature Service (WFS) <../standards/wfs_overview>` και :doc:`Web Map Service (WMS) <../standards/wms_overview>`.
 
-* Choose :menuselection:`Structure --> GeoServer` from the menu bar to visit the GeoServer configuration page
+* Επιλέξτε :menuselection:`Structure --> GeoServer` από την μπάρα επιλογών για να επισκεφτείτε την σελίδα διαμόρφωσης του GeoServer
 
 .. image:: ../../images/screenshots/1024x768/cartaro_geoserver_entry.png
     :scale: 70 %
     :align: center
 
-Styling
+Συμβολισμός
 ``````````````````````````````````
-.. note:: This subsection is optional. Just go the next subsection if you want to speed up.  
+.. σημείωση:: Αυτή η παράγραφος είναι προαιρετική. Αν βιάζεστε απλά συνεχίστε στην επόμενη.
 
-To change the symbolization of your geospatial fields within a map layer you can define your own style. This is done with the :doc:`Styled Layer Descriptors (SLD) <../standards/sld_overview>` as XML files. 
-There are several ways on how create them which is not covered here. The :doc:`GeoServer <../quickstart/geoserver_quickstart>` documentation describes one way on how the create them.  
-For the sake convenience we created an example styling that can be used here.
+Για να αλλάξετε τον συμβολισμό στα γεωχωρικά πεδία μέσα σε ένα χαρτογραφικό επίθεμα θα πρέπει να ορίσετε το δικό σας. Αυτό γίνεται με :doc:`Styled Layer Descriptors (SLD) <../standards/sld_overview>` ως αρχεία τύπου XML. 
+Υπάρχουν πολλοί τρόποι πως να δημιουργήσετε κάτι το οποίο δεν περιλαμβάνεται. Η τεκμηρίωση :doc:`GeoServer <../quickstart/geoserver_quickstart>` περιγράφει ένα τρόπο να το κάνετε.
+Για το παράδειγμα δημιουργούμε ένα νέο σύμβολο το οποίο θα χρησιμοποιήσουμε εδώ.
 
-* Choose :menuselection:`Styles` on the right side 
+* Επιλέξτε :menuselection:`Styles` στην δεξιά πλευρά
 
 .. image:: ../../images/screenshots/1024x768/cartaro_geoserver_style.png
     :scale: 70 %
     :align: center
 
-* Choose a name for your new style
-* Copy the following example SLD into the *SLD* text box and click *Save*
-* Mind to adjust the content of the *Name* and *Title* tags in the SLD to match *Style Title* and *Style Description* respectively
+* Επιλέξτε ένα όνομα για το νέο σύμβολο
+* Αντογράψτε το ακόλουθο παράδειγμα SLD μέσα στο κουτί κειμένου *SLD* και πατήστε *Save*
+* Θυμηθείτε να μεταβάλετε το περιεχόμενο των κελιών *Name* και *Title* στο SLD ώστε να αντιστοιχίζονται αντίστοιχα στα *Style Title* και *Style Description*
 
 ::
 
@@ -176,59 +169,59 @@ For the sake convenience we created an example styling that can be used here.
     :scale: 70 %
     :align: center
 
-Layers
+Επιθέματα
 ``````````````````````````````````
-* Choose :menuselection:`Structure --> GeoServer` from the menu bar to visit the GeoServer configuration page
-* Select :menuselection:`Layers` and click **Add** to add your new layer
+* Επιλέξτε :menuselection:`Structure --> GeoServer` από την μπάρα επιλογών για να επισκεφτείτε την σελίδα διαμόρφωσης του GeoServer
+* Επιλέξτε :menuselection:`Layers` και κλικ **Add** για να προσθέσετε το δικό σας επίθεμα
 
 .. image:: ../../images/screenshots/1024x768/cartaro_geoserver_layer.png
     :scale: 70 %
     :align: center
 
-#. Type a suitable layer title
-#. Select *PostGIS Field* as Layer type
-#. If you have created your own style one step before, select it as *Style*
-#. Select your fresh created content type as Source
-#. Check  *Provide an OpenLayers WFS layer*  within the OpenLayers section
-#. Finish configuration by clicking on **Save**
+#. Γράψτε έναν τίτλο για το επίθεμα
+#. Επιλέξτε *PostGIS Field* ως τύπο επιπέδου
+#. Εαν έχετε φτιάξει δικό σας συμβολισμό επιλέξτε τον ως *Style*
+#. Επιλέξτε το νέο περιεχόμενο ως Source
+#. Επιλέξτε *Provide an OpenLayers WFS layer*  από τον τομέα του OpenLayers
+#. Κλείστε την διαμόρφωση επιλέγοντας **Save**
 
 
 .. image:: ../../images/screenshots/1024x768/cartaro_new_layer.png
     :scale: 90 %
     :align: center
 
-.. tip:: You can now also access the geospatial fields of your content type via WFS or WMS with other applications (e.g. with :doc:`QGis <../overview/qgis_overview>`)  
+.. λεπτομέρεια:: Μπορείτε επίσης να αποκτήσετε πρόσβαση στα γεωχωρικά πεδία μέσω WFS ή WMS και με άλλες εφαρμογές (πχ με :doc:`QGis <../overview/qgis_overview>`)  
 
 
-Configure OpenLayers
+Διαμόρφωση OpenLayers
 ================================================================================
 
-:doc:`OpenLayers <../overview/openlayers_overview>` is used to display your new layer.
+Το :doc:`OpenLayers <../overview/openlayers_overview>` χρησιμοποιείται για να παρουσιάσει το νέο επίπεδο.
 
-* Choose :menuselection:`Structure --> OpenLayers` from the menu bar to visit the OpenLayers configuration page
-* Choose :menuselection:`Maps` and look for *frontmap* which is used as default map
+* Επιλέξτε :menuselection:`Structure --> OpenLayers` από την μπάρα επιλογών για να επισκεφτείτε την σελίδα διαμόρφωσης OpenLayers
+* Επιλέξτε :menuselection:`Maps` και δείτε το *frontmap* το οποίο είναι ο αρχικός χάρτης
 
 .. image:: ../../images/screenshots/1024x768/cartaro_openlayers_entry.png
     :scale: 70 %
     :align: center
 
 
-* Look for *frontmap* which is used as default map and select **Edit** on the right side
+* Δείτε τον *frontmap* και επιλέξτε **Edit** στην δεξιά πλευρά
 
 .. image:: ../../images/screenshots/1024x768/cartaro_openlayers_maps.png
     :scale: 70 %
     :align: center
 
-* Frontmap's configuration page will be appear as shown on the screenshot below. 
-* Select :menuselection:`Layers & Styles` on the left side to add our newly created layer to the map.
+* Θα εμφανιστεί η οθόνη διαμόρφωσης όπως φαίνεται εδώ. 
+* Επιλέξτε :menuselection:`Layers & Styles` στην αριστερή πλευρά και προσθέστε το επίθεμα το οποίο δημιουργήσατε.
 
 .. image:: ../../images/screenshots/1024x768/cartaro_edit_map.png
     :scale: 70 %
     :align: center
 
-* Look for your new created layer (Wildlife habitats in our example)
-* Check the boxes *Enabled*, *Activated* and *In Switcher* to show your new layer by default
-* Finish configuration by clicking on **Save** at the bottom of the page
+* Παρατηρείστε το νέο επίθεμα (Wildlife habitats στο παράδειγμά μας)
+* Επιλέξτε τα κουτάκια *Enabled*, *Activated* και *In Switcher* για να εμφανίζεται το νέο επίθεμα αυτόματα
+* Κλείστε την διαμόρφωση με επιλογή **Save** στο κάτω μέρος της σελίδας
 
 .. image:: ../../images/screenshots/1024x768/cartaro_edit_map2.png
     :scale: 70 %

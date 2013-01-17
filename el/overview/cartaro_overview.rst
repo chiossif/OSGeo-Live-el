@@ -13,36 +13,36 @@
 Cartaro
 ================================================================================
 
-Geospatial CMS
+Γεωχωρικό CMS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Cartaro provides geospatial functionality and web services within the Drupal Content Management System (CMS). With just a few clicks within Cartaro, you can set-up and run OGC standards based web services, as well as build maps into web pages. Cartaro builds upon robust Open Source components: the :doc:`PostGIS <../overview/postgis_overview>` database, :doc:`GeoServer <../overview/geoserver_overview>` and GeoWebCache web services, :doc:`OpenLayers <../overview/openlayers_overview>` maps in the browser, all managed from within the powerful `Drupal <http://drupal.org>`_ CMS.
+Το Cartaro εφοδιάζει με λειτουργίες γεωχωρικές και υπηρεσίες διαδικτύου μέσα στο Drupal Σύστημα Διαχείρισης Περιεχομένου ( Content Management System (CMS)). Με λίγα μόνο κλίκ μέσα στο Cartaro, μπορείτε να στήσετε και να τρέξετε τα OGC πρότυπα βασισμένα σε υπηρεσίες διαδικτύου, όπως επίσης και να δημιουργήσετε χάρτες στις σελίδες του διαδικτύου. Το Cartaro χτίζεται πάνω σε γερά Ανοιχτού Κώδικα στοιχεία: την βάση δεδομένων :doc:`PostGIS <../overview/postgis_overview>`, :doc:`GeoServer <../overview/geoserver_overview>` και το GeoWebCache υπηρεσιών διαδικτύου, :doc:`OpenLayers <../overview/openlayers_overview>` χάρτες σε εξυπηρετητή, όλα διαχειρίζονται μέσα από το πανίσχυρο `Drupal <http://drupal.org>`_ CMS.     
 
-Cartaro is designed for CMS websites needing to handle geospatial data, and for organisations wanting a light-weight Spatial Data Infrastructure (SDI) with minimal configuration and programming.
+Το Cartaro είναι σχεδιασμένο για CMS ιστοσελίδες που χρειάζονται να διαχειριστούν γεωχωρικά δεδομένα, και για οργανισμούς που θέλουν μια ελαφριά- με βάρος με Χωρικά Δεδομένα Υποδομή (Spatial Data Infrastructure (SDI)) με ελάχιστη διαμόρφωση και προγραμματισμό.  
 
 .. image:: ../../images/screenshots/1024x768/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right
 
-Core Features
+Σημαντικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-Most SDI functionality comes right out of the box through the close integration of Drupal with PostGIS and GeoServer. The main features of Cartaro are:
+Οι περισσότερες SDI λειτουργίες γίνονται έξω από το κουτί μέσω της στενής ενσωμάτωσης του Drupal με την PostGIS και του Geoserver. Τα βασικά χαρακτηριστικά του Cartaro είναι:
 
-* Spatial data storage with true geometry data types
-* Creation of data types from within the Drupal GUI
-* Integrated online editing of geospatial data
-* Data publishing with integrated maps
-* Configuration of map layouts and behaviors
-* Symbol styling
-* Data publishing through OGC standards-compliant web services (OWS) like WMS and WFS
-* High performance map output through GeoWebCache
-* Transparent privilege handling and security for all spatial data
-* Content publication workflow and revision moderation
-* Basic metadata collection through access to GeoServer-GUI
-* Full extensibility through thousands of Drupal modules or individual programming
+* Αποθήκευση των χωρικών δεδομένων με πραγματικούς τύπους γεωμετρικών δεδομένων 
+* Δημιουργία τύπων δεδομένων μέσα από το γραφικό περιβάλλον του Drupal
+* Ενσωμάτωση τροποποίησης των γεωχωρικών δεδομένων σε πραγματικό χρόνο
+* Έκδοση των δεδομένων με ενσωματωμένους χάρτες
+* Διαμόρφωση των διαρρυθμίσεων και των συμπεριφορών των χαρτών
+* Συμβολισμός της μορφοποίησης
+* Έκδοση των δεδομένων μέσω των OGC προτύπων-συμφωνιών για υπηρεσιες διαδικτύων (OWS) όπως το WMS και το WFS 
+* Υψηλές επιδόσεις των παραγόμενων χαρτών μέσω του GeoWebCache
+* Διαφανής προνόμια διαχείρισης και ασφάλειας για όλα τα γεωχωρικά δεδομένα
+* Ικανοποιητική έκδοση της ροής εργασίας και μέτρια επαναληπτικότητα
+* Βασική συλλογή μεταδεδομένων μέσω πρόσβασης στο γραφικό περιβάλλον του GeoServer
+* Πλήρης επέκταση μέσω εκατοντάδων εργαλείων του Drupal ή ατομικό προγραμματισμό
 
-Implemented Standards
+Πρότυπα εφαρμογής
 --------------------------------------------------------------------------------
 
   * :doc:`../standards/wms_overview`
@@ -52,7 +52,7 @@ Implemented Standards
   * :doc:`../standards/sld_overview` 
   * :doc:`../standards/gml_overview`
 
-Details
+Λεπτομέρειες
 --------------------------------------------------------------------------------
 
 **Website:** http://cartaro.org/
@@ -67,7 +67,7 @@ Details
 
 **Support:** http://www.geops.de
 
-Quickstart
+Οδηγός Γρήγορης Εκκίνησης
 --------------------------------------------------------------------------------
     
 * :doc:`Quickstart documentation <../quickstart/cartaro_quickstart>`

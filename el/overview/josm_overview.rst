@@ -16,7 +16,7 @@ JOSM
 .. Writing Tip:
   Application Category Description:
 
-Desktop Editor for OpenStreetMap data
+Διορθωτής δεδομένων OpenStreetMap
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. Writing Tip:
@@ -32,70 +32,74 @@ Desktop Editor for OpenStreetMap data
   * Remaining paragraph or 2 in this overview section should provide a
     wider description and advantages from a user perspective.
 
-JOSM is an extensible editor for ​OpenStreetMap (OSM) written in ​Java 1.6. 
+Το JOSM είναι ένας επεκτάσιμος διορθωτής δεδομένων OpenStreetMap (OSM) γραμμενος σε γλώσσα Java 1.6. 
 
-Currently it supports loading stand-alone GPX tracks and GPX track data from the OSM database as well as loading and editing existing nodes, ways, metadata tags and relations from the OSM database. Those GPX files, are usually downloaded in advance from your GPS receiver or from other sources.
+Υποστηρίζει αυτόνομες καταγραφές GPX από την βάση δεδομένων OSM καθώς και υπαρχόντων κόμβων, διαδρομών,μεταδεδομένων, εττικετών και σχέσεών τους στην βάση OSM. Αυτά τα αρχεία GPX μεταφορτώνονται συνήθως από δέκτες GPS ή από άλλες πηγές.
 
-A "node" is a point, a "way" is a line connecting multiple nodes, a "Relation" is an ordered sequence of ways and nodes (a logical container used to group elements), and "Tags" describe what each node or way represents (Tags are organized into "keys" and "values").
+Ένας κόμβος "node" είναι ένα σημείο, μία διαδρομή "way" είναι μια γραμμή η οποία συνδέει πολλούς κόμβους,
+μία σχέση "Relation" είναι μία ακολουθία από διαδρομές και κόμβους (ως λογική ομαδιοποίηση ανρικειμένων)
+και οι εττικέτες "Tags" περιγράφουν τι αναπαριστά κάθε αντθικείμενο κόμβος ή διαδρομή (οι εττικέτες είναι χωρισμένες στα κλειδιά "keys" και τις τιμές "values" τους).
 
-It is one of the most powerful desktop applications in order digitize accurate editions and commit changes to the OpenStreetMap dataset.
+Είναι μία από τις πιο ισυρές εφαρμογές γραφείου για την ψηφιοποίηση και ενημέρωση δεδομένων OpenStreetMap.
 
-JOSM is an offline editor which means everything you do won't be visible for anyone else until uploading it to the server. Once you are happy with your changes, if you attempt to save them, JOSM will check if happens to be any conflict with other editions run by other users on the same elements. If there is no conflict cases to solved, your data will be uploaded, saved and visible to everyone else.
+Ο JOSM είναι ένας διορθωτής ο οποίος λειτουργεί offline κι έτσι ότι κάνετε δεν είναι διαθέσιμο ή ορατό σε άλλους χρήστες μέχρι να το μεταφορτώσετε στον εξυπηρετητή.
+Απ' την στιγμή που θα έχετε ολοκληρώσει τις αλλαγές ή τις προσθήκες σας αν επιθυμήσετε να τις αποθηκεύσετε, ο JOSM
+θα ελέγξει αν έρχονται σε σύγκρουση με άλλες εκδόσεις άλλων χρηστών στα ίδια στοιχεία.
+Αν δεν υπάρχει πρόβλημα τα δεδομένα σας θα αποθηκευτούν και αναρτηθούν άμεσα ώστε να είναι διαθέσιμα σε όλους.
 
 .. image:: ../../images/screenshots/1024x768/josm_interface.png
   :scale: 55 %
   :alt: JOSM Editor.
   :align: right
 
-Core Features
+Κύρια χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-* Common GIS Desktop Interface tools: Tool bar customization, View control (zoom, pan. etc), styles, icons and layers management.
+* Τυπική διεπαφή ΓΣΠ (GIS) με μπαρα εργαλείων, έλεγχο απεικόνισης (zoom, pan. etc), είδη γραμμών, εικονίδια και διαχείρηση επιθεμάτων.
 
-* Download and upload OSM vector data.
+* Μεταφόρτωση διανυσματικών δεδομένων OSM.
 
-* Open local data 
-	* NMEA-0183 files: *.nmea, *.nme, *.nma, *.log, *.txt
-	* OSM files: *.osm, *.xlm, *.osmbz2, *.osmbz
-	* OSM change file: *.osc, *.osc.bz2, *.osc.bz, *.osc.gz
-	* images (*.jpg) 
+* Φόρτωση τοπικών δεδομένων γνωστών τύπων:
+	* NMEA-0183: *.nmea, *.nme, *.nma, *.log, *.txt
+	* OSM αρχεία: *.osm, *.xlm, *.osmbz2, *.osmbz
+	* OSM αρχεία μεταβολών: *.osc, *.osc.bz2, *.osc.bz, *.osc.gz
+	* εικόνες (*.jpg) 
 
-* Imagery: Visualize basemaps from OSM, Bingsat, Lansat, MapBox satellite, MapQuest Open Aerial or any other WMS sources.
+* Εικόνες: Απεικόνιση χαρτών από OSM, Bingsat, Lansat, MapBox, MapQuest Open Aerial ή οποιαδήποτε άλλη πηγή τύπου WMS.
 
-* Editing Tools: Advance graphical editing.
-	* Nodes: merge, join, unglue, distribute, align in circle, align in line, join node to way, and more.
-	* Ways: split, combine, reverse, simplify, UnGlue ways, and more.
-	* Areas: join overlaping areas, create multi-polygon, and more.
+* Εργαλεία διόρθωσης: με εξελιγμένο γραφικό περιβάλλον σχεδίασης.
+	* Κόμβοι: ένωση, σύνδεση, αποκόληση, διάκριση, στοίχιση σε κύκλο, στοίχιση σε γραμμή, προσθήκη σε διαδρομή και πολλά άλλα.
+	* Διαδρομές: κόψιμο, συνδυασμός, αναστροφή, απλοποίηση, αποκόληση διαδρομών και άλλα.
+	* Επιφάνειες: σύνδεση επικαλυπτόμενων περιοχών, δημιουργία πολυ-πολυγώνων και άλλα..
 
-* Audio mapping: survey recording management.
+* Ηχητική χαρτογράφηση με διαχείρηση ήχου.
 
-* Photo mapping: survey pictures management.
+* Φωτογραφική χαρτογράφηση με διαχείρηση φωτογραφιών.
  
-* Specialized plugins: A list of plugins are accessible from the interface and ready to install. 
+* Εξειδικευμένα πρόσθετα: μέσω της διεπαφής είναι διαθέσιμη μια λίστα με πρόσθετες λειτουργίες έτοιμες για εγκατάσταση και χρήση. 
 
 
-Implemented Standards
+Υλοποιημένες τυποποιήσεις
 --------------------------------------------------------------------------------
 
-* JOSM support WMS OGC standard as client side, but uses `OSM API <http://wiki.openstreetmap.org/wiki/API_v0.6>`_ to communicate with OSM database.
+* Το JOSM υποστηρίζει την τυποποίηση WMS OGC από την μεριά του χρήστη, αλλά χρησιμοποιεί `OSM API <http://wiki.openstreetmap.org/wiki/API_v0.6>`_ για την επικοινωνία με την βάση δεδομένων.
 
-Details
+Λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Website:** http://http://josm.openstreetmap.de/
+**Ιστοχώρος:** http://http://josm.openstreetmap.de/
 
-**Licence:** JOSM, and all its integral parts, are released under the GNU General Public License v2 or later. Note: This is not valid for JOSM plugins. These are not considered an integral part of JOSM and may be under any license.
+**Άδεια:** JOSM, and all its integral parts, are released under the GNU General Public License v2 or later. Note: This is not valid for JOSM plugins. These are not considered an integral part of JOSM and may be under any license.
 
-**Software Version:** 5608
+**Έκδοση λογισμικού:** 5608
 
-**Supported Platforms:** Windows, Linux, Mac
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**API Interfaces:** User Desktop Interfaces that uses `OSM API <http://wiki.openstreetmap.org/wiki/API_v0.6>`_
+**Διεπαφές API:** `OSM API <http://wiki.openstreetmap.org/wiki/API_v0.6>`_
 
-**Support:** http://www.osgeo.org/search_profile
+**Υποστήριξη:** http://www.osgeo.org/search_profile
 
-Quickstart
+Εγχειρίδιο ταχεία εκκίνησης
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/josm_quickstart>`
-

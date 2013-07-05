@@ -8,17 +8,17 @@
 Για να εγκαταστήσετε:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Install the base packages (Frameworks) first, followed by the support
-packages, and finally the end-user programs. The base packages must be
-installed in order.
+Εγκαταστήστε τα βασικά πακέτα πρώτα (Frameworks), στη συνέχεια τα πακέτα 
+υποστήριξης, και τέλος τα λογισμικά για τους τελικούς χρήστες. Τα βασικά πακέτα θα πρέπει
+να εγκατασταθούν με τη σειρά.
 
-Not all Frameworks and support packages are needed for all end user
-programs. Consult the above website for details.
+Δεν απαιτούνται όλα τα βασικά πακέτα και πακέτα υποστήριξης για όλα τα λογισμικά. 
+Συμβουλευθείτε την παραπάνω ιστοσελίδα για λεπτομέρειες.
 
-The framework packaging method is a bit more trouble up front, but
-ensures the minimum amount of disk space is used by programs which
-share common support libraries, and that these components can be safely
-upgraded in future without rendering the other programs unusable.
+Η εγκατάσταση των βασικών πακέτων στην αρχή είναι λιγότερο βολικό για τους χρήστες, αλλά
+εξασφαλίζει ότι χρησιμοποιείται ο ελλάχιστος χώρος στον δίσκο από τα προγράμματα τα οποία
+μοιράζονται κοινές βιβλιοθήκες. Αυτό εξασφαλίζει την δυνατότητα αναβάθμισης
+στο μέλλον χωρίς να επιρεάζονται τα προγράμματα των χρηστών.
 
 * http://www.kyngchaos.com/files/software/frameworks/GDAL_Complete-1.9.dmg
 * http://www.kyngchaos.com/files/software/frameworks/FreeType_Framework-2.4.10-1.dmg

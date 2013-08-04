@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ossim.png
@@ -54,11 +54,11 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.ossim.org/
+**Website:** http://www.ossim.org
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 1.8.6
+**Software Version:** 1.8.14
 
 **Supported Platforms:** Linux, Mac, Windows
 
@@ -67,7 +67,7 @@ Details
 **Commercial Support:** http://www.osgeo.org/search_profile
 
 
-.. Quickstart
-.. --------------------------------------------------------------------------------
-.. 
-.. * :doc:`Quickstart documentation <../quickstart/ossim_quickstart>`
+Quickstart
+--------------------------------------------------------------------------------
+
+* :doc:`Quickstart documentation <../quickstart/ossim_quickstart>`

@@ -28,7 +28,7 @@
   :scale: 30 %
   :alt: project logo
   :align: right
-  :target: http://postgis.refractions.net/
+  :target: http://www.postgis.net/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -105,11 +105,11 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://postgis.refractions.net/
+**Website:** http://www.postgis.net
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.5
+**Software Version:** 2.0
 
 **Supported Platforms:** Windows, Linux, Mac
 

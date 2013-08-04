@@ -23,20 +23,20 @@ Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GeoServer is a web server that allows you to serve maps and data from
-a variety of formats to standard clients such as web browsers and desk
-top GIS programs. This means that you can store your spatial data in
+a variety of formats to standard clients such as web browsers and desktop
+GIS programs. This means that you can store your spatial data in
 almost any `format
 <http://docs.geoserver.org/stable/en/user/data/index.html>`_ you prefer but that your users do not need to know
 anything about GIS data. At the simplest level all they need is a web
-browser to see your maps exactly as you want. 
+browser to see your maps exactly as you want.
 
-GeoServer is the reference implementation of the `Open Geospatial 
-Consortium <http://www.opengeospatial.org>`_ (OGC) 
-:doc:`../standards/wfs_overview` and 
-:doc:`../standards/wcs_overview` standards, 
-as well as a high performance certified compliant 
-:doc:`../standards/wms_overview`. 
-GeoServer forms a core component of the Geospatial Web. 
+GeoServer is the reference implementation of the `Open Geospatial
+Consortium <http://www.opengeospatial.org>`_ (OGC)
+:doc:`../standards/wfs_overview` and
+:doc:`../standards/wcs_overview` standards,
+as well as a high performance certified compliant
+:doc:`../standards/wms_overview`.
+GeoServer forms a core component of the Geospatial Web.
 
 .. image:: ../../images/screenshots/800x600/geoserver.png
   :scale: 60 %
@@ -53,7 +53,7 @@ Core Features
     * Raster
         - GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image Mosaic, Oracle GeoRaster
 
-**Data is served as safe and quick images using the WMS protocol:**
+**Data is served as safe and quick images using WMS and WMTS protocols:**
     As the data is served up as an image your data is completely safe and secure. Unless they redigitise your data there is no way to steal your data.
     The appearance of each map layer can be controlled using the SLD standard which allows features to be coloured and labeled. By combining these rules with OGC Filters scale dependent styling can be implemented allowing more detail to be added as a user zooms in. Label collision management, grouping and priorities are also implemented.
 
@@ -65,10 +65,13 @@ Core Features
      A GIS client can request the actual raster data for use in spatial analysis. This allows a user to create applications which can model the process described by your data.
 
 **On the fly reprojection:**
-     GeoServer supports the majority of the EPSG database of projections and can reproject to any of them on demand to allow clients with limited reprojection support to pass the load to the server. 
+     GeoServer supports the majority of the EPSG database of projections and can reproject to any of them on demand to allow clients with limited reprojection support to pass the load to the server.
 
-**WMS Tiling Cache**
-    `GeoWebCache <http://geowebcache.org/>`_ is a WMS tiling client. It runs as a proxy server between a map client and map server, caching tiles as they are requested, eliminating redundant requests and saving large amounts of processing time. GeoWebCache has been integrated into GeoServer.
+**Tiling Cache**
+    `GeoWebCache <http://geowebcache.org/>`_, which is integrated into GeoServer, tiles and caches map images from a variety of sources such as WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) in order to accelerate and optimize map image delivery. It can also recombine tiles to work with regular WMS clients.
+
+**Web Processing Service (WPS)**
+    Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, can be called through GeoServer's :doc:`WPS <../standards/wps_overview>` interface. This includes the chaining of processes, and using rendering transformations to create powerful visualisations through the WMS interface.
 
 Implemented Standards
 --------------------------------------------------------------------------------
@@ -76,10 +79,12 @@ Implemented Standards
 Support of numerous Open Geospatial Consortium  (OGC) standards:
 
   * :doc:`../standards/wms_overview`
+  * Web Map Tile Service (WMTS)
   * :doc:`../standards/wfs_overview`, WFS-T (transactional)
   * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/wps_overview`
   * :doc:`../standards/fe_overview`
-  * :doc:`../standards/sld_overview` 
+  * :doc:`../standards/sld_overview`
   * :doc:`../standards/gml_overview`
 
 Details
@@ -89,9 +94,9 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.1.3
+**Software Version:** |version-geoserver|
 
-**Supported Platforms:** All Java 1.5 platforms: - Windows, Linux, Mac
+**Supported Platforms:** Cross Platform Java 6
 
 **API Interfaces:** WMS, WFS, WCS, REST
 
@@ -99,5 +104,5 @@ Details
 
 Quickstart
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`

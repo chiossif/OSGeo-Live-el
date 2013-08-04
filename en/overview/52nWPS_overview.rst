@@ -1,6 +1,6 @@
 :Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -21,7 +21,7 @@ processing algorithms provided by Sextante, ArcGIS Server, R, GRASS 7, or custom
 functions. Algorithms may be as simple as determining the difference in 
 influenza cases between two different seasons, or as complicated as a global climate change model.
 
-.. image:: ../../images/screenshots/1024x768/52n_test_client.png
+.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -46,8 +46,9 @@ Backend algorithms available through:
 
 Input and Output formats supported:
 
-* Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN
+* Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON
 * Raster Data: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA
+* Outputs can be stored in GeoServer/MapServer
 
 A browser based client
 
@@ -63,13 +64,13 @@ Details
 
 **Website:** http://52north.org/wps
 
-**Licence:** GPL
+**Licence:** GPL 2
 
-**Software Version:** WPS 3.0
+**Software Version:** WPS 3.2.0
 
 **Supported Platforms:** Windows, Linux, Mac
 
-**Commercial Support:** http://www.52north.org
+**Commercial Support:** http://52north.org
 
 
 Quickstart

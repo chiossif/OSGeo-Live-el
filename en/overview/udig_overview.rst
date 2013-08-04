@@ -34,7 +34,6 @@ uDig is:
 For developers uDig provides a common Java platform for building spatial applications with open source components. The website provides series of clear tutorials covering making a simple tool through to releasing your own custom application.
 
 Core Features
-
 --------------------------------------------------------------------------------
 
 * Desktop Client with Drag and Drop integration for File explorer and Web Browser
@@ -50,13 +49,12 @@ Core Features
   as required for display, interaction and editing
 * Printing and PDF Generation
 * For Developers
-  
+
   * Java Application built using the :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
   * Industrial strength plug-in system provided by Eclipse Rich Client Platform
   * Use of native widgets
 
 Implemented Standards
-
 --------------------------------------------------------------------------------
 
 * OGC Web Map Server (WMS)
@@ -67,15 +65,13 @@ Implemented Standards
 * OGC Style Layer Descriptor (SLD)
 
 Details
-
 --------------------------------------------------------------------------------
 
 **Website:** http://udig.refractions.net/
 
-**Licence:** GNU Lesser General Public License (LGPL) version 2
+**Licence:** Dual BSD / EPL (Eclipse Foundation)
 
-
-**Software Version:** 1.2.2
+**Software Version:** |version-udig|
 
 **Supported Platforms:** Windows, Linux, Mac
 
@@ -87,7 +83,6 @@ Details
 
 
 Quickstart
-
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/udig_quickstart>`

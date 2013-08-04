@@ -53,7 +53,7 @@ Core Features
  * 3D visualisation
 
 * Straightforward C++ API for creating new modules
-* Scripting through command line, bindings for python
+* Scripting through command line, bindings for Python
 * SAGA can be accessed from the R statistical language through the RSAGA module
 
 Details
@@ -63,11 +63,11 @@ Details
 
 **Licence:** LGPL v2.1 (api); GPLv2 (GUI and modules)
 
-**Software Version:** 2.0.8
+**Software Version:** 2.1.0
 
 **Supported Platforms:** Windows, Linux, FreeBSD
 
-**API Interfaces:** C++
+**API Interfaces:** C++, Python, R
 
 **Support:** http://www.saga-gis.org
 

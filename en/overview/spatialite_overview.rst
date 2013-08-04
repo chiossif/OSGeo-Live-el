@@ -7,7 +7,7 @@
   :scale: 50 %
   :alt: project logo
   :align: right
-  :target: http://www.gaia-gis.it/spatialite/
+  :target: http://www.gaia-gis.it/gaia-sins/
 
 
 SpatiaLite
@@ -18,9 +18,7 @@ Spatial Database
 
 SpatiaLite is an SQLite_ database engine with spatial functions added. 
 
-SQLite is a popular DBMS, simple, robust, easy to use and really lightweight. Each SQLite database is simply a file; you can freely copy it, compress it, send it on a LAN or WEB with no complication at all.
-
-The files are also portable; the same database file will work on Windows, Linux, MacOs etc.
+SQLite is a Database Management System (DBMS) which is simple, robust, easy to use and very lightweight. Each SQLite database is simply a file. You can freely copy it, compress it, and port it between Windows, Linux, MacOs etc.
 
 .. _SQLite: http://www.sqlite.org/
 
@@ -58,7 +56,7 @@ Details
 
 **Licence:** MPL v1.1 and GPL v3
 
-**Software Version:** spatialite 3.1.0a / librasterlite 1.1 / spatialite-gui 1.5.0 / spatialite-gis 1.0.0
+**Software Version:** spatialite 3.1.0 / librasterlite 1.1 / spatialite-gui 1.5.0 / spatialite-gis 1.0.0
 
 **Supported Platforms:** Linux, Mac, Windows
 

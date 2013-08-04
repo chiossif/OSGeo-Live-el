@@ -12,7 +12,7 @@
 GeoNode
 ================================================================================
 
-Open Source Geospatial Content Management System
+Ελεύθερο Γεωχωρικό Σύστημα Διαχείρισης Περιεχομένου
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `GeoNode <http://geonode.org>`_ is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI). It is designed to be extended and modified, and can be integrated into existing platforms.
@@ -41,7 +41,7 @@ Once maps are saved, it is possible to embed them in any webpage or get a PDF ve
   :align: right
 
 
-Core Features
+Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
 * Spatial Data Discovery
@@ -73,7 +73,7 @@ Core Features
 
 * ... and more!
 
-Implemented Standards
+Υλοποιημένα Πρότυπα
 --------------------------------------------------------------------------------
 
   * :doc:`../standards/wms_overview`
@@ -84,25 +84,25 @@ Implemented Standards
   * :doc:`../standards/sld_overview` 
   * :doc:`../standards/gml_overview`
 
-Details
+Λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Website:** http://geonode.org/
+**Κεντρική ιστοσελίδα:** http://geonode.org/
 
-**Licence:** GNU General Public License (GPL) version 2.0
+**Άδεια:** GNU General Public License (GPL) version 2.0
 
-**Software Version:** 2.0 RC1
+**Έκδοση Λογισμικού:** 2.0 RC1
 
-**Supported Platforms:** Windows, Linux, Mac
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**API Interfaces:** Python (Django)
+**Διεπαφές προγραμματισμού (API):** Python (Django)
 
-**Support:** http://opengeo.org/technology/geonode/
+**Υποστήριξη:** http://opengeo.org/technology/geonode/
 
 
-Quickstart
+Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/geonode_quickstart>`
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geonode_quickstart>`
 
 

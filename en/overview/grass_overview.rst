@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GRASS.png
@@ -66,13 +66,13 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 6.4.2
+**Software Version:** 6.4.3
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
 **API Interfaces:** C, Python, Bourne Shell
 
-**Support:** http://grass.osgeo.org/community/support.php
+**Support:** http://grass.osgeo.org/support/
 
 
 Quickstart

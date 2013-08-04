@@ -10,17 +10,17 @@
   :target: http://scitools.org.uk/iris/docs/latest/index.html
 
 ********************************************************************************
-Getting Started with IRIS
+Ξεκινώντας με το IRIS
 ********************************************************************************
 
 .. contents::
     :depth: 3
     :backlinks: none
 
-User Guide
+Εγχειρίδιο Χρήσης
 --------------------------------------------------------------------------------
 
-available at http://scitools.org.uk/iris/docs/latest/userguide/index.html
+Το εγχειρίδιο είναι διαθέσιμο στο http://scitools.org.uk/iris/docs/latest/userguide/index.html
 
 
 .. _`SciTools Blog`: http://blog.scitools.org.uk/

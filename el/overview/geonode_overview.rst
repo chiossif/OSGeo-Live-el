@@ -15,63 +15,63 @@ GeoNode
 Ελεύθερο Γεωχωρικό Σύστημα Διαχείρισης Περιεχομένου
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`GeoNode <http://geonode.org>`_ is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI). It is designed to be extended and modified, and can be integrated into existing platforms.
+Το `GeoNode <http://geonode.org>`_ είναι μια διαδικτυακή εφαρμογή και πλατφόρμα για την ανάπτυξη Γεωγραφικών Πληροφοριακών Συστημάτων (GIS) και για την εφαρμογή Υποδομών Χωρικών Δεδομένων (SDI). Είναι σχεδιασμένο να είναι επεκτάσιμο και μπορεί να ενσωματωθεί σε υπάρχουσες πλατφόρμες.
 
-GeoNode is an open source platform that facilitates the creation, sharing, and collaborative use of geospatial data. The project aims to surpass existing spatial data infrastructure solutions by integrating robust social and cartographic tools.
+Το GeoNode είναι μια ελεύθερη πλατφόρμα που βοηθά στην δημιουργία, στον διαμοιρασμό και την κοινή χρήση  γεωχωρικών δεδομένων. Το έργο στοχεύει στο να ξεπεράσει τις υπάρχουσες εφαρμογές SDI με την προσθήκη προηγμένων τεχνολογιών κοινωνικής δικτύωσης και χαρτογραφικών εργαλείων.
 
-At its core, GeoNode is built on a stack based on GeoServer, pycsw, Django, and GeoExt that provides a platform for sophisticated web browser spatial visualization and analysis.
+Στον πυρήνα του το GeoNode είναι δομημένο στα λογισμικά GeoServer, pycsw, Django και GeoExt και γι αυτό παρέχει μια πλατφόρμα για προηγμένη πλοήγηση, οπτικοποίηση και ανάλυση χωρικών δεδομένων.
 
-Atop this stack, the project has built a map composer and viewer, tools for analysis, and reporting tools.
+Πάνω από τον πυρήνα, το έργο περιλαμβάνει ένα εργαλείο σύνθεσης χαρτών, εργαλεία για ανάλυση και δημιουργία αναφορών.
 
-GeoNode allows the user to upload vector and raster data in their original projections using a web form. Vector data is uploaded in ESRI Shapefile format and satellite imagery and other kinds of raster data are uploaded as GeoTIFFs.
+Το λογισμικό επιτρέπει στον χρήστη να ανεβάσει στην εφαρμογή διανυσματικά και εικονιστικά δεδομένα, στην αρχική τους μορφή και προβολή μέσω μιας διαδικτυακής φόρμας. Τα διανυσματικά δεδομένα ανεβαίνουν στην μορφή ESRI Shapefile και τα εικονιστικά δεδομένα σε μορφή GeoTIFF.
 
-Special importance is given to standard metadata formats like ISO 19139:2007. After the upload is finished, the user is presented with a form to fill in the metadata and it is made available using a CSW interface. Users may also upload a metadata XML document (in ISO, FGDC, or Dublin Core format) to fill in key GeoNode metadata elements automatically.
+Ειδική έμφαση έχει δοθεί στα πρότυπα μεταδεδομένων, όπως το ISO 19139:2007. Μετά το ανέβασμα των δεδομένων, ο χρήστης συμπληρώνει μια φόρμα με τα μεταδεδομένα και αυτά στη συνέχεια είναι διαθέσιμα μέσω της διεπαφής καταλόγου CSW. Οι χρήστες μπορούν να ανεβάσουν ακόμα και αρχεία μεταδεδομένων σε μορφή XML (τύπου ISO, FGDC ή Dublin Core) ώστε να συμπληρώσουν τα μεταδεδομένα αυτόματα.
 
-Similarly, GeoNode provides a web based styler, that lets the user change how the data looks and preview the changes in real time.
+Η εφαρμογή παρέχει ένα εργαλείο διαχείρισης στύλ, το οποίο επιτρέπει στον χρήστη να διαμορφώσει το πως θα παρουσιάζονται τα δεδομένα και να προεπισκοπήσει σε πραγματικό χρόνο το αποτέλεσμα.
 
-Once the data has been uploaded, GeoNode lets the user search for it geographically or via keywords and create maps.
+Με το που τα δεδομένα έχουν ανέβει στον εξυπηρετητή, το GeoNode επιτρέπει στον χρήστη να πραγματοποιήσει χωρική αναζήτηση ή αναζήτηση μέσω λέξεων κλειδιών και να δημιουργήσει νέους χάρτες.
 
-All the layers are automatically reprojected to web mercator for maps display, making it possible to use different popular base layers, like Open Street Map, Google Satellite or Bing layers.
+Όλα τα χαρτογραφικά επίπεδα μετατρέπονται αυτόματα σε Μερκατορική προβολή για την θέασή τους στο διαδίκτυο, ώστε να συνδιαστούν με άλλα δεδομένα όπως τα Open Street Map, Google Satellite ή Bing.
 
-Once maps are saved, it is possible to embed them in any webpage or get a PDF version for printing.
+Με το που οι χάρτες αποθηκεύονται, είναι δυνατό να ενσωματωθούν σε οποιαδήποτε ιστοσελίδα ή να εκτυπωθεί ο χάρτης σε PDF.
 
 .. image:: ../../images/screenshots/800x600/geonode_basic_application.png
   :scale: 50%
-  :alt: GeoNode application
+  :alt: Εφαρμογή GeoNode
   :align: right
 
 
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-* Spatial Data Discovery
+* Υπηρεσία Αναζήτησης Χωρικών Δεδομένων
 
-  * Powerful spatial search engine
-  * Federated OGC services
-  * Metadata catalogue
+  * Ισχυρή χωρική μηχανή αναζήτησης
+  * Ενσωματωμένες υπηρεσίες OGC
+  * Κατάλογος μεταδεδομένων
 
-* Import and Manage Geospatial Data
+* Εισαγωγή και Διαχείριση Χωρικών Δεδομένων
 
-  * Publish raster, vector, and tabular data
-  * Manage metadata and associated documents
-  * Securely or publicly share data
-  * Versioned geospatial data editor
+  * Δημοσίευση διανυσματικών, εικονιστικών και πινακοποιημένων δεδομένων
+  * Διαχείριση μεταδεδομένων και συσχετιζόμενων εγγράφων
+  * Ασφαλής διαμοιρασμός δεδομένων
+  * Επεξεργαστής χωρικών δεδομένων με διαχείριση εκδόσεων
 
-* Interactive Mapping
+* Διαδραστική Χαρτογραφία
 
-  * GeoExplorer GIS client
-  * Graphical style editor
-  * Create multi-layer interactive maps
-  * Share and embed maps in web pages
+  * Εφαρμογή χάρτη GeoExplorer
+  * Γραφικός επεξεργαστής στύλ
+  * Δημιουργία διαδραστικών χαρτών πολλαπλών επιπέδων
+  * Διαμοιρασμός και ενσωμάτωση χαρτών σε εξωτερικές ιστοσελίδες
 
-* Collaboration
+* Συνεργασία
 
-  * Review, rate, and comment on data
-  * Groups of users
-  * Activity streams
-  * Announcements and notifications
+  * Αναθεώρηση, αξιολόγηση και σχολιασμός δεδομένων
+  * Ομάδες χρηστών
+  * Ροές δραστηριοτήτων
+  * Ανακοινώσεις και ειδοποιήσεις
 
-* ... and more!
+* ... και πολλά ακόμα!
 
 Υλοποιημένα Πρότυπα
 --------------------------------------------------------------------------------
@@ -89,7 +89,7 @@ Once maps are saved, it is possible to embed them in any webpage or get a PDF ve
 
 **Κεντρική ιστοσελίδα:** http://geonode.org/
 
-**Άδεια:** GNU General Public License (GPL) version 2.0
+**Άδεια:** GNU General Public License (GPL) έκδοση 2.0
 
 **Έκδοση Λογισμικού:** 2.0 RC1
 

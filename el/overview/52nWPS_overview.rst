@@ -1,6 +1,6 @@
 :Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -20,7 +20,7 @@
 Η 52°North επιτρέπει την πρόσβαση σε αλγορίθμους επεξεργασίας χωρικών δεδομένων μέσω διαδικτύου με την υπηρεσία :doc:`Web Processing Service (WPS) <../standards/wps_overview>` .Τέτοιοι αλγόριθμοι μπορεί να προέρχονται από το Sextante, τον ArcGIS Server, R, GRASS 7 ή από ιδιοποιημένες εφαρμογές. Οι αλγόριθμοι μπορεί να είναι απλοί όσο ο προσδιορισμός της διαφοράς των κρουσμάτων γρίπης μεταξύ δύο εποχών, 
 ή περίπλοκοι όσο ένα παγκόσμιο μοντέλο κλίματος.
 
-.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
+.. image:: ../../images/screenshots/800x600/52nWPS_welcome_page.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -65,7 +65,7 @@
 
 **Άδεια:** GPL 2.0
 
-**Έκδοση Λογισμικού:** WPS 3.2.0
+**Έκδοση Λογισμικού:** WPS |version-52nWPS|
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

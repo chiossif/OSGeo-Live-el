@@ -8,8 +8,6 @@ Welcome to |osgeo-live-version|
      :maxdepth: 1
      :glob:
 
-     overview/toc
-     quickstart/toc
      standards/standards
      download
      contact
@@ -18,8 +16,9 @@ Welcome to |osgeo-live-version|
      sponsors
      sponsors_osgeo
 
-`OSGeo-Live <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB thumb drive or Virtual
-Machine based on `Xubuntu <http://www.xubuntu.org/>`_, that allows you to try a wide variety of open
+`OSGeo-Live <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB
+thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_,
+that allows you to try a wide variety of open
 source geospatial software without installing anything. It is composed
 entirely of free software, allowing it to be freely distributed, duplicated
 and passed around.
@@ -63,7 +62,6 @@ Many applications are also provided with installers for
      :glob:
 
      overview/overview
-     quickstart/quickstart
      standards/standards
      contact
      copyright
@@ -72,12 +70,13 @@ Many applications are also provided with installers for
      sponsors
      sponsors_osgeo
      presentation
-     test
+     metrics
+     mac_installers
+     win_installers
 
 
 
 Presentation
 --------------------------------------------------------------------------------
-A half hour presentation, highlighting all OSGeo-Live applications, is available as a video, along with source slides and script.
 
-Details at :doc:`presentation`.
+A half hour `presentation <presentation/index.html>`_, highlighting all OSGeo-Live applications, is available with slides, script, and `abstract <presentation/abstract.txt>`_.

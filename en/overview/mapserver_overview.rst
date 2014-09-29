@@ -83,7 +83,7 @@ Implemented Standards
 
 * Support of numerous Open Geospatial Consortium  (OGC) standards
 
-  * WMS (client/server), non-transactional WFS (client/server), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
+  * :doc:`../standards/wms_overview` (client/server), :doc:`../standards/wfs_overview` (non-transactional, client/server), WMC, :doc:`../standards/wcs_overview`, :doc:`../standards/fe_overview`, :doc:`../standards/sld_overview`, :doc:`../standards/gml_overview`, SOS, OM
 
 * INSPIRE View Service compliant
 
@@ -95,7 +95,7 @@ Demo
 Documentation
 --------------------------------------------------------------------------------
 
-* `MapServer 6.2 Documentation <../../mapserver/doc/index.html>`_
+* `MapServer 6.4 Documentation <../../mapserver/doc/index.html>`_
 
 Details
 --------------------------------------------------------------------------------
@@ -104,7 +104,7 @@ Details
 
 **Licence:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Software Version:** 6.2
+**Software Version:** 6.4.1
 
 **Supported Platforms:** Windows, Linux, Mac
 

@@ -34,7 +34,7 @@ Core Features
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
-  :scale: 50 %
+  :scale: 70 %
   :alt: screenshot
   :align: right
 
@@ -58,7 +58,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 1.8.14
+**Software Version:** 1.8.16
 
 **Supported Platforms:** Linux, Mac, Windows
 

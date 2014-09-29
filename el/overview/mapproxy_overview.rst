@@ -38,7 +38,7 @@ MapProxy
   :align: right
 
 Πηγές δεδομένων:
-  * WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`_, :doc:`GeoServer <geoserver_overview>`_, κλπ)
+  * WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`, :doc:`GeoServer <geoserver_overview>`, κλπ)
   * TMS, WMTS(TileCache, GeoWebcache, etc.)
   * Mapserver και Mapnik (απευθείας, χωρίς WMS)
   * κάθε ένα από τα TileCache, Google Maps, Bing ή συμβατή πηγή
@@ -106,7 +106,7 @@ MapProxy
 
 **Άδεια:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Έκδοση Λογισμικού:** 1.5.0
+**Έκδοση Λογισμικού:** 1.6.0
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Mac, Windows
 

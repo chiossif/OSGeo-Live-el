@@ -12,6 +12,8 @@
    :glob:
 
    *_overview
+   ../quickstart/*_quickstart
+
 
 Desktop GIS
 --------------------------------------------------------------------------------
@@ -30,10 +32,9 @@ Browser Facing GIS
 General GIS viewing, editing and analysis in the browser:
 
 * :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Library
-* :doc:`leaflet_overview` - Mobile Friendly Interactive Maps
+* :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] -  Mobile Friendly Interactive Maps
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework
 * :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS
 * :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
@@ -71,7 +72,7 @@ Navigation and Maps
 --------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation
 * :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks
-* :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Spinning Globe
+* :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Virtual Globe
 * :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter
 * :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - OpenStreetMap Tools
 * :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer
@@ -85,7 +86,7 @@ Specific analysis tools:
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Cartographic Rendering
 * :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing
 * :doc:`maptiler_overview`  - [:doc:`QuickStart <../quickstart/maptiler_quickstart>`] - Create Map Tiles
-* :doc:`ossim_overview` [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Image Processing
+* :doc:`ossim_overview` - [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Image Processing
 * :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Image Processing
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistical Programming
 
@@ -107,7 +108,7 @@ Spatial data sets:
 * :doc:`naturalearth_overview` - Global Data Sets 
 * :doc:`nc_dataset_overview`
 * :doc:`osm_dataset_overview` - Sample extract from OpenStreetMap 
-
+* :doc:`netcdf_dataset_overview` - Time series temperature and precipitation
 
 Geospatial Libraries
 --------------------------------------------------------------------------------
@@ -118,11 +119,11 @@ Geospatial Libraries
 * :doc:`geos_overview` - C/C++ Spatial Library 
 * :doc:`metacrs_overview` - Coordinate Reference System Transformations 
 * :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
-
+* :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorology and Climatology
 
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------
-Available on microsoft windows only:
+Available on Microsoft Windows only:
 
 .. MapWindow is windows based (.net) and won't run on Ubuntu
 
@@ -135,6 +136,8 @@ Available from prior OSGeo-Live releases:
 * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, not included after OSGeo-Live 5.0
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
+* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, retired after OSGeo-Live 7.9
+
 
 Windows and Apple Installers
 --------------------------------------------------------------------------------
@@ -147,3 +150,4 @@ Metrics
 --------------------------------------------------------------------------------
 
 * :doc:`Project Metrics <../metrics>` from Ohloh
+

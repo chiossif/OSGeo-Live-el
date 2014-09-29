@@ -11,7 +11,7 @@
 :Author: OSGeo-Live
 :Author: Barry Rowlingson
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -28,7 +28,7 @@
   :scale: 30 %
   :alt: project logo
   :align: right
-  :target: http://www.postgis.net/
+  :target: http://postgis.net/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -75,7 +75,7 @@ from desktop and web GIS clients. These clients can also map and manipulate Post
   and will become dated.
 
 .. image:: ../../images/screenshots/800x600/pgadmin.png
-  :scale: 55 %
+  :scale: 70 %
   :alt: pgAdmin database manager
   :align: right
 
@@ -105,11 +105,11 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.postgis.net
+**Website:** http://postgis.net
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.0
+**Software Version:** 2.1.3
 
 **Supported Platforms:** Windows, Linux, Mac
 

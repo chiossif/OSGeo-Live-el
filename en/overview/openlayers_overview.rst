@@ -2,11 +2,10 @@
 :Author: OSGeo-Live
 :Author: Roald de Wit 
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0draft
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-OpenLayers-large.png
-  :scale: 50 %
+.. image:: ../../images/project_logos/logo-OpenLayers.png
   :alt: project logo
   :align: right
   :target: http://openlayers.org/
@@ -47,7 +46,7 @@ Core Features
   
   * Commercial Layers: Google, Bing
   
-  * OGC Standards: WMS, WMTS, WFS, WFS-T, GeoRS, GML
+  * OGC Standards: :doc:`../standards/wms_overview`, WMTS, :doc:`../standards/wfs_overview`, WFS-T (transactional), GeoRS, :doc:`../standards/gml_overview` 
   
   * Others: OpenStreetMap (OSM), ArcGIS, Images, MapGuide, MapServer, TileCache
 

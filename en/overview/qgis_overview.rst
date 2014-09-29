@@ -16,13 +16,13 @@
   :target: http://www.osgeo.org
 
 
-Quantum GIS (QGIS)
+QGIS
 ================================================================================
 
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Quantum GIS (QGIS) is a user friendly, Open Source, GIS client where
+QGIS is a user friendly, Open Source, GIS client where
 you can visualize, manage, edit, analyse data, and compose printable maps.
 It includes powerful analytical functionality through integration with :doc:`GRASS <grass_overview>`.
 It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector,
@@ -49,11 +49,11 @@ Core Features
 
 * Easy Viewing of many Vector and Raster Formats
 
-    * PostgreSQL/PostGIS Database tables
-    * most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML.
+    * database tables: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, SpatiaLite
+    * most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML, OpenStreetMap vectors
     * raster formats such as digital elevation models, aerial photography or landsat imagery,
     * GRASS locations and mapsets,
-    * online spatial data served as OGC-compliant WMS or WFS;
+    * online spatial data served as OGC-compliant WMS, WMTS, WFS or WCS
 
 * Create, edit and export spatial data using:
 
@@ -61,13 +61,15 @@ Core Features
     * the georeferencer plugin,
     * GPS tools to import and export GPX format, convert other GPS formats to GPX, or down/upload directly to a GPS unit
 
-* Perform spatial analysis using fTools or GRASS plugins
+* Perform spatial analysis using integrated support for SAGA, OTB, MMGIS, fTools and GRASS 
 
     * map algebra,
     * terrain analysis,
     * hydrologic modeling,
     * network analysis,
-    * and many others
+    * comprehensive searchable toolbox of functions,
+    * define and run reusable analysis routines by chaining functions using a graphical modelling tool,
+    * and many others.
 
 * Publish to the internet
 * Extensible plugin architecture.
@@ -82,20 +84,19 @@ Details
 
 **Website:** http://www.qgis.org
 
-**Licence:** GPL
+**Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.8.0
+**Software Version:** 2.4.0
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
-**Community Support:** http://qgis.org/en/community.html
+**Community Support:** http://qgis.org/en/site/forusers/support.html
 
-**Commercial Support:** http://qgis.org/en/commercial-support.html
+**Commercial Support:** http://qgis.org/en/site/forusers/commercial_support.html
 
 
 Quickstart
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/qgis_quickstart>`
-
 
